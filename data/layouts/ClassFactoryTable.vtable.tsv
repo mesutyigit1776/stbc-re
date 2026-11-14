@@ -1,0 +1,6 @@
+vtable	slots	slot	function	name	origin	scope	evidence_id	notes
+0x89623c	5	0	0x6f19c0	ClassFactoryTable::DeletingDestructor	ClassFactoryTable (introduced)	in	E0070	deleting destructor
+0x89623c	5	1	0x6f1890	ClassFactoryTable::Hash	ClassFactoryTable (introduced)	in	E0070	hash
+0x89623c	5	2	0x6f18a0	ClassFactoryTable::KeysEqual	ClassFactoryTable (introduced)	in	E0070	keys equal
+0x89623c	5	3	0x6f18c0	ClassFactoryTable::SetNode	ClassFactoryTable (introduced)	in	E0070	set node
+0x89623c	5	4	0x6f18e0	ClassFactoryTable::ClearNode	ClassFactoryTable (introduced)	in	E0070	clear node

@@ -1,0 +1,5 @@
+offset	size	type	field	evidence_id	notes
+0x00	4	vtable pointer	vtable	E0048	0x893d58. Stored by the constructors at 0x5dea3c and 0x6eb070 and by the destructor body at 0x6eb0f0. Other classes derive from this class (their constructors store 0x893d58 first).
+0x04	4	int32	id	E0046	inherited from TGObject
+0x08	4	pointer to struct TGList	groups	E0048	A heap list header of 0x18 bytes (operator_new(0x18) at 0x5dea36). Each node holds a pointer to a TGModelPropertyGroup (one per hardpoint name). 0 when the allocation failed. Freed by the destructor body.
+sizeof	12	-	allocation size	E0048	0xc: PUSH 0xc at 0x5de9ce (wrapper new_TGModelPropertySet) and at 0x596410 (sized free in the deleting destructor).

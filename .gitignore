@@ -1,0 +1,10 @@
+build/
+build24/
+game/
+mods/
+sdk/
+re/out/
+tools/.venv/
+__pycache__/
+*.pyc
+.DS_Store

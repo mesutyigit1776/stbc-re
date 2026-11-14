@@ -1,0 +1,8 @@
+offset	size	type	field	evidence_id	notes
+0x00	4	vtable pointer	vtable	E0182	0x897bec, 1 slot (the deleting destructor 0x72af90).
+0x04	4	pointer to pointer	data	E0182	The element block of operator_new: a count of elements in front (4 bytes), then the pointers. Each non-null element holds a reference.
+0x08	4	uint32	capacity	E0182	1 at the start, then 0xf in the group constructor, then growBy past an index that does not fit.
+0x0c	4	uint32	used	E0182	The number of elements up to the last one that is not null.
+0x10	4	int32	count	E0182	The number of elements that are not null.
+0x14	4	uint32	growBy	E0182	1 at the start, 10 in the group.
+sizeof	24	-	member size	E0182	The array is a member of TGIconGroup at +0x1c.

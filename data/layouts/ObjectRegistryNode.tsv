@@ -1,0 +1,5 @@
+offset	size	type	field	evidence_id	notes
+0x00	4	uint32	key	E0062	The object ID.
+0x04	4	pointer to TGObject	value	E0062	The registered object.
+0x08	4	pointer to struct ObjectRegistryNode	next	E0062	Next node in the bucket chain.
+sizeof	12	-	allocation size	E0062	0xc: operator_new(0xc) in RegisterID.

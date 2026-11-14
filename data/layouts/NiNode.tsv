@@ -1,0 +1,6 @@
+offset	size	type	field	evidence_id	notes
+0x00	4	vtable pointer	vtable	E0077	0x898f2c. Stored by the constructor 0x7e37c0 at 0x7e3868. Slot 0 is the RTTI getter (MOV EAX, 0x9a1870), slot 10 (offset 0x28) is the deleting destructor 0x7e67d0 and slot 40 (offset 0xa0) is 0x7e3b30.
+0x04	4	int32	refCount	E0077	The destructor of SubsystemProperty (0x692680) and Attach (0x6929a0) increment and decrement the int at +4 of the node and call slot 10 with 1 when it reaches 0.
+0x08	16	unknown	reserved	E0077	Not used by the property classes.
+0x18	4	pointer to NiNode	parent	E0078	The destructor of SubsystemProperty reads the parent from +0x18 of the node and calls its slot 40 with the node as the child. The class of the parent is inferred to be NiNode.
+sizeof	232	-	allocation size	E0077	0xe8: PUSH 0xe8 at 0x6929f1 before operator_new (0x718cb0) and the call of the constructor 0x7e37c0. Only the fields listed above are declared in the source tree (src/engine/NiNode.h); the class is not reconstructed.

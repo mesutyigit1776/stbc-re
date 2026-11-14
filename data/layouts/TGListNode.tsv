@@ -1,0 +1,5 @@
+offset	size	type	field	evidence_id	notes
+0x00	4	pointer to unknown	data	E0057	The stored pointer. The type depends on the list. 0 while the node is on the free chain.
+0x04	4	pointer to struct TGListNode	next	E0057	Next node. On the free chain it links the free nodes.
+0x08	4	pointer to struct TGListNode	prev	E0057	Previous node.
+sizeof	12	-	size	E0057	12 bytes (blockSize * 0xc bytes per node array).

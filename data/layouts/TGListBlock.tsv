@@ -1,0 +1,4 @@
+offset	size	type	field	evidence_id	notes
+0x00	4	pointer to struct TGListBlock	nextBlock	E0057	Next block record.
+0x04	4	pointer to struct TGListNode	nodes	E0057	Array of blockSize nodes (operator_new(blockSize*0xc)). The constructor of the block links the nodes through node+4 and ends the chain with 0.
+sizeof	8	-	size	E0057	8 bytes (operator_new(8)).

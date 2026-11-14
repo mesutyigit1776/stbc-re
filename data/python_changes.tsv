@@ -1,0 +1,35 @@
+id	address	pristine_function	change	evidence_id	status
+PC01	0x95ee78	import_doc (Python/bltinmodule.c)	The docstring of __import__ has no paragraph about packages (3 lines shorter). Text only.	E0104	observed
+PC02	0x753410	builtin___import__ (Python/bltinmodule.c)	Without fromlist it passes the tuple ('__doc__',); without globals it passes PyEval_GetGlobals() (0x776c40). Result: __import__('a.b.c') returns module c. Unchecked allocation: bug B0008.	E0105	observed
+PC03	0x75bc40	PyImport_ImportModuleEx (Python/import.c)	No change. With a true fromlist it returns the tail module (0x75bd40).	E0106	observed
+PC04	0x776c40	PyEval_GetGlobals (Python/ceval.c)	No change.	E0107	observed
+PC05	0x99ee38, 0x74bbf0, 0x74bc10	(none in stock 1.5.2)	New securelevel counter with a setter (increment or decrement) and a test (counter above 0).	E0108	observed
+PC06	0x74ae80	PyRun_SimpleString (Python/pythonrun.c)	Sets the securelevel counter up before the run and down after it, on both exit paths. The rest is unchanged.	E0108	observed
+PC07	0x7551e0	builtin_open (Python/bltinmodule.c)	With the securelevel counter above 0 the arguments are not parsed and open() always raises IOError. Bug B0009.	E0109	observed
+PC08	0x96b888	posix_methods (Modules/posixmodule.c, module nt)	The method table has 20 entries. chdir, chmod, umask, _exit, getpid, getcwd, system, popen, execv, execve, spawnv, spawnve, pipe, putenv and strerror are removed.	E0110	observed
+PC09	0x76d790, 0x76d960	(none in stock 1.5.2)	New path checks: a path must be below <cwd>\Custom or <cwd>\scripts\Custom.	E0111	observed
+PC10	0x76dac0, 0x76db40, 0x76dd70, 0x76de40, 0x76def0, 0x76df90, 0x76e080, 0x76e220	posix_access, posix_listdir, posix_mkdir, rename helper, one-path helper (rmdir, unlink, remove), stat helper (stat, lstat), posix_utime, posix_open	Each calls a path check first. Failure: access returns 0, listdir raises ValueError 'not allowed', open, utime, rmdir, unlink, remove, stat and lstat raise an error with the file name, mkdir and rename return NULL with no exception (bug B0010).	E0112	observed
+PC11	0x8e6388	_PyImport_Inittab (PC/config.c)	The module table lacks audioop, imageop, md5, rgbimg, rotor, signal, sha, soundex, pcre, msvcrt, winsound (and _socket, select). It has nt and _locale as in stock.	E0113	observed
+PC12	0x9709b8	PYTHONPATH macro (PC/config.h) used by calculate_path (PC/getpathp.c)	The default module path is '.\Scripts;.' instead of '.\DLLs;.\lib;.\lib\plat-win;.\lib\lib-tk'.	E0114	observed
+PC13	0x77b3a0	calculate_path (PC/getpathp.c)	No change in logic (the swapped malloc-failure messages of stock are kept).	E0114	observed
+PC14	0x74a590	Py_Initialize (Python/pythonrun.c)	No change. The exe never calls Py_SetProgramName or Py_SetPythonHome and never sets Py_NoSiteFlag.	E0115	observed
+PC15	0x6f6c90, 0x896360	(application code)	Py_Initialize is reached only by the tail jump at 0x6f6c95 of a virtual function that first calls 0x5bc190 (module table loop).	E0116	observed
+PC16	0x43ad70	(application code)	The first scripts that the exe runs are App, FixApp and Autoexec (helper meaning inferred).	E0117	inferred
+PC17	0x755fd0, 0x756000, 0x755d60, 0x755f90, 0x9617e0, 0x975830	_PyBuiltin_Init_2, init_class_exc, initerrors, newstdexception, bltin_exc, _PyImport_FrozenModules	No change. Py_UseClassExceptionsFlag is 1 and there is no exceptions module in the exe or the game files, so string exceptions run after a failed import.	E0118	observed
+PC18	0x750c40	string_hash (Objects/stringobject.c)	No change.	E0119	observed
+PC19	0x74e310, 0x74e370, 0x74e890, 0x74eb00	PyArg_ParseTuple, vgetargs1, convertitem, convertsimple (Python/getargs.c)	No change in the set of format codes: b h i l L f d D c s z S O w t, and ( ) : ; | in vgetargs1.	E0120	observed
+PC20	0x9756a8, 0x75c540	_PyImport_Filetab (Python/importdl.c), find_module (Python/import.c)	No change. Order .pyd, .dll, .py, .pyc; .py opened with mode r, the others with rb.	E0121	observed
+PC21	0x75ca00	check_case (Python/import.c)	No change. PYTHONCASEOK tests the pointer from getenv only.	E0122	observed
+PC22	0x75d090	check_compiled_module (Python/import.c)	No change. Magic 0x0a0d4e99 and an exact mtime match.	E0123	observed
+PC23	0x78afd0	tok_nextc (Parser/tokenizer.c)	No change. One CR in front of the final LF is removed; the file is read in CRT text mode (inferred).	E0124	observed
+PC24	0x7822c0	PyFile_FromString (Objects/fileobject.c)	No change. The mode string goes to fopen as it is.	E0125	observed
+PC25	0x779ad0	long_lshift (Objects/longobject.c)	No change on a 32-bit target. The outrageous-shift test is constant false.	E0126	observed
+PC26	0x77a1e0	_PySys_Init (Python/sysmodule.c)	No change.	E0127	observed
+PC27	0x74ad00	PyRun_SimpleFile (Python/pythonrun.c)	No change. No securelevel calls.	E0128	observed
+PC28	all compiled files	long and unsigned long	Each long is Py_long32 and each unsigned long is Py_ulong32 (32 bits). LONG_MAX, LONG_MIN, ULONG_MAX and LONG_BIT have the 32-bit values. SIZEOF_LONG is 4.	E0163	observed
+PC29	0x74ca90, 0x74cb70	i_divmod, int_pow (Objects/intobject.c)	The divisions are plain IDIV: no negation of the operands, and a trap for -2**31 / -1.	E0168	observed
+PC30	0x7503a0	float_int (Objects/floatobject.c)	A NaN raises OverflowError.	E0169	observed
+PC31	0x74fcc0, 0x784990, 0x7503a0	float_hash, complex_hash, float_int	The conversion of a double to a long is _ftol (low 32 bits of the 64-bit truncation).	E0166	observed
+PC32	0x786fc0, 0x759fe0	PyOS_strtoul, int and long readers	ASCII character classes.	E0165	observed
+PC33	0x7638ba	load_int (Modules/cPickle.c)	strtol of the C run time of the exe (Py_CrtStrtol).	E0167	observed
+PC34	(new file)	Include/py_long32.h	Types, limits, Py_PTR32, idiv helpers, ASCII class macros. The format of formatint has no length modifier.	E0163	observed

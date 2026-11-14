@@ -1,0 +1,69 @@
+wrapper	address	format	args	engine call	inline range	return kind	return helper	evidence id	used_by_mods
+TGObject_GetObjType	0x5c12c0	O:TGObject_GetObjType	ptr@0x991184	virtual: slot 1 (vtable+0x4) of the object, no arguments	0x5c130a-0x5c1310	int	PyInt_FromLong 0x74c6e0	E0060	yes
+TGObject_IsTypeOf	0x5c1320	Oi:TGObject_IsTypeOf	ptr@0x991184,int	virtual: slot 2 (vtable+0x8) with one int argument; result byte	0x5c1374-0x5c138a	int	PyInt_FromLong 0x74c6e0	E0060	yes
+TGObject_GetObjID	0x5c13a0	O:TGObject_GetObjID	ptr@0x991184	inline: reads int at this+0x4	0x5c13ea-0x5c13ee	int	PyInt_FromLong 0x74c6e0	E0060	yes
+TGObject_Destroy	0x5c1400	O:TGObject_Destroy	ptr@0x991184	virtual: slot 0 (vtable+0x0) with argument 1 when this is not null	0x5c144a-0x5c1456	None	Py_None 0x95dd20 (refcount at +0 incremented)	E0060	yes
+TGObject_Print	0x5c1470	O|ii:TGObject_Print	ptr@0x991184,int?,int?	virtual: slot 3 (vtable+0xc) with two int arguments	0x5c14d4-0x5c14e4	None	Py_None 0x95dd20 (refcount at +0 incremented)	E0060	no
+TGObject_GetIndentString	0x5c1500	i:TGObject_GetIndentString	int	0x6f1680		string	PyString_FromString 0x7506c0 (Py_None 0x95dd20 when the pointer is null)	E0060	no
+TGObject_SetIncrementID	0x5c1540	i:TGObject_SetIncrementID	int	inline: stores (arg != 0) to byte 0x95b07d	0x5c155c-0x5c156b	None	Py_None 0x95dd20 (refcount at +0 incremented)	E0060	no
+TGObject_IsIncrementID	0x5c1580	:TGObject_IsIncrementID		inline: reads byte 0x95b07d	0x5c1597-0x5c15a5	int	PyInt_FromLong 0x74c6e0	E0060	no
+TGObject_GetTGObjectPtr	0x5c15c0	l:TGObject_GetTGObjectPtr	long	0x6f0ee0		pointer string	SWIG_NewPointerObj 0x5bb0e0 (type global 0x991184)	E0060	yes
+new_TGModelProperty	0x5dd590	|l:new_TGModelProperty	long?	0x717b70,0x718010,0x6ec640		pointer string	SWIG_NewPointerObj 0x5bb0e0 (type global 0x9913f0)	E0060	no
+delete_TGModelProperty	0x5dd610	O:delete_TGModelProperty	ptr@0x9913f0	virtual: slot 0 (vtable+0x0) with argument 1 when this is not null	0x5dd65a-0x5dd666	None	Py_None 0x95dd20 (refcount at +0 incremented)	E0060	no
+TGModelProperty_GetRefCount	0x5dd680	O:TGModelProperty_GetRefCount	ptr@0x9913f0	0x6ec7c0		int	PyInt_FromLong 0x74c6e0	E0060	no
+TGModelProperty_DecRefCount	0x5dd6e0	O:TGModelProperty_DecRefCount	ptr@0x9913f0	0x6ec790		None	Py_None 0x95dd20 (refcount at +0 incremented)	E0060	no
+TGModelProperty_IncRefCount	0x5dd750	O:TGModelProperty_IncRefCount	ptr@0x9913f0	0x6ec780		None	Py_None 0x95dd20 (refcount at +0 incremented)	E0060	no
+TGModelProperty_Cast	0x5dd7c0	O:TGModelProperty_Cast	ptr@0x9913f0	0x6ec5c0		pointer string	SWIG_NewPointerObj 0x5bb0e0 (type global 0x9913f0)	E0060	no
+TGModelProperty_Create	0x5dd830	O:TGModelProperty_Create	str|None	0x6ec5f0		pointer string	SWIG_NewPointerObj 0x5bb0e0 (type global 0x9913f0)	E0060	no
+TGModelProperty_GetName	0x5dd8b0	O:TGModelProperty_GetName	ptr@0x9913f0	0x718cb0,0x5378d0		pointer string	SWIG_NewPointerObj 0x5bb0e0 (type global 0x9912b8)	E0060	yes
+TGModelProperty_WriteInit	0x5dd940	OOO:TGModelProperty_WriteInit	ptr@0x9913f0,ptr@0x991504,str	virtual: vtable+0x34	0x5dd9d3-0x5dd9f3	None	Py_None 0x95dd20 (refcount at +0 incremented)	E0060	no
+TGModelProperty_Duplicate	0x5dda30	O:TGModelProperty_Duplicate	ptr@0x9913f0	0x6ec7e0		pointer string	SWIG_NewPointerObj 0x5bb0e0 (type global 0x9913f0)	E0060	no
+TGModelProperty_Edit	0x5ddaa0	OO:TGModelProperty_Edit	ptr@0x9913f0,ptr@0x9915d4	virtual: vtable+0x38	0x5ddb1b-0x5ddb33	int	PyInt_FromLong 0x74c6e0	E0060	no
+TGModelProperty_SetName	0x5ddb50	OO:TGModelProperty_SetName	ptr@0x9913f0,str	0x5ddc10		None	Py_None 0x95dd20 (refcount at +0 incremented)	E0060	maybe
+TGModelProperty_SetNameW	0x5ddc90	OO:TGModelProperty_SetNameW	ptr@0x9913f0,ptr@0x9912b8	0x857f03,0x416980,0x40e360,0x416740,0x416720,0x4166d0,0x40e330,0x5dde50		None	Py_None 0x95dd20 (refcount at +0 incremented)	E0060	no
+TGModelPropertyManager_IsLocalTemplate	0x5ddfc0	OO:TGModelPropertyManager_IsLocalTemplate	ptr@0x991454,ptr@0x9913f0	0x6ea260		int	PyInt_FromLong 0x74c6e0	E0060	no
+TGModelPropertyManager_IsGlobalTemplate	0x5de070	OO:TGModelPropertyManager_IsGlobalTemplate	ptr@0x991454,ptr@0x9913f0	0x6ea220		int	PyInt_FromLong 0x74c6e0	E0060	no
+TGModelPropertyManager_RegisterLocalTemplate	0x5de120	OO:TGModelPropertyManager_RegisterLocalTemplate	ptr@0x991454,ptr@0x9913f0	0x6e9880		int	PyInt_FromLong 0x74c6e0	E0060	yes
+TGModelPropertyManager_RegisterGlobalTemplate	0x5de1d0	OO:TGModelPropertyManager_RegisterGlobalTemplate	ptr@0x991454,ptr@0x9913f0	0x6e96b0		int	PyInt_FromLong 0x74c6e0	E0060	yes
+TGModelPropertyManager_ClearGlobalTemplates	0x5de280	O:TGModelPropertyManager_ClearGlobalTemplates	ptr@0x991454	0x6e9c00		None	Py_None 0x95dd20 (refcount at +0 incremented)	E0060	no
+TGModelPropertyManager_ClearLocalTemplates	0x5de2f0	O:TGModelPropertyManager_ClearLocalTemplates	ptr@0x991454	0x6e9ba0		None	Py_None 0x95dd20 (refcount at +0 incremented)	E0060	yes
+TGModelPropertyManager_ClearRegisteredFilters	0x5de360	O:TGModelPropertyManager_ClearRegisteredFilters	ptr@0x991454	0x6ea1a0		None	Py_None 0x95dd20 (refcount at +0 incremented)	E0060	no
+TGModelPropertyManager_RegisterFilter	0x5de3d0	OOO:TGModelPropertyManager_RegisterFilter	ptr@0x991454,ptr@0x991190,str	0x6ea0e0		None	Py_None 0x95dd20 (refcount at +0 incremented)	E0060	no
+TGModelPropertyManager_AddFilter	0x5de4c0	OO:TGModelPropertyManager_AddFilter	ptr@0x991454,ptr@0x991190	0x6e9de0		None	Py_None 0x95dd20 (refcount at +0 incremented)	E0060	no
+TGModelPropertyManager_ApplyFilters	0x5de560	OO:TGModelPropertyManager_ApplyFilters	ptr@0x991454,ptr@0x9913f0	0x6e9f40		int	PyInt_FromLong 0x74c6e0	E0060	no
+TGModelPropertyManager_ClearCurrentFilters	0x5de610	O:TGModelPropertyManager_ClearCurrentFilters	ptr@0x991454	0x6e9d90		None	Py_None 0x95dd20 (refcount at +0 incremented)	E0060	no
+TGModelPropertyManager_RemoveFilter	0x5de680	OO:TGModelPropertyManager_RemoveFilter	ptr@0x991454,ptr@0x991190	0x6e9e50		int	PyInt_FromLong 0x74c6e0	E0060	no
+TGModelPropertyManager_RemoveTemplate	0x5de730	OiOi:TGModelPropertyManager_RemoveTemplate	ptr@0x991454,int,ptr@0x9913f0,int	0x6e9c80		int	PyInt_FromLong 0x74c6e0	E0060	no
+TGModelPropertyManager_FindByNameAndType	0x5de800	OOi|i:TGModelPropertyManager_FindByNameAndType	ptr@0x991454,str|None,int,int?	0x6e9a50		pointer string	SWIG_NewPointerObj 0x5bb0e0 (type global 0x9913f0)	E0060	no
+TGModelPropertyManager_FindByName	0x5de8e0	OO|i:TGModelPropertyManager_FindByName	ptr@0x991454,str|None,int?	0x6e9b00		pointer string	SWIG_NewPointerObj 0x5bb0e0 (type global 0x9913f0)	E0060	yes
+new_TGModelPropertySet	0x5de9b0	:new_TGModelPropertySet		0x717b70,0x718010,0x5dea10		pointer string	SWIG_NewPointerObj 0x5bb0e0 (type global 0x991370)	E0060	yes
+TGModelPropertySet_Create	0x5dea90	:TGModelPropertySet_Create		0x6eb560		pointer string	SWIG_NewPointerObj 0x5bb0e0 (type global 0x991370)	E0060	no
+delete_TGModelPropertySet	0x5deac0	O:delete_TGModelPropertySet	ptr@0x991370	virtual: slot 0 (vtable+0x0) with argument 1 when this is not null	0x5deb0a-0x5deb16	None	Py_None 0x95dd20 (refcount at +0 incremented)	E0060	no
+TGModelPropertySet_GetPropertyList	0x5deb30	OO:TGModelPropertySet_GetPropertyList	ptr@0x991370,str	0x6eb4f0		pointer string	SWIG_NewPointerObj 0x5bb0e0 (type global 0x9912f8)	E0060	no
+TGModelPropertySet_GetPropertiesByType	0x5debe0	Oi:TGModelPropertySet_GetPropertiesByType	ptr@0x991370,int	0x6eb590		pointer string	SWIG_NewPointerObj 0x5bb0e0 (type global 0x9912f8)	E0060	yes
+TGModelPropertySet_AddToSet	0x5dec60	OOO:TGModelPropertySet_AddToSet	ptr@0x991370,str|None,ptr@0x9913f0	0x6eb220		int	PyInt_FromLong 0x74c6e0	E0060	yes
+new_SubsystemProperty	0x63a450	|l:new_SubsystemProperty	long?	0x717b70,0x718010,0x692470		pointer string	SWIG_NewPointerObj 0x5bb0e0 (type global 0x9913e8)	E0060	no
+delete_SubsystemProperty	0x63a4d0	O:delete_SubsystemProperty	ptr@0x9913e8	virtual: slot 0 (vtable+0x0) with argument 1 when this is not null	0x63a51a-0x63a526	None	Py_None 0x95dd20 (refcount at +0 incremented)	E0060	no
+SubsystemProperty_Cast	0x63a540	O:SubsystemProperty_Cast	ptr@0x9913f0	0x6923f0		pointer string	SWIG_NewPointerObj 0x5bb0e0 (type global 0x9913e8)	E0060	yes
+SubsystemProperty_Create	0x63a5b0	O:SubsystemProperty_Create	str|None	0x692420		pointer string	SWIG_NewPointerObj 0x5bb0e0 (type global 0x9913e8)	E0060	no
+SubsystemProperty_GetMaxCondition	0x63a630	O:SubsystemProperty_GetMaxCondition	ptr@0x9913e8		0x63a67a-0x63a684	float	PyFloat_FromDouble 0x74fa70	E0060	maybe
+SubsystemProperty_IsCritical	0x63a6a0	O:SubsystemProperty_IsCritical	ptr@0x9913e8		0x63a6f0-0x63a6ff	int	PyInt_FromLong 0x74c6e0	E0060	maybe
+SubsystemProperty_IsTargetable	0x63a720	O:SubsystemProperty_IsTargetable	ptr@0x9913e8		0x63a770-0x63a77f	int	PyInt_FromLong 0x74c6e0	E0060	maybe
+SubsystemProperty_IsPrimary	0x63a7a0	O:SubsystemProperty_IsPrimary	ptr@0x9913e8		0x63a7f0-0x63a7ff	int	PyInt_FromLong 0x74c6e0	E0060	no
+SubsystemProperty_GetRepairComplexity	0x63a820	O:SubsystemProperty_GetRepairComplexity	ptr@0x9913e8		0x63a86a-0x63a874	float	PyFloat_FromDouble 0x74fa70	E0060	maybe
+SubsystemProperty_GetDisabledPercentage	0x63a890	O:SubsystemProperty_GetDisabledPercentage	ptr@0x9913e8		0x63a8da-0x63a8e4	float	PyFloat_FromDouble 0x74fa70	E0060	maybe
+SubsystemProperty_GetRadius	0x63a900	O:SubsystemProperty_GetRadius	ptr@0x9913e8		0x63a94a-0x63a954	float	PyFloat_FromDouble 0x74fa70	E0060	maybe
+SubsystemProperty_SetMaxCondition	0x63a970	Of:SubsystemProperty_SetMaxCondition	ptr@0x9913e8,float		0x63a9c4-0x63a9cc	None	Py_None 0x95dd20 (refcount at +0 incremented)	E0060	yes
+SubsystemProperty_SetCritical	0x63a9f0	Oi:SubsystemProperty_SetCritical	ptr@0x9913e8,int		0x63aa44-0x63aa51	None	Py_None 0x95dd20 (refcount at +0 incremented)	E0060	yes
+SubsystemProperty_SetTargetable	0x63aa70	Oi:SubsystemProperty_SetTargetable	ptr@0x9913e8,int		0x63aac4-0x63aad1	None	Py_None 0x95dd20 (refcount at +0 incremented)	E0060	yes
+SubsystemProperty_SetPrimary	0x63aaf0	Oi:SubsystemProperty_SetPrimary	ptr@0x9913e8,int		0x63ab44-0x63ab51	None	Py_None 0x95dd20 (refcount at +0 incremented)	E0060	yes
+SubsystemProperty_SetRepairComplexity	0x63ab70	Of:SubsystemProperty_SetRepairComplexity	ptr@0x9913e8,float		0x63abc4-0x63abcc	None	Py_None 0x95dd20 (refcount at +0 incremented)	E0060	yes
+SubsystemProperty_SetDisabledPercentage	0x63abf0	Of:SubsystemProperty_SetDisabledPercentage	ptr@0x9913e8,float		0x63ac44-0x63ac4c	None	Py_None 0x95dd20 (refcount at +0 incremented)	E0060	yes
+SubsystemProperty_SetRadius	0x63ac70	Of:SubsystemProperty_SetRadius	ptr@0x9913e8,float		0x63acc4-0x63accc	None	Py_None 0x95dd20 (refcount at +0 incremented)	E0060	yes
+SubsystemProperty_GetPosition	0x63acf0	O:SubsystemProperty_GetPosition	ptr@0x9913e8	0x718cb0	0x63ad3a-0x63ad5d	pointer string	SWIG_NewPointerObj 0x5bb0e0 (type global 0x9910f0)	E0060	maybe
+SubsystemProperty_GetPositionTG	0x63ad90	O:SubsystemProperty_GetPositionTG	ptr@0x9913e8	0x718cb0,0x63ae20		pointer string	SWIG_NewPointerObj 0x5bb0e0 (type global 0x9910f4)	E0060	maybe
+SubsystemProperty_GetPosition2D	0x63ae50	OOO:SubsystemProperty_GetPosition2D	ptr@0x9913e8,ptr@0x991080,ptr@0x991080	inline: copies the dwords at this+0x34 and this+0x38 to the two output pointers	0x63aefc-0x63af11	None	Py_None 0x95dd20 (refcount at +0 incremented)	E0060	no
+SubsystemProperty_SetPosition	0x63af30	Offf:SubsystemProperty_SetPosition	ptr@0x9913e8,float,float,float		0x63af8f-0x63afb7	None	Py_None 0x95dd20 (refcount at +0 incremented)	E0060	yes
+SubsystemProperty_SetPosition2D	0x63afd0	Off:SubsystemProperty_SetPosition2D	ptr@0x9913e8,float,float		0x63b02a-0x63b043	None	Py_None 0x95dd20 (refcount at +0 incremented)	E0060	yes
+g_kModelPropertyManager (set)	0x65bd40	(none: module attribute setter)	ptr@0x991454	inline: copies the four 24-byte list members at object+0x4, +0x1c, +0x34 and +0x4c to 0x999dec, 0x999e04, 0x999e1c and 0x999e34; the first dword (vtable pointer) is not copied	0x65bd65-0x65bda7	int (C int 0 on success, 1 on conversion failure; no Python object)	none	E0060	no
+g_kModelPropertyManager (get)	0x65bdb0	(none: module attribute getter)		inline: address of the global object 0x999de8	0x65bdb6-0x65bdb6	pointer string	SWIG_NewPointerObj 0x5bb0e0 (type global 0x991454)	E0060	maybe

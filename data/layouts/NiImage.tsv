@@ -1,0 +1,14 @@
+offset	size	type	field	evidence_id	notes
+0x00	4	vtable pointer	vtable	E0209	Vtable 0x898d78 for NiImage, 0x898a7c for NiDDImage. Slot 10 (offset 0x28) deletes the object.
+0x04	4	int32	refCount	E0197	Reference count.
+0x08	4	pointer to char	name	E0196	A block that holds the path text. 0x7e0c50 frees the old block and stores a copy of the path.
+0x0c	4	pointer to NiRawImageData	rawImage	E0203	With a reference. Null for an image from a file.
+0x10	4	uint32	width	E0203	The width in pixels. 0x7c5c60 copies it from the raw image. Read by SetIconLocation (0x72c350).
+0x14	4	uint32	height	E0203	The height in pixels. 0x7c5c60 copies it from the raw image. Read by SetIconLocation (0x72c353).
+0x18	4	uint32	mipLevels	E0203	The result of 0x7e15c0 for the width and the height, or 1.
+0x1c	4	uint32	id	E0197	The value of the counter at 0x9783d0 when the constructor ran.
+0x20	4	uint32	reserved20	E0197	Zero from the constructor.
+0x24	4	uint32	flags	E0196	Flag 2 and flag 4 from 0x7e0c50. Flag 1 from 0x7c5c60 after a surface exists.
+0x28	4	uint32	mask	E0196	The third argument of 0x7e0c50. The constructor does not set it.
+0x2c	4	float	scale	E0197	128.5 from the constructor.
+sizeof	48			E0197	

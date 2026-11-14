@@ -1,0 +1,4 @@
+offset	size	type	field	evidence_id	notes
+0x00	4	vtable pointer	vtable	E0046	0x896278 in a plain TGObject. The constructor stores it at 0x6f0a90. The destructor body stores it again at 0x6f0ba4. Derived constructors store their own table afterwards.
+0x04	4	int32	id	E0046	Object ID. The constructor argument, or the counter at 0x95b078 when the argument is 0. The key of the ID registry (ObjectRegistry).
+sizeof	8	-	allocation size	E0046	8 from the sized pool free in 0x6f0b70 (PUSH 8 at 0x6f0b80). No allocation of a plain TGObject was searched; the class is abstract (vtable slots 5, 6 and 7 are pure virtual).

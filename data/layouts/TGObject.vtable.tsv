@@ -1,0 +1,13 @@
+vtable	slots	slot	function	name	origin	scope	evidence_id	notes
+0x896278	12	0	0x6f0b70	TGObject::DeletingDestructor	TGObject (introduced)	in	E0051	deleting destructor (argument: flags, bit 0 = free memory)
+0x896278	12	1	0x6f0b60	TGObject::GetObjType	TGObject (introduced)	in	E0051	returns the type ID
+0x896278	12	2	0x518ab0	TGObject::IsTypeOf	TGObject (introduced)	in	E0051	tests a type ID
+0x896278	12	3	0x6f1650	TGObject::Print	TGObject (introduced)	trap	E0051	Print (two int arguments)
+0x896278	12	4	0x6f0bc0	TGObject::SaveToStream	TGObject (introduced)	trap	E0051	write to stream
+0x896278	12	5	0x859a0b	_purecall	TGObject (introduced)	pure	E0051	pure virtual: read from stream
+0x896278	12	6	0x859a0b	_purecall	TGObject (introduced)	pure	E0051	pure virtual: all links resolved
+0x896278	12	7	0x859a0b	_purecall	TGObject (introduced)	pure	E0051	pure virtual: replace stored IDs by pointers
+0x896278	12	8	0x6f15c0	TGObject::GetPythonProxy	TGObject (introduced)	trap	E0051	Python proxy lookup (Python helper)
+0x896278	12	9	0x6f1540	TGObject::GetClassName	TGObject (introduced)	in	E0051	class name string
+0x896278	12	10	0x6f1550	TGObject::GetSwigPointerName	TGObject (introduced)	in	E0051	SWIG pointer type name string
+0x896278	12	11	0x6f1560	TGObject::GetShadowClassName	TGObject (introduced)	in	E0051	shadow class name string

@@ -1,0 +1,2 @@
+vtable	slots	slot	function	name	origin	scope	evidence_id	notes
+0x897bec	1	0	0x72af90	TGIconTextureArray::DeletingDestructor	TGIconTextureArray (introduced)	in	E0182	the body is 0x72cea0

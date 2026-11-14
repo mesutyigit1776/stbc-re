@@ -1,0 +1,5 @@
+offset	size	type	field	evidence_id	notes
+0x00	4	pointer to char	name	E0229	A copy of the family name, or null. Freed by the destructor 0x7349b0. The class has no vtable.
+0x04	24	struct TGList	registrations	E0229	Pointers to TGFontRegistration. Count +4, head +8, tail +0xc, free chain +0x10, block chain +0x14, block size +0x18 (2). 0x734c20 appends at the tail.
+0x1c	24	struct TGList	loadedGroups	E0229	Pointers to font groups. Count +0x1c, head +0x20, tail +0x24, free chain +0x28, block chain +0x2c, block size +0x30 (2). 0x734e90 appends at the tail; no function of the reconstructed part writes it.
+sizeof	52	-	allocation size	E0229	0x34: PUSH 0x34 before operator_new at 0x734ab3 and 0x735538.

@@ -1,0 +1,6 @@
+offset	size	type	field	evidence_id	notes
+0x00	4	vtable pointer	vtable	E0048	0x8961a8 (1 slot: deleting destructor). Derived from TGModelPropertyList: the base constructor 0x6edff0 stores 0x896204 first.
+0x04	24	struct TGList	items	E0048	inherited from TGModelPropertyList. Nodes hold TGModelPropertyInstance pointers.
+0x1c	4	unknown	unused	E0048	inherited from TGModelPropertyList
+0x20	4	narrow string pointer	hardpointName	E0048	operator_new copy of the hardpoint name (AddToSet 0x6eb220). Freed by 0x6ec590. FindGroup compares it case-sensitive.
+sizeof	36	-	allocation size	E0048	0x24: PUSH 0x24 at 0x6eb254 (AddToSet).

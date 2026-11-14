@@ -1,0 +1,3 @@
+vtable	slots	slot	function	name	origin	scope	evidence_id	notes
+0x897c0c	2	0	0x72c480	TGIconLocation::SaveToStream	TGIconLocation (introduced)	trap	E0178	writes the 8 floats and the size
+0x897c0c	2	1	0x72c4e0	TGIconLocation::LoadFromStream	TGIconLocation (introduced)	trap	E0178	reads the 8 floats and the size

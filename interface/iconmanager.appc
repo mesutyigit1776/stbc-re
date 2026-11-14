@@ -1,0 +1,120 @@
+# Appc wrappers for the class TGIconManager and its module attribute g_kIconManager.
+# The setter of the module attribute in the exe converts the value and stores nothing, so the description says
+# `assign none`. The getters and setters of the screen size, the scale and the pixel center adjustment are inline code
+# in the wrappers of the exe; the engine class has a method for each.
+# GetCamera gives a new NiCameraPtr that the engine function fills. The type TGIconGroup is in icongroup.appc.
+
+include TGIconManager.h
+include NiRefObject.h
+
+type TGIconManager _p_TGIconManager
+type NiCamera      _p_NiCamera
+type NiCameraPtr   _p_NiCameraPtr
+
+func TGIconManager_RegisterIconGroup
+    this  TGIconManager
+    arg S string name
+    arg S string module
+    arg S string function
+    call  $this->RegisterIconGroup($name, $module, $function)
+    return none
+
+func TGIconManager_CreateIconGroup
+    this  TGIconManager
+    arg S string name
+    call  $this->CreateIconGroup($name)
+    return ptr TGIconGroup
+
+func TGIconManager_AddIconGroup
+    this  TGIconManager
+    arg O TGIconGroup group
+    call  $this->AddIconGroup($group)
+    return none
+
+func TGIconManager_DeleteIconGroup
+    this  TGIconManager
+    arg S string name
+    call  $this->DeleteIconGroup($name)
+    return int
+
+func TGIconManager_GetIconGroup
+    this  TGIconManager
+    arg S string name
+    call  $this->GetIconGroup($name)
+    return ptr TGIconGroup
+
+func TGIconManager_GetScreenWidth
+    this  TGIconManager
+    call  $this->GetScreenWidth()
+    return float
+
+func TGIconManager_GetScreenHeight
+    this  TGIconManager
+    call  $this->GetScreenHeight()
+    return float
+
+func TGIconManager_SetScreenWidth
+    this  TGIconManager
+    arg f float width
+    call  $this->SetScreenWidth($width)
+    return none
+
+func TGIconManager_SetScreenHeight
+    this  TGIconManager
+    arg f float height
+    call  $this->SetScreenHeight($height)
+    return none
+
+func TGIconManager_Purge
+    this  TGIconManager
+    call  $this->Purge()
+    return none
+
+func TGIconManager_SetScale
+    this  TGIconManager
+    arg f float scale
+    call  $this->SetScale($scale)
+    return none
+
+func TGIconManager_GetScale
+    this  TGIconManager
+    call  $this->GetScale()
+    return float
+
+func TGIconManager_SetPixelCenterAdj
+    this  TGIconManager
+    arg f float adjustment
+    call  $this->SetPixelCenterAdj($adjustment)
+    return none
+
+func TGIconManager_GetPixelCenterAdj
+    this  TGIconManager
+    call  $this->GetPixelCenterAdj()
+    return float
+
+func TGIconManager_SetDisplayInfo
+    this  TGIconManager
+    arg O NiCamera camera
+    opt f float scale 1.0f
+    call  $this->SetDisplayInfo($camera, $scale)
+    return none
+
+func TGIconManager_GetCamera
+    this  TGIconManager
+    call  $this->GetCameraPtr($out)
+    return new NiCameraPtr
+
+func TGIconManager_SetCamera
+    this  TGIconManager
+    arg O NiCamera camera
+    call  $this->SetCamera($camera)
+    return none
+
+func TGIconManager_Draw
+    this  TGIconManager
+    call  $this->Draw()
+    return none
+
+global g_kIconManager TGIconManager
+    object TGIconManager::Global()
+    assign none

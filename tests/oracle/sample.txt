@@ -1,0 +1,4 @@
+mods/remastered_1.2/scripts/Foundation.py
+mods/remastered_1.2/scripts/QuickBattle/QuickBattle.py
+mods/remastered_1.2/scripts/CameraModes.py
+mods/remastered_1.2/scripts/AI/Compound/BasicAttack.py

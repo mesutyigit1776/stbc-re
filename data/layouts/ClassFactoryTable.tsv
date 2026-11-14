@@ -1,0 +1,6 @@
+offset	size	type	field	evidence_id	notes
+0x00	4	vtable pointer	vtable	E0070	0x89623c (5 slots). Stored at 0x6f08b6 and 0x6f091e. The slot code is the code of the ObjectRegistry slots.
+0x04	4	uint32	count	E0070	Number of nodes. 0 after the static initializer.
+0x08	4	uint32	bucketCount	E0070	0x25 (37). Set at 0x6f08c0. The hash is the key modulo this value.
+0x0c	4	pointer to unknown	buckets	E0070	Array of bucketCount node pointers (operator_new(0x94), zeroed). The chain runs through node+8.
+sizeof	16	-	size	E0070	0x10: the global object at 0x99a578 up to the bucket pointer at 0x99a584. The static initializer 0x6f08b0 writes these four fields only.

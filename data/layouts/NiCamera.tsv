@@ -1,0 +1,5 @@
+offset	size	type	field	evidence_id	notes
+0x00	4	vtable pointer	vtable	E0186	Slot 10 (offset 0x28) deletes the object.
+0x04	4	int32	refCount	E0186	Reference count. The icon manager holds one reference.
+0x08	384	unknown	reserved	E0186	Not used by the icon code.
+0x188	4	pointer to NiD3DRender	renderer	E0186	The drawing object. Slot 19 (offset 0x4c) gives the width in pixels, slot 20 (offset 0x50) the height. Draw calls other slots.

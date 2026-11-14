@@ -1,0 +1,20 @@
+offset	size	type	field	evidence_id	notes
+0x00	4	vtable pointer	vtable	E0176	0x897bd4, 1 slot (the deleting destructor of the array at the start, 0x72aee0). The constructor 0x729b30 stores it. The object is the array of the registrations followed by the other members.
+0x04	4	pointer to pointer	data	E0176	The registrations: pointers to TGIconRegistration. The constructor takes 4 bytes (0x729b6d). The blocks are plain operator_new blocks without a count in front.
+0x08	4	uint32	capacity	E0176	Starts as 1. RegisterIconGroup sets it to growBy plus used when it is full (0x729f1c).
+0x0c	4	uint32	used	E0176	The number of entries up to the last one that is not null. Starts as 0.
+0x10	4	int32	count	E0176	The number of entries that are not null. Starts as 0.
+0x14	4	uint32	growBy	E0176	Starts as 1 and is not changed.
+0x18	24	struct TGList	groups	E0176	The loaded groups: TGIconGroup pointers in the nodes. Block size 2. AddIconGroup appends, DeleteIconGroup and Purge unlink.
+0x30	24	struct TGList	otherList	E0176	A second list with block size 2. The destructor frees its blocks (0x729a99 to 0x729ac9). Its use is not read.
+0x48	4	uint32	unused48	E0176	Set to 0 by the constructor (0x729bea) and by 0x72ad5e. No other access is known.
+0x4c	4	uint32	unused4c	E0176	Set to 0 by the constructor (0x729bed) and by 0x72ad61. No other access is known.
+0x50	4	pointer to NiCamera	camera	E0186	Holds a reference. SetCamera and SetDisplayInfo replace it. The destructor releases it (0x729a76).
+0x54	4	float	scale	E0186	Set by SetScale (inline in 0x5d5e30) and by SetDisplayInfo. Read by the icon screen size functions at 0x99d244.
+0x58	4	float	screenWidth	E0186	Set by SetScreenWidth (inline in 0x5d5cc0) and by SetDisplayInfo. Read at 0x99d248.
+0x5c	4	float	screenHeight	E0186	Set by SetScreenHeight (inline in 0x5d5d40) and by SetDisplayInfo. Read at 0x99d24c.
+0x60	4	float	pixelCenterAdj	E0186	Starts as -0.5 (0xbf000000, 0x729c20). SetPixelCenterAdj stores the argument bits.
+0x64	4	float	pixelCenterAdjX	E0186	pixelCenterAdj divided by screenWidth, rounded to float (0x72a92e).
+0x68	4	float	pixelCenterAdjY	E0186	pixelCenterAdj divided by screenHeight, rounded to float (0x72a938).
+0x6c	16	struct TGIconTextureCache	textureCache	E0188	The cache of the textures by file path: vtable 0x88b6a0, count, bucket count 0x25 and the bucket array of 0x94 bytes.
+sizeof	124	-	object size	E0176	The global object is at 0x99d1f0 in the uninitialized data. The constructor writes up to +0x7b (the bucket pointer at +0x78); the next variable is at 0x99d26c.

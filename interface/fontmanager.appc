@@ -1,0 +1,20 @@
+# Appc wrappers for the class TGFontManager that the script Icons.FontsAndIcons needs: RegisterFont and the module
+# attribute g_kFontManager. The setter of the module attribute in the exe converts the value and stores nothing, so the
+# description says `assign none`. The other wrappers of the class are not described yet and stay traps.
+
+include TGFontManager.h
+
+type TGFontManager _p_TGFontManager
+
+func TGFontManager_RegisterFont
+    this  TGFontManager
+    arg S string name
+    arg f float size
+    arg S string module
+    arg S string function
+    call  $this->RegisterFont($name, $size, $module, $function)
+    return none
+
+global g_kFontManager TGFontManager
+    object TGFontManager::Global()
+    assign none

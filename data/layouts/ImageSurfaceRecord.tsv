@@ -1,0 +1,6 @@
+offset	size	type	field	evidence_id	notes
+0x00	4	pointer to DirectDraw surface	surface	E0203	The surface that 0x7c5200 made.
+0x04	4	uint32	formatId	E0203	The id of the format.
+0x08	4	pointer to DirectDraw device	device	E0203	The device the surface belongs to.
+0x0c	1	uint8	dirty	E0203	Not 0: 0x7c6080 fills the surface again.
+sizeof	16	-	allocation size	E0197	

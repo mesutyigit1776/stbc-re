@@ -1,0 +1,6 @@
+vtable	slots	slot	function	name	origin	scope	evidence_id	notes
+0x8961f0	5	0	0x6ed400	TGModelPropertyInstance::DeletingDestructor	TGModelPropertyInstance (introduced)	in	E0056	deleting destructor
+0x8961f0	5	1	0x6ed500	FUN_006ed500	TGModelPropertyInstance (introduced)	out	E0056	write to stream (not in scope)
+0x8961f0	5	2	0x6ed5c0	FUN_006ed5c0	TGModelPropertyInstance (introduced)	out	E0056	read from stream (not in scope)
+0x8961f0	5	3	0x6ed630	FUN_006ed630	TGModelPropertyInstance (introduced)	out	E0056	template ID known to the registry (not in scope)
+0x8961f0	5	4	0x6ed650	FUN_006ed650	TGModelPropertyInstance (introduced)	out	E0056	replace the stored template ID by the pointer (not in scope)

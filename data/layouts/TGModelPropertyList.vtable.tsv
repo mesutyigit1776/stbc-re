@@ -1,0 +1,2 @@
+vtable	slots	slot	function	name	origin	scope	evidence_id	notes
+0x896204	1	0	0x6ee020	TGModelPropertyList::DeletingDestructor	TGModelPropertyList (introduced)	in	E0056	deleting destructor

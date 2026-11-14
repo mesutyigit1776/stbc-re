@@ -1,0 +1,272 @@
+# Appc wrappers for the point classes NiPoint3 and TGPoint3.
+# Pointer arguments reach the call as pointers; write *$name to pass a reference.
+# `return new` with $out in the call: the engine function fills the new object, as the exe does
+# with its hidden result pointer.
+# NiStream is the exe type _p_NiStream. TGStream.h describes the stream by its two buffer
+# members only, so the wrapper casts the pointer.
+# Wrappers with `alias` are one function in the exe with two method table names.
+
+include NiPoint3.h
+include TGPoint3.h
+include TGMatrix3.h
+include TGStream.h
+
+type NiPoint3  _p_NiPoint3
+type TGPoint3  _p_TGPoint3
+type TGMatrix3 _p_TGMatrix3
+type NiStream  _p_NiStream  opaque
+
+func NiPoint3_x_set
+    alias TGPoint3_x_set
+    this  NiPoint3
+    arg f float v
+    call  $this->x = $v
+    return none
+
+func NiPoint3_x_get
+    alias TGPoint3_x_get
+    this  NiPoint3
+    call  $this->x
+    return float
+
+func NiPoint3_y_set
+    alias TGPoint3_y_set
+    this  NiPoint3
+    arg f float v
+    call  $this->y = $v
+    return none
+
+func NiPoint3_y_get
+    alias TGPoint3_y_get
+    this  NiPoint3
+    call  $this->y
+    return float
+
+func NiPoint3_z_set
+    alias TGPoint3_z_set
+    this  NiPoint3
+    arg f float v
+    call  $this->z = $v
+    return none
+
+func NiPoint3_z_get
+    alias TGPoint3_z_get
+    this  NiPoint3
+    call  $this->z
+    return float
+
+func new_NiPoint3
+    arg f float x
+    arg f float y
+    arg f float z
+    call  NiPoint3($x, $y, $z)
+    return new NiPoint3
+
+func delete_NiPoint3
+    this  NiPoint3
+    call  delete $this
+    return none
+
+func NiPoint3_Length
+    this  NiPoint3
+    call  $this->Length()
+    return float
+
+func NiPoint3_SqrLength
+    this  NiPoint3
+    call  $this->SqrLength()
+    return float
+
+func NiPoint3_Dot
+    this  NiPoint3
+    arg O NiPoint3 other
+    call  $this->Dot(*$other)
+    return float
+
+func NiPoint3_Unitize
+    this  NiPoint3
+    call  $this->Unitize()
+    return float
+
+func NiPoint3_Cross
+    this  NiPoint3
+    arg O NiPoint3 other
+    call  $this->Cross(*$other)
+    return new NiPoint3
+
+func NiPoint3_UnitCross
+    this  NiPoint3
+    arg O NiPoint3 other
+    call  $this->UnitCross($out, $other)
+    return new NiPoint3
+
+func NiPoint3_Perpendicular
+    this  NiPoint3
+    call  $this->Perpendicular()
+    return new NiPoint3
+
+func new_TGPoint3
+    call  TGPoint3()
+    return new TGPoint3
+
+func delete_TGPoint3
+    this  TGPoint3
+    call  delete $this
+    return none
+
+func TGPoint3_GetRandomUnitVector
+    call  TGPoint3::GetRandomUnitVector($out)
+    return new TGPoint3
+
+func TGPoint3_GetModelForward
+    call  TGPoint3::GetModelForward($out)
+    return new TGPoint3
+
+func TGPoint3_GetModelBackward
+    call  TGPoint3::GetModelBackward($out)
+    return new TGPoint3
+
+func TGPoint3_GetModelUp
+    call  TGPoint3::GetModelUp($out)
+    return new TGPoint3
+
+func TGPoint3_GetModelDown
+    call  TGPoint3::GetModelDown($out)
+    return new TGPoint3
+
+func TGPoint3_GetModelRight
+    call  TGPoint3::GetModelRight($out)
+    return new TGPoint3
+
+func TGPoint3_GetModelLeft
+    call  TGPoint3::GetModelLeft($out)
+    return new TGPoint3
+
+func TGPoint3_Cross
+    this  TGPoint3
+    arg O TGPoint3 other
+    call  $this->Cross($out, $other)
+    return new TGPoint3
+
+func TGPoint3_UnitCross
+    this  TGPoint3
+    arg O TGPoint3 other
+    call  $this->UnitCross($out, $other)
+    return new TGPoint3
+
+func TGPoint3_GetAlignedComponent
+    this  TGPoint3
+    arg O TGPoint3 other
+    call  $this->GetAlignedComponent($out, $other)
+    return new TGPoint3
+
+func TGPoint3_GetPerpendicularComponent
+    this  TGPoint3
+    arg O TGPoint3 other
+    call  $this->GetPerpendicularComponent($out, $other)
+    return new TGPoint3
+
+func TGPoint3_GetX
+    this  TGPoint3
+    call  $this->GetX()
+    return float
+
+func TGPoint3_GetY
+    this  TGPoint3
+    call  $this->GetY()
+    return float
+
+func TGPoint3_GetZ
+    this  TGPoint3
+    call  $this->GetZ()
+    return float
+
+func TGPoint3_SetX
+    this  TGPoint3
+    arg f float v
+    call  $this->SetX($v)
+    return none
+
+func TGPoint3_SetY
+    this  TGPoint3
+    arg f float v
+    call  $this->SetY($v)
+    return none
+
+func TGPoint3_SetZ
+    this  TGPoint3
+    arg f float v
+    call  $this->SetZ($v)
+    return none
+
+func TGPoint3_SetXYZ
+    this  TGPoint3
+    arg f float x
+    arg f float y
+    arg f float z
+    call  $this->SetXYZ($x, $y, $z)
+    return none
+
+func TGPoint3_MultMatrix
+    this  TGPoint3
+    arg O TGMatrix3 matrix
+    call  $this->MultMatrix($matrix)
+    return none
+
+func TGPoint3_MultMatrixLeft
+    this  TGPoint3
+    arg O TGMatrix3 matrix
+    call  $this->MultMatrixLeft($matrix)
+    return none
+
+func TGPoint3_Add
+    this  TGPoint3
+    arg O TGPoint3 other
+    call  $this->Add(*$other)
+    return none
+
+func TGPoint3_Subtract
+    this  TGPoint3
+    arg O TGPoint3 other
+    call  $this->Subtract(*$other)
+    return none
+
+func TGPoint3_Set
+    this  TGPoint3
+    arg O TGPoint3 other
+    call  $this->Set($other->x, $other->y, $other->z)
+    return none
+
+func TGPoint3_Scale
+    this  TGPoint3
+    arg f float scale
+    call  $this->Scale($scale)
+    return none
+
+func TGPoint3_LoadBinary
+    this  TGPoint3
+    arg O NiStream stream
+    call  $this->LoadBinary(reinterpret_cast<TGStream *>($stream))
+    return none
+
+func TGPoint3_SaveBinary
+    this  TGPoint3
+    arg O NiStream stream
+    call  $this->SaveBinary(reinterpret_cast<TGStream *>($stream))
+    return none
+
+func TGPoint3_UnitizeVectors
+    this  TGPoint3
+    arg i int count
+    call  TGPoint3::UnitizeVectors($this, $count)
+    return none
+
+func TGPoint3_UnitizeVector
+    this  TGPoint3
+    call  $this->UnitizeVector()
+    return none
+
+func TGPoint3_VectorLength
+    this  TGPoint3
+    call  $this->VectorLength()
+    return float

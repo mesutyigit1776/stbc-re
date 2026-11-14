@@ -1,0 +1,105 @@
+# Appc wrappers for the class TGIconGroup.
+# TGIconGroup_GetName gives None for a group without a name. SetIconLocation is a virtual call in the exe.
+# LoadIconTexture takes a flag that the wrapper passes as 0 or 1. The result is the handle of the texture, or -1.
+# GetPyWrapper gives the Python object of the group; the Python type is PyObject.
+
+include TGIconGroup.h
+
+type TGIconGroup    _p_TGIconGroup pooled
+type PyWrapperObject _p_PyObject opaque
+
+func new_TGIconGroup
+    arg S string name
+    call  TGIconGroup($name)
+    return new TGIconGroup
+
+func delete_TGIconGroup
+    this  TGIconGroup
+    call  delete $this
+    return none
+
+func TGIconGroup_Reset
+    this  TGIconGroup
+    call  $this->Reset()
+    return none
+
+func TGIconGroup_SetName
+    this  TGIconGroup
+    arg S string name
+    call  $this->SetName($name)
+    return none
+
+func TGIconGroup_GetName
+    this  TGIconGroup
+    call  $this->GetName()
+    return string
+
+func TGIconGroup_LoadIconTexture
+    this  TGIconGroup
+    arg S string file
+    opt i int flag
+    call  $this->LoadIconTexture($file, $flag != 0)
+    return int
+
+func TGIconGroup_SetIconLocation
+    this  TGIconGroup
+    arg i int number
+    arg l long handle
+    arg f float x
+    arg f float y
+    arg f float width
+    arg f float height
+    opt i int rotation
+    opt i int mirror
+    call  $this->SetIconLocation($number, $handle, $x, $y, $width, $height, $rotation, $mirror)
+    return none
+
+func TGIconGroup_GetIconPixelWidth
+    this  TGIconGroup
+    arg i int number
+    call  $this->GetIconPixelWidth($number)
+    return float
+
+func TGIconGroup_GetIconPixelHeight
+    this  TGIconGroup
+    arg i int number
+    call  $this->GetIconPixelHeight($number)
+    return float
+
+func TGIconGroup_GetIconScreenWidth
+    this  TGIconGroup
+    arg i int number
+    call  $this->GetIconScreenWidth($number)
+    return float
+
+func TGIconGroup_GetIconScreenHeight
+    this  TGIconGroup
+    arg i int number
+    call  $this->GetIconScreenHeight($number)
+    return float
+
+func TGIconGroup_GetPyWrapper
+    this  TGIconGroup
+    call  $this->GetPyWrapper()
+    return ptr PyWrapperObject
+
+func TGIconGroup_IsNumValid
+    this  TGIconGroup
+    arg i int number
+    call  $this->IsNumValid($number)
+    return int
+
+func TGIconGroup_GoToFirstPos
+    this  TGIconGroup
+    call  $this->GoToFirstPos()
+    return none
+
+func TGIconGroup_GetCount
+    this  TGIconGroup
+    call  $this->GetCount()
+    return int
+
+func TGIconGroup_GetNext
+    this  TGIconGroup
+    call  $this->GetNext()
+    return int

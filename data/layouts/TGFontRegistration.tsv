@@ -1,0 +1,7 @@
+offset	size	type	field	evidence_id	notes
+0x00	4	vtable pointer	vtable	E0230	0x897e64, 2 slots (0x7354d0 SaveToStream, 0x7358e0 LoadFromStream). 0x734c7e replaces the vtable 0x897c04 that the base constructor 0x747990 stores.
+0x04	4	pointer to char	groupName	E0230	TGIconRegistration field: a copy of the family name (not the name of the icon group).
+0x08	4	pointer to char	moduleName	E0230	TGIconRegistration field: a copy of the name of the script module.
+0x0c	4	pointer to char	functionName	E0230	TGIconRegistration field: a copy of the name of the script function.
+0x10	4	float	size	E0230	The font size of this registration (0x734c84).
+sizeof	20	-	allocation size	E0230	0x14: PUSH 0x14 before operator_new at 0x734c40.

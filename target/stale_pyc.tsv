@@ -1,0 +1,29 @@
+source	file	class	detail
+orion	py/Orion/Multiplayer/Episode/Mission1/Mission1.py	code bytes	? / code, offset 10
+orion	py/Orion/Multiplayer/Episode/Mission1/Mission1Menus.py	code bytes	? / code, offset 195
+orion	py/Orion/Multiplayer/Episode/Mission10/Mission10.py	code bytes	? / code, offset 10
+orion	py/Orion/Multiplayer/Episode/Mission10/Mission10Menus.py	code bytes	? / code, offset 303
+orion	py/Orion/Multiplayer/Episode/Mission11/Mission11.py	code bytes	? / code, offset 10
+orion	py/Orion/Multiplayer/Episode/Mission11/Mission11Menus.py	code bytes	? / code, offset 546
+orion	py/Orion/Multiplayer/Episode/Mission2/Mission2.py	code bytes	? / code, offset 10
+orion	py/Orion/Multiplayer/Episode/Mission2/Mission2Menus.py	code bytes	? / code, offset 522
+orion	py/Orion/Multiplayer/Episode/Mission20/Mission20.py	code bytes	? / code, offset 10
+orion	py/Orion/Multiplayer/Episode/Mission20/Mission20Menus.py	code bytes	? / code, offset 522
+orion	py/Orion/Multiplayer/Episode/Mission21/Mission21.py	code bytes	? / code, offset 10
+orion	py/Orion/Multiplayer/Episode/Mission21/Mission21Menus.py	code bytes	? / code, offset 378
+orion	py/Orion/Multiplayer/Episode/Mission22/Mission22.py	code bytes	? / code, offset 10
+orion	py/Orion/Multiplayer/Episode/Mission22/Mission22Menus.py	code bytes	? / code, offset 522
+orion	py/Orion/Multiplayer/Episode/Mission23/Mission23.py	code bytes	? / code, offset 10
+orion	py/Orion/Multiplayer/Episode/Mission23/Mission23Menus.py	code bytes	? / code, offset 546
+orion	py/Orion/Multiplayer/Episode/Mission25/Mission25.py	code bytes	? / code, offset 10
+orion	py/Orion/Multiplayer/Episode/Mission25/Mission25Menus.py	code bytes	? / code, offset 546
+orion	py/Orion/Multiplayer/Episode/Mission26/Mission26.py	other	? / stacksize, offset 5
+orion	py/Orion/Multiplayer/Episode/Mission26/Mission26Defenders.py	other	? / stacksize, offset 5
+orion	py/Orion/Multiplayer/Episode/Mission26/Mission26Menus.py	code bytes	? / code, offset 672
+orion	py/Orion/Multiplayer/Episode/Mission3/Mission3.py	code bytes	? / code, offset 10
+orion	py/Orion/Multiplayer/Episode/Mission3/Mission3Menus.py	code bytes	? / code, offset 546
+orion	py/Orion/Multiplayer/Episode/Mission5/Mission5.py	code bytes	? / code, offset 368
+orion	py/Orion/Multiplayer/Episode/Mission5/Mission5Menus.py	code bytes	? / code, offset 522
+orion	py/Orion/Multiplayer/Episode/Mission6/Mission6.py	other	? / stacksize, offset 5
+orion	py/Orion/Multiplayer/Episode/Mission6/Mission6Menus.py	code bytes	? / code, offset 672
+orion	py/Orion/Multiplayer/Episode/Mission6/Mission6Var.py	code bytes	? / code, offset 10

@@ -1,0 +1,7 @@
+offset	size	type	field	evidence_id	notes
+0x00	4	vtable pointer	vtable	E0247	0x898c48 while the constructor 0x7dac80 runs. Slot 0 returns the RTTI object 0x9a1500 (name text NiObjectNET at 0x978228).
+0x04	4	int32	refCount	E0247	Reference count.
+0x08	4	pointer to char	name	E0247	A block that the object owns; 0x7dad10 frees it.
+0x0c	4	pointer	extraData	E0247	With a reference.
+0x10	4	pointer	controller	E0247	With a reference.
+sizeof	20	-	size	E0247	The size of the base part of NiTextureProperty.

@@ -1,0 +1,5 @@
+offset	size	type	field	evidence_id	notes
+0x00	4	pointer to char	key	E0188	A copy of the file path (0x44ee40).
+0x04	4	pointer to NiImage	value	E0188	Holds a reference. Can be null: a file that did not load stays in the cache with a null texture.
+0x08	4	pointer to struct TGIconTextureNode	next	E0188	Next node in the bucket chain.
+sizeof	12	-	allocation size	E0188	0xc: PUSH 0xc at 0x44ec20 before operator_new.

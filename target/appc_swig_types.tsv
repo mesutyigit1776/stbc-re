@@ -1,0 +1,1807 @@
+type_index	variable_address	table_address	entry_index	name	converter_address	converter_kind	converter_offset	type_string	evidence_id
+0	0x991068	0x8f5da8	0	_p_KeyboardBinding		none		KeyboardBinding *	E0136
+0	0x991068	0x8f5da8	1	_p_KeyboardBinding		none			E0136
+1	0x99106c	0x8f5de8	0	_p_TGProfilingInfo		none		TGProfilingInfo *	E0136
+1	0x99106c	0x8f5de8	1	_p_TGProfilingInfo		none			E0136
+2	0x991070	0x8f5e28	0	_p_TGCondition		none		TGCondition *	E0136
+2	0x991070	0x8f5e28	1	_p_TGCondition		none			E0136
+2	0x991070	0x8f5e28	2	_p_ConditionScript	0x648040	identity			E0136
+3	0x991074	0x8f5e78	0	_p_TGUITheme		none		TGUITheme *	E0136
+3	0x991074	0x8f5e78	1	_p_TGUITheme		none			E0136
+4	0x991078	0x8f5eb8	0	_p_GameSpy		none		GameSpy *	E0136
+4	0x991078	0x8f5eb8	1	_p_GameSpy		none			E0136
+5	0x99107c	0x8f5ef8	0	_p_Game		none		Game *	E0136
+5	0x99107c	0x8f5ef8	1	_p_MultiplayerGame	0x64bc60	identity			E0136
+5	0x99107c	0x8f5ef8	2	_p_Game		none			E0136
+6	0x991080	0x8f5f48	0	_p_float		none		float *	E0136
+6	0x991080	0x8f5f48	1	_p_float		none			E0136
+7	0x991084	0x8f5f88	0	_p_TGGamepadEvent		none		TGGamepadEvent *	E0136
+7	0x991084	0x8f5f88	1	_p_TGGamepadEvent		none			E0136
+8	0x991088	0x8f5fc8	0	_p_TGKeyboardEvent		none		TGKeyboardEvent *	E0136
+8	0x991088	0x8f5fc8	1	_p_TGKeyboardEvent		none			E0136
+9	0x99108c	0x8f6008	0	_p_TGPane		none		TGPane *	E0136
+9	0x99108c	0x8f6008	1	_p_STCharacterMenu	0x648050	identity			E0136
+9	0x99108c	0x8f6008	2	_p_STFileDialog	0x648060	identity			E0136
+9	0x99108c	0x8f6008	3	_p_STSaveDialog	0x648070	identity			E0136
+9	0x99108c	0x8f6008	4	_p_TGButton	0x648080	identity			E0136
+9	0x99108c	0x8f6008	5	_p_MultiplayerWindow	0x6480f0	identity			E0136
+9	0x99108c	0x8f6008	6	_p_MapWindow	0x6480a0	identity			E0136
+9	0x99108c	0x8f6008	7	_p_TacticalWindow	0x6480c0	identity			E0136
+9	0x99108c	0x8f6008	8	_p_MainWindow	0x6480e0	identity			E0136
+9	0x99108c	0x8f6008	9	_p_TopWindow	0x6480d0	identity			E0136
+9	0x99108c	0x8f6008	10	_p_TacticalControlWindow	0x6480b0	identity			E0136
+9	0x99108c	0x8f6008	11	_p_STStylizedWindow	0x648090	identity			E0136
+9	0x99108c	0x8f6008	12	_p_STFillGauge	0x648100	identity			E0136
+9	0x99108c	0x8f6008	13	_p_TGButtonBase	0x648110	identity			E0136
+9	0x99108c	0x8f6008	14	_p_TGPrompt	0x648120	identity			E0136
+9	0x99108c	0x8f6008	15	_p_STMissionLog	0x648130	identity			E0136
+9	0x99108c	0x8f6008	16	_p_STComponentMenu	0x648140	identity			E0136
+9	0x99108c	0x8f6008	17	_p_EngPowerDisplay	0x6481b0	identity			E0136
+9	0x99108c	0x8f6008	18	_p_DamageDisplay	0x648180	identity			E0136
+9	0x99108c	0x8f6008	19	_p_ShieldsDisplay	0x648170	identity			E0136
+9	0x99108c	0x8f6008	20	_p_STNumericBar	0x648150	identity			E0136
+9	0x99108c	0x8f6008	21	_p_ShipDisplay	0x648160	identity			E0136
+9	0x99108c	0x8f6008	22	_p_WeaponsDisplay	0x648190	identity			E0136
+9	0x99108c	0x8f6008	23	_p_RadarDisplay	0x6481a0	identity			E0136
+9	0x99108c	0x8f6008	24	_p_OptionsWindow	0x648240	identity			E0136
+9	0x99108c	0x8f6008	25	_p_ConsoleWindow	0x648230	identity			E0136
+9	0x99108c	0x8f6008	26	_p_TGFrameWindow	0x648210	identity			E0136
+9	0x99108c	0x8f6008	27	_p_TGDialogWindow	0x648220	identity			E0136
+9	0x99108c	0x8f6008	28	_p_TGWindow	0x648200	identity			E0136
+9	0x99108c	0x8f6008	29	_p_BridgeWindow	0x6481f0	identity			E0136
+9	0x99108c	0x8f6008	30	_p_ModalDialogWindow	0x6481e0	identity			E0136
+9	0x99108c	0x8f6008	31	_p_CinematicWindow	0x6481d0	identity			E0136
+9	0x99108c	0x8f6008	32	_p_SubtitleWindow	0x6481c0	identity			E0136
+9	0x99108c	0x8f6008	33	_p_STToggle	0x648250	identity			E0136
+9	0x99108c	0x8f6008	34	_p_TGPane		none			E0136
+9	0x99108c	0x8f6008	35	_p_STTargetMenu	0x648260	identity			E0136
+9	0x99108c	0x8f6008	36	_p_GraphicsMenu	0x648280	identity			E0136
+9	0x99108c	0x8f6008	37	_p_STSubsystemMenu	0x648290	identity			E0136
+9	0x99108c	0x8f6008	38	_p_SortedRegionMenu	0x6482a0	identity			E0136
+9	0x99108c	0x8f6008	39	_p_TacWeaponsCtrl	0x6482b0	identity			E0136
+9	0x99108c	0x8f6008	40	_p_EngRepairPane	0x6482c0	identity			E0136
+9	0x99108c	0x8f6008	41	_p_TGRootPane	0x6482d0	identity			E0136
+9	0x99108c	0x8f6008	42	_p_STTopLevelMenu	0x6482e0	identity			E0136
+9	0x99108c	0x8f6008	43	_p_TGParagraph	0x6482f0	identity			E0136
+9	0x99108c	0x8f6008	44	_p_TGConsole	0x648300	identity			E0136
+9	0x99108c	0x8f6008	45	_p_STLoadDialog	0x648310	identity			E0136
+9	0x99108c	0x8f6008	46	_p_STMenu	0x648270	identity			E0136
+9	0x99108c	0x8f6008	47	_p_STSubPane	0x648320	identity			E0136
+9	0x99108c	0x8f6008	48	_p_STRoundedButton	0x648330	identity			E0136
+9	0x99108c	0x8f6008	49	_p_STButton	0x648340	identity			E0136
+9	0x99108c	0x8f6008	50	_p_TGTextButton	0x648350	identity			E0136
+9	0x99108c	0x8f6008	51	_p_RadarScope	0x648360	identity			E0136
+9	0x99108c	0x8f6008	52	_p_STWarpButton	0x648370	identity			E0136
+9	0x99108c	0x8f6008	53	_p_EngPowerCtrl	0x648380	identity			E0136
+9	0x99108c	0x8f6008	54	_p_STFileMenu	0x648390	identity			E0136
+9	0x99108c	0x8f6008	55	_p_STComponentMenuItem	0x6483a0	identity			E0136
+10	0x991090	0x8f6480	0	_p_CharacterClass		none		CharacterClass *	E0136
+10	0x991090	0x8f6480	1	_p_CharacterClass		none			E0136
+11	0x991094	0x8f64c0	0	_p_TGAnimationManagerClass		none		TGAnimationManagerClass *	E0136
+11	0x991094	0x8f64c0	1	_p_TGAnimationManagerClass		none			E0136
+12	0x991098	0x8f6500	0	_p_TGSystemWrapperClass		none		TGSystemWrapperClass *	E0136
+12	0x991098	0x8f6500	1	_p_TGSystemWrapperClass		none			E0136
+13	0x99109c	0x8f6540	0	_p_VarManagerClass		none		VarManagerClass *	E0136
+13	0x99109c	0x8f6540	1	_p_VarManagerClass		none			E0136
+14	0x9910a0	0x8f6580	0	_p_ImageManagerClass		none		ImageManagerClass *	E0136
+14	0x9910a0	0x8f6580	1	_p_ImageManagerClass		none			E0136
+15	0x9910a4	0x8f65c0	0	_TGAnimCallbackPtr		none		TGAnimCallbackPtr 	E0136
+15	0x9910a4	0x8f65c0	1	_TGAnimCallbackPtr		none			E0136
+16	0x9910a8	0x8f6600	0	_p_SubsystemList		none		SubsystemList *	E0136
+16	0x9910a8	0x8f6600	1	_p_NiTList_ShipSubsystem___		none			E0136
+16	0x9910a8	0x8f6600	2	_p_SubsystemList		none			E0136
+17	0x9910ac	0x8f6650	0	_p_LightPlacement		none		LightPlacement *	E0136
+17	0x9910ac	0x8f6650	1	_p_LightPlacement		none			E0136
+18	0x9910b0	0x8f6690	0	_p_AsteroidFieldPlacement		none		AsteroidFieldPlacement *	E0136
+18	0x9910b0	0x8f6690	1	_p_AsteroidFieldPlacement		none			E0136
+19	0x9910b4	0x8f66d0	0	_p_CameraMode		none		CameraMode *	E0136
+19	0x9910b4	0x8f66d0	1	_p_CameraMode		none			E0136
+20	0x9910b8	0x8f6710	0	_p_FuzzyLogic		none		FuzzyLogic *	E0136
+20	0x9910b8	0x8f6710	1	_p_FuzzyLogic		none			E0136
+21	0x9910bc	0x8f6750	0	_p_ArtificialIntelligence		none		ArtificialIntelligence *	E0136
+21	0x9910bc	0x8f6750	1	_p_PlainAI	0x6483b0	identity			E0136
+21	0x9910bc	0x8f6750	2	_p_OptimizedFireScript	0x6483c0	identity			E0136
+21	0x9910bc	0x8f6750	3	_p_PreprocessingAI	0x6483d0	identity			E0136
+21	0x9910bc	0x8f6750	4	_p_OptimizedSelectTarget	0x6483e0	identity			E0136
+21	0x9910bc	0x8f6750	5	_p_BuilderAI	0x6483f0	identity			E0136
+21	0x9910bc	0x8f6750	6	_p_ArtificialIntelligence		none			E0136
+21	0x9910bc	0x8f6750	7	_p_ConditionalAI	0x648400	identity			E0136
+21	0x9910bc	0x8f6750	8	_p_PriorityListAI	0x648410	identity			E0136
+21	0x9910bc	0x8f6750	9	_p_RandomAI	0x648420	identity			E0136
+21	0x9910bc	0x8f6750	10	_p_SequenceAI	0x648430	identity			E0136
+22	0x9910c0	0x8f6840	0	_p_ProximityEvent		none		ProximityEvent *	E0136
+22	0x9910c0	0x8f6840	1	_p_ProximityEvent		none			E0136
+23	0x9910c4	0x8f6880	0	_p_STWarpButton		none		STWarpButton *	E0136
+23	0x9910c4	0x8f6880	1	_p_STWarpButton		none			E0136
+24	0x9910c8	0x8f68c0	0	_p_STRoundedButton		none		STRoundedButton *	E0136
+24	0x9910c8	0x8f68c0	1	_p_STRoundedButton		none			E0136
+25	0x9910cc	0x8f6900	0	_p_STButton		none		STButton *	E0136
+25	0x9910cc	0x8f6900	1	_p_STButton		none			E0136
+25	0x9910cc	0x8f6900	2	_p_STWarpButton	0x648440	identity			E0136
+25	0x9910cc	0x8f6900	3	_p_STToggle	0x648450	identity			E0136
+25	0x9910cc	0x8f6900	4	_p_STComponentMenuItem	0x648460	identity			E0136
+26	0x9910d0	0x8f6978	0	_p_TGTextButton		none		TGTextButton *	E0136
+26	0x9910d0	0x8f6978	1	_p_TGTextButton		none			E0136
+27	0x9910d4	0x8f69b8	0	_p_TGButton		none		TGButton *	E0136
+27	0x9910d4	0x8f69b8	1	_p_TGButton		none			E0136
+28	0x9910d8	0x8f69f8	0	_p_BuilderAI		none		BuilderAI *	E0136
+28	0x9910d8	0x8f69f8	1	_p_BuilderAI		none			E0136
+29	0x9910dc	0x8f6a38	0	_p_CollisionEvent		none		CollisionEvent *	E0136
+29	0x9910dc	0x8f6a38	1	_p_CollisionEvent		none			E0136
+30	0x9910e0	0x8f6a78	0	_p_STComponentMenuItem		none		STComponentMenuItem *	E0136
+30	0x9910e0	0x8f6a78	1	_p_STComponentMenuItem		none			E0136
+31	0x9910e4	0x8f6ab8	0	_p_NiImage		none		NiImage *	E0136
+31	0x9910e4	0x8f6ab8	1	_p_NiImage		none			E0136
+32	0x9910e8	0x8f6af8	0	_p_FiringChain		none		FiringChain *	E0136
+32	0x9910e8	0x8f6af8	1	_p_FiringChain		none			E0136
+33	0x9910ec	0x8f6b38	0	_p_NiPoint2		none		NiPoint2 *	E0136
+33	0x9910ec	0x8f6b38	1	_p_NiPoint2		none			E0136
+34	0x9910f0	0x8f6b78	0	_p_NiPoint3		none		NiPoint3 *	E0136
+34	0x9910f0	0x8f6b78	1	_p_NiPoint3		none			E0136
+34	0x9910f0	0x8f6b78	2	_p_TGPoint3	0x648470	identity			E0136
+35	0x9910f4	0x8f6bc8	0	_p_TGPoint3		none		TGPoint3 *	E0136
+35	0x9910f4	0x8f6bc8	1	_p_TGPoint3		none			E0136
+36	0x9910f8	0x8f6c08	0	_p_PulseWeaponSystem		none		PulseWeaponSystem *	E0136
+36	0x9910f8	0x8f6c08	1	_p_PulseWeaponSystem		none			E0136
+37	0x9910fc	0x8f6c48	0	_p_PhaserSystem		none		PhaserSystem *	E0136
+37	0x9910fc	0x8f6c48	1	_p_PhaserSystem		none			E0136
+38	0x991100	0x8f6c88	0	_p_WeaponSystem		none		WeaponSystem *	E0136
+38	0x991100	0x8f6c88	1	_p_WeaponSystem		none			E0136
+38	0x991100	0x8f6c88	2	_p_PhaserSystem	0x648480	identity			E0136
+38	0x991100	0x8f6c88	3	_p_PulseWeaponSystem	0x648490	identity			E0136
+38	0x991100	0x8f6c88	4	_p_TorpedoSystem	0x6484a0	identity			E0136
+38	0x991100	0x8f6c88	5	_p_TractorBeamSystem	0x6484b0	identity			E0136
+39	0x991104	0x8f6d18	0	_p_TGSoundRegion		none		TGSoundRegion *	E0136
+39	0x991104	0x8f6d18	1	_p_TGSoundRegion		none			E0136
+40	0x991108	0x8f6d58	0	_p_PoweredSubsystem		none		PoweredSubsystem *	E0136
+40	0x991108	0x8f6d58	1	_p_WeaponSystem	0x6484c0	identity			E0136
+40	0x991108	0x8f6d58	2	_p_PhaserSystem	0x6484d0	identity			E0136
+40	0x991108	0x8f6d58	3	_p_PulseWeaponSystem	0x6484e0	identity			E0136
+40	0x991108	0x8f6d58	4	_p_PoweredSubsystem		none			E0136
+40	0x991108	0x8f6d58	5	_p_TorpedoSystem	0x6484f0	identity			E0136
+40	0x991108	0x8f6d58	6	_p_SensorSubsystem	0x648500	identity			E0136
+40	0x991108	0x8f6d58	7	_p_CloakingSubsystem	0x648510	identity			E0136
+40	0x991108	0x8f6d58	8	_p_RepairSubsystem	0x648520	identity			E0136
+40	0x991108	0x8f6d58	9	_p_ImpulseEngineSubsystem	0x648530	identity			E0136
+40	0x991108	0x8f6d58	10	_p_WarpEngineSubsystem	0x648540	identity			E0136
+40	0x991108	0x8f6d58	11	_p_TractorBeamSystem	0x648550	identity			E0136
+40	0x991108	0x8f6d58	12	_p_ShieldClass	0x648560	identity			E0136
+41	0x99110c	0x8f6e70	0	_p_p_ShipSubsystem		none		ShipSubsystem **	E0136
+41	0x99110c	0x8f6e70	1	_p_p_PhaserBank	0x648570	identity			E0136
+41	0x99110c	0x8f6e70	2	_p_p_TorpedoTube	0x648580	identity			E0136
+41	0x99110c	0x8f6e70	3	_p_p_HullClass	0x648590	identity			E0136
+41	0x99110c	0x8f6e70	4	_p_p_ShieldClass	0x6485a0	identity			E0136
+41	0x99110c	0x8f6e70	5	_p_p_TorpedoSystem	0x6485c0	identity			E0136
+41	0x99110c	0x8f6e70	6	_p_p_PowerSubsystem	0x6485d0	identity			E0136
+41	0x99110c	0x8f6e70	7	_p_p_PoweredSubsystem	0x6485e0	identity			E0136
+41	0x99110c	0x8f6e70	8	_p_p_CloakingSubsystem	0x6485f0	identity			E0136
+41	0x99110c	0x8f6e70	9	_p_p_RepairSubsystem	0x648600	identity			E0136
+41	0x99110c	0x8f6e70	10	_p_p_ImpulseEngineSubsystem	0x648610	identity			E0136
+41	0x99110c	0x8f6e70	11	_p_p_WarpEngineSubsystem	0x648620	identity			E0136
+41	0x99110c	0x8f6e70	12	_p_p_TractorBeamProjector	0x648630	identity			E0136
+41	0x99110c	0x8f6e70	13	_p_p_SensorSubsystem	0x6485b0	identity			E0136
+41	0x99110c	0x8f6e70	14	_p_p_ShipSubsystem		none			E0136
+41	0x99110c	0x8f6e70	15	_p_p_TractorBeamSystem	0x648640	identity			E0136
+41	0x99110c	0x8f6e70	16	_p_p_PulseWeapon	0x648650	identity			E0136
+41	0x99110c	0x8f6e70	17	_p_p_EnergyWeapon	0x648660	identity			E0136
+41	0x99110c	0x8f6e70	18	_p_p_Weapon	0x6486a0	identity			E0136
+41	0x99110c	0x8f6e70	19	_p_p_PulseWeaponSystem	0x648670	identity			E0136
+41	0x99110c	0x8f6e70	20	_p_p_PhaserSystem	0x648680	identity			E0136
+41	0x99110c	0x8f6e70	21	_p_p_WeaponSystem	0x648690	identity			E0136
+42	0x991110	0x8f7040	0	_p_ShipSubsystem		none		ShipSubsystem *	E0136
+42	0x991110	0x8f7040	1	_p_PhaserBank	0x6486b0	identity			E0136
+42	0x991110	0x8f7040	2	_p_TorpedoTube	0x6486c0	identity			E0136
+42	0x991110	0x8f7040	3	_p_HullClass	0x6486d0	identity			E0136
+42	0x991110	0x8f7040	4	_p_ShieldClass	0x6486e0	identity			E0136
+42	0x991110	0x8f7040	5	_p_PoweredSubsystem	0x648720	identity			E0136
+42	0x991110	0x8f7040	6	_p_CloakingSubsystem	0x648730	identity			E0136
+42	0x991110	0x8f7040	7	_p_RepairSubsystem	0x648740	identity			E0136
+42	0x991110	0x8f7040	8	_p_ImpulseEngineSubsystem	0x648750	identity			E0136
+42	0x991110	0x8f7040	9	_p_WarpEngineSubsystem	0x648760	identity			E0136
+42	0x991110	0x8f7040	10	_p_PowerSubsystem	0x648710	identity			E0136
+42	0x991110	0x8f7040	11	_p_TorpedoSystem	0x648700	identity			E0136
+42	0x991110	0x8f7040	12	_p_SensorSubsystem	0x6486f0	identity			E0136
+42	0x991110	0x8f7040	13	_p_ShipSubsystem		none			E0136
+42	0x991110	0x8f7040	14	_p_TractorBeamSystem	0x648780	identity			E0136
+42	0x991110	0x8f7040	15	_p_TractorBeamProjector	0x648770	identity			E0136
+42	0x991110	0x8f7040	16	_p_Weapon	0x6487e0	identity			E0136
+42	0x991110	0x8f7040	17	_p_EnergyWeapon	0x6487a0	identity			E0136
+42	0x991110	0x8f7040	18	_p_PulseWeapon	0x648790	identity			E0136
+42	0x991110	0x8f7040	19	_p_PulseWeaponSystem	0x6487b0	identity			E0136
+42	0x991110	0x8f7040	20	_p_PhaserSystem	0x6487c0	identity			E0136
+42	0x991110	0x8f7040	21	_p_WeaponSystem	0x6487d0	identity			E0136
+43	0x991114	0x8f7210	0	_p_CloakingSubsystem		none		CloakingSubsystem *	E0136
+43	0x991114	0x8f7210	1	_p_CloakingSubsystem		none			E0136
+44	0x991118	0x8f7250	0	_p_RepairSubsystem		none		RepairSubsystem *	E0136
+44	0x991118	0x8f7250	1	_p_RepairSubsystem		none			E0136
+45	0x99111c	0x8f7290	0	_p_TractorBeamSystem		none		TractorBeamSystem *	E0136
+45	0x99111c	0x8f7290	1	_p_TractorBeamSystem		none			E0136
+46	0x991120	0x8f72d0	0	_p_TorpedoSystem		none		TorpedoSystem *	E0136
+46	0x991120	0x8f72d0	1	_p_TorpedoSystem		none			E0136
+47	0x991124	0x8f7310	0	_p_WarpEngineSubsystem		none		WarpEngineSubsystem *	E0136
+47	0x991124	0x8f7310	1	_p_WarpEngineSubsystem		none			E0136
+48	0x991128	0x8f7350	0	_p_ImpulseEngineSubsystem		none		ImpulseEngineSubsystem *	E0136
+48	0x991128	0x8f7350	1	_p_ImpulseEngineSubsystem		none			E0136
+49	0x99112c	0x8f7390	0	_p_SensorSubsystem		none		SensorSubsystem *	E0136
+49	0x99112c	0x8f7390	1	_p_SensorSubsystem		none			E0136
+50	0x991130	0x8f73d0	0	_p_PowerSubsystem		none		PowerSubsystem *	E0136
+50	0x991130	0x8f73d0	1	_p_PowerSubsystem		none			E0136
+51	0x991134	0x8f7410	0	_p_GraphicsModeInfo		none		GraphicsModeInfo *	E0136
+51	0x991134	0x8f7410	1	_p_GraphicsModeInfo		none			E0136
+52	0x991138	0x8f7450	0	_p_TGStringToStringMap		none		TGStringToStringMap *	E0136
+52	0x991138	0x8f7450	1	_p_TGStringToStringMap		none			E0136
+53	0x99113c	0x8f7490	0	_p_TGFrame		none		TGFrame *	E0136
+53	0x99113c	0x8f7490	1	_p_TGFrame		none			E0136
+54	0x991140	0x8f74d0	0	_p_NiTListIterator		none		NiTListIterator *	E0136
+54	0x991140	0x8f74d0	1	_p_NiTListIterator		none			E0136
+55	0x991144	0x8f7510	0	_p_ProximityManager__ObjectIterator		none		ProximityManager::ObjectIterator *	E0136
+55	0x991144	0x8f7510	1	_p_ProximityManager__ObjectIterator		none			E0136
+56	0x991148	0x8f7550	0	_p_ShipClass__MatchIterator		none		ShipClass::MatchIterator *	E0136
+56	0x991148	0x8f7550	1	_p_ShipClass__MatchIterator		none			E0136
+57	0x99114c	0x8f7590	0	_p_NiFrustum		none		NiFrustum *	E0136
+57	0x99114c	0x8f7590	1	_p_NiFrustum		none			E0136
+58	0x991150	0x8f75d0	0	_p_TGRootPane		none		TGRootPane *	E0136
+58	0x991150	0x8f75d0	1	_p_TGRootPane		none			E0136
+59	0x991154	0x8f7610	0	_p_OptimizedSelectTarget		none		OptimizedSelectTarget *	E0136
+59	0x991154	0x8f7610	1	_p_OptimizedSelectTarget		none			E0136
+60	0x991158	0x8f7650	0	_p_SortedRegionMenu		none		SortedRegionMenu *	E0136
+60	0x991158	0x8f7650	1	_p_SortedRegionMenu		none			E0136
+61	0x99115c	0x8f7690	0	_p_PlacementObject		none		PlacementObject *	E0136
+61	0x99115c	0x8f7690	1	_p_PlacementObject		none			E0136
+61	0x99115c	0x8f7690	2	_p_Waypoint	0x6487f0	identity			E0136
+61	0x99115c	0x8f7690	3	_p_LightPlacement	0x648800	identity			E0136
+61	0x99115c	0x8f7690	4	_p_AsteroidFieldPlacement	0x648810	identity			E0136
+62	0x991160	0x8f7708	0	_p_ViewScreenObject		none		ViewScreenObject *	E0136
+62	0x991160	0x8f7708	1	_p_ViewScreenObject		none			E0136
+63	0x991164	0x8f7748	0	_p_TGTemplatedAttrObject		none		TGTemplatedAttrObject *	E0136
+63	0x991164	0x8f7748	1	_p_Waypoint	0x648860	identity			E0136
+63	0x991164	0x8f7748	2	_p_ObjectGroup	0x648870	identity			E0136
+63	0x991164	0x8f7748	3	_p_ShipClass	0x648880	identity			E0136
+63	0x991164	0x8f7748	4	_p_STTargetMenu	0x648890	identity			E0136
+63	0x991164	0x8f7748	5	_p_Episode	0x6488a0	identity			E0136
+63	0x991164	0x8f7748	6	_p_STMenu	0x648b30	identity			E0136
+63	0x991164	0x8f7748	7	_p_AsteroidField	0x6488b0	identity			E0136
+63	0x991164	0x8f7748	8	_p_HullClass	0x6488c0	identity			E0136
+63	0x991164	0x8f7748	9	_p_STTiledIcon	0x6488d0	identity			E0136
+63	0x991164	0x8f7748	10	_p_STMissionLog	0x6488e0	identity			E0136
+63	0x991164	0x8f7748	11	_p_AsteroidFieldPlacement	0x648910	identity			E0136
+63	0x991164	0x8f7748	12	_p_LightPlacement	0x648900	identity			E0136
+63	0x991164	0x8f7748	13	_p_STFillGauge	0x6488f0	identity			E0136
+63	0x991164	0x8f7748	14	_p_ShipDisplay	0x648950	identity			E0136
+63	0x991164	0x8f7748	15	_p_ShieldsDisplay	0x648960	identity			E0136
+63	0x991164	0x8f7748	16	_p_DamageDisplay	0x648970	identity			E0136
+63	0x991164	0x8f7748	17	_p_WeaponsDisplay	0x648980	identity			E0136
+63	0x991164	0x8f7748	18	_p_RadarDisplay	0x648990	identity			E0136
+63	0x991164	0x8f7748	19	_p_EngPowerDisplay	0x6489a0	identity			E0136
+63	0x991164	0x8f7748	20	_p_PulseWeaponSystem	0x648920	identity			E0136
+63	0x991164	0x8f7748	21	_p_PhaserSystem	0x648930	identity			E0136
+63	0x991164	0x8f7748	22	_p_WeaponSystem	0x648940	identity			E0136
+63	0x991164	0x8f7748	23	_p_RadarScope	0x6489b0	identity			E0136
+63	0x991164	0x8f7748	24	_p_PhaserBank	0x6489c0	identity			E0136
+63	0x991164	0x8f7748	25	_p_Weapon	0x648bd0	identity			E0136
+63	0x991164	0x8f7748	26	_p_PulseWeapon	0x6489d0	identity			E0136
+63	0x991164	0x8f7748	27	_p_EnergyWeapon	0x6489e0	identity			E0136
+63	0x991164	0x8f7748	28	_p_BackdropSphere	0x648a00	identity			E0136
+63	0x991164	0x8f7748	29	_p_StarSphere	0x6489f0	identity			E0136
+63	0x991164	0x8f7748	30	_p_TGButton	0x648a10	identity			E0136
+63	0x991164	0x8f7748	31	_p_TGConsole	0x648a20	identity			E0136
+63	0x991164	0x8f7748	32	_p_Torpedo	0x648a30	identity			E0136
+63	0x991164	0x8f7748	33	_p_GridClass	0x648a40	identity			E0136
+63	0x991164	0x8f7748	34	_p_CharacterClass	0x648a50	identity			E0136
+63	0x991164	0x8f7748	35	_p_VarManagerClass	0x648a60	identity			E0136
+63	0x991164	0x8f7748	36	_p_TGUIObject	0x648a80	identity			E0136
+63	0x991164	0x8f7748	37	_p_DamageableObject	0x648a70	identity			E0136
+63	0x991164	0x8f7748	38	_p_SubtitleWindow	0x648b20	identity			E0136
+63	0x991164	0x8f7748	39	_p_CinematicWindow	0x648b10	identity			E0136
+63	0x991164	0x8f7748	40	_p_ModalDialogWindow	0x648b00	identity			E0136
+63	0x991164	0x8f7748	41	_p_BridgeWindow	0x648af0	identity			E0136
+63	0x991164	0x8f7748	42	_p_OptionsWindow	0x648ae0	identity			E0136
+63	0x991164	0x8f7748	43	_p_ConsoleWindow	0x648ad0	identity			E0136
+63	0x991164	0x8f7748	44	_p_TGWindow	0x648ac0	identity			E0136
+63	0x991164	0x8f7748	45	_p_TGFrameWindow	0x648ab0	identity			E0136
+63	0x991164	0x8f7748	46	_p_TGDialogWindow	0x648aa0	identity			E0136
+63	0x991164	0x8f7748	47	_p_STSaveDialog	0x648b50	identity			E0136
+63	0x991164	0x8f7748	48	_p_STFileDialog	0x648b40	identity			E0136
+63	0x991164	0x8f7748	49	_p_TGParagraph	0x648b60	identity			E0136
+63	0x991164	0x8f7748	50	_p_STToggle	0x648b80	identity			E0136
+63	0x991164	0x8f7748	51	_p_STNumericBar	0x648b90	identity			E0136
+63	0x991164	0x8f7748	52	_p_STCharacterMenu	0x648b70	identity			E0136
+63	0x991164	0x8f7748	53	_p_Mission	0x648ba0	identity			E0136
+63	0x991164	0x8f7748	54	_p_TGMusic	0x648bb0	identity			E0136
+63	0x991164	0x8f7748	55	_p_STComponentMenuItem	0x648bc0	identity			E0136
+63	0x991164	0x8f7748	56	_p_TGIcon	0x648fc0	identity			E0136
+63	0x991164	0x8f7748	57	_p_ObjectGroupWithInfo	0x648be0	identity			E0136
+63	0x991164	0x8f7748	58	_p_TGPane	0x649000	identity			E0136
+63	0x991164	0x8f7748	59	_p_STWarpButton	0x648c20	identity			E0136
+63	0x991164	0x8f7748	60	_p_STRoundedButton	0x648c10	identity			E0136
+63	0x991164	0x8f7748	61	_p_STButton	0x648c00	identity			E0136
+63	0x991164	0x8f7748	62	_p_TGTextButton	0x648bf0	identity			E0136
+63	0x991164	0x8f7748	63	_p_Game	0x648a90	identity			E0136
+63	0x991164	0x8f7748	64	_p_Planet	0x649050	identity			E0136
+63	0x991164	0x8f7748	65	_p_MetaNebula	0x648c40	identity			E0136
+63	0x991164	0x8f7748	66	_p_Nebula	0x649060	identity			E0136
+63	0x991164	0x8f7748	67	_p_LightObjectClass	0x648cd0	identity			E0136
+63	0x991164	0x8f7748	68	_p_CameraObjectClass	0x648cc0	identity			E0136
+63	0x991164	0x8f7748	69	_p_ObjectClass	0x648cb0	identity			E0136
+63	0x991164	0x8f7748	70	_p_BaseObjectClass	0x648ca0	identity			E0136
+63	0x991164	0x8f7748	71	_p_SetClass	0x648c90	identity			E0136
+63	0x991164	0x8f7748	72	_p_ChatObjectClass	0x648c80	identity			E0136
+63	0x991164	0x8f7748	73	_p_ZoomCameraObjectClass	0x648c70	identity			E0136
+63	0x991164	0x8f7748	74	_p_BridgeObjectClass	0x648c60	identity			E0136
+63	0x991164	0x8f7748	75	_p_PhysicsObjectClass	0x648c50	identity			E0136
+63	0x991164	0x8f7748	76	_p_TractorBeamProjector	0x648ce0	identity			E0136
+63	0x991164	0x8f7748	77	_p_Backdrop	0x648cf0	identity			E0136
+63	0x991164	0x8f7748	78	_p_STSubPane	0x648d00	identity			E0136
+63	0x991164	0x8f7748	79	_p_ProximityCheck	0x648d10	identity			E0136
+63	0x991164	0x8f7748	80	_p_TGPythonInstanceWrapper	0x648d20	identity			E0136
+63	0x991164	0x8f7748	81	_p_CameraMode	0x648d30	identity			E0136
+63	0x991164	0x8f7748	82	_p_GraphicsMenu	0x648d40	identity			E0136
+63	0x991164	0x8f7748	83	_p_TorpedoTube	0x648d50	identity			E0136
+63	0x991164	0x8f7748	84	_p_MultiplayerGame	0x648d60	identity			E0136
+63	0x991164	0x8f7748	85	_p_TGFrame	0x648d70	identity			E0136
+63	0x991164	0x8f7748	86	_p_EngRepairPane	0x648d80	identity			E0136
+63	0x991164	0x8f7748	87	_p_TGSoundManager	0x648d90	identity			E0136
+63	0x991164	0x8f7748	88	_p_TGActionManager	0x648da0	identity			E0136
+63	0x991164	0x8f7748	89	_p_SpaceCamera	0x648db0	identity			E0136
+63	0x991164	0x8f7748	90	_p_WarpSet	0x648dc0	identity			E0136
+63	0x991164	0x8f7748	91	_p_TGTemplatedAttrObject		none			E0136
+63	0x991164	0x8f7748	92	_p_TGEventHandlerObject	0x648de0	identity			E0136
+63	0x991164	0x8f7748	93	_p_ViewScreenObject	0x648dd0	identity			E0136
+63	0x991164	0x8f7748	94	_p_ScriptObject	0x648df0	identity			E0136
+63	0x991164	0x8f7748	95	_p_PlacementObject	0x648e00	identity			E0136
+63	0x991164	0x8f7748	96	_p_TGPrompt	0x648e10	identity			E0136
+63	0x991164	0x8f7748	97	_p_TGNetwork	0x648e20	identity			E0136
+63	0x991164	0x8f7748	98	_p_TGWinsockNetwork	0x648e30	identity			E0136
+63	0x991164	0x8f7748	99	_p_BridgeSet	0x648e40	identity			E0136
+63	0x991164	0x8f7748	100	_p_TopWindow	0x648e50	identity			E0136
+63	0x991164	0x8f7748	101	_p_MainWindow	0x648e60	identity			E0136
+63	0x991164	0x8f7748	102	_p_TacticalWindow	0x648e70	identity			E0136
+63	0x991164	0x8f7748	103	_p_TacticalControlWindow	0x648e80	identity			E0136
+63	0x991164	0x8f7748	104	_p_MapWindow	0x648e90	identity			E0136
+63	0x991164	0x8f7748	105	_p_STStylizedWindow	0x648ea0	identity			E0136
+63	0x991164	0x8f7748	106	_p_MultiplayerWindow	0x648eb0	identity			E0136
+63	0x991164	0x8f7748	107	_p_STTopLevelMenu	0x648ec0	identity			E0136
+63	0x991164	0x8f7748	108	_p_TGRootPane	0x648ed0	identity			E0136
+63	0x991164	0x8f7748	109	_p_STLoadDialog	0x648ee0	identity			E0136
+63	0x991164	0x8f7748	110	_p_WarpEngineSubsystem	0x648ef0	identity			E0136
+63	0x991164	0x8f7748	111	_p_ImpulseEngineSubsystem	0x648f00	identity			E0136
+63	0x991164	0x8f7748	112	_p_RepairSubsystem	0x648f10	identity			E0136
+63	0x991164	0x8f7748	113	_p_CloakingSubsystem	0x648f20	identity			E0136
+63	0x991164	0x8f7748	114	_p_SensorSubsystem	0x648f30	identity			E0136
+63	0x991164	0x8f7748	115	_p_TorpedoSystem	0x648f40	identity			E0136
+63	0x991164	0x8f7748	116	_p_PowerSubsystem	0x648f50	identity			E0136
+63	0x991164	0x8f7748	117	_p_PoweredSubsystem	0x648f60	identity			E0136
+63	0x991164	0x8f7748	118	_p_ShipSubsystem	0x648f70	identity			E0136
+63	0x991164	0x8f7748	119	_p_TGButtonBase	0x648f80	identity			E0136
+63	0x991164	0x8f7748	120	_p_TractorBeamSystem	0x648f90	identity			E0136
+63	0x991164	0x8f7748	121	_p_SortedRegionMenu	0x648fa0	identity			E0136
+63	0x991164	0x8f7748	122	_p_TacWeaponsCtrl	0x648fb0	identity			E0136
+63	0x991164	0x8f7748	123	_p_STFileMenu	0x648fd0	identity			E0136
+63	0x991164	0x8f7748	124	_p_STComponentMenu	0x648fe0	identity			E0136
+63	0x991164	0x8f7748	125	_p_DamageIcon	0x648ff0	identity			E0136
+63	0x991164	0x8f7748	126	_p_WarpFlash	0x649010	identity			E0136
+63	0x991164	0x8f7748	127	_p_STSubsystemMenu	0x649020	identity			E0136
+63	0x991164	0x8f7748	128	_p_RadarBlip	0x649030	identity			E0136
+63	0x991164	0x8f7748	129	_p_EngPowerCtrl	0x649040	identity			E0136
+63	0x991164	0x8f7748	130	_p_Sun	0x648c30	identity			E0136
+63	0x991164	0x8f7748	131	_p_ShieldClass	0x649070	identity			E0136
+64	0x991168	0x8f81b0	0	_p_TGAttrObject		none		TGAttrObject *	E0136
+64	0x991168	0x8f81b0	1	_p_Waypoint	0x649080	identity			E0136
+64	0x991168	0x8f81b0	2	_p_ObjectGroup	0x649090	identity			E0136
+64	0x991168	0x8f81b0	3	_p_ShipClass	0x6490a0	identity			E0136
+64	0x991168	0x8f81b0	4	_p_STTargetMenu	0x6490b0	identity			E0136
+64	0x991168	0x8f81b0	5	_p_Episode	0x6490c0	identity			E0136
+64	0x991168	0x8f81b0	6	_p_STMenu	0x649350	identity			E0136
+64	0x991168	0x8f81b0	7	_p_AsteroidField	0x6490d0	identity			E0136
+64	0x991168	0x8f81b0	8	_p_HullClass	0x6490e0	identity			E0136
+64	0x991168	0x8f81b0	9	_p_STTiledIcon	0x6490f0	identity			E0136
+64	0x991168	0x8f81b0	10	_p_STMissionLog	0x649100	identity			E0136
+64	0x991168	0x8f81b0	11	_p_AsteroidFieldPlacement	0x649130	identity			E0136
+64	0x991168	0x8f81b0	12	_p_LightPlacement	0x649120	identity			E0136
+64	0x991168	0x8f81b0	13	_p_STFillGauge	0x649110	identity			E0136
+64	0x991168	0x8f81b0	14	_p_ShipDisplay	0x649170	identity			E0136
+64	0x991168	0x8f81b0	15	_p_ShieldsDisplay	0x649180	identity			E0136
+64	0x991168	0x8f81b0	16	_p_DamageDisplay	0x649190	identity			E0136
+64	0x991168	0x8f81b0	17	_p_WeaponsDisplay	0x6491a0	identity			E0136
+64	0x991168	0x8f81b0	18	_p_RadarDisplay	0x6491b0	identity			E0136
+64	0x991168	0x8f81b0	19	_p_EngPowerDisplay	0x6491c0	identity			E0136
+64	0x991168	0x8f81b0	20	_p_PulseWeaponSystem	0x649140	identity			E0136
+64	0x991168	0x8f81b0	21	_p_PhaserSystem	0x649150	identity			E0136
+64	0x991168	0x8f81b0	22	_p_WeaponSystem	0x649160	identity			E0136
+64	0x991168	0x8f81b0	23	_p_RadarScope	0x6491d0	identity			E0136
+64	0x991168	0x8f81b0	24	_p_PhaserBank	0x6491e0	identity			E0136
+64	0x991168	0x8f81b0	25	_p_Weapon	0x6493f0	identity			E0136
+64	0x991168	0x8f81b0	26	_p_PulseWeapon	0x6491f0	identity			E0136
+64	0x991168	0x8f81b0	27	_p_EnergyWeapon	0x649200	identity			E0136
+64	0x991168	0x8f81b0	28	_p_StarSphere	0x649210	identity			E0136
+64	0x991168	0x8f81b0	29	_p_BackdropSphere	0x649220	identity			E0136
+64	0x991168	0x8f81b0	30	_p_TGButton	0x649230	identity			E0136
+64	0x991168	0x8f81b0	31	_p_TGConsole	0x649240	identity			E0136
+64	0x991168	0x8f81b0	32	_p_Torpedo	0x649250	identity			E0136
+64	0x991168	0x8f81b0	33	_p_GridClass	0x649260	identity			E0136
+64	0x991168	0x8f81b0	34	_p_CharacterClass	0x649270	identity			E0136
+64	0x991168	0x8f81b0	35	_p_VarManagerClass	0x649280	identity			E0136
+64	0x991168	0x8f81b0	36	_p_TGUIObject	0x6492a0	identity			E0136
+64	0x991168	0x8f81b0	37	_p_DamageableObject	0x649290	identity			E0136
+64	0x991168	0x8f81b0	38	_p_SubtitleWindow	0x649340	identity			E0136
+64	0x991168	0x8f81b0	39	_p_CinematicWindow	0x649330	identity			E0136
+64	0x991168	0x8f81b0	40	_p_ModalDialogWindow	0x649320	identity			E0136
+64	0x991168	0x8f81b0	41	_p_BridgeWindow	0x649310	identity			E0136
+64	0x991168	0x8f81b0	42	_p_OptionsWindow	0x649300	identity			E0136
+64	0x991168	0x8f81b0	43	_p_ConsoleWindow	0x6492f0	identity			E0136
+64	0x991168	0x8f81b0	44	_p_TGWindow	0x6492d0	identity			E0136
+64	0x991168	0x8f81b0	45	_p_TGFrameWindow	0x6492c0	identity			E0136
+64	0x991168	0x8f81b0	46	_p_TGDialogWindow	0x6492e0	identity			E0136
+64	0x991168	0x8f81b0	47	_p_STSaveDialog	0x649370	identity			E0136
+64	0x991168	0x8f81b0	48	_p_STFileDialog	0x649360	identity			E0136
+64	0x991168	0x8f81b0	49	_p_TGParagraph	0x649380	identity			E0136
+64	0x991168	0x8f81b0	50	_p_STToggle	0x6493a0	identity			E0136
+64	0x991168	0x8f81b0	51	_p_STNumericBar	0x6493b0	identity			E0136
+64	0x991168	0x8f81b0	52	_p_STCharacterMenu	0x649390	identity			E0136
+64	0x991168	0x8f81b0	53	_p_Mission	0x6493c0	identity			E0136
+64	0x991168	0x8f81b0	54	_p_TGMusic	0x6493d0	identity			E0136
+64	0x991168	0x8f81b0	55	_p_STComponentMenuItem	0x6493e0	identity			E0136
+64	0x991168	0x8f81b0	56	_p_TGIcon	0x6497f0	identity			E0136
+64	0x991168	0x8f81b0	57	_p_ObjectGroupWithInfo	0x649400	identity			E0136
+64	0x991168	0x8f81b0	58	_p_TGPane	0x649830	identity			E0136
+64	0x991168	0x8f81b0	59	_p_STWarpButton	0x649440	identity			E0136
+64	0x991168	0x8f81b0	60	_p_STRoundedButton	0x649430	identity			E0136
+64	0x991168	0x8f81b0	61	_p_STButton	0x649420	identity			E0136
+64	0x991168	0x8f81b0	62	_p_TGTextButton	0x649410	identity			E0136
+64	0x991168	0x8f81b0	63	_p_Game	0x6492b0	identity			E0136
+64	0x991168	0x8f81b0	64	_p_Planet	0x649880	identity			E0136
+64	0x991168	0x8f81b0	65	_p_MetaNebula	0x649460	identity			E0136
+64	0x991168	0x8f81b0	66	_p_Nebula	0x649890	identity			E0136
+64	0x991168	0x8f81b0	67	_p_LightObjectClass	0x6494f0	identity			E0136
+64	0x991168	0x8f81b0	68	_p_CameraObjectClass	0x6494e0	identity			E0136
+64	0x991168	0x8f81b0	69	_p_ObjectClass	0x6494d0	identity			E0136
+64	0x991168	0x8f81b0	70	_p_BaseObjectClass	0x6494c0	identity			E0136
+64	0x991168	0x8f81b0	71	_p_SetClass	0x6494b0	identity			E0136
+64	0x991168	0x8f81b0	72	_p_ChatObjectClass	0x6494a0	identity			E0136
+64	0x991168	0x8f81b0	73	_p_ZoomCameraObjectClass	0x649490	identity			E0136
+64	0x991168	0x8f81b0	74	_p_BridgeObjectClass	0x649480	identity			E0136
+64	0x991168	0x8f81b0	75	_p_PhysicsObjectClass	0x649470	identity			E0136
+64	0x991168	0x8f81b0	76	_p_TractorBeamProjector	0x649510	identity			E0136
+64	0x991168	0x8f81b0	77	_p_Backdrop	0x649500	identity			E0136
+64	0x991168	0x8f81b0	78	_p_STSubPane	0x649520	identity			E0136
+64	0x991168	0x8f81b0	79	_p_ProximityCheck	0x649530	identity			E0136
+64	0x991168	0x8f81b0	80	_p_TGPythonInstanceWrapper	0x649540	identity			E0136
+64	0x991168	0x8f81b0	81	_p_CameraMode	0x649550	identity			E0136
+64	0x991168	0x8f81b0	82	_p_GraphicsMenu	0x649560	identity			E0136
+64	0x991168	0x8f81b0	83	_p_TorpedoTube	0x649570	identity			E0136
+64	0x991168	0x8f81b0	84	_p_MultiplayerGame	0x649580	identity			E0136
+64	0x991168	0x8f81b0	85	_p_TGFrame	0x649590	identity			E0136
+64	0x991168	0x8f81b0	86	_p_EngRepairPane	0x6495a0	identity			E0136
+64	0x991168	0x8f81b0	87	_p_TGSoundManager	0x6495b0	identity			E0136
+64	0x991168	0x8f81b0	88	_p_TGActionManager	0x6495c0	identity			E0136
+64	0x991168	0x8f81b0	89	_p_SpaceCamera	0x6495d0	identity			E0136
+64	0x991168	0x8f81b0	90	_p_WarpSet	0x6495e0	identity			E0136
+64	0x991168	0x8f81b0	91	_p_TGAttrObject		none			E0136
+64	0x991168	0x8f81b0	92	_p_TGTemplatedAttrObject	0x649610	identity			E0136
+64	0x991168	0x8f81b0	93	_p_ViewScreenObject	0x6495f0	identity			E0136
+64	0x991168	0x8f81b0	94	_p_TGEventHandlerObject	0x649600	identity			E0136
+64	0x991168	0x8f81b0	95	_p_ScriptObject	0x649620	identity			E0136
+64	0x991168	0x8f81b0	96	_p_PlacementObject	0x649630	identity			E0136
+64	0x991168	0x8f81b0	97	_p_TGPrompt	0x649640	identity			E0136
+64	0x991168	0x8f81b0	98	_p_TGNetwork	0x649650	identity			E0136
+64	0x991168	0x8f81b0	99	_p_TGWinsockNetwork	0x649660	identity			E0136
+64	0x991168	0x8f81b0	100	_p_BridgeSet	0x649670	identity			E0136
+64	0x991168	0x8f81b0	101	_p_TopWindow	0x649680	identity			E0136
+64	0x991168	0x8f81b0	102	_p_MainWindow	0x649690	identity			E0136
+64	0x991168	0x8f81b0	103	_p_TacticalWindow	0x6496a0	identity			E0136
+64	0x991168	0x8f81b0	104	_p_TacticalControlWindow	0x6496b0	identity			E0136
+64	0x991168	0x8f81b0	105	_p_MapWindow	0x6496c0	identity			E0136
+64	0x991168	0x8f81b0	106	_p_STStylizedWindow	0x6496d0	identity			E0136
+64	0x991168	0x8f81b0	107	_p_MultiplayerWindow	0x6496e0	identity			E0136
+64	0x991168	0x8f81b0	108	_p_STTopLevelMenu	0x6496f0	identity			E0136
+64	0x991168	0x8f81b0	109	_p_TGRootPane	0x649700	identity			E0136
+64	0x991168	0x8f81b0	110	_p_STLoadDialog	0x649710	identity			E0136
+64	0x991168	0x8f81b0	111	_p_WarpEngineSubsystem	0x649720	identity			E0136
+64	0x991168	0x8f81b0	112	_p_ImpulseEngineSubsystem	0x649730	identity			E0136
+64	0x991168	0x8f81b0	113	_p_RepairSubsystem	0x649740	identity			E0136
+64	0x991168	0x8f81b0	114	_p_CloakingSubsystem	0x649750	identity			E0136
+64	0x991168	0x8f81b0	115	_p_SensorSubsystem	0x649760	identity			E0136
+64	0x991168	0x8f81b0	116	_p_TorpedoSystem	0x649770	identity			E0136
+64	0x991168	0x8f81b0	117	_p_PowerSubsystem	0x649780	identity			E0136
+64	0x991168	0x8f81b0	118	_p_PoweredSubsystem	0x649790	identity			E0136
+64	0x991168	0x8f81b0	119	_p_ShipSubsystem	0x6497a0	identity			E0136
+64	0x991168	0x8f81b0	120	_p_TGButtonBase	0x6497b0	identity			E0136
+64	0x991168	0x8f81b0	121	_p_TractorBeamSystem	0x6497c0	identity			E0136
+64	0x991168	0x8f81b0	122	_p_SortedRegionMenu	0x6497d0	identity			E0136
+64	0x991168	0x8f81b0	123	_p_TacWeaponsCtrl	0x6497e0	identity			E0136
+64	0x991168	0x8f81b0	124	_p_STFileMenu	0x649800	identity			E0136
+64	0x991168	0x8f81b0	125	_p_STComponentMenu	0x649810	identity			E0136
+64	0x991168	0x8f81b0	126	_p_DamageIcon	0x649820	identity			E0136
+64	0x991168	0x8f81b0	127	_p_WarpFlash	0x649840	identity			E0136
+64	0x991168	0x8f81b0	128	_p_STSubsystemMenu	0x649850	identity			E0136
+64	0x991168	0x8f81b0	129	_p_RadarBlip	0x649860	identity			E0136
+64	0x991168	0x8f81b0	130	_p_EngPowerCtrl	0x649870	identity			E0136
+64	0x991168	0x8f81b0	131	_p_Sun	0x649450	identity			E0136
+64	0x991168	0x8f81b0	132	_p_ShieldClass	0x6498a0	identity			E0136
+65	0x99116c	0x8f8c28	0	_p_NiAVObject		none		NiAVObject *	E0136
+65	0x99116c	0x8f8c28	1	_p_NiAVObject		none			E0136
+66	0x991170	0x8f8c68	0	_p_TGEventHandlerObject		none		TGEventHandlerObject *	E0136
+66	0x991170	0x8f8c68	1	_p_Waypoint	0x6498b0	identity			E0136
+66	0x991170	0x8f8c68	2	_p_ObjectGroup	0x6498c0	identity			E0136
+66	0x991170	0x8f8c68	3	_p_ShipClass	0x6498d0	identity			E0136
+66	0x991170	0x8f8c68	4	_p_STTargetMenu	0x6498e0	identity			E0136
+66	0x991170	0x8f8c68	5	_p_Episode	0x6498f0	identity			E0136
+66	0x991170	0x8f8c68	6	_p_STMenu	0x649b80	identity			E0136
+66	0x991170	0x8f8c68	7	_p_AsteroidField	0x649900	identity			E0136
+66	0x991170	0x8f8c68	8	_p_HullClass	0x649910	identity			E0136
+66	0x991170	0x8f8c68	9	_p_STTiledIcon	0x649920	identity			E0136
+66	0x991170	0x8f8c68	10	_p_STMissionLog	0x649930	identity			E0136
+66	0x991170	0x8f8c68	11	_p_AsteroidFieldPlacement	0x649960	identity			E0136
+66	0x991170	0x8f8c68	12	_p_LightPlacement	0x649950	identity			E0136
+66	0x991170	0x8f8c68	13	_p_STFillGauge	0x649940	identity			E0136
+66	0x991170	0x8f8c68	14	_p_ShipDisplay	0x6499a0	identity			E0136
+66	0x991170	0x8f8c68	15	_p_ShieldsDisplay	0x6499b0	identity			E0136
+66	0x991170	0x8f8c68	16	_p_DamageDisplay	0x6499c0	identity			E0136
+66	0x991170	0x8f8c68	17	_p_WeaponsDisplay	0x6499d0	identity			E0136
+66	0x991170	0x8f8c68	18	_p_RadarDisplay	0x6499e0	identity			E0136
+66	0x991170	0x8f8c68	19	_p_EngPowerDisplay	0x6499f0	identity			E0136
+66	0x991170	0x8f8c68	20	_p_PulseWeaponSystem	0x649970	identity			E0136
+66	0x991170	0x8f8c68	21	_p_PhaserSystem	0x649980	identity			E0136
+66	0x991170	0x8f8c68	22	_p_WeaponSystem	0x649990	identity			E0136
+66	0x991170	0x8f8c68	23	_p_RadarScope	0x649a00	identity			E0136
+66	0x991170	0x8f8c68	24	_p_PhaserBank	0x649a10	identity			E0136
+66	0x991170	0x8f8c68	25	_p_Weapon	0x649c20	identity			E0136
+66	0x991170	0x8f8c68	26	_p_PulseWeapon	0x649a20	identity			E0136
+66	0x991170	0x8f8c68	27	_p_EnergyWeapon	0x649a30	identity			E0136
+66	0x991170	0x8f8c68	28	_p_BackdropSphere	0x649a40	identity			E0136
+66	0x991170	0x8f8c68	29	_p_StarSphere	0x649a50	identity			E0136
+66	0x991170	0x8f8c68	30	_p_TGButton	0x649a60	identity			E0136
+66	0x991170	0x8f8c68	31	_p_TGConsole	0x649a70	identity			E0136
+66	0x991170	0x8f8c68	32	_p_Torpedo	0x649a80	identity			E0136
+66	0x991170	0x8f8c68	33	_p_GridClass	0x649a90	identity			E0136
+66	0x991170	0x8f8c68	34	_p_CharacterClass	0x649aa0	identity			E0136
+66	0x991170	0x8f8c68	35	_p_VarManagerClass	0x649ab0	identity			E0136
+66	0x991170	0x8f8c68	36	_p_TGUIObject	0x649ad0	identity			E0136
+66	0x991170	0x8f8c68	37	_p_DamageableObject	0x649ac0	identity			E0136
+66	0x991170	0x8f8c68	38	_p_SubtitleWindow	0x649b70	identity			E0136
+66	0x991170	0x8f8c68	39	_p_CinematicWindow	0x649b60	identity			E0136
+66	0x991170	0x8f8c68	40	_p_ModalDialogWindow	0x649b50	identity			E0136
+66	0x991170	0x8f8c68	41	_p_BridgeWindow	0x649b40	identity			E0136
+66	0x991170	0x8f8c68	42	_p_OptionsWindow	0x649b30	identity			E0136
+66	0x991170	0x8f8c68	43	_p_ConsoleWindow	0x649b20	identity			E0136
+66	0x991170	0x8f8c68	44	_p_TGWindow	0x649b10	identity			E0136
+66	0x991170	0x8f8c68	45	_p_TGFrameWindow	0x649b00	identity			E0136
+66	0x991170	0x8f8c68	46	_p_TGDialogWindow	0x649af0	identity			E0136
+66	0x991170	0x8f8c68	47	_p_STSaveDialog	0x649ba0	identity			E0136
+66	0x991170	0x8f8c68	48	_p_STFileDialog	0x649b90	identity			E0136
+66	0x991170	0x8f8c68	49	_p_TGParagraph	0x649bb0	identity			E0136
+66	0x991170	0x8f8c68	50	_p_STToggle	0x649bd0	identity			E0136
+66	0x991170	0x8f8c68	51	_p_STNumericBar	0x649be0	identity			E0136
+66	0x991170	0x8f8c68	52	_p_STCharacterMenu	0x649bc0	identity			E0136
+66	0x991170	0x8f8c68	53	_p_Mission	0x649bf0	identity			E0136
+66	0x991170	0x8f8c68	54	_p_TGMusic	0x649c00	identity			E0136
+66	0x991170	0x8f8c68	55	_p_STComponentMenuItem	0x649c10	identity			E0136
+66	0x991170	0x8f8c68	56	_p_TGIcon	0x64a000	identity			E0136
+66	0x991170	0x8f8c68	57	_p_ObjectGroupWithInfo	0x649c30	identity			E0136
+66	0x991170	0x8f8c68	58	_p_TGPane	0x64a040	identity			E0136
+66	0x991170	0x8f8c68	59	_p_STWarpButton	0x649c70	identity			E0136
+66	0x991170	0x8f8c68	60	_p_STRoundedButton	0x649c60	identity			E0136
+66	0x991170	0x8f8c68	61	_p_STButton	0x649c50	identity			E0136
+66	0x991170	0x8f8c68	62	_p_TGTextButton	0x649c40	identity			E0136
+66	0x991170	0x8f8c68	63	_p_Game	0x649ae0	identity			E0136
+66	0x991170	0x8f8c68	64	_p_Planet	0x64a090	identity			E0136
+66	0x991170	0x8f8c68	65	_p_MetaNebula	0x649c90	identity			E0136
+66	0x991170	0x8f8c68	66	_p_Nebula	0x64a0a0	identity			E0136
+66	0x991170	0x8f8c68	67	_p_LightObjectClass	0x649d20	identity			E0136
+66	0x991170	0x8f8c68	68	_p_CameraObjectClass	0x649d10	identity			E0136
+66	0x991170	0x8f8c68	69	_p_ObjectClass	0x649d00	identity			E0136
+66	0x991170	0x8f8c68	70	_p_BaseObjectClass	0x649cf0	identity			E0136
+66	0x991170	0x8f8c68	71	_p_SetClass	0x649ce0	identity			E0136
+66	0x991170	0x8f8c68	72	_p_ChatObjectClass	0x649cd0	identity			E0136
+66	0x991170	0x8f8c68	73	_p_ZoomCameraObjectClass	0x649cc0	identity			E0136
+66	0x991170	0x8f8c68	74	_p_BridgeObjectClass	0x649cb0	identity			E0136
+66	0x991170	0x8f8c68	75	_p_PhysicsObjectClass	0x649ca0	identity			E0136
+66	0x991170	0x8f8c68	76	_p_TractorBeamProjector	0x649d30	identity			E0136
+66	0x991170	0x8f8c68	77	_p_Backdrop	0x649d40	identity			E0136
+66	0x991170	0x8f8c68	78	_p_STSubPane	0x649d50	identity			E0136
+66	0x991170	0x8f8c68	79	_p_ProximityCheck	0x649d60	identity			E0136
+66	0x991170	0x8f8c68	80	_p_TGPythonInstanceWrapper	0x649d70	identity			E0136
+66	0x991170	0x8f8c68	81	_p_CameraMode	0x649d80	identity			E0136
+66	0x991170	0x8f8c68	82	_p_GraphicsMenu	0x649d90	identity			E0136
+66	0x991170	0x8f8c68	83	_p_TorpedoTube	0x649da0	identity			E0136
+66	0x991170	0x8f8c68	84	_p_MultiplayerGame	0x649db0	identity			E0136
+66	0x991170	0x8f8c68	85	_p_TGFrame	0x649dc0	identity			E0136
+66	0x991170	0x8f8c68	86	_p_EngRepairPane	0x649dd0	identity			E0136
+66	0x991170	0x8f8c68	87	_p_TGSoundManager	0x649de0	identity			E0136
+66	0x991170	0x8f8c68	88	_p_TGActionManager	0x649df0	identity			E0136
+66	0x991170	0x8f8c68	89	_p_SpaceCamera	0x649e00	identity			E0136
+66	0x991170	0x8f8c68	90	_p_WarpSet	0x649e10	identity			E0136
+66	0x991170	0x8f8c68	91	_p_TGEventHandlerObject		none			E0136
+66	0x991170	0x8f8c68	92	_p_ViewScreenObject	0x649e20	identity			E0136
+66	0x991170	0x8f8c68	93	_p_ScriptObject	0x649e30	identity			E0136
+66	0x991170	0x8f8c68	94	_p_PlacementObject	0x649e40	identity			E0136
+66	0x991170	0x8f8c68	95	_p_TGPrompt	0x649e50	identity			E0136
+66	0x991170	0x8f8c68	96	_p_TGNetwork	0x649e60	identity			E0136
+66	0x991170	0x8f8c68	97	_p_TGWinsockNetwork	0x649e70	identity			E0136
+66	0x991170	0x8f8c68	98	_p_BridgeSet	0x649e80	identity			E0136
+66	0x991170	0x8f8c68	99	_p_TopWindow	0x649e90	identity			E0136
+66	0x991170	0x8f8c68	100	_p_MainWindow	0x649ea0	identity			E0136
+66	0x991170	0x8f8c68	101	_p_TacticalWindow	0x649eb0	identity			E0136
+66	0x991170	0x8f8c68	102	_p_TacticalControlWindow	0x649ec0	identity			E0136
+66	0x991170	0x8f8c68	103	_p_MapWindow	0x649ed0	identity			E0136
+66	0x991170	0x8f8c68	104	_p_STStylizedWindow	0x649ee0	identity			E0136
+66	0x991170	0x8f8c68	105	_p_MultiplayerWindow	0x649ef0	identity			E0136
+66	0x991170	0x8f8c68	106	_p_STTopLevelMenu	0x649f00	identity			E0136
+66	0x991170	0x8f8c68	107	_p_TGRootPane	0x649f10	identity			E0136
+66	0x991170	0x8f8c68	108	_p_STLoadDialog	0x649f20	identity			E0136
+66	0x991170	0x8f8c68	109	_p_TractorBeamSystem	0x649f30	identity			E0136
+66	0x991170	0x8f8c68	110	_p_WarpEngineSubsystem	0x649f40	identity			E0136
+66	0x991170	0x8f8c68	111	_p_ImpulseEngineSubsystem	0x649f50	identity			E0136
+66	0x991170	0x8f8c68	112	_p_RepairSubsystem	0x649f60	identity			E0136
+66	0x991170	0x8f8c68	113	_p_CloakingSubsystem	0x649f70	identity			E0136
+66	0x991170	0x8f8c68	114	_p_SensorSubsystem	0x649f80	identity			E0136
+66	0x991170	0x8f8c68	115	_p_TorpedoSystem	0x649f90	identity			E0136
+66	0x991170	0x8f8c68	116	_p_PowerSubsystem	0x649fa0	identity			E0136
+66	0x991170	0x8f8c68	117	_p_PoweredSubsystem	0x649fb0	identity			E0136
+66	0x991170	0x8f8c68	118	_p_ShipSubsystem	0x649fc0	identity			E0136
+66	0x991170	0x8f8c68	119	_p_TGButtonBase	0x649fd0	identity			E0136
+66	0x991170	0x8f8c68	120	_p_SortedRegionMenu	0x649fe0	identity			E0136
+66	0x991170	0x8f8c68	121	_p_TacWeaponsCtrl	0x649ff0	identity			E0136
+66	0x991170	0x8f8c68	122	_p_STFileMenu	0x64a010	identity			E0136
+66	0x991170	0x8f8c68	123	_p_STComponentMenu	0x64a020	identity			E0136
+66	0x991170	0x8f8c68	124	_p_DamageIcon	0x64a030	identity			E0136
+66	0x991170	0x8f8c68	125	_p_WarpFlash	0x64a050	identity			E0136
+66	0x991170	0x8f8c68	126	_p_STSubsystemMenu	0x64a060	identity			E0136
+66	0x991170	0x8f8c68	127	_p_RadarBlip	0x64a070	identity			E0136
+66	0x991170	0x8f8c68	128	_p_EngPowerCtrl	0x64a080	identity			E0136
+66	0x991170	0x8f8c68	129	_p_Sun	0x649c80	identity			E0136
+66	0x991170	0x8f8c68	130	_p_ShieldClass	0x64a0b0	identity			E0136
+67	0x991174	0x8f96b8	0	_p_ScriptObject		none		ScriptObject *	E0136
+67	0x991174	0x8f96b8	1	_p_MultiplayerGame	0x648820	identity			E0136
+67	0x991174	0x8f96b8	2	_p_Episode	0x648830	identity			E0136
+67	0x991174	0x8f96b8	3	_p_ScriptObject		none			E0136
+67	0x991174	0x8f96b8	4	_p_Game	0x648840	identity			E0136
+67	0x991174	0x8f96b8	5	_p_Mission	0x648850	identity			E0136
+68	0x991178	0x8f9748	0	_p_DamageableObject		none		DamageableObject *	E0136
+68	0x991178	0x8f9748	1	_p_ShipClass	0x64a0c0	identity			E0136
+68	0x991178	0x8f9748	2	_p_DamageableObject		none			E0136
+69	0x99117c	0x8f9798	0	_p_p_PyObject		none		PyObject **	E0136
+69	0x99117c	0x8f9798	1	_p_p_PyObject		none			E0136
+70	0x991180	0x8f97d8	0	_p_PyObject		none		PyObject *	E0136
+70	0x991180	0x8f97d8	1	_p_PyObject		none			E0136
+71	0x991184	0x8f9818	0	_p_TGObject		none		TGObject *	E0136
+71	0x991184	0x8f9818	1	_p_STTiledIcon	0x64a0d0	identity			E0136
+71	0x991184	0x8f9818	2	_p_TGIEvent	0x64a0e0	identity			E0136
+71	0x991184	0x8f9818	3	_p_WarpSequence	0x64a0f0	identity			E0136
+71	0x991184	0x8f9818	4	_p_TGSequence	0x64a100	identity			E0136
+71	0x991184	0x8f9818	5	_p_TGEvent	0x64a110	identity			E0136
+71	0x991184	0x8f9818	6	_p_BlinkingLightProperty	0x64a2d0	identity			E0136
+71	0x991184	0x8f9818	7	_p_ExplodeEmitterProperty	0x64a2c0	identity			E0136
+71	0x991184	0x8f9818	8	_p_SparkEmitterProperty	0x64a2b0	identity			E0136
+71	0x991184	0x8f9818	9	_p_SmokeEmitterProperty	0x64a2a0	identity			E0136
+71	0x991184	0x8f9818	10	_p_EffectEmitterProperty	0x64a290	identity			E0136
+71	0x991184	0x8f9818	11	_p_EngineProperty	0x64a280	identity			E0136
+71	0x991184	0x8f9818	12	_p_WarpEngineProperty	0x64a270	identity			E0136
+71	0x991184	0x8f9818	13	_p_ImpulseEngineProperty	0x64a260	identity			E0136
+71	0x991184	0x8f9818	14	_p_PowerProperty	0x64a250	identity			E0136
+71	0x991184	0x8f9818	15	_p_ShipProperty	0x64a240	identity			E0136
+71	0x991184	0x8f9818	16	_p_RepairSubsystemProperty	0x64a230	identity			E0136
+71	0x991184	0x8f9818	17	_p_CloakingSubsystemProperty	0x64a220	identity			E0136
+71	0x991184	0x8f9818	18	_p_SensorProperty	0x64a210	identity			E0136
+71	0x991184	0x8f9818	19	_p_HullProperty	0x64a200	identity			E0136
+71	0x991184	0x8f9818	20	_p_ShieldProperty	0x64a1f0	identity			E0136
+71	0x991184	0x8f9818	21	_p_EngineGlowProperty	0x64a1e0	identity			E0136
+71	0x991184	0x8f9818	22	_p_TorpedoSystemProperty	0x64a1d0	identity			E0136
+71	0x991184	0x8f9818	23	_p_TorpedoTubeProperty	0x64a1c0	identity			E0136
+71	0x991184	0x8f9818	24	_p_TractorBeamProperty	0x64a1b0	identity			E0136
+71	0x991184	0x8f9818	25	_p_PulseWeaponProperty	0x64a1a0	identity			E0136
+71	0x991184	0x8f9818	26	_p_TGModelProperty	0x64a120	identity			E0136
+71	0x991184	0x8f9818	27	_p_PositionOrientationProperty	0x64a130	identity			E0136
+71	0x991184	0x8f9818	28	_p_SubsystemProperty	0x64a140	identity			E0136
+71	0x991184	0x8f9818	29	_p_PoweredSubsystemProperty	0x64a150	identity			E0136
+71	0x991184	0x8f9818	30	_p_WeaponSystemProperty	0x64a160	identity			E0136
+71	0x991184	0x8f9818	31	_p_WeaponProperty	0x64a170	identity			E0136
+71	0x991184	0x8f9818	32	_p_EnergyWeaponProperty	0x64a180	identity			E0136
+71	0x991184	0x8f9818	33	_p_PhaserProperty	0x64a190	identity			E0136
+71	0x991184	0x8f9818	34	_p_ObjectEmitterProperty	0x64a2e0	identity			E0136
+71	0x991184	0x8f9818	35	_p_TorpedoTube	0x64a2f0	identity			E0136
+71	0x991184	0x8f9818	36	_p_TGRootPane	0x64a310	identity			E0136
+71	0x991184	0x8f9818	37	_p_STComponentMenuItem	0x64a320	identity			E0136
+71	0x991184	0x8f9818	38	_p_TGNetwork	0x64a330	identity			E0136
+71	0x991184	0x8f9818	39	_p_TGWinsockNetwork	0x64a340	identity			E0136
+71	0x991184	0x8f9818	40	_p_TGBoolEvent	0x64a350	identity			E0136
+71	0x991184	0x8f9818	41	_p_STTargetMenu	0x64a360	identity			E0136
+71	0x991184	0x8f9818	42	_p_TGPane	0x64ad00	identity			E0136
+71	0x991184	0x8f9818	43	_p_CharacterClass	0x64a370	identity			E0136
+71	0x991184	0x8f9818	44	_p_VarManagerClass	0x64a380	identity			E0136
+71	0x991184	0x8f9818	45	_p_TGParagraph	0x64a3a0	identity			E0136
+71	0x991184	0x8f9818	46	_p_TGPythonInstanceWrapper	0x64a3b0	identity			E0136
+71	0x991184	0x8f9818	47	_p_ObjectExplodingEvent	0x64a3c0	identity			E0136
+71	0x991184	0x8f9818	48	_p_StartFiringEvent	0x64a3d0	identity			E0136
+71	0x991184	0x8f9818	49	_p_TGStringEvent	0x64a3e0	identity			E0136
+71	0x991184	0x8f9818	50	_p_Mission	0x64a3f0	identity			E0136
+71	0x991184	0x8f9818	51	_p_TGMouseEvent	0x64a400	identity			E0136
+71	0x991184	0x8f9818	52	_p_TGMessageEvent	0x64a410	identity			E0136
+71	0x991184	0x8f9818	53	_p_STToggle	0x64a420	identity			E0136
+71	0x991184	0x8f9818	54	_p_BridgeEffectAction	0x64a430	identity			E0136
+71	0x991184	0x8f9818	55	_p_EffectAction	0x64a440	identity			E0136
+71	0x991184	0x8f9818	56	_p_CharacterAction	0x64a450	identity			E0136
+71	0x991184	0x8f9818	57	_p_TGScriptAction	0x64a460	identity			E0136
+71	0x991184	0x8f9818	58	_p_TGTimedAction	0x64a470	identity			E0136
+71	0x991184	0x8f9818	59	_p_TGSoundAction	0x64a480	identity			E0136
+71	0x991184	0x8f9818	60	_p_TGConditionAction	0x64a490	identity			E0136
+71	0x991184	0x8f9818	61	_p_TGCreditAction	0x64a4a0	identity			E0136
+71	0x991184	0x8f9818	62	_p_LoadMissionAction	0x64a4b0	identity			E0136
+71	0x991184	0x8f9818	63	_p_ChangeRenderedSetAction	0x64a4c0	identity			E0136
+71	0x991184	0x8f9818	64	_p_STFileMenu	0x64a4d0	identity			E0136
+71	0x991184	0x8f9818	65	_p_ViewScreenObject	0x64a4e0	identity			E0136
+71	0x991184	0x8f9818	66	_p_TGAttrObject	0x64a4f0	identity			E0136
+71	0x991184	0x8f9818	67	_p_TGTemplatedAttrObject	0x64a500	identity			E0136
+71	0x991184	0x8f9818	68	_p_TGEventHandlerObject	0x64a510	identity			E0136
+71	0x991184	0x8f9818	69	_p_ScriptObject	0x64a520	identity			E0136
+71	0x991184	0x8f9818	70	_p_PlacementObject	0x64a530	identity			E0136
+71	0x991184	0x8f9818	71	_p_RadarBlip	0x64a540	identity			E0136
+71	0x991184	0x8f9818	72	_p_STCharacterMenu	0x64a550	identity			E0136
+71	0x991184	0x8f9818	73	_p_GraphicsMenu	0x64a560	identity			E0136
+71	0x991184	0x8f9818	74	_p_ObjectGroupWithInfo	0x64a570	identity			E0136
+71	0x991184	0x8f9818	75	_p_Planet	0x64a390	identity			E0136
+71	0x991184	0x8f9818	76	_p_ShipClass	0x64a580	identity			E0136
+71	0x991184	0x8f9818	77	_p_SortedRegionMenu	0x64a590	identity			E0136
+71	0x991184	0x8f9818	78	_p_WarpFlash	0x64a5a0	identity			E0136
+71	0x991184	0x8f9818	79	_p_WeaponSystem	0x64a5d0	identity			E0136
+71	0x991184	0x8f9818	80	_p_PhaserSystem	0x64a5c0	identity			E0136
+71	0x991184	0x8f9818	81	_p_PulseWeaponSystem	0x64a5b0	identity			E0136
+71	0x991184	0x8f9818	82	_p_STSubsystemMenu	0x64a5e0	identity			E0136
+71	0x991184	0x8f9818	83	_p_SortServerListEvent	0x64a630	identity			E0136
+71	0x991184	0x8f9818	84	_p_ServerListEvent	0x64a620	identity			E0136
+71	0x991184	0x8f9818	85	_p_TGFloatEvent	0x64a600	identity			E0136
+71	0x991184	0x8f9818	86	_p_WeaponHitEvent	0x64a5f0	identity			E0136
+71	0x991184	0x8f9818	87	_p_GridClass	0x64a610	identity			E0136
+71	0x991184	0x8f9818	88	_p_ObjectGroup	0x64a640	identity			E0136
+71	0x991184	0x8f9818	89	_p_LoadEpisodeAction	0x64a690	identity			E0136
+71	0x991184	0x8f9818	90	_p_TGMovieAction	0x64a680	identity			E0136
+71	0x991184	0x8f9818	91	_p_TGAnimAction	0x64a670	identity			E0136
+71	0x991184	0x8f9818	92	_p_TGAction	0x64a660	identity			E0136
+71	0x991184	0x8f9818	93	_p_SubtitleAction	0x64a650	identity			E0136
+71	0x991184	0x8f9818	94	_p_STTopLevelMenu	0x64a6a0	identity			E0136
+71	0x991184	0x8f9818	95	_p_Game	0x64a990	identity			E0136
+71	0x991184	0x8f9818	96	_p_TGUIObject	0x64a6c0	identity			E0136
+71	0x991184	0x8f9818	97	_p_DamageableObject	0x64a6b0	identity			E0136
+71	0x991184	0x8f9818	98	_p_TGObject		none			E0136
+71	0x991184	0x8f9818	99	_p_SpaceCamera	0x64a6d0	identity			E0136
+71	0x991184	0x8f9818	100	_p_STWarpButton	0x64a710	identity			E0136
+71	0x991184	0x8f9818	101	_p_TGTextButton	0x64a700	identity			E0136
+71	0x991184	0x8f9818	102	_p_STButton	0x64a6f0	identity			E0136
+71	0x991184	0x8f9818	103	_p_STRoundedButton	0x64a6e0	identity			E0136
+71	0x991184	0x8f9818	104	_p_EngPowerDisplay	0x64a770	identity			E0136
+71	0x991184	0x8f9818	105	_p_RadarDisplay	0x64a760	identity			E0136
+71	0x991184	0x8f9818	106	_p_WeaponsDisplay	0x64a750	identity			E0136
+71	0x991184	0x8f9818	107	_p_DamageDisplay	0x64a740	identity			E0136
+71	0x991184	0x8f9818	108	_p_ShieldsDisplay	0x64a730	identity			E0136
+71	0x991184	0x8f9818	109	_p_ShipDisplay	0x64a720	identity			E0136
+71	0x991184	0x8f9818	110	_p_StarSphere	0x64a7a0	identity			E0136
+71	0x991184	0x8f9818	111	_p_BackdropSphere	0x64a790	identity			E0136
+71	0x991184	0x8f9818	112	_p_TacWeaponsCtrl	0x64a7c0	identity			E0136
+71	0x991184	0x8f9818	113	_p_Torpedo	0x64a7b0	identity			E0136
+71	0x991184	0x8f9818	114	_p_TGFrame	0x64a7d0	identity			E0136
+71	0x991184	0x8f9818	115	_p_ShipSubsystem	0x64a870	identity			E0136
+71	0x991184	0x8f9818	116	_p_PoweredSubsystem	0x64a860	identity			E0136
+71	0x991184	0x8f9818	117	_p_PowerSubsystem	0x64a850	identity			E0136
+71	0x991184	0x8f9818	118	_p_TorpedoSystem	0x64a840	identity			E0136
+71	0x991184	0x8f9818	119	_p_SensorSubsystem	0x64a830	identity			E0136
+71	0x991184	0x8f9818	120	_p_CloakingSubsystem	0x64a820	identity			E0136
+71	0x991184	0x8f9818	121	_p_RepairSubsystem	0x64a810	identity			E0136
+71	0x991184	0x8f9818	122	_p_ImpulseEngineSubsystem	0x64a800	identity			E0136
+71	0x991184	0x8f9818	123	_p_WarpEngineSubsystem	0x64a7f0	identity			E0136
+71	0x991184	0x8f9818	124	_p_TractorBeamSystem	0x64a7e0	identity			E0136
+71	0x991184	0x8f9818	125	_p_TGPrompt	0x64a880	identity			E0136
+71	0x991184	0x8f9818	126	_p_TractorBeamProjector	0x64a890	identity			E0136
+71	0x991184	0x8f9818	127	_p_TGCondition	0x64a8a0	identity			E0136
+71	0x991184	0x8f9818	128	_p_MultiplayerGame	0x64a8d0	identity			E0136
+71	0x991184	0x8f9818	129	_p_AsteroidFieldPlacement	0x64a8c0	identity			E0136
+71	0x991184	0x8f9818	130	_p_LightPlacement	0x64a8b0	identity			E0136
+71	0x991184	0x8f9818	131	_p_ShieldClass	0x64a8e0	identity			E0136
+71	0x991184	0x8f9818	132	_p_TGAnimPosition	0x64a8f0	identity			E0136
+71	0x991184	0x8f9818	133	_p_TGIntEvent	0x64a920	identity			E0136
+71	0x991184	0x8f9818	134	_p_TGShortEvent	0x64a910	identity			E0136
+71	0x991184	0x8f9818	135	_p_WaypointEvent	0x64a900	identity			E0136
+71	0x991184	0x8f9818	136	_p_CameraMode	0x64a930	identity			E0136
+71	0x991184	0x8f9818	137	_p_SetFloatVarEvent	0x64a970	identity			E0136
+71	0x991184	0x8f9818	138	_p_TGPlayerEvent	0x64a960	identity			E0136
+71	0x991184	0x8f9818	139	_p_TGCharEvent	0x64a950	identity			E0136
+71	0x991184	0x8f9818	140	_p_Waypoint	0x64a980	identity			E0136
+71	0x991184	0x8f9818	141	_p_TGButton	0x64a9a0	identity			E0136
+71	0x991184	0x8f9818	142	_p_STLoadDialog	0x64a9b0	identity			E0136
+71	0x991184	0x8f9818	143	_p_ProximityEvent	0x64a9c0	identity			E0136
+71	0x991184	0x8f9818	144	_p_STMenu	0x64a780	identity			E0136
+71	0x991184	0x8f9818	145	_p_PhaserBank	0x64a9d0	identity			E0136
+71	0x991184	0x8f9818	146	_p_STFillGauge	0x64a9e0	identity			E0136
+71	0x991184	0x8f9818	147	_p_MultiplayerWindow	0x64aa50	identity			E0136
+71	0x991184	0x8f9818	148	_p_TopWindow	0x64aa40	identity			E0136
+71	0x991184	0x8f9818	149	_p_MainWindow	0x64aa30	identity			E0136
+71	0x991184	0x8f9818	150	_p_TacticalWindow	0x64aa20	identity			E0136
+71	0x991184	0x8f9818	151	_p_TacticalControlWindow	0x64aa10	identity			E0136
+71	0x991184	0x8f9818	152	_p_MapWindow	0x64aa00	identity			E0136
+71	0x991184	0x8f9818	153	_p_STStylizedWindow	0x64a9f0	identity			E0136
+71	0x991184	0x8f9818	154	_p_EngRepairPane	0x64aa70	identity			E0136
+71	0x991184	0x8f9818	155	_p_Sun	0x64a300	identity			E0136
+71	0x991184	0x8f9818	156	_p_DamageIcon	0x64aa80	identity			E0136
+71	0x991184	0x8f9818	157	_p_TGVoidPtrEvent	0x64aa90	identity			E0136
+71	0x991184	0x8f9818	158	_p_TGIcon	0x64a940	identity			E0136
+71	0x991184	0x8f9818	159	_p_TGObjPtrEvent	0x64aaa0	identity			E0136
+71	0x991184	0x8f9818	160	_p_WarpSet	0x64aab0	identity			E0136
+71	0x991184	0x8f9818	161	_p_TGMusic	0x64aad0	identity			E0136
+71	0x991184	0x8f9818	162	_p_STSaveDialog	0x64aae0	identity			E0136
+71	0x991184	0x8f9818	163	_p_STFileDialog	0x64aaf0	identity			E0136
+71	0x991184	0x8f9818	164	_p_ConditionEventCreator	0x64ab00	identity			E0136
+71	0x991184	0x8f9818	165	_p_Episode	0x64ab10	identity			E0136
+71	0x991184	0x8f9818	166	_p_SubtitleWindow	0x64ab20	identity			E0136
+71	0x991184	0x8f9818	167	_p_CinematicWindow	0x64ab30	identity			E0136
+71	0x991184	0x8f9818	168	_p_ModalDialogWindow	0x64ab40	identity			E0136
+71	0x991184	0x8f9818	169	_p_BridgeWindow	0x64ab50	identity			E0136
+71	0x991184	0x8f9818	170	_p_OptionsWindow	0x64ab60	identity			E0136
+71	0x991184	0x8f9818	171	_p_ConsoleWindow	0x64ab70	identity			E0136
+71	0x991184	0x8f9818	172	_p_TGDialogWindow	0x64ab80	identity			E0136
+71	0x991184	0x8f9818	173	_p_TGFrameWindow	0x64ab90	identity			E0136
+71	0x991184	0x8f9818	174	_p_TGWindow	0x64aba0	identity			E0136
+71	0x991184	0x8f9818	175	_p_EngPowerCtrl	0x64abb0	identity			E0136
+71	0x991184	0x8f9818	176	_p_Weapon	0x64aa60	identity			E0136
+71	0x991184	0x8f9818	177	_p_STComponentMenu	0x64abc0	identity			E0136
+71	0x991184	0x8f9818	178	_p_TGSoundRegion	0x64abd0	identity			E0136
+71	0x991184	0x8f9818	179	_p_PulseWeapon	0x64abe0	identity			E0136
+71	0x991184	0x8f9818	180	_p_EnergyWeapon	0x64abf0	identity			E0136
+71	0x991184	0x8f9818	181	_p_TGGamepadEvent	0x64ac00	identity			E0136
+71	0x991184	0x8f9818	182	_p_BridgeSet	0x64ac10	identity			E0136
+71	0x991184	0x8f9818	183	_p_ConditionScript	0x64ac20	identity			E0136
+71	0x991184	0x8f9818	184	_p_TGConsole	0x64ac30	identity			E0136
+71	0x991184	0x8f9818	185	_p_HullClass	0x64ac40	identity			E0136
+71	0x991184	0x8f9818	186	_p_TGTimer	0x64ac50	identity			E0136
+71	0x991184	0x8f9818	187	_p_RadarScope	0x64ac60	identity			E0136
+71	0x991184	0x8f9818	188	_p_Nebula	0x64aac0	identity			E0136
+71	0x991184	0x8f9818	189	_p_STSubPane	0x64ac70	identity			E0136
+71	0x991184	0x8f9818	190	_p_MetaNebula	0x64ac80	identity			E0136
+71	0x991184	0x8f9818	191	_p_STNumericBar	0x64ac90	identity			E0136
+71	0x991184	0x8f9818	192	_p_TGButtonBase	0x64aca0	identity			E0136
+71	0x991184	0x8f9818	193	_p_WarpEvent	0x64acb0	identity			E0136
+71	0x991184	0x8f9818	194	_p_AsteroidField	0x64acc0	identity			E0136
+71	0x991184	0x8f9818	195	_p_STMissionLog	0x64acd0	identity			E0136
+71	0x991184	0x8f9818	196	_p_CollisionEvent	0x64ace0	identity			E0136
+71	0x991184	0x8f9818	197	_p_TGModelPropertySet	0x64acf0	identity			E0136
+71	0x991184	0x8f9818	198	_p_TGKeyboardEvent	0x64ad10	identity			E0136
+71	0x991184	0x8f9818	199	_p_TGSoundManager	0x64ad20	identity			E0136
+71	0x991184	0x8f9818	200	_p_TGActionManager	0x64ad30	identity			E0136
+71	0x991184	0x8f9818	201	_p_PhysicsObjectClass	0x64ad40	identity			E0136
+71	0x991184	0x8f9818	202	_p_BridgeObjectClass	0x64ad50	identity			E0136
+71	0x991184	0x8f9818	203	_p_ZoomCameraObjectClass	0x64ad60	identity			E0136
+71	0x991184	0x8f9818	204	_p_SetClass	0x64ad70	identity			E0136
+71	0x991184	0x8f9818	205	_p_BaseObjectClass	0x64ad80	identity			E0136
+71	0x991184	0x8f9818	206	_p_ObjectClass	0x64ad90	identity			E0136
+71	0x991184	0x8f9818	207	_p_CameraObjectClass	0x64ada0	identity			E0136
+71	0x991184	0x8f9818	208	_p_LightObjectClass	0x64adb0	identity			E0136
+71	0x991184	0x8f9818	209	_p_ChatObjectClass	0x64adc0	identity			E0136
+71	0x991184	0x8f9818	210	_p_ProximityCheck	0x64add0	identity			E0136
+71	0x991184	0x8f9818	211	_p_Backdrop	0x64ade0	identity			E0136
+72	0x991188	0x8fa8c0	0	_p_TGUIObject		none		TGUIObject *	E0136
+72	0x991188	0x8fa8c0	1	_p_STCharacterMenu	0x64adf0	identity			E0136
+72	0x991188	0x8fa8c0	2	_p_DamageIcon	0x64ae00	identity			E0136
+72	0x991188	0x8fa8c0	3	_p_STFileDialog	0x64ae10	identity			E0136
+72	0x991188	0x8fa8c0	4	_p_STSaveDialog	0x64ae20	identity			E0136
+72	0x991188	0x8fa8c0	5	_p_TGButton	0x64ae30	identity			E0136
+72	0x991188	0x8fa8c0	6	_p_STStylizedWindow	0x64ae40	identity			E0136
+72	0x991188	0x8fa8c0	7	_p_MapWindow	0x64ae50	identity			E0136
+72	0x991188	0x8fa8c0	8	_p_TacticalControlWindow	0x64ae60	identity			E0136
+72	0x991188	0x8fa8c0	9	_p_TacticalWindow	0x64ae70	identity			E0136
+72	0x991188	0x8fa8c0	10	_p_TopWindow	0x64ae90	identity			E0136
+72	0x991188	0x8fa8c0	11	_p_MainWindow	0x64ae80	identity			E0136
+72	0x991188	0x8fa8c0	12	_p_MultiplayerWindow	0x64aea0	identity			E0136
+72	0x991188	0x8fa8c0	13	_p_STFillGauge	0x64aeb0	identity			E0136
+72	0x991188	0x8fa8c0	14	_p_TGButtonBase	0x64aed0	identity			E0136
+72	0x991188	0x8fa8c0	15	_p_TGPrompt	0x64aee0	identity			E0136
+72	0x991188	0x8fa8c0	16	_p_RadarBlip	0x64aef0	identity			E0136
+72	0x991188	0x8fa8c0	17	_p_STMissionLog	0x64af10	identity			E0136
+72	0x991188	0x8fa8c0	18	_p_STComponentMenu	0x64af20	identity			E0136
+72	0x991188	0x8fa8c0	19	_p_STTiledIcon	0x64af30	identity			E0136
+72	0x991188	0x8fa8c0	20	_p_EngPowerDisplay	0x64afa0	identity			E0136
+72	0x991188	0x8fa8c0	21	_p_RadarDisplay	0x64af90	identity			E0136
+72	0x991188	0x8fa8c0	22	_p_WeaponsDisplay	0x64af80	identity			E0136
+72	0x991188	0x8fa8c0	23	_p_DamageDisplay	0x64af70	identity			E0136
+72	0x991188	0x8fa8c0	24	_p_ShieldsDisplay	0x64af60	identity			E0136
+72	0x991188	0x8fa8c0	25	_p_ShipDisplay	0x64af50	identity			E0136
+72	0x991188	0x8fa8c0	26	_p_STNumericBar	0x64af40	identity			E0136
+72	0x991188	0x8fa8c0	27	_p_OptionsWindow	0x64aff0	identity			E0136
+72	0x991188	0x8fa8c0	28	_p_ConsoleWindow	0x64b000	identity			E0136
+72	0x991188	0x8fa8c0	29	_p_TGDialogWindow	0x64b030	identity			E0136
+72	0x991188	0x8fa8c0	30	_p_TGFrameWindow	0x64b020	identity			E0136
+72	0x991188	0x8fa8c0	31	_p_TGWindow	0x64b010	identity			E0136
+72	0x991188	0x8fa8c0	32	_p_BridgeWindow	0x64afe0	identity			E0136
+72	0x991188	0x8fa8c0	33	_p_ModalDialogWindow	0x64afd0	identity			E0136
+72	0x991188	0x8fa8c0	34	_p_CinematicWindow	0x64afc0	identity			E0136
+72	0x991188	0x8fa8c0	35	_p_SubtitleWindow	0x64afb0	identity			E0136
+72	0x991188	0x8fa8c0	36	_p_TGPane	0x64aec0	identity			E0136
+72	0x991188	0x8fa8c0	37	_p_STToggle	0x64b040	identity			E0136
+72	0x991188	0x8fa8c0	38	_p_STTargetMenu	0x64b050	identity			E0136
+72	0x991188	0x8fa8c0	39	_p_GraphicsMenu	0x64b070	identity			E0136
+72	0x991188	0x8fa8c0	40	_p_TGFrame	0x64b080	identity			E0136
+72	0x991188	0x8fa8c0	41	_p_STSubsystemMenu	0x64b090	identity			E0136
+72	0x991188	0x8fa8c0	42	_p_SortedRegionMenu	0x64b0a0	identity			E0136
+72	0x991188	0x8fa8c0	43	_p_TGIcon	0x64af00	identity			E0136
+72	0x991188	0x8fa8c0	44	_p_TacWeaponsCtrl	0x64b0b0	identity			E0136
+72	0x991188	0x8fa8c0	45	_p_EngRepairPane	0x64b0c0	identity			E0136
+72	0x991188	0x8fa8c0	46	_p_TGUIObject		none			E0136
+72	0x991188	0x8fa8c0	47	_p_TGRootPane	0x64b0d0	identity			E0136
+72	0x991188	0x8fa8c0	48	_p_STTopLevelMenu	0x64b0e0	identity			E0136
+72	0x991188	0x8fa8c0	49	_p_TGParagraph	0x64b0f0	identity			E0136
+72	0x991188	0x8fa8c0	50	_p_TGConsole	0x64b100	identity			E0136
+72	0x991188	0x8fa8c0	51	_p_STLoadDialog	0x64b110	identity			E0136
+72	0x991188	0x8fa8c0	52	_p_STMenu	0x64b060	identity			E0136
+72	0x991188	0x8fa8c0	53	_p_STSubPane	0x64b120	identity			E0136
+72	0x991188	0x8fa8c0	54	_p_STRoundedButton	0x64b130	identity			E0136
+72	0x991188	0x8fa8c0	55	_p_STButton	0x64b140	identity			E0136
+72	0x991188	0x8fa8c0	56	_p_TGTextButton	0x64b150	identity			E0136
+72	0x991188	0x8fa8c0	57	_p_RadarScope	0x64b160	identity			E0136
+72	0x991188	0x8fa8c0	58	_p_STWarpButton	0x64b170	identity			E0136
+72	0x991188	0x8fa8c0	59	_p_EngPowerCtrl	0x64b180	identity			E0136
+72	0x991188	0x8fa8c0	60	_p_STFileMenu	0x64b190	identity			E0136
+72	0x991188	0x8fa8c0	61	_p_STComponentMenuItem	0x64b1a0	identity			E0136
+73	0x99118c	0x8fadb0	0	_p_Planet		none		Planet *	E0136
+73	0x99118c	0x8fadb0	1	_p_Planet		none			E0136
+73	0x99118c	0x8fadb0	2	_p_Sun	0x64b1b0	identity			E0136
+74	0x991190	0x8fae00	0	_TGModelPropertyManager__FilterFunc		none		TGModelPropertyManager::FilterFunc 	E0136
+74	0x991190	0x8fae00	1	_TGModelPropertyManager__FilterFunc		none			E0136
+75	0x991194	0x8fae40	0	_p_ConditionEventCreator		none		ConditionEventCreator *	E0136
+75	0x991194	0x8fae40	1	_p_ConditionEventCreator		none			E0136
+76	0x991198	0x8fae80	0	_p_TGConditionHandler		none		TGConditionHandler *	E0136
+76	0x991198	0x8fae80	1	_p_TGConditionHandler		none			E0136
+76	0x991198	0x8fae80	2	_p_ConditionalAI	0x64b1c0	offset	40		E0136
+76	0x991198	0x8fae80	3	_p_TGConditionAction	0x64b1d0	offset	32		E0136
+76	0x991198	0x8fae80	4	_p_ConditionEventCreator	0x64b1e0	offset	8		E0136
+77	0x99119c	0x8faef8	0	_p_TGPythonInstanceWrapper		none		TGPythonInstanceWrapper *	E0136
+77	0x99119c	0x8faef8	1	_p_TGPythonInstanceWrapper		none			E0136
+78	0x9911a0	0x8faf38	0	_p_TGNetPlayer		none		TGNetPlayer *	E0136
+78	0x9911a0	0x8faf38	1	_p_TGNetPlayer		none			E0136
+79	0x9911a4	0x8faf78	0	_p_p_TGNetPlayer		none		TGNetPlayer **	E0136
+79	0x9911a4	0x8faf78	1	_p_p_TGNetPlayer		none			E0136
+80	0x9911a8	0x8fafb8	0	_p_TGGroupPlayer		none		TGGroupPlayer *	E0136
+80	0x9911a8	0x8fafb8	1	_p_TGGroupPlayer		none			E0136
+81	0x9911ac	0x8faff8	0	_p_STSubsystemMenu		none		STSubsystemMenu *	E0136
+81	0x9911ac	0x8faff8	1	_p_STSubsystemMenu		none			E0136
+82	0x9911b0	0x8fb038	0	_p_PythonMethodProcess		none		PythonMethodProcess *	E0136
+82	0x9911b0	0x8fb038	1	_p_PythonMethodProcess		none			E0136
+83	0x9911b4	0x8fb078	0	_p_TimeSliceProcess		none		TimeSliceProcess *	E0136
+83	0x9911b4	0x8fb078	1	_p_TimeSliceProcess		none			E0136
+83	0x9911b4	0x8fb078	2	_p_PythonMethodProcess	0x64b1f0	identity			E0136
+84	0x9911b8	0x8fb0c8	0	_p_TGNetworkListType		none		TGNetworkListType *	E0136
+84	0x9911b8	0x8fb0c8	1	_p_TGNetworkListType		none			E0136
+85	0x9911bc	0x8fb108	0	_p_ProximityCheck		none		ProximityCheck *	E0136
+85	0x9911bc	0x8fb108	1	_p_ProximityCheck		none			E0136
+86	0x9911c0	0x8fb148	0	_p_TGTimer		none		TGTimer *	E0136
+86	0x9911c0	0x8fb148	1	_p_TGTimer		none			E0136
+87	0x9911c4	0x8fb188	0	_p_MultiplayerGame		none		MultiplayerGame *	E0136
+87	0x9911c4	0x8fb188	1	_p_MultiplayerGame		none			E0136
+88	0x9911c8	0x8fb1c8	0	_p_FloatRangeWatcher		none		FloatRangeWatcher *	E0136
+88	0x9911c8	0x8fb1c8	1	_p_FloatRangeWatcher		none			E0136
+89	0x9911cc	0x8fb208	0	_p_ShipClass		none		ShipClass *	E0136
+89	0x9911cc	0x8fb208	1	_p_ShipClass		none			E0136
+90	0x9911d0	0x8fb248	0	_p_BridgeSet		none		BridgeSet *	E0136
+90	0x9911d0	0x8fb248	1	_p_BridgeSet		none			E0136
+91	0x9911d4	0x8fb288	0	_p_STMissionLog		none		STMissionLog *	E0136
+91	0x9911d4	0x8fb288	1	_p_STMissionLog		none			E0136
+92	0x9911d8	0x8fb2c8	0	_p_TGAnimBlender		none		TGAnimBlender *	E0136
+92	0x9911d8	0x8fb2c8	1	_p_TGAnimBlender		none			E0136
+93	0x9911dc	0x8fb308	0	_p_TorpedoAmmoType		none		TorpedoAmmoType *	E0136
+93	0x9911dc	0x8fb308	1	_p_TorpedoAmmoType		none			E0136
+94	0x9911e0	0x8fb348	0	_p_NiCameraPtr		none		NiCameraPtr *	E0136
+94	0x9911e0	0x8fb348	1	_p_NiCameraPtr		none			E0136
+95	0x9911e4	0x8fb388	0	_p_TGButtonBase		none		TGButtonBase *	E0136
+95	0x9911e4	0x8fb388	1	_p_TGTextButton	0x64b200	identity			E0136
+95	0x9911e4	0x8fb388	2	_p_STButton	0x64b210	identity			E0136
+95	0x9911e4	0x8fb388	3	_p_STRoundedButton	0x64b220	identity			E0136
+95	0x9911e4	0x8fb388	4	_p_STWarpButton	0x64b230	identity			E0136
+95	0x9911e4	0x8fb388	5	_p_TGButton	0x64b240	identity			E0136
+95	0x9911e4	0x8fb388	6	_p_STToggle	0x64b250	identity			E0136
+95	0x9911e4	0x8fb388	7	_p_TGButtonBase		none			E0136
+95	0x9911e4	0x8fb388	8	_p_STComponentMenuItem	0x64b260	identity			E0136
+96	0x9911e8	0x8fb450	0	_p_TGMessageMethodPtr		none		TGMessageMethodPtr *	E0136
+96	0x9911e8	0x8fb450	1	_p_TGMessageMethodPtr		none			E0136
+97	0x9911ec	0x8fb490	0	_p_GServer		none		GServer *	E0136
+97	0x9911ec	0x8fb490	1	_p_GServer		none			E0136
+98	0x9911f0	0x8fb4d0	0	_p_TGGroupList		none		TGGroupList *	E0136
+98	0x9911f0	0x8fb4d0	1	_p_TGGroupList		none			E0136
+99	0x9911f4	0x8fb510	0	_p_NiColorA		none		NiColorA *	E0136
+99	0x9911f4	0x8fb510	1	_p_NiColorA		none			E0136
+99	0x9911f4	0x8fb510	2	_p_TGColorA	0x64b270	identity			E0136
+100	0x9911f8	0x8fb560	0	_p_TGColorA		none		TGColorA *	E0136
+100	0x9911f8	0x8fb560	1	_p_TGColorA		none			E0136
+101	0x9911fc	0x8fb5a0	0	_p_TGEncrypt		none		TGEncrypt *	E0136
+101	0x9911fc	0x8fb5a0	1	_p_TGEncrypt		none			E0136
+102	0x991200	0x8fb5e0	0	_p_ConditionalAI		none		ConditionalAI *	E0136
+102	0x991200	0x8fb5e0	1	_p_ConditionalAI		none			E0136
+103	0x991204	0x8fb620	0	_p_RadarBlip		none		RadarBlip *	E0136
+103	0x991204	0x8fb620	1	_p_RadarBlip		none			E0136
+104	0x991208	0x8fb660	0	_r_FuzzySet		none		FuzzySet &	E0136
+104	0x991208	0x8fb660	1	_r_FuzzySet		none			E0136
+104	0x991208	0x8fb660	2	_p_int		none			E0136
+105	0x99120c	0x8fb6b0	0	_p_TGBoolEvent		none		TGBoolEvent *	E0136
+105	0x99120c	0x8fb6b0	1	_p_TGBoolEvent		none			E0136
+106	0x991210	0x8fb6f0	0	_p_TextureAnimTrack		none		TextureAnimTrack *	E0136
+106	0x991210	0x8fb6f0	1	_p_TextureAnimTrack		none			E0136
+107	0x991214	0x8fb730	0	_p_LODModel		none		LODModel *	E0136
+107	0x991214	0x8fb730	1	_p_LODModel		none			E0136
+108	0x991218	0x8fb770	0	_p_STTopLevelMenu		none		STTopLevelMenu *	E0136
+108	0x991218	0x8fb770	1	_p_STTargetMenu	0x64b280	identity			E0136
+108	0x991218	0x8fb770	2	_p_STFileMenu	0x64b290	identity			E0136
+108	0x991218	0x8fb770	3	_p_STTopLevelMenu		none			E0136
+109	0x99121c	0x8fb7d8	0	_p_UtopiaApp		none		UtopiaApp *	E0136
+109	0x99121c	0x8fb7d8	1	_p_UtopiaApp		none			E0136
+110	0x991220	0x8fb818	0	_p_Waypoint		none		Waypoint *	E0136
+110	0x991220	0x8fb818	1	_p_Waypoint		none			E0136
+111	0x991224	0x8fb858	0	_p_ConditionScript		none		ConditionScript *	E0136
+111	0x991224	0x8fb858	1	_p_ConditionScript		none			E0136
+112	0x991228	0x8fb898	0	_p_STMenu		none		STMenu *	E0136
+112	0x991228	0x8fb898	1	_p_STMenu		none			E0136
+112	0x991228	0x8fb898	2	_p_STCharacterMenu	0x64b2a0	identity			E0136
+112	0x991228	0x8fb898	3	_p_STTargetMenu	0x64b2b0	identity			E0136
+112	0x991228	0x8fb898	4	_p_STSubsystemMenu	0x64b2c0	identity			E0136
+112	0x991228	0x8fb898	5	_p_SortedRegionMenu	0x64b2e0	identity			E0136
+112	0x991228	0x8fb898	6	_p_STFileMenu	0x64b2d0	identity			E0136
+112	0x991228	0x8fb898	7	_p_STTopLevelMenu	0x64b2f0	identity			E0136
+112	0x991228	0x8fb898	8	_p_STComponentMenu	0x64b300	identity			E0136
+113	0x99122c	0x8fb960	0	_p_OptimizedFireScript		none		OptimizedFireScript *	E0136
+113	0x99122c	0x8fb960	1	_p_OptimizedFireScript		none			E0136
+114	0x991230	0x8fb9a0	0	_p_AttrType		none		AttrType *	E0136
+114	0x991230	0x8fb9a0	1	_p_AttrType		none			E0136
+115	0x991234	0x8fb9e0	0	_p_MetaNebula		none		MetaNebula *	E0136
+115	0x991234	0x8fb9e0	1	_p_MetaNebula		none			E0136
+116	0x991238	0x8fba20	0	_p_Nebula		none		Nebula *	E0136
+116	0x991238	0x8fba20	1	_p_Nebula		none			E0136
+116	0x991238	0x8fba20	2	_p_MetaNebula	0x64b310	identity			E0136
+117	0x99123c	0x8fba70	0	_p_STFileMenu		none		STFileMenu *	E0136
+117	0x99123c	0x8fba70	1	_p_STFileMenu		none			E0136
+118	0x991240	0x8fbab0	0	_p_STLoadDialog		none		STLoadDialog *	E0136
+118	0x991240	0x8fbab0	1	_p_STLoadDialog		none			E0136
+119	0x991244	0x8fbaf0	0	_p_STSubPane		none		STSubPane *	E0136
+119	0x991244	0x8fbaf0	1	_p_STSubPane		none			E0136
+120	0x991248	0x8fbb30	0	_p_STSaveDialog		none		STSaveDialog *	E0136
+120	0x991248	0x8fbb30	1	_p_STSaveDialog		none			E0136
+121	0x99124c	0x8fbb70	0	_p_STFileDialog		none		STFileDialog *	E0136
+121	0x99124c	0x8fbb70	1	_p_STLoadDialog	0x64b370	identity			E0136
+121	0x99124c	0x8fbb70	2	_p_STFileDialog		none			E0136
+121	0x99124c	0x8fbb70	3	_p_STSaveDialog	0x64b380	identity			E0136
+122	0x991250	0x8fbbd8	0	_p_UITreeDialog		none		UITreeDialog *	E0136
+122	0x991250	0x8fbbd8	1	_p_UITreeDialog		none			E0136
+123	0x991254	0x8fbc18	0	_p_PulseWeapon		none		PulseWeapon *	E0136
+123	0x991254	0x8fbc18	1	_p_PulseWeapon		none			E0136
+124	0x991258	0x8fbc58	0	_p_EnergyWeapon		none		EnergyWeapon *	E0136
+124	0x991258	0x8fbc58	1	_p_EnergyWeapon		none			E0136
+124	0x991258	0x8fbc58	2	_p_PulseWeapon	0x64b390	identity			E0136
+124	0x991258	0x8fbc58	3	_p_TractorBeamProjector	0x64b3a0	identity			E0136
+124	0x991258	0x8fbc58	4	_p_PhaserBank	0x64b3b0	identity			E0136
+125	0x99125c	0x8fbcd0	0	_p_Weapon		none		Weapon *	E0136
+125	0x99125c	0x8fbcd0	1	_p_Weapon		none			E0136
+125	0x99125c	0x8fbcd0	2	_p_TorpedoTube	0x64b320	identity			E0136
+125	0x99125c	0x8fbcd0	3	_p_EnergyWeapon	0x64b330	identity			E0136
+125	0x99125c	0x8fbcd0	4	_p_PulseWeapon	0x64b340	identity			E0136
+125	0x99125c	0x8fbcd0	5	_p_TractorBeamProjector	0x64b350	identity			E0136
+125	0x99125c	0x8fbcd0	6	_p_PhaserBank	0x64b360	identity			E0136
+126	0x991260	0x8fbd70	0	_p_ObjectGroupWithInfo		none		ObjectGroupWithInfo *	E0136
+126	0x991260	0x8fbd70	1	_p_ObjectGroupWithInfo		none			E0136
+127	0x991264	0x8fbdb0	0	_p_PhaserBank		none		PhaserBank *	E0136
+127	0x991264	0x8fbdb0	1	_p_PhaserBank		none			E0136
+128	0x991268	0x8fbdf0	0	_p_Episode		none		Episode *	E0136
+128	0x991268	0x8fbdf0	1	_p_Episode		none			E0136
+129	0x99126c	0x8fbe30	0	_p_GridClass		none		GridClass *	E0136
+129	0x99126c	0x8fbe30	1	_p_GridClass		none			E0136
+130	0x991270	0x8fbe70	0	_p___int16		none		__int16 *	E0136
+130	0x991270	0x8fbe70	1	_p___int16		none			E0136
+131	0x991274	0x8fbeb0	0	_p_ShieldClass		none		ShieldClass *	E0136
+131	0x991274	0x8fbeb0	1	_p_ShieldClass		none			E0136
+132	0x991278	0x8fbef0	0	_p_TorpedoTube		none		TorpedoTube *	E0136
+132	0x991278	0x8fbef0	1	_p_TorpedoTube		none			E0136
+133	0x99127c	0x8fbf30	0	_p_TGIcon		none		TGIcon *	E0136
+133	0x99127c	0x8fbf30	1	_p_TGIcon		none			E0136
+133	0x99127c	0x8fbf30	2	_p_STTiledIcon	0x64b3c0	identity			E0136
+133	0x99127c	0x8fbf30	3	_p_DamageIcon	0x64b3d0	identity			E0136
+133	0x99127c	0x8fbf30	4	_p_RadarBlip	0x64b3e0	identity			E0136
+134	0x991280	0x8fbfa8	0	_p_Sun		none		Sun *	E0136
+134	0x991280	0x8fbfa8	1	_p_Sun		none			E0136
+135	0x991284	0x8fbfe8	0	_p_RandomAI		none		RandomAI *	E0136
+135	0x991284	0x8fbfe8	1	_p_RandomAI		none			E0136
+136	0x991288	0x8fc028	0	_p_TGRect		none		TGRect *	E0136
+136	0x991288	0x8fc028	1	_p_TGRect		none			E0136
+137	0x99128c	0x8fc068	0	_p_NiTList_ShipSubsystem___		none		NiTList<ShipSubsystem *> *	E0136
+137	0x99128c	0x8fc068	1	_p_NiTList_ShipSubsystem___		none			E0136
+137	0x99128c	0x8fc068	2	_p_SubsystemList		none			E0136
+138	0x991290	0x8fc0b8	0	_p_TGMessage		none		TGMessage *	E0136
+138	0x991290	0x8fc0b8	1	_p_TGMessage		none			E0136
+138	0x991290	0x8fc0b8	2	_p_TGNameChangeMessage	0x64b3f0	identity			E0136
+138	0x991290	0x8fc0b8	3	_p_TGAckMessage	0x64b400	identity			E0136
+138	0x991290	0x8fc0b8	4	_p_TGDoNothingMessage	0x64b410	identity			E0136
+138	0x991290	0x8fc0b8	5	_p_TGBootPlayerMessage	0x64b420	identity			E0136
+138	0x991290	0x8fc0b8	6	_p_TGConnectMessage	0x64b430	identity			E0136
+138	0x991290	0x8fc0b8	7	_p_TGDisconnectMessage	0x64b440	identity			E0136
+139	0x991294	0x8fc170	0	_p_p_TGMessage		none		TGMessage **	E0136
+139	0x991294	0x8fc170	1	_p_p_TGMessage		none			E0136
+139	0x991294	0x8fc170	2	_p_p_TGNameChangeMessage	0x64b450	identity			E0136
+139	0x991294	0x8fc170	3	_p_p_TGAckMessage	0x64b460	identity			E0136
+139	0x991294	0x8fc170	4	_p_p_TGDoNothingMessage	0x64b470	identity			E0136
+139	0x991294	0x8fc170	5	_p_p_TGBootPlayerMessage	0x64b480	identity			E0136
+139	0x991294	0x8fc170	6	_p_p_TGConnectMessage	0x64b490	identity			E0136
+139	0x991294	0x8fc170	7	_p_p_TGDisconnectMessage	0x64b4a0	identity			E0136
+140	0x991298	0x8fc228	0	_p_TGNameChangeMessage		none		TGNameChangeMessage *	E0136
+140	0x991298	0x8fc228	1	_p_TGNameChangeMessage		none			E0136
+141	0x99129c	0x8fc268	0	_p_TGAckMessage		none		TGAckMessage *	E0136
+141	0x99129c	0x8fc268	1	_p_TGAckMessage		none			E0136
+142	0x9912a0	0x8fc2a8	0	_p_TGDoNothingMessage		none		TGDoNothingMessage *	E0136
+142	0x9912a0	0x8fc2a8	1	_p_TGDoNothingMessage		none			E0136
+143	0x9912a4	0x8fc2e8	0	_p_TGBootPlayerMessage		none		TGBootPlayerMessage *	E0136
+143	0x9912a4	0x8fc2e8	1	_p_TGBootPlayerMessage		none			E0136
+144	0x9912a8	0x8fc328	0	_p_TGConnectMessage		none		TGConnectMessage *	E0136
+144	0x9912a8	0x8fc328	1	_p_TGConnectMessage		none			E0136
+145	0x9912ac	0x8fc368	0	_p_TGDisconnectMessage		none		TGDisconnectMessage *	E0136
+145	0x9912ac	0x8fc368	1	_p_TGDisconnectMessage		none			E0136
+146	0x9912b0	0x8fc3a8	0	_p_unsigned_short		none		unsigned short *	E0136
+146	0x9912b0	0x8fc3a8	1	_p_unsigned_short		none			E0136
+147	0x9912b4	0x8fc3e8	0	_p_WarpSet		none		WarpSet *	E0136
+147	0x9912b4	0x8fc3e8	1	_p_WarpSet		none			E0136
+148	0x9912b8	0x8fc428	0	_p_TGString		none		TGString *	E0136
+148	0x9912b8	0x8fc428	1	_p_TGString		none			E0136
+149	0x9912bc	0x8fc468	0	_p_InterfaceModule		none		InterfaceModule *	E0136
+149	0x9912bc	0x8fc468	1	_p_InterfaceModule		none			E0136
+150	0x9912c0	0x8fc4a8	0	_p_UtopiaModule		none		UtopiaModule *	E0136
+150	0x9912c0	0x8fc4a8	1	_p_UtopiaModule		none			E0136
+151	0x9912c4	0x8fc4e8	0	_p_bool		none		bool *	E0136
+151	0x9912c4	0x8fc4e8	1	_p_bool		none			E0136
+152	0x9912c8	0x8fc528	0	_p_STToggle		none		STToggle *	E0136
+152	0x9912c8	0x8fc528	1	_p_STToggle		none			E0136
+153	0x9912cc	0x8fc568	0	_p_ExplosionPlumeController		none		ExplosionPlumeController *	E0136
+153	0x9912cc	0x8fc568	1	_p_ExplosionPlumeController		none			E0136
+154	0x9912d0	0x8fc5a8	0	_p_AnimTSParticleController		none		AnimTSParticleController *	E0136
+154	0x9912d0	0x8fc5a8	1	_p_AnimTSParticleController		none			E0136
+154	0x9912d0	0x8fc5a8	2	_p_ExplosionPlumeController	0x64b4b0	identity			E0136
+155	0x9912d4	0x8fc5f8	0	_p_DebrisParticleController		none		DebrisParticleController *	E0136
+155	0x9912d4	0x8fc5f8	1	_p_DebrisParticleController		none			E0136
+156	0x9912d8	0x8fc638	0	_p_ExplodeParticleController		none		ExplodeParticleController *	E0136
+156	0x9912d8	0x8fc638	1	_p_ExplodeParticleController		none			E0136
+157	0x9912dc	0x8fc678	0	_p_SparkParticleController		none		SparkParticleController *	E0136
+157	0x9912dc	0x8fc678	1	_p_SparkParticleController		none			E0136
+158	0x9912e0	0x8fc6b8	0	_p_EmitterController		none		EmitterController *	E0136
+158	0x9912e0	0x8fc6b8	1	_p_EmitterController		none			E0136
+158	0x9912e0	0x8fc6b8	2	_p_PointParticleController	0x64b4c0	identity			E0136
+158	0x9912e0	0x8fc6b8	3	_p_SparkParticleController	0x64b4d0	identity			E0136
+158	0x9912e0	0x8fc6b8	4	_p_TexturedSparksController	0x64b4e0	identity			E0136
+158	0x9912e0	0x8fc6b8	5	_p_ExplodeParticleController	0x64b4f0	identity			E0136
+158	0x9912e0	0x8fc6b8	6	_p_DebrisParticleController	0x64b500	identity			E0136
+158	0x9912e0	0x8fc6b8	7	_p_AnimTSParticleController	0x64b510	identity			E0136
+158	0x9912e0	0x8fc6b8	8	_p_ExplosionPlumeController	0x64b520	identity			E0136
+159	0x9912e4	0x8fc780	0	_p_EffectController		none		EffectController *	E0136
+159	0x9912e4	0x8fc780	1	_p_EffectController		none			E0136
+159	0x9912e4	0x8fc780	2	_p_EmitterController	0x64b530	identity			E0136
+159	0x9912e4	0x8fc780	3	_p_PointParticleController	0x64b540	identity			E0136
+159	0x9912e4	0x8fc780	4	_p_SparkParticleController	0x64b550	identity			E0136
+159	0x9912e4	0x8fc780	5	_p_TexturedSparksController	0x64b560	identity			E0136
+159	0x9912e4	0x8fc780	6	_p_ExplodeParticleController	0x64b570	identity			E0136
+159	0x9912e4	0x8fc780	7	_p_DebrisParticleController	0x64b580	identity			E0136
+159	0x9912e4	0x8fc780	8	_p_AnimTSParticleController	0x64b590	identity			E0136
+159	0x9912e4	0x8fc780	9	_p_ExplosionPlumeController	0x64b5a0	identity			E0136
+160	0x9912e8	0x8fc860	0	_p_PointParticleController		none		PointParticleController *	E0136
+160	0x9912e8	0x8fc860	1	_p_PointParticleController		none			E0136
+160	0x9912e8	0x8fc860	2	_p_SparkParticleController	0x64b5b0	identity			E0136
+160	0x9912e8	0x8fc860	3	_p_ExplodeParticleController	0x64b5c0	identity			E0136
+160	0x9912e8	0x8fc860	4	_p_DebrisParticleController	0x64b5d0	identity			E0136
+161	0x9912ec	0x8fc8d8	0	_p_NiSourcePtr		none		NiSourcePtr *	E0136
+161	0x9912ec	0x8fc8d8	1	_p_NiSourcePtr		none			E0136
+162	0x9912f0	0x8fc918	0	_p_TGPhoneme		none		TGPhoneme *	E0136
+162	0x9912f0	0x8fc918	1	_p_TGPhoneme		none			E0136
+163	0x9912f4	0x8fc958	0	_p_FILE		none		FILE *	E0136
+163	0x9912f4	0x8fc958	1	_p_FILE		none			E0136
+164	0x9912f8	0x8fc998	0	_p_TGModelPropertyList		none		TGModelPropertyList *	E0136
+164	0x9912f8	0x8fc998	1	_p_TGModelPropertyList		none			E0136
+165	0x9912fc	0x8fc9d8	0	_p_RadarScope		none		RadarScope *	E0136
+165	0x9912fc	0x8fc9d8	1	_p_RadarScope		none			E0136
+166	0x991300	0x8fca18	0	_p_EngPowerCtrl		none		EngPowerCtrl *	E0136
+166	0x991300	0x8fca18	1	_p_EngPowerCtrl		none			E0136
+167	0x991304	0x8fca58	0	_p_TGConfigMapping		none		TGConfigMapping *	E0136
+167	0x991304	0x8fca58	1	_p_TGConfigMapping		none			E0136
+168	0x991308	0x8fca98	0	_p_TGIconGroup		none		TGIconGroup *	E0136
+168	0x991308	0x8fca98	1	_p_TGFontGroup	0x64b5e0	identity			E0136
+168	0x991308	0x8fca98	2	_p_TGIconGroup		none			E0136
+169	0x99130c	0x8fcae8	0	_p_STTargetMenu		none		STTargetMenu *	E0136
+169	0x99130c	0x8fcae8	1	_p_STTargetMenu		none			E0136
+170	0x991310	0x8fcb28	0	_p_TGPrompt		none		TGPrompt *	E0136
+170	0x991310	0x8fcb28	1	_p_TGPrompt		none			E0136
+171	0x991314	0x8fcb68	0	_p_NiColor		none		NiColor *	E0136
+171	0x991314	0x8fcb68	1	_p_NiColor		none			E0136
+172	0x991318	0x8fcba8	0	_p_LensFlare		none		LensFlare *	E0136
+172	0x991318	0x8fcba8	1	_p_LensFlare		none			E0136
+173	0x99131c	0x8fcbe8	0	_p_WeaponHitEvent		none		WeaponHitEvent *	E0136
+173	0x99131c	0x8fcbe8	1	_p_WeaponHitEvent		none			E0136
+174	0x991320	0x8fcc28	0	_p_TGFloatEvent		none		TGFloatEvent *	E0136
+174	0x991320	0x8fcc28	1	_p_TGFloatEvent		none			E0136
+175	0x991324	0x8fcc68	0	_p_ServerListEvent		none		ServerListEvent *	E0136
+175	0x991324	0x8fcc68	1	_p_ServerListEvent		none			E0136
+176	0x991328	0x8fcca8	0	_p_SortServerListEvent		none		SortServerListEvent *	E0136
+176	0x991328	0x8fcca8	1	_p_SortServerListEvent		none			E0136
+177	0x99132c	0x8fcce8	0	_p_WaypointEvent		none		WaypointEvent *	E0136
+177	0x99132c	0x8fcce8	1	_p_WaypointEvent		none			E0136
+178	0x991330	0x8fcd28	0	_p_TGIntEvent		none		TGIntEvent *	E0136
+178	0x991330	0x8fcd28	1	_p_TGIntEvent		none			E0136
+179	0x991334	0x8fcd68	0	_p_TGShortEvent		none		TGShortEvent *	E0136
+179	0x991334	0x8fcd68	1	_p_TGShortEvent		none			E0136
+180	0x991338	0x8fcda8	0	_p_Force		none		Force *	E0136
+180	0x991338	0x8fcda8	1	_p_Force		none			E0136
+181	0x99133c	0x8fcde8	0	_p_SequenceAI		none		SequenceAI *	E0136
+181	0x99133c	0x8fcde8	1	_p_SequenceAI		none			E0136
+182	0x991340	0x8fce28	0	_p_EngPowerDisplay		none		EngPowerDisplay *	E0136
+182	0x991340	0x8fce28	1	_p_EngPowerDisplay		none			E0136
+183	0x991344	0x8fce68	0	_p_DamageDisplay		none		DamageDisplay *	E0136
+183	0x991344	0x8fce68	1	_p_DamageDisplay		none			E0136
+184	0x991348	0x8fcea8	0	_p_ShieldsDisplay		none		ShieldsDisplay *	E0136
+184	0x991348	0x8fcea8	1	_p_ShieldsDisplay		none			E0136
+185	0x99134c	0x8fcee8	0	_p_RadarDisplay		none		RadarDisplay *	E0136
+185	0x99134c	0x8fcee8	1	_p_RadarDisplay		none			E0136
+186	0x991350	0x8fcf28	0	_p_WeaponsDisplay		none		WeaponsDisplay *	E0136
+186	0x991350	0x8fcf28	1	_p_WeaponsDisplay		none			E0136
+187	0x991354	0x8fcf68	0	_p_ShipDisplay		none		ShipDisplay *	E0136
+187	0x991354	0x8fcf68	1	_p_ShipDisplay		none			E0136
+188	0x991358	0x8fcfa8	0	_p_TGIEvent		none		TGIEvent *	E0136
+188	0x991358	0x8fcfa8	1	_p_TGMouseEvent	0x64b5f0	identity			E0136
+188	0x991358	0x8fcfa8	2	_p_TGIEvent		none			E0136
+188	0x991358	0x8fcfa8	3	_p_TGGamepadEvent	0x64b600	identity			E0136
+188	0x991358	0x8fcfa8	4	_p_TGKeyboardEvent	0x64b610	identity			E0136
+189	0x99135c	0x8fd020	0	_p_TacWeaponsCtrl		none		TacWeaponsCtrl *	E0136
+189	0x99135c	0x8fd020	1	_p_TacWeaponsCtrl		none			E0136
+190	0x991360	0x8fd060	0	_p_CPyDebug		none		CPyDebug *	E0136
+190	0x991360	0x8fd060	1	_p_CPyDebug		none			E0136
+191	0x991364	0x8fd0a0	0	_p_TGPlayerList		none		TGPlayerList *	E0136
+191	0x991364	0x8fd0a0	1	_p_TGPlayerList		none			E0136
+192	0x991368	0x8fd0e0	0	_p_Mission		none		Mission *	E0136
+192	0x991368	0x8fd0e0	1	_p_Mission		none			E0136
+193	0x99136c	0x8fd120	0	_p_TGAnimPosition		none		TGAnimPosition *	E0136
+193	0x99136c	0x8fd120	1	_p_TGAnimPosition		none			E0136
+194	0x991370	0x8fd160	0	_p_TGModelPropertySet		none		TGModelPropertySet *	E0136
+194	0x991370	0x8fd160	1	_p_TGModelPropertySet		none			E0136
+195	0x991374	0x8fd1a0	0	_p_HullClass		none		HullClass *	E0136
+195	0x991374	0x8fd1a0	1	_p_HullClass		none			E0136
+196	0x991378	0x8fd1e0	0	_p_Ni3DDeviceDesc		none		Ni3DDeviceDesc *	E0136
+196	0x991378	0x8fd1e0	1	_p_Ni3DDeviceDesc		none			E0136
+197	0x99137c	0x8fd220	0	_p_STMenu__STMenuColorScheme		none		STMenu::STMenuColorScheme *	E0136
+197	0x99137c	0x8fd220	1	_p_STMenu__STMenuColorScheme		none			E0136
+198	0x991380	0x8fd260	0	_p_GraphicsMenuInfo		none		GraphicsMenuInfo *	E0136
+198	0x991380	0x8fd260	1	_p_GraphicsMenuInfo		none			E0136
+199	0x991384	0x8fd2a0	0	_p_NiNode		none		NiNode *	E0136
+199	0x991384	0x8fd2a0	1	_p_TGAnimNode	0x64b620	identity			E0136
+199	0x991384	0x8fd2a0	2	_p_NiNode		none			E0136
+200	0x991388	0x8fd2f0	0	_p_STComponentMenu		none		STComponentMenu *	E0136
+200	0x991388	0x8fd2f0	1	_p_STComponentMenu		none			E0136
+201	0x99138c	0x8fd330	0	_p_TGPMWalkObjectsFunc		none		TGPMWalkObjectsFunc *	E0136
+201	0x99138c	0x8fd330	1	_p_TGPMWalkObjectsFunc		none			E0136
+202	0x991390	0x8fd370	0	_p_DamageIcon		none		DamageIcon *	E0136
+202	0x991390	0x8fd370	1	_p_DamageIcon		none			E0136
+203	0x991394	0x8fd3b0	0	_p_Torpedo		none		Torpedo *	E0136
+203	0x991394	0x8fd3b0	1	_p_Torpedo		none			E0136
+204	0x991398	0x8fd3f0	0	_p_TGNetwork		none		TGNetwork *	E0136
+204	0x991398	0x8fd3f0	1	_p_TGNetwork		none			E0136
+204	0x991398	0x8fd3f0	2	_p_TGWinsockNetwork	0x64b630	identity			E0136
+205	0x99139c	0x8fd440	0	_p_TGWinsockNetwork		none		TGWinsockNetwork *	E0136
+205	0x99139c	0x8fd440	1	_p_TGWinsockNetwork		none			E0136
+206	0x9913a0	0x8fd480	0	_p_TGRedbookClass		none		TGRedbookClass *	E0136
+206	0x9913a0	0x8fd480	1	_p_TGRedbookClass		none			E0136
+207	0x9913a4	0x8fd4c0	0	_p_ProximityCheck__TriggerType		none		ProximityCheck::TriggerType *	E0136
+207	0x9913a4	0x8fd4c0	1	_p_ProximityCheck__TriggerType		none			E0136
+208	0x9913a8	0x8fd500	0	_p_TractorBeamProperty		none		TractorBeamProperty *	E0136
+208	0x9913a8	0x8fd500	1	_p_TractorBeamProperty		none			E0136
+209	0x9913ac	0x8fd540	0	_p_WarpEngineProperty		none		WarpEngineProperty *	E0136
+209	0x9913ac	0x8fd540	1	_p_WarpEngineProperty		none			E0136
+210	0x9913b0	0x8fd580	0	_p_ImpulseEngineProperty		none		ImpulseEngineProperty *	E0136
+210	0x9913b0	0x8fd580	1	_p_ImpulseEngineProperty		none			E0136
+211	0x9913b4	0x8fd5c0	0	_p_RepairSubsystemProperty		none		RepairSubsystemProperty *	E0136
+211	0x9913b4	0x8fd5c0	1	_p_RepairSubsystemProperty		none			E0136
+212	0x9913b8	0x8fd600	0	_p_CloakingSubsystemProperty		none		CloakingSubsystemProperty *	E0136
+212	0x9913b8	0x8fd600	1	_p_CloakingSubsystemProperty		none			E0136
+213	0x9913bc	0x8fd640	0	_p_SensorProperty		none		SensorProperty *	E0136
+213	0x9913bc	0x8fd640	1	_p_SensorProperty		none			E0136
+214	0x9913c0	0x8fd680	0	_p_PulseWeaponProperty		none		PulseWeaponProperty *	E0136
+214	0x9913c0	0x8fd680	1	_p_PulseWeaponProperty		none			E0136
+215	0x9913c4	0x8fd6c0	0	_p_PhaserProperty		none		PhaserProperty *	E0136
+215	0x9913c4	0x8fd6c0	1	_p_PhaserProperty		none			E0136
+216	0x9913c8	0x8fd700	0	_p_EnergyWeaponProperty		none		EnergyWeaponProperty *	E0136
+216	0x9913c8	0x8fd700	1	_p_EnergyWeaponProperty		none			E0136
+216	0x9913c8	0x8fd700	2	_p_PhaserProperty	0x64b640	identity			E0136
+216	0x9913c8	0x8fd700	3	_p_PulseWeaponProperty	0x64b650	identity			E0136
+216	0x9913c8	0x8fd700	4	_p_TractorBeamProperty	0x64b660	identity			E0136
+217	0x9913cc	0x8fd778	0	_p_ShieldProperty		none		ShieldProperty *	E0136
+217	0x9913cc	0x8fd778	1	_p_ShieldProperty		none			E0136
+218	0x9913d0	0x8fd7b8	0	_p_TorpedoTubeProperty		none		TorpedoTubeProperty *	E0136
+218	0x9913d0	0x8fd7b8	1	_p_TorpedoTubeProperty		none			E0136
+219	0x9913d4	0x8fd7f8	0	_p_TorpedoSystemProperty		none		TorpedoSystemProperty *	E0136
+219	0x9913d4	0x8fd7f8	1	_p_TorpedoSystemProperty		none			E0136
+220	0x9913d8	0x8fd838	0	_p_WeaponSystemProperty		none		WeaponSystemProperty *	E0136
+220	0x9913d8	0x8fd838	1	_p_WeaponSystemProperty		none			E0136
+220	0x9913d8	0x8fd838	2	_p_TorpedoSystemProperty	0x64b670	identity			E0136
+221	0x9913dc	0x8fd888	0	_p_WeaponProperty		none		WeaponProperty *	E0136
+221	0x9913dc	0x8fd888	1	_p_WeaponProperty		none			E0136
+221	0x9913dc	0x8fd888	2	_p_EnergyWeaponProperty	0x64b680	identity			E0136
+221	0x9913dc	0x8fd888	3	_p_PhaserProperty	0x64b690	identity			E0136
+221	0x9913dc	0x8fd888	4	_p_PulseWeaponProperty	0x64b6a0	identity			E0136
+221	0x9913dc	0x8fd888	5	_p_TractorBeamProperty	0x64b6b0	identity			E0136
+221	0x9913dc	0x8fd888	6	_p_TorpedoTubeProperty	0x64b6c0	identity			E0136
+222	0x9913e0	0x8fd928	0	_p_PowerProperty		none		PowerProperty *	E0136
+222	0x9913e0	0x8fd928	1	_p_PowerProperty		none			E0136
+223	0x9913e4	0x8fd968	0	_p_PoweredSubsystemProperty		none		PoweredSubsystemProperty *	E0136
+223	0x9913e4	0x8fd968	1	_p_PoweredSubsystemProperty		none			E0136
+223	0x9913e4	0x8fd968	2	_p_WeaponSystemProperty	0x64b6d0	identity			E0136
+223	0x9913e4	0x8fd968	3	_p_TorpedoSystemProperty	0x64b6e0	identity			E0136
+223	0x9913e4	0x8fd968	4	_p_ShieldProperty	0x64b6f0	identity			E0136
+223	0x9913e4	0x8fd968	5	_p_SensorProperty	0x64b700	identity			E0136
+223	0x9913e4	0x8fd968	6	_p_CloakingSubsystemProperty	0x64b710	identity			E0136
+223	0x9913e4	0x8fd968	7	_p_RepairSubsystemProperty	0x64b720	identity			E0136
+223	0x9913e4	0x8fd968	8	_p_ImpulseEngineProperty	0x64b730	identity			E0136
+223	0x9913e4	0x8fd968	9	_p_WarpEngineProperty	0x64b740	identity			E0136
+224	0x9913e8	0x8fda48	0	_p_SubsystemProperty		none		SubsystemProperty *	E0136
+224	0x9913e8	0x8fda48	1	_p_HullProperty	0x64b780	identity			E0136
+224	0x9913e8	0x8fda48	2	_p_TorpedoTubeProperty	0x64b7b0	identity			E0136
+224	0x9913e8	0x8fda48	3	_p_TractorBeamProperty	0x64b7c0	identity			E0136
+224	0x9913e8	0x8fda48	4	_p_PulseWeaponProperty	0x64b7d0	identity			E0136
+224	0x9913e8	0x8fda48	5	_p_PhaserProperty	0x64b7e0	identity			E0136
+224	0x9913e8	0x8fda48	6	_p_EnergyWeaponProperty	0x64b7f0	identity			E0136
+224	0x9913e8	0x8fda48	7	_p_WeaponProperty	0x64b800	identity			E0136
+224	0x9913e8	0x8fda48	8	_p_SubsystemProperty		none			E0136
+224	0x9913e8	0x8fda48	9	_p_PoweredSubsystemProperty	0x64b820	identity			E0136
+224	0x9913e8	0x8fda48	10	_p_WeaponSystemProperty	0x64b810	identity			E0136
+224	0x9913e8	0x8fda48	11	_p_TorpedoSystemProperty	0x64b7a0	identity			E0136
+224	0x9913e8	0x8fda48	12	_p_ShieldProperty	0x64b790	identity			E0136
+224	0x9913e8	0x8fda48	13	_p_SensorProperty	0x64b770	identity			E0136
+224	0x9913e8	0x8fda48	14	_p_CloakingSubsystemProperty	0x64b760	identity			E0136
+224	0x9913e8	0x8fda48	15	_p_RepairSubsystemProperty	0x64b750	identity			E0136
+224	0x9913e8	0x8fda48	16	_p_PowerProperty	0x64b830	identity			E0136
+224	0x9913e8	0x8fda48	17	_p_ImpulseEngineProperty	0x64b840	identity			E0136
+224	0x9913e8	0x8fda48	18	_p_WarpEngineProperty	0x64b850	identity			E0136
+224	0x9913e8	0x8fda48	19	_p_EngineProperty	0x64b860	identity			E0136
+225	0x9913ec	0x8fdbf0	0	_p_ShipProperty		none		ShipProperty *	E0136
+225	0x9913ec	0x8fdbf0	1	_p_ShipProperty		none			E0136
+226	0x9913f0	0x8fdc30	0	_p_TGModelProperty		none		TGModelProperty *	E0136
+226	0x9913f0	0x8fdc30	1	_p_SubsystemProperty	0x64b930	identity			E0136
+226	0x9913f0	0x8fdc30	2	_p_PoweredSubsystemProperty	0x64b920	identity			E0136
+226	0x9913f0	0x8fdc30	3	_p_WeaponSystemProperty	0x64b910	identity			E0136
+226	0x9913f0	0x8fdc30	4	_p_WeaponProperty	0x64b900	identity			E0136
+226	0x9913f0	0x8fdc30	5	_p_EnergyWeaponProperty	0x64b8f0	identity			E0136
+226	0x9913f0	0x8fdc30	6	_p_PhaserProperty	0x64b8e0	identity			E0136
+226	0x9913f0	0x8fdc30	7	_p_PulseWeaponProperty	0x64b8d0	identity			E0136
+226	0x9913f0	0x8fdc30	8	_p_TractorBeamProperty	0x64b8c0	identity			E0136
+226	0x9913f0	0x8fdc30	9	_p_TorpedoTubeProperty	0x64b8b0	identity			E0136
+226	0x9913f0	0x8fdc30	10	_p_TorpedoSystemProperty	0x64b8a0	identity			E0136
+226	0x9913f0	0x8fdc30	11	_p_EngineGlowProperty	0x64b890	identity			E0136
+226	0x9913f0	0x8fdc30	12	_p_ShieldProperty	0x64b880	identity			E0136
+226	0x9913f0	0x8fdc30	13	_p_HullProperty	0x64b870	identity			E0136
+226	0x9913f0	0x8fdc30	14	_p_TGModelProperty		none			E0136
+226	0x9913f0	0x8fdc30	15	_p_PositionOrientationProperty	0x64b940	identity			E0136
+226	0x9913f0	0x8fdc30	16	_p_SensorProperty	0x64b950	identity			E0136
+226	0x9913f0	0x8fdc30	17	_p_CloakingSubsystemProperty	0x64b960	identity			E0136
+226	0x9913f0	0x8fdc30	18	_p_RepairSubsystemProperty	0x64b970	identity			E0136
+226	0x9913f0	0x8fdc30	19	_p_ShipProperty	0x64b980	identity			E0136
+226	0x9913f0	0x8fdc30	20	_p_PowerProperty	0x64b990	identity			E0136
+226	0x9913f0	0x8fdc30	21	_p_ImpulseEngineProperty	0x64b9a0	identity			E0136
+226	0x9913f0	0x8fdc30	22	_p_WarpEngineProperty	0x64b9b0	identity			E0136
+226	0x9913f0	0x8fdc30	23	_p_EngineProperty	0x64b9c0	identity			E0136
+226	0x9913f0	0x8fdc30	24	_p_EffectEmitterProperty	0x64b9d0	identity			E0136
+226	0x9913f0	0x8fdc30	25	_p_SmokeEmitterProperty	0x64b9e0	identity			E0136
+226	0x9913f0	0x8fdc30	26	_p_SparkEmitterProperty	0x64b9f0	identity			E0136
+226	0x9913f0	0x8fdc30	27	_p_ExplodeEmitterProperty	0x64ba00	identity			E0136
+226	0x9913f0	0x8fdc30	28	_p_BlinkingLightProperty	0x64ba10	identity			E0136
+226	0x9913f0	0x8fdc30	29	_p_ObjectEmitterProperty	0x64ba20	identity			E0136
+227	0x9913f4	0x8fdea0	0	_p_PositionOrientationProperty		none		PositionOrientationProperty *	E0136
+227	0x9913f4	0x8fdea0	1	_p_PositionOrientationProperty		none			E0136
+227	0x9913f4	0x8fdea0	2	_p_EffectEmitterProperty	0x64ba30	identity			E0136
+227	0x9913f4	0x8fdea0	3	_p_SmokeEmitterProperty	0x64ba40	identity			E0136
+227	0x9913f4	0x8fdea0	4	_p_SparkEmitterProperty	0x64ba50	identity			E0136
+227	0x9913f4	0x8fdea0	5	_p_ExplodeEmitterProperty	0x64ba60	identity			E0136
+227	0x9913f4	0x8fdea0	6	_p_BlinkingLightProperty	0x64ba70	identity			E0136
+227	0x9913f4	0x8fdea0	7	_p_ObjectEmitterProperty	0x64ba80	identity			E0136
+228	0x9913f8	0x8fdf58	0	_p_EngineGlowProperty		none		EngineGlowProperty *	E0136
+228	0x9913f8	0x8fdf58	1	_p_EngineGlowProperty		none			E0136
+229	0x9913fc	0x8fdf98	0	_p_HullProperty		none		HullProperty *	E0136
+229	0x9913fc	0x8fdf98	1	_p_HullProperty		none			E0136
+230	0x991400	0x8fdfd8	0	_p_EngineProperty		none		EngineProperty *	E0136
+230	0x991400	0x8fdfd8	1	_p_EngineProperty		none			E0136
+231	0x991404	0x8fe018	0	_p_EffectEmitterProperty		none		EffectEmitterProperty *	E0136
+231	0x991404	0x8fe018	1	_p_EffectEmitterProperty		none			E0136
+231	0x991404	0x8fe018	2	_p_SmokeEmitterProperty	0x64ba90	identity			E0136
+231	0x991404	0x8fe018	3	_p_SparkEmitterProperty	0x64baa0	identity			E0136
+231	0x991404	0x8fe018	4	_p_ExplodeEmitterProperty	0x64bab0	identity			E0136
+231	0x991404	0x8fe018	5	_p_BlinkingLightProperty	0x64bac0	identity			E0136
+232	0x991408	0x8fe0a8	0	_p_SmokeEmitterProperty		none		SmokeEmitterProperty *	E0136
+232	0x991408	0x8fe0a8	1	_p_SmokeEmitterProperty		none			E0136
+233	0x99140c	0x8fe0e8	0	_p_SparkEmitterProperty		none		SparkEmitterProperty *	E0136
+233	0x99140c	0x8fe0e8	1	_p_SparkEmitterProperty		none			E0136
+234	0x991410	0x8fe128	0	_p_ExplodeEmitterProperty		none		ExplodeEmitterProperty *	E0136
+234	0x991410	0x8fe128	1	_p_ExplodeEmitterProperty		none			E0136
+235	0x991414	0x8fe168	0	_p_BlinkingLightProperty		none		BlinkingLightProperty *	E0136
+235	0x991414	0x8fe168	1	_p_BlinkingLightProperty		none			E0136
+236	0x991418	0x8fe1a8	0	_p_ObjectEmitterProperty		none		ObjectEmitterProperty *	E0136
+236	0x991418	0x8fe1a8	1	_p_ObjectEmitterProperty		none			E0136
+237	0x99141c	0x8fe1e8	0	_p_STCharacterMenu		none		STCharacterMenu *	E0136
+237	0x99141c	0x8fe1e8	1	_p_STCharacterMenu		none			E0136
+237	0x99141c	0x8fe1e8	2	_p_SortedRegionMenu	0x64bad0	identity			E0136
+238	0x991420	0x8fe238	0	_p_SetFloatVarEvent		none		SetFloatVarEvent *	E0136
+238	0x991420	0x8fe238	1	_p_SetFloatVarEvent		none			E0136
+239	0x991424	0x8fe278	0	_p_TGCharEvent		none		TGCharEvent *	E0136
+239	0x991424	0x8fe278	1	_p_TGCharEvent		none			E0136
+240	0x991428	0x8fe2b8	0	_p_TGPlayerEvent		none		TGPlayerEvent *	E0136
+240	0x991428	0x8fe2b8	1	_p_TGPlayerEvent		none			E0136
+241	0x99142c	0x8fe2f8	0	_p_TGIconManager		none		TGIconManager *	E0136
+241	0x99142c	0x8fe2f8	1	_p_TGIconManager		none			E0136
+242	0x991430	0x8fe338	0	_p_TGInputManager		none		TGInputManager *	E0136
+242	0x991430	0x8fe338	1	_p_TGInputManager		none			E0136
+243	0x991434	0x8fe378	0	_p_TGTimerManager		none		TGTimerManager *	E0136
+243	0x991434	0x8fe378	1	_p_TGTimerManager		none			E0136
+244	0x991438	0x8fe3b8	0	_p_TGEventManager		none		TGEventManager *	E0136
+244	0x991438	0x8fe3b8	1	_p_TGEventManager		none			E0136
+245	0x99143c	0x8fe3f8	0	_p_TGModelManager		none		TGModelManager *	E0136
+245	0x99143c	0x8fe3f8	1	_p_TGModelManager		none			E0136
+246	0x991440	0x8fe438	0	_p_TGLocalizationManager		none		TGLocalizationManager *	E0136
+246	0x991440	0x8fe438	1	_p_TGLocalizationManager		none			E0136
+247	0x991444	0x8fe478	0	_p_TGPoolManager		none		TGPoolManager *	E0136
+247	0x991444	0x8fe478	1	_p_TGPoolManager		none			E0136
+248	0x991448	0x8fe4b8	0	_p_TGFontManager		none		TGFontManager *	E0136
+248	0x991448	0x8fe4b8	1	_p_TGFontManager		none			E0136
+249	0x99144c	0x8fe4f8	0	_p_TGUIThemeManager		none		TGUIThemeManager *	E0136
+249	0x99144c	0x8fe4f8	1	_p_TGUIThemeManager		none			E0136
+250	0x991450	0x8fe538	0	_p_TGSoundManager		none		TGSoundManager *	E0136
+250	0x991450	0x8fe538	1	_p_TGSoundManager		none			E0136
+251	0x991454	0x8fe578	0	_p_TGModelPropertyManager		none		TGModelPropertyManager *	E0136
+251	0x991454	0x8fe578	1	_p_TGModelPropertyManager		none			E0136
+252	0x991458	0x8fe5b8	0	_p_TGActionManager		none		TGActionManager *	E0136
+252	0x991458	0x8fe5b8	1	_p_TGActionManager		none			E0136
+253	0x99145c	0x8fe5f8	0	_p_TGMovieManager		none		TGMovieManager *	E0136
+253	0x99145c	0x8fe5f8	1	_p_TGMovieManager		none			E0136
+254	0x991460	0x8fe638	0	_p_SetManager		none		SetManager *	E0136
+254	0x991460	0x8fe638	1	_p_SetManager		none			E0136
+255	0x991464	0x8fe678	0	_p_FocusManager		none		FocusManager *	E0136
+255	0x991464	0x8fe678	1	_p_FocusManager		none			E0136
+256	0x991468	0x8fe6b8	0	_p_LODModelManager		none		LODModelManager *	E0136
+256	0x991468	0x8fe6b8	1	_p_LODModelManager		none			E0136
+257	0x99146c	0x8fe6f8	0	_p_TextureAnimManager		none		TextureAnimManager *	E0136
+257	0x99146c	0x8fe6f8	1	_p_TextureAnimManager		none			E0136
+258	0x991470	0x8fe738	0	_p_ProximityManager		none		ProximityManager *	E0136
+258	0x991470	0x8fe738	1	_p_ProximityManager		none			E0136
+259	0x991474	0x8fe778	0	_p_TGObjPtrEvent		none		TGObjPtrEvent *	E0136
+259	0x991474	0x8fe778	1	_p_TGObjPtrEvent		none			E0136
+260	0x991478	0x8fe7b8	0	_p_TGVoidPtrEvent		none		TGVoidPtrEvent *	E0136
+260	0x991478	0x8fe7b8	1	_p_TGVoidPtrEvent		none			E0136
+261	0x99147c	0x8fe7f8	0	_p_AsteroidField		none		AsteroidField *	E0136
+261	0x99147c	0x8fe7f8	1	_p_AsteroidField		none			E0136
+262	0x991480	0x8fe838	0	_p_PriorityListAI		none		PriorityListAI *	E0136
+262	0x991480	0x8fe838	1	_p_PriorityListAI		none			E0136
+263	0x991484	0x8fe878	0	_p_TGConsole		none		TGConsole *	E0136
+263	0x991484	0x8fe878	1	_p_TGConsole		none			E0136
+264	0x991488	0x8fe8b8	0	_p_TGAnimNode		none		TGAnimNode *	E0136
+264	0x991488	0x8fe8b8	1	_p_TGAnimNode		none			E0136
+265	0x99148c	0x8fe8f8	0	_p_TGEvent		none		TGEvent *	E0136
+265	0x99148c	0x8fe8f8	1	_p_TGPlayerEvent	0x64bae0	identity			E0136
+265	0x99148c	0x8fe8f8	2	_p_TGCharEvent	0x64baf0	identity			E0136
+265	0x99148c	0x8fe8f8	3	_p_SetFloatVarEvent	0x64bb20	identity			E0136
+265	0x99148c	0x8fe8f8	4	_p_TGIntEvent	0x64bb00	identity			E0136
+265	0x99148c	0x8fe8f8	5	_p_TGShortEvent	0x64bb10	identity			E0136
+265	0x99148c	0x8fe8f8	6	_p_WaypointEvent	0x64bb30	identity			E0136
+265	0x99148c	0x8fe8f8	7	_p_TGKeyboardEvent	0x64bb40	identity			E0136
+265	0x99148c	0x8fe8f8	8	_p_TGFloatEvent	0x64bb50	identity			E0136
+265	0x99148c	0x8fe8f8	9	_p_WeaponHitEvent	0x64bb60	identity			E0136
+265	0x99148c	0x8fe8f8	10	_p_ServerListEvent	0x64bb70	identity			E0136
+265	0x99148c	0x8fe8f8	11	_p_SortServerListEvent	0x64bb80	identity			E0136
+265	0x99148c	0x8fe8f8	12	_p_TGBoolEvent	0x64bb90	identity			E0136
+265	0x99148c	0x8fe8f8	13	_p_TGGamepadEvent	0x64bba0	identity			E0136
+265	0x99148c	0x8fe8f8	14	_p_TGStringEvent	0x64bbb0	identity			E0136
+265	0x99148c	0x8fe8f8	15	_p_TGMessageEvent	0x64bbc0	identity			E0136
+265	0x99148c	0x8fe8f8	16	_p_StartFiringEvent	0x64bbe0	identity			E0136
+265	0x99148c	0x8fe8f8	17	_p_ObjectExplodingEvent	0x64bbf0	identity			E0136
+265	0x99148c	0x8fe8f8	18	_p_TGMouseEvent	0x64bbd0	identity			E0136
+265	0x99148c	0x8fe8f8	19	_p_CollisionEvent	0x64bc00	identity			E0136
+265	0x99148c	0x8fe8f8	20	_p_WarpEvent	0x64bc10	identity			E0136
+265	0x99148c	0x8fe8f8	21	_p_ProximityEvent	0x64bc20	identity			E0136
+265	0x99148c	0x8fe8f8	22	_p_TGEvent		none			E0136
+265	0x99148c	0x8fe8f8	23	_p_TGIEvent	0x64bc30	identity			E0136
+265	0x99148c	0x8fe8f8	24	_p_TGObjPtrEvent	0x64bc40	identity			E0136
+265	0x99148c	0x8fe8f8	25	_p_TGVoidPtrEvent	0x64bc50	identity			E0136
+266	0x991490	0x8feb18	0	_p_ObjectExplodingEvent		none		ObjectExplodingEvent *	E0136
+266	0x991490	0x8feb18	1	_p_ObjectExplodingEvent		none			E0136
+267	0x991494	0x8feb58	0	_p_StartFiringEvent		none		StartFiringEvent *	E0136
+267	0x991494	0x8feb58	1	_p_StartFiringEvent		none			E0136
+268	0x991498	0x8feb98	0	_p_TGStringEvent		none		TGStringEvent *	E0136
+268	0x991498	0x8feb98	1	_p_TGStringEvent		none			E0136
+269	0x99149c	0x8febd8	0	_p_STNumericBar		none		STNumericBar *	E0136
+269	0x99149c	0x8febd8	1	_p_STNumericBar		none			E0136
+270	0x9914a0	0x8fec18	0	_p_TGMusic		none		TGMusic *	E0136
+270	0x9914a0	0x8fec18	1	_p_TGMusic		none			E0136
+271	0x9914a4	0x8fec58	0	_p_SpaceCamera		none		SpaceCamera *	E0136
+271	0x9914a4	0x8fec58	1	_p_SpaceCamera		none			E0136
+272	0x9914a8	0x8fec98	0	_p_NiCamera		none		NiCamera *	E0136
+272	0x9914a8	0x8fec98	1	_p_NiCamera		none			E0136
+273	0x9914ac	0x8fecd8	0	_p_DWORD		none		DWORD *	E0136
+273	0x9914ac	0x8fecd8	1	_p_DWORD		none			E0136
+274	0x9914b0	0x8fed18	0	_p_int		none		int *	E0136
+274	0x9914b0	0x8fed18	1	_r_FuzzySet		none			E0136
+274	0x9914b0	0x8fed18	2	_p_int		none			E0136
+275	0x9914b4	0x8fed68	0	_p_void		none		void *	E0136
+275	0x9914b4	0x8fed68	1	_p_void		none			E0136
+276	0x9914b8	0x8feda8	0	_p_GraphicsMenu		none		GraphicsMenu *	E0136
+276	0x9914b8	0x8feda8	1	_p_GraphicsMenu		none			E0136
+277	0x9914bc	0x8fede8	0	_p_Backdrop		none		Backdrop *	E0136
+277	0x9914bc	0x8fede8	1	_p_Backdrop		none			E0136
+277	0x9914bc	0x8fede8	2	_p_BackdropSphere	0x64bc70	identity			E0136
+277	0x9914bc	0x8fede8	3	_p_StarSphere	0x64bc80	identity			E0136
+278	0x9914c0	0x8fee50	0	_p_STStylizedWindow		none		STStylizedWindow *	E0136
+278	0x9914c0	0x8fee50	1	_p_ShipDisplay	0x64bd20	identity			E0136
+278	0x9914c0	0x8fee50	2	_p_WeaponsDisplay	0x64bd30	identity			E0136
+278	0x9914c0	0x8fee50	3	_p_RadarDisplay	0x64bd40	identity			E0136
+278	0x9914c0	0x8fee50	4	_p_TacWeaponsCtrl	0x64bd50	identity			E0136
+278	0x9914c0	0x8fee50	5	_p_STStylizedWindow		none			E0136
+279	0x9914c4	0x8feee0	0	_p_MapWindow		none		MapWindow *	E0136
+279	0x9914c4	0x8feee0	1	_p_MapWindow		none			E0136
+280	0x9914c8	0x8fef20	0	_p_TacticalControlWindow		none		TacticalControlWindow *	E0136
+280	0x9914c8	0x8fef20	1	_p_TacticalControlWindow		none			E0136
+281	0x9914cc	0x8fef60	0	_p_TacticalWindow		none		TacticalWindow *	E0136
+281	0x9914cc	0x8fef60	1	_p_TacticalWindow		none			E0136
+282	0x9914d0	0x8fefa0	0	_p_MainWindow		none		MainWindow *	E0136
+282	0x9914d0	0x8fefa0	1	_p_MainWindow		none			E0136
+282	0x9914d0	0x8fefa0	2	_p_TacticalWindow	0x64bc90	identity			E0136
+282	0x9914d0	0x8fefa0	3	_p_MapWindow	0x64bca0	identity			E0136
+282	0x9914d0	0x8fefa0	4	_p_MultiplayerWindow	0x64bcb0	identity			E0136
+282	0x9914d0	0x8fefa0	5	_p_ConsoleWindow	0x64bcc0	identity			E0136
+282	0x9914d0	0x8fefa0	6	_p_OptionsWindow	0x64bcd0	identity			E0136
+282	0x9914d0	0x8fefa0	7	_p_BridgeWindow	0x64bce0	identity			E0136
+282	0x9914d0	0x8fefa0	8	_p_ModalDialogWindow	0x64bcf0	identity			E0136
+282	0x9914d0	0x8fefa0	9	_p_CinematicWindow	0x64bd00	identity			E0136
+282	0x9914d0	0x8fefa0	10	_p_SubtitleWindow	0x64bd10	identity			E0136
+283	0x9914d4	0x8ff090	0	_p_TopWindow		none		TopWindow *	E0136
+283	0x9914d4	0x8ff090	1	_p_TopWindow		none			E0136
+284	0x9914d8	0x8ff0d0	0	_p_MultiplayerWindow		none		MultiplayerWindow *	E0136
+284	0x9914d8	0x8ff0d0	1	_p_MultiplayerWindow		none			E0136
+285	0x9914dc	0x8ff110	0	_p_SubtitleWindow		none		SubtitleWindow *	E0136
+285	0x9914dc	0x8ff110	1	_p_SubtitleWindow		none			E0136
+286	0x9914e0	0x8ff150	0	_p_CinematicWindow		none		CinematicWindow *	E0136
+286	0x9914e0	0x8ff150	1	_p_CinematicWindow		none			E0136
+287	0x9914e4	0x8ff190	0	_p_ModalDialogWindow		none		ModalDialogWindow *	E0136
+287	0x9914e4	0x8ff190	1	_p_ModalDialogWindow		none			E0136
+288	0x9914e8	0x8ff1d0	0	_p_BridgeWindow		none		BridgeWindow *	E0136
+288	0x9914e8	0x8ff1d0	1	_p_BridgeWindow		none			E0136
+289	0x9914ec	0x8ff210	0	_p_OptionsWindow		none		OptionsWindow *	E0136
+289	0x9914ec	0x8ff210	1	_p_OptionsWindow		none			E0136
+290	0x9914f0	0x8ff250	0	_p_ConsoleWindow		none		ConsoleWindow *	E0136
+290	0x9914f0	0x8ff250	1	_p_ConsoleWindow		none			E0136
+291	0x9914f4	0x8ff290	0	_p_TGWindow		none		TGWindow *	E0136
+291	0x9914f4	0x8ff290	1	_p_TGWindow		none			E0136
+291	0x9914f4	0x8ff290	2	_p_TGDialogWindow	0x64bd60	identity			E0136
+291	0x9914f4	0x8ff290	3	_p_TGFrameWindow	0x64bd70	identity			E0136
+291	0x9914f4	0x8ff290	4	_p_STCharacterMenu	0x64bd80	identity			E0136
+291	0x9914f4	0x8ff290	5	_p_STStylizedWindow	0x64bd90	identity			E0136
+291	0x9914f4	0x8ff290	6	_p_STTargetMenu	0x64bda0	identity			E0136
+291	0x9914f4	0x8ff290	7	_p_STComponentMenu	0x64bdb0	identity			E0136
+291	0x9914f4	0x8ff290	8	_p_STSubsystemMenu	0x64bdc0	identity			E0136
+291	0x9914f4	0x8ff290	9	_p_ShipDisplay	0x64be00	identity			E0136
+291	0x9914f4	0x8ff290	10	_p_WeaponsDisplay	0x64bdf0	identity			E0136
+291	0x9914f4	0x8ff290	11	_p_RadarDisplay	0x64bde0	identity			E0136
+291	0x9914f4	0x8ff290	12	_p_STTopLevelMenu	0x64bdd0	identity			E0136
+291	0x9914f4	0x8ff290	13	_p_STMenu	0x64be20	identity			E0136
+291	0x9914f4	0x8ff290	14	_p_TacWeaponsCtrl	0x64be10	identity			E0136
+291	0x9914f4	0x8ff290	15	_p_SortedRegionMenu	0x64be30	identity			E0136
+291	0x9914f4	0x8ff290	16	_p_STFileMenu	0x64be40	identity			E0136
+292	0x9914f8	0x8ff3f8	0	_p_TGFrameWindow		none		TGFrameWindow *	E0136
+292	0x9914f8	0x8ff3f8	1	_p_TGFrameWindow		none			E0136
+292	0x9914f8	0x8ff3f8	2	_p_TGDialogWindow	0x64be50	identity			E0136
+293	0x9914fc	0x8ff448	0	_p_TGDialogWindow		none		TGDialogWindow *	E0136
+293	0x9914fc	0x8ff448	1	_p_TGDialogWindow		none			E0136
+294	0x991500	0x8ff488	0	_p_TGBufferStream		none		TGBufferStream *	E0136
+294	0x991500	0x8ff488	1	_p_TGBufferStream		none			E0136
+295	0x991504	0x8ff4c8	0	_p_TGStream		none		TGStream *	E0136
+295	0x991504	0x8ff4c8	1	_p_TGStream		none			E0136
+295	0x991504	0x8ff4c8	2	_p_TGBufferStream	0x64be60	identity			E0136
+296	0x991508	0x8ff518	0	_p_NiStream		none		NiStream *	E0136
+296	0x991508	0x8ff518	1	_p_NiStream		none			E0136
+297	0x99150c	0x8ff558	0	_p_TGParagraph		none		TGParagraph *	E0136
+297	0x99150c	0x8ff558	1	_p_TGParagraph		none			E0136
+297	0x99150c	0x8ff558	2	_p_TGPrompt	0x64be70	identity			E0136
+298	0x991510	0x8ff5a8	0	_p_TextureAnimContainer		none		TextureAnimContainer *	E0136
+298	0x991510	0x8ff5a8	1	_p_TextureAnimContainer		none			E0136
+299	0x991514	0x8ff5e8	0	_p_StarSphere		none		StarSphere *	E0136
+299	0x991514	0x8ff5e8	1	_p_StarSphere		none			E0136
+300	0x991518	0x8ff628	0	_p_BackdropSphere		none		BackdropSphere *	E0136
+300	0x991518	0x8ff628	1	_p_BackdropSphere		none			E0136
+300	0x991518	0x8ff628	2	_p_StarSphere	0x64be80	identity			E0136
+301	0x99151c	0x8ff678	0	_p_p_ObjectClass		none		ObjectClass **	E0136
+301	0x99151c	0x8ff678	1	_p_p_StarSphere	0x64be90	identity			E0136
+301	0x99151c	0x8ff678	2	_p_p_BackdropSphere	0x64bea0	identity			E0136
+301	0x99151c	0x8ff678	3	_p_p_ViewScreenObject	0x64beb0	identity			E0136
+301	0x99151c	0x8ff678	4	_p_p_PlacementObject	0x64bec0	identity			E0136
+301	0x99151c	0x8ff678	5	_p_p_WarpFlash	0x64bee0	identity			E0136
+301	0x99151c	0x8ff678	6	_p_p_ShipClass	0x64bef0	identity			E0136
+301	0x99151c	0x8ff678	7	_p_p_ProximityCheck	0x64bf10	identity			E0136
+301	0x99151c	0x8ff678	8	_p_p_Backdrop	0x64bf20	identity			E0136
+301	0x99151c	0x8ff678	9	_p_p_CharacterClass	0x64bf30	identity			E0136
+301	0x99151c	0x8ff678	10	_p_p_Planet	0x64bf70	identity			E0136
+301	0x99151c	0x8ff678	11	_p_p_Sun	0x64bf00	identity			E0136
+301	0x99151c	0x8ff678	12	_p_p_Torpedo	0x64bf40	identity			E0136
+301	0x99151c	0x8ff678	13	_p_p_PhysicsObjectClass	0x64bf50	identity			E0136
+301	0x99151c	0x8ff678	14	_p_p_ObjectClass		none			E0136
+301	0x99151c	0x8ff678	15	_p_p_BridgeObjectClass	0x64bf60	identity			E0136
+301	0x99151c	0x8ff678	16	_p_p_Waypoint	0x64bf80	identity			E0136
+301	0x99151c	0x8ff678	17	_p_p_LightPlacement	0x64bf90	identity			E0136
+301	0x99151c	0x8ff678	18	_p_p_GridClass	0x64bfa0	identity			E0136
+301	0x99151c	0x8ff678	19	_p_p_AsteroidFieldPlacement	0x64bfb0	identity			E0136
+301	0x99151c	0x8ff678	20	_p_p_DamageableObject	0x64bfc0	identity			E0136
+301	0x99151c	0x8ff678	21	_p_p_Nebula	0x64bed0	identity			E0136
+301	0x99151c	0x8ff678	22	_p_p_MetaNebula	0x64bfd0	identity			E0136
+301	0x99151c	0x8ff678	23	_p_p_AsteroidField	0x64bfe0	identity			E0136
+302	0x991520	0x8ff870	0	_p_PhysicsObjectClass		none		PhysicsObjectClass *	E0136
+302	0x991520	0x8ff870	1	_p_ShipClass	0x64bff0	identity			E0136
+302	0x991520	0x8ff870	2	_p_PhysicsObjectClass		none			E0136
+302	0x991520	0x8ff870	3	_p_Torpedo	0x64c000	identity			E0136
+302	0x991520	0x8ff870	4	_p_DamageableObject	0x64c010	identity			E0136
+303	0x991524	0x8ff8e8	0	_p_BridgeObjectClass		none		BridgeObjectClass *	E0136
+303	0x991524	0x8ff8e8	1	_p_BridgeObjectClass		none			E0136
+304	0x991528	0x8ff928	0	_p_ZoomCameraObjectClass		none		ZoomCameraObjectClass *	E0136
+304	0x991528	0x8ff928	1	_p_ZoomCameraObjectClass		none			E0136
+305	0x99152c	0x8ff968	0	_p_ChatObjectClass		none		ChatObjectClass *	E0136
+305	0x99152c	0x8ff968	1	_p_ChatObjectClass		none			E0136
+306	0x991530	0x8ff9a8	0	_p_SetClass		none		SetClass *	E0136
+306	0x991530	0x8ff9a8	1	_p_SetClass		none			E0136
+306	0x991530	0x8ff9a8	2	_p_BridgeSet	0x64c350	identity			E0136
+306	0x991530	0x8ff9a8	3	_p_WarpSet	0x64c360	identity			E0136
+307	0x991534	0x8ffa10	0	_p_ObjectClass		none		ObjectClass *	E0136
+307	0x991534	0x8ffa10	1	_p_BackdropSphere	0x64c030	identity			E0136
+307	0x991534	0x8ffa10	2	_p_StarSphere	0x64c020	identity			E0136
+307	0x991534	0x8ffa10	3	_p_PlacementObject	0x64c050	identity			E0136
+307	0x991534	0x8ffa10	4	_p_ViewScreenObject	0x64c040	identity			E0136
+307	0x991534	0x8ffa10	5	_p_WarpFlash	0x64c070	identity			E0136
+307	0x991534	0x8ffa10	6	_p_ShipClass	0x64c080	identity			E0136
+307	0x991534	0x8ffa10	7	_p_ProximityCheck	0x64c0a0	identity			E0136
+307	0x991534	0x8ffa10	8	_p_Backdrop	0x64c0b0	identity			E0136
+307	0x991534	0x8ffa10	9	_p_CharacterClass	0x64c0c0	identity			E0136
+307	0x991534	0x8ffa10	10	_p_Planet	0x64c100	identity			E0136
+307	0x991534	0x8ffa10	11	_p_Sun	0x64c090	identity			E0136
+307	0x991534	0x8ffa10	12	_p_Torpedo	0x64c0d0	identity			E0136
+307	0x991534	0x8ffa10	13	_p_PhysicsObjectClass	0x64c0e0	identity			E0136
+307	0x991534	0x8ffa10	14	_p_ObjectClass		none			E0136
+307	0x991534	0x8ffa10	15	_p_BridgeObjectClass	0x64c0f0	identity			E0136
+307	0x991534	0x8ffa10	16	_p_Waypoint	0x64c110	identity			E0136
+307	0x991534	0x8ffa10	17	_p_LightPlacement	0x64c120	identity			E0136
+307	0x991534	0x8ffa10	18	_p_GridClass	0x64c130	identity			E0136
+307	0x991534	0x8ffa10	19	_p_AsteroidFieldPlacement	0x64c140	identity			E0136
+307	0x991534	0x8ffa10	20	_p_DamageableObject	0x64c150	identity			E0136
+307	0x991534	0x8ffa10	21	_p_Nebula	0x64c060	identity			E0136
+307	0x991534	0x8ffa10	22	_p_MetaNebula	0x64c160	identity			E0136
+307	0x991534	0x8ffa10	23	_p_AsteroidField	0x64c170	identity			E0136
+308	0x991538	0x8ffc08	0	_p_CameraObjectClass		none		CameraObjectClass *	E0136
+308	0x991538	0x8ffc08	1	_p_CameraObjectClass		none			E0136
+308	0x991538	0x8ffc08	2	_p_ZoomCameraObjectClass	0x64c330	identity			E0136
+308	0x991538	0x8ffc08	3	_p_SpaceCamera	0x64c340	identity			E0136
+309	0x99153c	0x8ffc70	0	_p_LightObjectClass		none		LightObjectClass *	E0136
+309	0x99153c	0x8ffc70	1	_p_LightObjectClass		none			E0136
+310	0x991540	0x8ffcb0	0	_p_BaseObjectClass		none		BaseObjectClass *	E0136
+310	0x991540	0x8ffcb0	1	_p_BackdropSphere	0x64c190	identity			E0136
+310	0x991540	0x8ffcb0	2	_p_StarSphere	0x64c180	identity			E0136
+310	0x991540	0x8ffcb0	3	_p_PlacementObject	0x64c1b0	identity			E0136
+310	0x991540	0x8ffcb0	4	_p_ViewScreenObject	0x64c1a0	identity			E0136
+310	0x991540	0x8ffcb0	5	_p_WarpFlash	0x64c1d0	identity			E0136
+310	0x991540	0x8ffcb0	6	_p_SpaceCamera	0x64c1e0	identity			E0136
+310	0x991540	0x8ffcb0	7	_p_ShipClass	0x64c1f0	identity			E0136
+310	0x991540	0x8ffcb0	8	_p_ProximityCheck	0x64c210	identity			E0136
+310	0x991540	0x8ffcb0	9	_p_Backdrop	0x64c220	identity			E0136
+310	0x991540	0x8ffcb0	10	_p_CharacterClass	0x64c230	identity			E0136
+310	0x991540	0x8ffcb0	11	_p_Planet	0x64c2b0	identity			E0136
+310	0x991540	0x8ffcb0	12	_p_Sun	0x64c200	identity			E0136
+310	0x991540	0x8ffcb0	13	_p_BaseObjectClass		none			E0136
+310	0x991540	0x8ffcb0	14	_p_LightObjectClass	0x64c270	identity			E0136
+310	0x991540	0x8ffcb0	15	_p_CameraObjectClass	0x64c280	identity			E0136
+310	0x991540	0x8ffcb0	16	_p_ZoomCameraObjectClass	0x64c260	identity			E0136
+310	0x991540	0x8ffcb0	17	_p_PhysicsObjectClass	0x64c240	identity			E0136
+310	0x991540	0x8ffcb0	18	_p_ObjectClass	0x64c290	identity			E0136
+310	0x991540	0x8ffcb0	19	_p_BridgeObjectClass	0x64c250	identity			E0136
+310	0x991540	0x8ffcb0	20	_p_Torpedo	0x64c2a0	identity			E0136
+310	0x991540	0x8ffcb0	21	_p_Waypoint	0x64c2c0	identity			E0136
+310	0x991540	0x8ffcb0	22	_p_LightPlacement	0x64c2d0	identity			E0136
+310	0x991540	0x8ffcb0	23	_p_GridClass	0x64c2e0	identity			E0136
+310	0x991540	0x8ffcb0	24	_p_AsteroidFieldPlacement	0x64c2f0	identity			E0136
+310	0x991540	0x8ffcb0	25	_p_DamageableObject	0x64c300	identity			E0136
+310	0x991540	0x8ffcb0	26	_p_Nebula	0x64c1c0	identity			E0136
+310	0x991540	0x8ffcb0	27	_p_AsteroidField	0x64c310	identity			E0136
+310	0x991540	0x8ffcb0	28	_p_MetaNebula	0x64c320	identity			E0136
+311	0x991544	0x8fff08	0	_p_TGSound		none		TGSound *	E0136
+311	0x991544	0x8fff08	1	_p_TGSound		none			E0136
+312	0x991548	0x8fff48	0	_p_BridgeEffectAction		none		BridgeEffectAction *	E0136
+312	0x991548	0x8fff48	1	_p_BridgeEffectAction		none			E0136
+313	0x99154c	0x8fff88	0	_p_EffectAction		none		EffectAction *	E0136
+313	0x99154c	0x8fff88	1	_p_EffectAction		none			E0136
+313	0x99154c	0x8fff88	2	_p_BridgeEffectAction	0x64c370	identity			E0136
+314	0x991550	0x8fffd8	0	_p_CharacterAction		none		CharacterAction *	E0136
+314	0x991550	0x8fffd8	1	_p_CharacterAction		none			E0136
+315	0x991554	0x900018	0	_p_ChangeRenderedSetAction		none		ChangeRenderedSetAction *	E0136
+315	0x991554	0x900018	1	_p_ChangeRenderedSetAction		none			E0136
+316	0x991558	0x900058	0	_p_LoadMissionAction		none		LoadMissionAction *	E0136
+316	0x991558	0x900058	1	_p_LoadMissionAction		none			E0136
+317	0x99155c	0x900098	0	_p_TGScriptAction		none		TGScriptAction *	E0136
+317	0x99155c	0x900098	1	_p_TGScriptAction		none			E0136
+317	0x99155c	0x900098	2	_p_LoadMissionAction	0x64c380	identity			E0136
+317	0x99155c	0x900098	3	_p_LoadEpisodeAction	0x64c390	identity			E0136
+318	0x991560	0x900100	0	_p_TGTimedAction		none		TGTimedAction *	E0136
+318	0x991560	0x900100	1	_p_TGTimedAction		none			E0136
+318	0x991560	0x900100	2	_p_TGCreditAction	0x64c3a0	identity			E0136
+318	0x991560	0x900100	3	_p_EffectAction	0x64c3b0	identity			E0136
+318	0x991560	0x900100	4	_p_BridgeEffectAction	0x64c3c0	identity			E0136
+318	0x991560	0x900100	5	_p_TGAnimAction	0x64c3d0	identity			E0136
+318	0x991560	0x900100	6	_p_SubtitleAction	0x64c3e0	identity			E0136
+319	0x991564	0x9001a0	0	_p_TGSoundAction		none		TGSoundAction *	E0136
+319	0x991564	0x9001a0	1	_p_TGSoundAction		none			E0136
+320	0x991568	0x9001e0	0	_p_TGConditionAction		none		TGConditionAction *	E0136
+320	0x991568	0x9001e0	1	_p_TGConditionAction		none			E0136
+321	0x99156c	0x900220	0	_p_TGCreditAction		none		TGCreditAction *	E0136
+321	0x99156c	0x900220	1	_p_TGCreditAction		none			E0136
+322	0x991570	0x900260	0	_p_SubtitleAction		none		SubtitleAction *	E0136
+322	0x991570	0x900260	1	_p_SubtitleAction		none			E0136
+323	0x991574	0x9002a0	0	_p_LoadEpisodeAction		none		LoadEpisodeAction *	E0136
+323	0x991574	0x9002a0	1	_p_LoadEpisodeAction		none			E0136
+324	0x991578	0x9002e0	0	_p_TGAction		none		TGAction *	E0136
+324	0x991578	0x9002e0	1	_p_TGAction		none			E0136
+324	0x991578	0x9002e0	2	_p_TGMovieAction	0x64c400	identity			E0136
+324	0x991578	0x9002e0	3	_p_TGAnimPosition	0x64c420	identity			E0136
+324	0x991578	0x9002e0	4	_p_TGAnimAction	0x64c410	identity			E0136
+324	0x991578	0x9002e0	5	_p_SubtitleAction	0x64c430	identity			E0136
+324	0x991578	0x9002e0	6	_p_LoadEpisodeAction	0x64c3f0	identity			E0136
+324	0x991578	0x9002e0	7	_p_WarpSequence	0x64c450	identity			E0136
+324	0x991578	0x9002e0	8	_p_TGSequence	0x64c440	identity			E0136
+324	0x991578	0x9002e0	9	_p_CharacterAction	0x64c470	identity			E0136
+324	0x991578	0x9002e0	10	_p_ChangeRenderedSetAction	0x64c480	identity			E0136
+324	0x991578	0x9002e0	11	_p_TGConditionAction	0x64c4b0	identity			E0136
+324	0x991578	0x9002e0	12	_p_TGSoundAction	0x64c4c0	identity			E0136
+324	0x991578	0x9002e0	13	_p_TGTimedAction	0x64c4d0	identity			E0136
+324	0x991578	0x9002e0	14	_p_TGCreditAction	0x64c4a0	identity			E0136
+324	0x991578	0x9002e0	15	_p_EffectAction	0x64c460	identity			E0136
+324	0x991578	0x9002e0	16	_p_TGScriptAction	0x64c4e0	identity			E0136
+324	0x991578	0x9002e0	17	_p_LoadMissionAction	0x64c490	identity			E0136
+324	0x991578	0x9002e0	18	_p_BridgeEffectAction	0x64c4f0	identity			E0136
+325	0x99157c	0x900470	0	_p_TGAnimAction		none		TGAnimAction *	E0136
+325	0x99157c	0x900470	1	_p_TGAnimAction		none			E0136
+326	0x991580	0x9004b0	0	_p_TGMovieAction		none		TGMovieAction *	E0136
+326	0x991580	0x9004b0	1	_p_TGMovieAction		none			E0136
+327	0x991584	0x9004f0	0	_p_PreprocessingAI		none		PreprocessingAI *	E0136
+327	0x991584	0x9004f0	1	_p_OptimizedFireScript	0x64c500	identity			E0136
+327	0x991584	0x9004f0	2	_p_PreprocessingAI		none			E0136
+327	0x991584	0x9004f0	3	_p_OptimizedSelectTarget	0x64c510	identity			E0136
+327	0x991584	0x9004f0	4	_p_BuilderAI	0x64c520	identity			E0136
+328	0x991588	0x900568	0	_p_TGModelPropertyInstance		none		TGModelPropertyInstance *	E0136
+328	0x991588	0x900568	1	_p_TGModelPropertyInstance		none			E0136
+329	0x99158c	0x9005a8	0	_p_EngRepairPane		none		EngRepairPane *	E0136
+329	0x99158c	0x9005a8	1	_p_EngRepairPane		none			E0136
+330	0x991590	0x9005e8	0	_p_WarpEvent		none		WarpEvent *	E0136
+330	0x991590	0x9005e8	1	_p_WarpEvent		none			E0136
+331	0x991594	0x900628	0	_p_TGIconPoly		none		TGIconPoly *	E0136
+331	0x991594	0x900628	1	_p_TGIconPoly		none			E0136
+332	0x991598	0x900668	0	_p_WarpFlash		none		WarpFlash *	E0136
+332	0x991598	0x900668	1	_p_WarpFlash		none			E0136
+333	0x99159c	0x9006a8	0	_p_TGMatrix3		none		TGMatrix3 *	E0136
+333	0x99159c	0x9006a8	1	_p_TGMatrix3		none			E0136
+334	0x9915a0	0x9006e8	0	_p_TractorBeamProjector		none		TractorBeamProjector *	E0136
+334	0x9915a0	0x9006e8	1	_p_TractorBeamProjector		none			E0136
+335	0x9915a4	0x900728	0	_p_STFillGauge		none		STFillGauge *	E0136
+335	0x9915a4	0x900728	1	_p_STFillGauge		none			E0136
+336	0x9915a8	0x900768	0	_p_TGMouseEvent		none		TGMouseEvent *	E0136
+336	0x9915a8	0x900768	1	_p_TGMouseEvent		none			E0136
+337	0x9915ac	0x9007a8	0	_p_TGMessageEvent		none		TGMessageEvent *	E0136
+337	0x9915ac	0x9007a8	1	_p_TGMessageEvent		none			E0136
+338	0x9915b0	0x9007e8	0	_p_WeaponPayload		none		WeaponPayload *	E0136
+338	0x9915b0	0x9007e8	1	_p_WeaponPayload		none			E0136
+338	0x9915b0	0x9007e8	2	_p_Torpedo	0x64c530	offset	264		E0136
+339	0x9915b4	0x900838	0	_p_TGLocalizationDatabase		none		TGLocalizationDatabase *	E0136
+339	0x9915b4	0x900838	1	_p_TGLocalizationDatabase		none			E0136
+340	0x9915b8	0x900878	0	_p_TGNetGroup		none		TGNetGroup *	E0136
+340	0x9915b8	0x900878	1	_p_TGNetGroup		none			E0136
+341	0x9915bc	0x9008b8	0	_p_ObjectGroup		none		ObjectGroup *	E0136
+341	0x9915bc	0x9008b8	1	_p_ObjectGroup		none			E0136
+341	0x9915bc	0x9008b8	2	_p_ObjectGroupWithInfo	0x64c550	identity			E0136
+342	0x9915c0	0x900908	0	_p_TGFontGroup		none		TGFontGroup *	E0136
+342	0x9915c0	0x900908	1	_p_TGFontGroup		none			E0136
+343	0x9915c4	0x900948	0	_p_WarpSequence		none		WarpSequence *	E0136
+343	0x9915c4	0x900948	1	_p_WarpSequence		none			E0136
+344	0x9915c8	0x900988	0	_p_TGSequence		none		TGSequence *	E0136
+344	0x9915c8	0x900988	1	_p_TGSequence		none			E0136
+344	0x9915c8	0x900988	2	_p_WarpSequence	0x64c560	identity			E0136
+345	0x9915cc	0x9009d8	0	_p_STTiledIcon		none		STTiledIcon *	E0136
+345	0x9915cc	0x9009d8	1	_p_STTiledIcon		none			E0136
+346	0x9915d0	0x900a18	0	_p_PlainAI		none		PlainAI *	E0136
+346	0x9915d0	0x900a18	1	_p_PlainAI		none			E0136
+347	0x9915d4	0x900a58	0	_p_HWND		none		HWND *	E0136
+347	0x9915d4	0x900a58	1	_p_HWND		none			E0136

@@ -1,0 +1,138 @@
+# Appc wrappers for the class SubsystemProperty.
+# The getters and setters of the fields are inline code in the wrappers of the exe; the engine class has a method
+# for each. GetPosition returns a new NiPoint3 with a copy of the position. GetPositionTG fills a new TGPoint3.
+# GetPosition2D writes the two floats through two float pointers.
+
+include SubsystemProperty.h
+
+type SubsystemProperty _p_SubsystemProperty pooled
+type float             _p_float
+
+func new_SubsystemProperty
+    opt l long id
+    call  SubsystemProperty($id)
+    return new SubsystemProperty
+
+func delete_SubsystemProperty
+    this  SubsystemProperty
+    call  delete $this
+    return none
+
+func SubsystemProperty_Cast
+    arg O TGModelProperty property
+    call  SubsystemProperty::Cast($property)
+    return ptr SubsystemProperty
+
+func SubsystemProperty_Create
+    arg S string name
+    call  SubsystemProperty::Create($name)
+    return ptr SubsystemProperty
+
+func SubsystemProperty_GetMaxCondition
+    this  SubsystemProperty
+    call  $this->GetMaxCondition()
+    return float
+
+func SubsystemProperty_IsCritical
+    this  SubsystemProperty
+    call  $this->IsCritical()
+    return int
+
+func SubsystemProperty_IsTargetable
+    this  SubsystemProperty
+    call  $this->IsTargetable()
+    return int
+
+func SubsystemProperty_IsPrimary
+    this  SubsystemProperty
+    call  $this->IsPrimary()
+    return int
+
+func SubsystemProperty_GetRepairComplexity
+    this  SubsystemProperty
+    call  $this->GetRepairComplexity()
+    return float
+
+func SubsystemProperty_GetDisabledPercentage
+    this  SubsystemProperty
+    call  $this->GetDisabledPercentage()
+    return float
+
+func SubsystemProperty_GetRadius
+    this  SubsystemProperty
+    call  $this->GetRadius()
+    return float
+
+func SubsystemProperty_SetMaxCondition
+    this  SubsystemProperty
+    arg f float value
+    call  $this->SetMaxCondition($value)
+    return none
+
+func SubsystemProperty_SetCritical
+    this  SubsystemProperty
+    arg i int value
+    call  $this->SetCritical($value)
+    return none
+
+func SubsystemProperty_SetTargetable
+    this  SubsystemProperty
+    arg i int value
+    call  $this->SetTargetable($value)
+    return none
+
+func SubsystemProperty_SetPrimary
+    this  SubsystemProperty
+    arg i int value
+    call  $this->SetPrimary($value)
+    return none
+
+func SubsystemProperty_SetRepairComplexity
+    this  SubsystemProperty
+    arg f float value
+    call  $this->SetRepairComplexity($value)
+    return none
+
+func SubsystemProperty_SetDisabledPercentage
+    this  SubsystemProperty
+    arg f float value
+    call  $this->SetDisabledPercentage($value)
+    return none
+
+func SubsystemProperty_SetRadius
+    this  SubsystemProperty
+    arg f float value
+    call  $this->SetRadius($value)
+    return none
+
+func SubsystemProperty_GetPosition
+    this  SubsystemProperty
+    call  $this->GetPosition()
+    return ptr NiPoint3
+
+func SubsystemProperty_GetPositionTG
+    this  SubsystemProperty
+    call  $this->GetPositionTG($out)
+    return new TGPoint3
+
+func SubsystemProperty_GetPosition2D
+    this  SubsystemProperty
+    arg O float x
+    arg O float y
+    call  $this->GetPosition2D($x, $y)
+    return none
+
+func SubsystemProperty_SetPosition
+    this  SubsystemProperty
+    arg f float x
+    arg f float y
+    arg f float z
+    call  $this->SetPosition($x, $y, $z)
+    return none
+
+func SubsystemProperty_SetPosition2D
+    this  SubsystemProperty
+    arg f float x
+    arg f float y
+    call  $this->SetPosition2D($x, $y)
+    return none

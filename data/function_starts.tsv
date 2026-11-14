@@ -1,0 +1,63 @@
+address	reason	evidence_id
+0x65a250	Appc module init function; first instruction follows the ret at 0x65a24f; push 0x8e6438 at 0x65a25f	E0006
+0x5bad40	Callee of the call at 0x65a251	E0006
+0x64c580	Function that fills the Appc constant table; its jmp thunk at 0x64c570 is listed at 0x8ca574	E0007
+0x811a00	Static initializer that stores the vector 1,0,0 to 0x9a2840; no Ghidra function here	E0030
+0x811a20	Static initializer that stores the vector 0,1,0 to 0x9a2858; no Ghidra function here	E0030
+0x811a40	Static initializer that stores the vector 0,0,1 to 0x9a2868; no Ghidra function here	E0030
+0x811a60	Static initializer that builds the fast square root table; listed at 0x8d792c	E0029
+0x811ae0	Static initializer that registers 0x811af0 with atexit; listed at 0x8d7930	E0029
+0x811af0	Function that frees the fast square root table; address pushed by 0x811ae0	E0029
+0x5963a0	Target of a vtable slot of TGObject, TGModelProperty, TGModelPropertySet or SubsystemProperty; no Ghidra function	E0043
+0x5963b0	Target of a vtable slot of TGObject, TGModelProperty, TGModelPropertySet or SubsystemProperty; no Ghidra function	E0043
+0x5963d0	Target of a vtable slot of TGObject, TGModelProperty, TGModelPropertySet or SubsystemProperty; no Ghidra function	E0043
+0x5963e0	Target of a vtable slot of TGObject, TGModelProperty, TGModelPropertySet or SubsystemProperty; no Ghidra function	E0043
+0x5963f0	Target of a vtable slot of TGObject, TGModelProperty, TGModelPropertySet or SubsystemProperty; no Ghidra function	E0043
+0x67c560	Target of a vtable slot of TGObject, TGModelProperty, TGModelPropertySet or SubsystemProperty; no Ghidra function	E0043
+0x67c570	Target of a vtable slot of TGObject, TGModelProperty, TGModelPropertySet or SubsystemProperty; no Ghidra function	E0043
+0x67ddd0	Target of a vtable slot of TGObject, TGModelProperty, TGModelPropertySet or SubsystemProperty; no Ghidra function	E0043
+0x6924e0	Target of a vtable slot of TGObject, TGModelProperty, TGModelPropertySet or SubsystemProperty; no Ghidra function	E0043
+0x6924f0	Target of a vtable slot of TGObject, TGModelProperty, TGModelPropertySet or SubsystemProperty; no Ghidra function	E0043
+0x692520	Target of a vtable slot of TGObject, TGModelProperty, TGModelPropertySet or SubsystemProperty; no Ghidra function	E0043
+0x692530	Target of a vtable slot of TGObject, TGModelProperty, TGModelPropertySet or SubsystemProperty; no Ghidra function	E0043
+0x692540	Target of a vtable slot of TGObject, TGModelProperty, TGModelPropertySet or SubsystemProperty; no Ghidra function	E0043
+0x6eb730	Target of a vtable slot of TGObject, TGModelProperty, TGModelPropertySet or SubsystemProperty; no Ghidra function	E0043
+0x6eb8f0	Target of a vtable slot of TGObject, TGModelProperty, TGModelPropertySet or SubsystemProperty; no Ghidra function	E0043
+0x6eb940	Target of a vtable slot of TGObject, TGModelProperty, TGModelPropertySet or SubsystemProperty; no Ghidra function	E0043
+0x6ec7d0	Target of a vtable slot of TGObject, TGModelProperty, TGModelPropertySet or SubsystemProperty; no Ghidra function	E0043
+0x6ed220	Target of a vtable slot of TGObject, TGModelProperty, TGModelPropertySet or SubsystemProperty; no Ghidra function	E0043
+0x6ed230	Target of a vtable slot of TGObject, TGModelProperty, TGModelPropertySet or SubsystemProperty; no Ghidra function	E0043
+0x6ed250	Target of a vtable slot of TGObject, TGModelProperty, TGModelPropertySet or SubsystemProperty; no Ghidra function	E0043
+0x6ed260	Target of a vtable slot of TGObject, TGModelProperty, TGModelPropertySet or SubsystemProperty; no Ghidra function	E0043
+0x6ed270	Target of a vtable slot of TGObject, TGModelProperty, TGModelPropertySet or SubsystemProperty; no Ghidra function	E0043
+0x6f0b60	Target of a vtable slot of TGObject, TGModelProperty, TGModelPropertySet or SubsystemProperty; no Ghidra function	E0043
+0x6f1540	Target of a vtable slot of TGObject, TGModelProperty, TGModelPropertySet or SubsystemProperty; no Ghidra function	E0043
+0x6f1550	Target of a vtable slot of TGObject, TGModelProperty, TGModelPropertySet or SubsystemProperty; no Ghidra function	E0043
+0x6f1560	Target of a vtable slot of TGObject, TGModelProperty, TGModelPropertySet or SubsystemProperty; no Ghidra function	E0043
+0x859a0b	Target of a vtable slot of TGObject, TGModelProperty, TGModelPropertySet or SubsystemProperty; no Ghidra function	E0043
+0x6ec770	Target of vtable slot 15 of TGModelProperty (RET 0xc); no Ghidra function	E0043
+0x6ed630	Target of vtable slot 3 of the vtable at 0x8961f0; no Ghidra function	E0043
+0x6f1ac0	Target of vtable slot 0 of the TGObject ID registry table at 0x896264; no Ghidra function	E0043
+0x6f1960	Target of vtable slot 1 of the TGObject ID registry table at 0x896264; no Ghidra function	E0043
+0x6f1970	Target of vtable slot 2 of the TGObject ID registry table at 0x896264; no Ghidra function	E0043
+0x6f1990	Target of vtable slot 3 of the TGObject ID registry table at 0x896264; no Ghidra function	E0043
+0x6e9530	Static initializer listed at 0x8d0fec; calls the manager constructor thunk 0x6e9540 and the atexit registration 0x6e9550; no Ghidra function	E0045
+0x6e94b0	Creator function pushed with type 0x601 by the registration code at 0x6e8980; no Ghidra function	E0044
+0x43ff30	Creator function pushed with type 0x812b by the registration code at 0x43bdf0; no Ghidra function	E0044
+0x6f08a0	Static initializer entry 0x8d16d8 of the class factory table: CALL 0x6f08b0; JMP 0x6f08f0 (bytes e80b000000e946000000)	E0070
+0x6f1890	Vtable slot 1 of the class factory table (0x89623c); no Ghidra function	E0070
+0x6f18a0	Vtable slot 2 of the class factory table; no Ghidra function	E0070
+0x6f18c0	Vtable slot 3 of the class factory table; no Ghidra function	E0070
+0x6f19c0	Vtable slot 0 of the class factory table (deleting destructor); no Ghidra function	E0070
+0x72c7e0	Callee of the wrapper 0x5d53a0, GetIconPixelWidth; no Ghidra function	E0180
+0x72c840	Callee of the wrapper 0x5d5420, GetIconPixelHeight; no Ghidra function	E0180
+0x72cd80	Callee of the wrapper 0x5d5610, IsNumValid; no Ghidra function	E0181
+0x72cdd0	Callee of the wrapper 0x5d5690, GoToFirstPos; no Ghidra function	E0181
+0x72ce00	Callee of the wrapper 0x5d5760, GetNext; no Ghidra function	E0181
+0x72ae10	Destructor body of the location table, preceded by padding; no Ghidra function	E0181
+0x72ae80	Vtable slot 1 of the location table; no Ghidra function	E0181
+0x72ae90	Vtable slot 2 of the location table; no Ghidra function	E0181
+0x72aeb0	Vtable slot 3 of the location table; no Ghidra function	E0181
+0x72aed0	Vtable slot 4 of the location table; no Ghidra function	E0181
+0x72af10	Vtable slot 0 of the location table (deleting destructor); no Ghidra function	E0181
+0x72b0b0	Callee of 0x72a210 and 0x72a080, the free of a group list node; no Ghidra function	E0185

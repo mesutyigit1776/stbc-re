@@ -1,0 +1,5 @@
+offset	size	type	field	evidence_id	notes
+0x00	4	uint32	key	E0181	The icon number.
+0x04	4	pointer to TGIconLocation	value	E0181	The location, or null.
+0x08	4	pointer to struct TGIconLocationNode	next	E0181	Next node in the bucket chain.
+sizeof	12	-	allocation size	E0181	0xc: PUSH 0xc at 0x72c3f4 before operator_new.

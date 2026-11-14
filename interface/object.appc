@@ -1,0 +1,55 @@
+# Appc wrappers for the methods of TGObject, the base class of the game objects.
+# The virtual functions are called through the vtable of the object; the check against the exe compares the
+# vtable slot of each call with re/layouts/TGObject.vtable.tsv.
+# SetIncrementID and IsIncrementID read and write the byte that the TGObject constructor tests.
+
+include TGObject.h
+
+type TGObject _p_TGObject pooled
+
+func TGObject_GetObjType
+    this  TGObject
+    call  $this->GetObjType()
+    return int
+
+func TGObject_IsTypeOf
+    this  TGObject
+    arg i int type
+    call  $this->IsTypeOf($type)
+    return int
+
+func TGObject_GetObjID
+    this  TGObject
+    call  $this->id
+    return int
+
+func TGObject_Destroy
+    this  TGObject
+    call  delete $this
+    return none
+
+func TGObject_Print
+    this  TGObject
+    opt i int first
+    opt i int second -1
+    call  $this->Print($first, $second)
+    return none
+
+func TGObject_GetIndentString
+    arg i int level
+    call  TGObject::GetIndentString($level)
+    return string
+
+func TGObject_SetIncrementID
+    arg i int enable
+    call  TGObject::advanceNextId = $enable != 0
+    return none
+
+func TGObject_IsIncrementID
+    call  TGObject::advanceNextId
+    return int
+
+func TGObject_GetTGObjectPtr
+    arg l long id
+    call  TGObject::GetTGObjectPtr($id)
+    return ptr TGObject

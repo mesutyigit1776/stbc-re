@@ -1,0 +1,7 @@
+offset	size	type	field	evidence_id	notes
+0x00	1	uint8	allocator	E0065	Low byte of the constructor argument. No function reads it.
+0x01	3	unknown	padding	E0065	No function touches it.
+0x04	4	wide string pointer	buffer	E0065	16 bit characters. The byte at buffer-1 is the share count (0 or 0xff: not shared). The block starts at buffer-2. 0 means empty (the shared empty buffer is 0x888b44).
+0x08	4	uint32	length	E0065	Number of characters.
+0x0c	4	uint32	capacity	E0065	Reserved characters.
+sizeof	16	-	allocation size	E0065	0x10: PUSH 0x10 at 0x5c1c4e (wrapper new_TGString) and at 0x5dd8fa (wrapper TGModelProperty_GetName operator_new(0x10)).

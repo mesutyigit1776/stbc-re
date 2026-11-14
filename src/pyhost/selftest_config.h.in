@@ -1,0 +1,2 @@
+/* Made by CMake from the option BC_PY_SELFTEST_DEFECT. */
+#cmakedefine BC_PY_SELFTEST_DEFECT 1

@@ -1,0 +1,10 @@
+offset	size	type	field	evidence_id	notes
+0x00	4	vtable pointer	vtable	E0047	0x8961ac. Stored by the constructor at 0x6ec68f and by the destructor body at 0x6ec70d. Derived classes overwrite it.
+0x04	4	int32	id	E0046	inherited from TGObject
+0x08	4	int32	refCount	E0047	The constructor stores 1 (0x6ec695). IncRefCount (0x6ec780) adds 1. DecRefCount (0x6ec790) subtracts 1 and calls vtable slot 0 with argument 1 when the value is 0 or less. Duplicate (0x6ec7e0) stores 1 into the copy (0x6ec802).
+0x0c	1	uint8	name.allocator	E0065	First byte of the embedded TGString: the low byte of the constructor argument (0x97dc28 gives 0x28). No function reads it. See TGString.tsv.
+0x0d	3	unknown	name.padding	E0065	Padding between the allocator byte and the buffer pointer. No function touches it.
+0x10	4	wide string pointer	name.buffer	E0065	Wide (16 bit) characters, shared and counted: the byte at buffer-1 is the share count, the block starts at buffer-2. 0 means the empty string (the shared empty buffer is 0x888b44). The constructor assigns the text Uninitialized (0x95affc).
+0x14	4	uint32	name.length	E0065	Number of characters in the buffer.
+0x18	4	uint32	name.capacity	E0065	Reserved characters. Copied by 0x5378d0.
+sizeof	28	-	allocation size	E0047	0x1c: PUSH 0x1c at 0x5dd5bd (wrapper new_TGModelProperty), at 0x6e94b7 (factory creator) and at 0x6ec6d0 (sized free in the deleting destructor).

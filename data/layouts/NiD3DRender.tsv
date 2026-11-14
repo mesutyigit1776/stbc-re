@@ -1,0 +1,5 @@
+offset	size	type	field	evidence_id	notes
+0x00	4	vtable pointer	vtable	E0215	Vtable 0x898984. Slot 19 (0x4c) and slot 20 (0x50) give the size of the view, slot 53 (0xd4) is 0x7c2a10.
+0x04	192	unknown	reserved	E0215	Not used here.
+0xc4	4	pointer to TextureManager	textureManager	E0206	The object that 0x7d4950 gave.
+sizeof	200	-	allocation size	E0197	

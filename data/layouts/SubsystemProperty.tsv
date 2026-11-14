@@ -1,0 +1,24 @@
+offset	size	type	field	evidence_id	notes
+0x00	4	vtable pointer	vtable	E0049	0x895384. Stored by the constructor at 0x692481 and by the destructor body at 0x69269f. Derived classes overwrite it.
+0x04	4	int32	id	E0046	inherited from TGObject
+0x08	4	int32	refCount	E0047	inherited from TGModelProperty
+0x0c	1	uint8	name.allocator	E0065	inherited from TGModelProperty (embedded TGString)
+0x0d	3	unknown	name.padding	E0065	inherited from TGModelProperty
+0x10	4	wide string pointer	name.buffer	E0065	inherited from TGModelProperty
+0x14	4	uint32	name.length	E0065	inherited from TGModelProperty
+0x18	4	uint32	name.capacity	E0065	inherited from TGModelProperty
+0x1c	4	pointer to NiNode	displayNode	E0077	Set to 0 by the constructor. The destructor body (0x692680) detaches the node from its parent (the pointer at +0x18 of the node) through the parent's slot 40 and releases the reference that the detach returns. Created by SubsystemProperty::Attach (0x6929a0, out of scope) with operator_new(0xe8) and the NiNode constructor 0x7e37c0. CopyFrom does not copy it.
+0x20	4	float	maxCondition	E0049	Constructor value 200.0 (0x43480000). Wrappers SetMaxCondition and GetMaxCondition.
+0x24	1	uint8	critical	E0049	Constructor value 0. Wrappers SetCritical and IsCritical.
+0x25	1	uint8	targetable	E0049	Constructor value 1. Wrappers SetTargetable and IsTargetable.
+0x26	1	uint8	primary	E0049	Constructor value 1. Wrappers SetPrimary and IsPrimary.
+0x27	1	unknown	padding	E0049	No function touches it.
+0x28	4	float	position.x	E0049	Constructor copies the dword from 0x9a2878. GetPosition (0x63acf0) and GetPositionTG (0x63ae20) copy +0x28, +0x2c and +0x30 to x, y and z. SetPosition (0x63af30).
+0x2c	4	float	position.y	E0049	Constructor copies the dword from 0x9a287c.
+0x30	4	float	position.z	E0049	Constructor copies the dword from 0x9a2880.
+0x34	4	float	position2D.x	E0049	Constructor copies the dword from 0x9a2bb8. SetPosition2D (0x63afd0), GetPosition2D (0x63ae50).
+0x38	4	float	position2D.y	E0049	Constructor copies the dword from 0x9a2bbc.
+0x3c	4	float	repairComplexity	E0049	Constructor value 1.0 (0x3f800000).
+0x40	4	float	disabledPercentage	E0049	Constructor value 0.5 (0x3f000000).
+0x44	4	float	radius	E0049	Constructor value 0.25 (0x3e800000).
+sizeof	72	-	allocation size	E0049	0x48: PUSH 0x48 at 0x63a47d (wrapper new_SubsystemProperty), at 0x43ff37 (factory creator) and at 0x692660 (sized free in the deleting destructor). Subclasses are larger.

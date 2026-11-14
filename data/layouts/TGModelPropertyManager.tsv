@@ -1,0 +1,7 @@
+offset	size	type	field	evidence_id	notes
+0x00	4	vtable pointer	vtable	E0050	0x8961a0 (2 slots: save and load). The constructor 0x6e9650 stores it (the setter 0x65bd40 does not copy it). The class has no base class and no virtual destructor.
+0x04	24	struct TGList	registeredFilters	E0094	Records of 8 bytes: a filter function pointer and a copy of its name. RegisterFilter (0x6ea0e0) appends, ClearRegisteredFilters (0x6ea1a0) frees the records and the pool. The constructor, the destructor and the setter 0x65bd40 also touch it. The six filter functions are out of scope.
+0x1c	24	struct TGList	currentFilters	E0094	Filter function pointers. AddFilter (0x6e9de0) appends, RemoveFilter (0x6e9e50) unlinks, ApplyFilters (0x6e9f40) calls each one with a property, ClearCurrentFilters (0x6e9d90) frees the pool.
+0x34	24	struct TGList	globalTemplates	E0057	Nodes hold TGModelProperty pointers. Used with the constant GLOBAL_TEMPLATES = 0 (FindByName argument 0). Cleared by ClearGlobalTemplates (0x6e9c00, not in scope).
+0x4c	24	struct TGList	localTemplates	E0057	Nodes hold TGModelProperty pointers. Used with the constant LOCAL_TEMPLATES = 1. Cleared by ClearLocalTemplates (0x6e9ba0).
+sizeof	100	-	object size	E0095	The global object is at 0x999de8 in the uninitialized data (the file bytes are 0). The constructor writes up to +0x63 and the next variable, the pointer at 0x999e4c, is a separate object that a static initializer sets (0x6ea935). No function reads or writes the manager at an offset of 0x64 or more.

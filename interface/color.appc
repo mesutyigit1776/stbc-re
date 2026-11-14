@@ -1,0 +1,146 @@
+# Appc wrappers for the colour classes NiColorA and TGColorA.
+# Wrappers with `alias` are one function in the exe with two method table names.
+
+include ColorA.h
+
+type NiColorA _p_NiColorA
+type TGColorA _p_TGColorA
+
+func NiColorA_r_set
+    alias TGColorA_r_set
+    this  NiColorA
+    arg f float v
+    call  $this->r = $v
+    return none
+
+func NiColorA_r_get
+    alias TGColorA_r_get
+    this  NiColorA
+    call  $this->r
+    return float
+
+func NiColorA_g_set
+    alias TGColorA_g_set
+    this  NiColorA
+    arg f float v
+    call  $this->g = $v
+    return none
+
+func NiColorA_g_get
+    alias TGColorA_g_get
+    this  NiColorA
+    call  $this->g
+    return float
+
+func NiColorA_b_set
+    alias TGColorA_b_set
+    this  NiColorA
+    arg f float v
+    call  $this->b = $v
+    return none
+
+func NiColorA_b_get
+    alias TGColorA_b_get
+    this  NiColorA
+    call  $this->b
+    return float
+
+func NiColorA_a_set
+    alias TGColorA_a_set
+    this  NiColorA
+    arg f float v
+    call  $this->a = $v
+    return none
+
+func NiColorA_a_get
+    alias TGColorA_a_get
+    this  NiColorA
+    call  $this->a
+    return float
+
+func new_NiColorA
+    opt f float r
+    opt f float g
+    opt f float b
+    opt f float a
+    call  NiColorA($r, $g, $b, $a)
+    return new NiColorA
+
+func delete_NiColorA
+    this  NiColorA
+    call  delete $this
+    return none
+
+func new_TGColorA
+    call  TGColorA()
+    return new TGColorA
+
+func delete_TGColorA
+    this  TGColorA
+    call  delete $this
+    return none
+
+func TGColorA_GetR
+    this  TGColorA
+    call  $this->GetR()
+    return float
+
+func TGColorA_GetG
+    this  TGColorA
+    call  $this->GetG()
+    return float
+
+func TGColorA_GetB
+    this  TGColorA
+    call  $this->GetB()
+    return float
+
+func TGColorA_GetA
+    this  TGColorA
+    call  $this->GetA()
+    return float
+
+func TGColorA_SetR
+    this  TGColorA
+    arg f float v
+    call  $this->SetR($v)
+    return none
+
+func TGColorA_SetG
+    this  TGColorA
+    arg f float v
+    call  $this->SetG($v)
+    return none
+
+func TGColorA_SetB
+    this  TGColorA
+    arg f float v
+    call  $this->SetB($v)
+    return none
+
+func TGColorA_SetA
+    this  TGColorA
+    arg f float v
+    call  $this->SetA($v)
+    return none
+
+func TGColorA_SetRGBA
+    this  TGColorA
+    arg f float r
+    arg f float g
+    arg f float b
+    arg f float a
+    call  $this->SetRGBA($r, $g, $b, $a)
+    return none
+
+func TGColorA_Copy
+    this  TGColorA
+    arg O NiColorA source
+    call  $this->Copy(*$source)
+    return none
+
+func TGColorA_ScaleRGB
+    this  TGColorA
+    arg f float scale
+    call  $this->ScaleRGB($scale)
+    return none

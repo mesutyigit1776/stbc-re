@@ -1,0 +1,18 @@
+vtable	slots	slot	function	name	origin	scope	evidence_id	notes
+0x895384	17	0	0x692650	SubsystemProperty::DeletingDestructor	SubsystemProperty (override)	in	E0054	deleting destructor
+0x895384	17	1	0x6924e0	SubsystemProperty::GetObjType	SubsystemProperty (override)	in	E0054	
+0x895384	17	2	0x6924f0	SubsystemProperty::IsTypeOf	SubsystemProperty (override)	in	E0054	
+0x895384	17	3	0x6f1650	TGObject::Print	inherited from TGObject	inherited	E0054	
+0x895384	17	4	0x6933b0	SubsystemProperty::SaveToStream	SubsystemProperty (override)	trap	E0054	
+0x895384	17	5	0x693460	SubsystemProperty::LoadFromStream	SubsystemProperty (override)	trap	E0054	
+0x895384	17	6	0x67c560	TGModelProperty::CheckLinks	inherited from TGModelProperty	inherited	E0054	
+0x895384	17	7	0x67c570	TGModelProperty::FixLinks	inherited from TGModelProperty	inherited	E0054	
+0x895384	17	8	0x6f15c0	TGObject::GetPythonProxy	inherited from TGObject	inherited	E0054	
+0x895384	17	9	0x692520	SubsystemProperty::GetClassName	SubsystemProperty (override)	in	E0054	
+0x895384	17	10	0x692530	SubsystemProperty::GetSwigPointerName	SubsystemProperty (override)	in	E0054	
+0x895384	17	11	0x692540	SubsystemProperty::GetShadowClassName	SubsystemProperty (override)	in	E0054	
+0x895384	17	12	0x692550	SubsystemProperty::WriteSource	SubsystemProperty (override)	trap	E0054	
+0x895384	17	13	0x6927e0	SubsystemProperty::WriteInit	SubsystemProperty (override)	trap	E0054	
+0x895384	17	14	0x6ec7d0	TGModelProperty::Edit	inherited from TGModelProperty	inherited	E0054	
+0x895384	17	15	0x6929a0	SubsystemProperty::Attach	SubsystemProperty (override)	trap	E0054	creates or releases the display node at +0x1c (scene code)
+0x895384	17	16	0x692710	SubsystemProperty::CopyFrom	SubsystemProperty (override)	in	E0054	CopyFrom: copies the SubsystemProperty fields

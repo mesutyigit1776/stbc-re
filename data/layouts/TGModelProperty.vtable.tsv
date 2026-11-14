@@ -1,0 +1,18 @@
+vtable	slots	slot	function	name	origin	scope	evidence_id	notes
+0x8961ac	17	0	0x6ec6c0	TGModelProperty::DeletingDestructor	TGModelProperty (override)	in	E0052	deleting destructor
+0x8961ac	17	1	0x6ed220	TGModelProperty::GetObjType	TGModelProperty (override)	in	E0052	
+0x8961ac	17	2	0x6ed230	TGModelProperty::IsTypeOf	TGModelProperty (override)	in	E0052	
+0x8961ac	17	3	0x6f1650	TGObject::Print	inherited from TGObject	inherited	E0052	
+0x8961ac	17	4	0x6ec840	TGModelProperty::SaveToStream	TGModelProperty (override)	trap	E0052	
+0x8961ac	17	5	0x6ec880	TGModelProperty::LoadFromStream	TGModelProperty (override)	trap	E0052	
+0x8961ac	17	6	0x67c560	TGModelProperty::CheckLinks	TGModelProperty (override)	in	E0052	default: returns 1 (shared function)
+0x8961ac	17	7	0x67c570	TGModelProperty::FixLinks	TGModelProperty (override)	in	E0052	default: does nothing (shared function)
+0x8961ac	17	8	0x6f15c0	TGObject::GetPythonProxy	inherited from TGObject	inherited	E0052	
+0x8961ac	17	9	0x6ed250	TGModelProperty::GetClassName	TGModelProperty (override)	in	E0052	
+0x8961ac	17	10	0x6ed260	TGModelProperty::GetSwigPointerName	TGModelProperty (override)	in	E0052	
+0x8961ac	17	11	0x6ed270	TGModelProperty::GetShadowClassName	TGModelProperty (override)	in	E0052	
+0x8961ac	17	12	0x6ed280	TGModelProperty::WriteSource	TGModelProperty (introduced)	trap	E0052	writes the Python source line for the create call, then calls slot 13
+0x8961ac	17	13	0x67ddd0	TGModelProperty::WriteInit	TGModelProperty (introduced)	in	E0052	WriteInit: writes the property values as Python source
+0x8961ac	17	14	0x6ec7d0	TGModelProperty::Edit	TGModelProperty (introduced)	in	E0052	Edit: returns 0
+0x8961ac	17	15	0x6ec770	TGModelProperty::Attach	TGModelProperty (introduced)	in	E0052	three argument no-op; SubsystemProperty overrides it
+0x8961ac	17	16	0x6ec810	TGModelProperty::CopyFrom	TGModelProperty (introduced)	in	E0052	CopyFrom: copy the name; called by Duplicate on the new object

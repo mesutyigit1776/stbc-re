@@ -1,0 +1,6 @@
+vtable	slots	slot	function	name	origin	scope	evidence_id	notes
+0x897bf0	5	0	0x72af10	TGIconLocationTable::DeletingDestructor	TGIconLocationTable (introduced)	in	E0181	deleting destructor
+0x897bf0	5	1	0x72ae80	TGIconLocationTable::Hash	TGIconLocationTable (introduced)	in	E0181	key modulo the bucket count (unsigned)
+0x897bf0	5	2	0x72ae90	TGIconLocationTable::KeysEqual	TGIconLocationTable (introduced)	in	E0181	keys equal
+0x897bf0	5	3	0x72aeb0	TGIconLocationTable::SetNode	TGIconLocationTable (introduced)	in	E0181	stores key and value
+0x897bf0	5	4	0x72aed0	TGIconLocationTable::ClearNode	TGIconLocationTable (introduced)	in	E0181	does nothing

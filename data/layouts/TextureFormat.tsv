@@ -1,0 +1,5 @@
+offset	size	type	field	evidence_id	notes
+0x00	1	uint8	paletted	E0203	Not 0: the surface has a palette (the raw image must have the format 0).
+0x01	35	unknown	reserved	E0203	Not used here.
+0x24	4	uint32	id	E0203	The number that identifies the format in the records.
+sizeof	40	-	allocation size	E0197	

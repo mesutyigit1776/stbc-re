@@ -1,0 +1,6 @@
+offset	size	type	field	evidence_id	notes
+0x00	4	vtable pointer	vtable	E0048	0x8961f0 (5 slots). Stored by 0x6ed380 and 0x6ed440.
+0x04	4	pointer to TGModelProperty	originalTemplate	E0048	The template that was added. Holds one reference. Wrapper TGModelPropertyInstance_GetOriginalTemplate reads it.
+0x08	4	narrow string pointer	hardpointName	E0048	operator_new copy of the hardpoint name. Wrapper TGModelPropertyInstance_GetHardpointName reads it.
+0x0c	4	pointer to TGModelProperty	property	E0048	A copy made by Duplicate. Holds one reference. Wrapper TGModelPropertyInstance_GetProperty reads it.
+sizeof	16	-	allocation size	E0048	0x10: PUSH 0x10 at 0x6eb3cf (AddToSet).

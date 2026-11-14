@@ -1,0 +1,6 @@
+offset	size	type	field	evidence_id	notes
+0x00	4	vtable pointer	vtable	E0188	0x88b6a0, 5 slots: the deleting destructor 0x44f030, Hash 0x44edb0, KeysEqual 0x44ede0, SetNode 0x44ee40, ClearNode 0x44ef10. The vtable of the base class is 0x88b68c.
+0x04	4	uint32	count	E0188	The number of nodes.
+0x08	4	uint32	bucketCount	E0188	0x25. Set by 0x729bb6.
+0x0c	4	pointer to pointer	buckets	E0188	The bucket array: operator_new(0x94), zeroed.
+sizeof	16	-	member size	E0188	The cache is a member of TGIconManager at +0x6c.

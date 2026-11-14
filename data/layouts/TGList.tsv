@@ -1,0 +1,8 @@
+offset	size	type	field	evidence_id	notes
+0x00	4	int32	count	E0057	Number of nodes in use.
+0x04	4	pointer to struct TGListNode	head	E0057	First node, or 0.
+0x08	4	pointer to struct TGListNode	tail	E0057	Last node, or 0. New nodes go to the tail.
+0x0c	4	pointer to struct TGListNode	freeNodes	E0057	Singly linked free chain through node+4.
+0x10	4	pointer to struct TGListBlock	blocks	E0057	Chain of the allocated blocks. Freed by the clear and destructor code.
+0x14	4	uint32	blockSize	E0057	Nodes per block. Every constructor read stores 2 (0x6e9650, 0x6edff0, 0x5dea10, 0x6eb040).
+sizeof	24	-	size	E0057	24 bytes. The header is an embedded member in the manager, in the property list and in the group, and a separate heap block in the property set.

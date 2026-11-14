@@ -1,0 +1,13 @@
+vtable	slots	slot	function	name	origin	scope	evidence_id	notes
+0x893d58	12	0	0x596400	TGModelPropertySet::DeletingDestructor	TGModelPropertySet (override)	in	E0053	deleting destructor
+0x893d58	12	1	0x5963a0	TGModelPropertySet::GetObjType	TGModelPropertySet (override)	in	E0053	
+0x893d58	12	2	0x5963b0	TGModelPropertySet::IsTypeOf	TGModelPropertySet (override)	in	E0053	
+0x893d58	12	3	0x6f1650	TGObject::Print	inherited from TGObject	inherited	E0053	
+0x893d58	12	4	0x6eb730	TGModelPropertySet::SaveToStream	TGModelPropertySet (override)	trap	E0053	
+0x893d58	12	5	0x6eb780	TGModelPropertySet::LoadFromStream	TGModelPropertySet (override)	trap	E0053	
+0x893d58	12	6	0x6eb8f0	TGModelPropertySet::CheckLinks	TGModelPropertySet (override)	trap	E0053	
+0x893d58	12	7	0x6eb940	TGModelPropertySet::FixLinks	TGModelPropertySet (override)	trap	E0053	
+0x893d58	12	8	0x6f15c0	TGObject::GetPythonProxy	inherited from TGObject	inherited	E0053	
+0x893d58	12	9	0x5963d0	TGModelPropertySet::GetClassName	TGModelPropertySet (override)	in	E0053	
+0x893d58	12	10	0x5963e0	TGModelPropertySet::GetSwigPointerName	TGModelPropertySet (override)	in	E0053	
+0x893d58	12	11	0x5963f0	TGModelPropertySet::GetShadowClassName	TGModelPropertySet (override)	in	E0053	

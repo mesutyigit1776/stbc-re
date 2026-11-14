@@ -1,0 +1,7 @@
+offset	size	type	field	evidence_id	notes
+0x00	4	vtable pointer	vtable	E0177	0x897bd8, 5 slots. The constructor 0x72bb20 stores it at 0x72bbcb.
+0x04	4	pointer to char	name	E0177	A copy of the name (SetName 0x72bf70), or null. GetName reads it (inline in 0x5d5190).
+0x08	4	int32	lockCount	E0185	Set to 0 by the constructor. 0x72bf60 lowers it. Purge deletes a group only when it is 0.
+0x0c	16	struct TGIconLocationTable	locations	E0181	The locations by icon number: vtable 0x897bf0, count (+0x10 of the group), bucket count 0x25 (+0x14) and the bucket array of 0x94 bytes (+0x18). The count is the result of GetCount.
+0x1c	24	struct TGIconTextureArray	textures	E0182	The texture properties by handle: vtable 0x897bec, data (+0x20), capacity 0xf (+0x24), used (+0x28), count (+0x2c) and grow by 10 (+0x30).
+sizeof	52	-	allocation size	E0177	0x34: PUSH 0x34 in 0x5d4f50 before operator_new (0x718cb0).

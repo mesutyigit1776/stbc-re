@@ -1,0 +1,6 @@
+vtable	slots	slot	function	name	origin	scope	evidence_id	notes
+0x896264	5	0	0x6f1ac0	ObjectRegistry::DeletingDestructor	ObjectRegistry (introduced)	in	E0062	deleting destructor
+0x896264	5	1	0x6f1960	ObjectRegistry::Hash	ObjectRegistry (introduced)	in	E0062	hash
+0x896264	5	2	0x6f1970	ObjectRegistry::KeysEqual	ObjectRegistry (introduced)	in	E0062	keys equal
+0x896264	5	3	0x6f1990	ObjectRegistry::SetNode	ObjectRegistry (introduced)	in	E0062	set node
+0x896264	5	4	0x6f19b0	ObjectRegistry::ClearNode	ObjectRegistry (introduced)	in	E0062	clear node

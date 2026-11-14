@@ -1,0 +1,104 @@
+# Appc wrappers for TGModelPropertyManager and its module attribute g_kModelPropertyManager.
+# A filter is a C function that the manager calls with a property; the Python type is a function pointer type.
+# The setter of the attribute copies every member of the class except the vtable pointer, as the class assignment
+# does. The check compares the copied ranges with the layout file.
+
+include TGModelPropertyManager.h
+
+type TGModelPropertyManager _p_TGModelPropertyManager
+type ModelPropertyFilter    _TGModelPropertyManager__FilterFunc funcptr
+
+func TGModelPropertyManager_IsLocalTemplate
+    this  TGModelPropertyManager
+    arg O TGModelProperty property
+    call  $this->IsLocalTemplate($property)
+    return int
+
+func TGModelPropertyManager_IsGlobalTemplate
+    this  TGModelPropertyManager
+    arg O TGModelProperty property
+    call  $this->IsGlobalTemplate($property)
+    return int
+
+func TGModelPropertyManager_RegisterLocalTemplate
+    this  TGModelPropertyManager
+    arg O TGModelProperty property
+    call  $this->RegisterLocalTemplate($property)
+    return int
+
+func TGModelPropertyManager_RegisterGlobalTemplate
+    this  TGModelPropertyManager
+    arg O TGModelProperty property
+    call  $this->RegisterGlobalTemplate($property)
+    return int
+
+func TGModelPropertyManager_ClearGlobalTemplates
+    this  TGModelPropertyManager
+    call  $this->ClearGlobalTemplates()
+    return none
+
+func TGModelPropertyManager_ClearLocalTemplates
+    this  TGModelPropertyManager
+    call  $this->ClearLocalTemplates()
+    return none
+
+func TGModelPropertyManager_ClearRegisteredFilters
+    this  TGModelPropertyManager
+    call  $this->ClearRegisteredFilters()
+    return none
+
+func TGModelPropertyManager_RegisterFilter
+    this  TGModelPropertyManager
+    arg O ModelPropertyFilter filter
+    arg S string name
+    call  $this->RegisterFilter($filter, $name)
+    return none
+
+func TGModelPropertyManager_AddFilter
+    this  TGModelPropertyManager
+    arg O ModelPropertyFilter filter
+    call  $this->AddFilter($filter)
+    return none
+
+func TGModelPropertyManager_ApplyFilters
+    this  TGModelPropertyManager
+    arg O TGModelProperty property
+    call  $this->ApplyFilters($property)
+    return int
+
+func TGModelPropertyManager_ClearCurrentFilters
+    this  TGModelPropertyManager
+    call  $this->ClearCurrentFilters()
+    return none
+
+func TGModelPropertyManager_RemoveFilter
+    this  TGModelPropertyManager
+    arg O ModelPropertyFilter filter
+    call  $this->RemoveFilter($filter)
+    return int
+
+func TGModelPropertyManager_RemoveTemplate
+    this  TGModelPropertyManager
+    arg i int local
+    arg O TGModelProperty property
+    arg i int destroy
+    call  $this->RemoveTemplate($local, $property, $destroy != 0)
+    return int
+
+func TGModelPropertyManager_FindByNameAndType
+    this  TGModelPropertyManager
+    arg S string name
+    arg i int type
+    opt i int local
+    call  $this->FindByNameAndType($name, $type, $local)
+    return ptr TGModelProperty
+
+func TGModelPropertyManager_FindByName
+    this  TGModelPropertyManager
+    arg S string name
+    opt i int local
+    call  $this->FindByName($name, $local)
+    return ptr TGModelProperty
+
+global g_kModelPropertyManager TGModelPropertyManager
+    object TGModelPropertyManager::Global()

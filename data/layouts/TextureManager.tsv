@@ -1,0 +1,8 @@
+offset	size	type	field	evidence_id	notes
+0x00	4	vtable pointer	vtable	E0206	Vtable 0x898b58. Slot 2 (offset 8) is 0x7d6f30.
+0x04	4	uint32	reserved04	E0206	Not used here.
+0x08	28	7 pointers to TextureFormat	slots	E0206	The formats of the device; the address of the array is the second argument of 0x7c6370.
+0x24	132	unknown	reserved24	E0206	Not used here.
+0xa8	4	uint32	flags	E0206	Bit 2 is passed to 0x7c6370 as the bit2 argument.
+0xac	4	pointer to DirectDraw device	device	E0206	The first argument of 0x7c6370.
+sizeof	176	-	allocation size	E0197	

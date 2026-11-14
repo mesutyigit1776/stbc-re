@@ -1,0 +1,6 @@
+offset	size	type	field	evidence_id	notes
+0x00	4	vtable pointer	vtable	E0183	0x897c04, 2 slots (SaveToStream 0x747aa0, LoadFromStream 0x747ad0). The constructor 0x747990 stores it.
+0x04	4	pointer to char	groupName	E0183	A copy of the group name.
+0x08	4	pointer to char	moduleName	E0183	A copy of the name of the script module.
+0x0c	4	pointer to char	functionName	E0183	A copy of the name of the script function that loads the group.
+sizeof	16	-	allocation size	E0183	0x10: PUSH 0x10 before operator_new in 0x729e70.

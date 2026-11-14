@@ -1,0 +1,5 @@
+offset	size	type	field	evidence_id	notes
+0x00	4	vtable pointer	vtable	E0048	0x896204 (1 slot: deleting destructor). Stored by 0x6edff0 and by 0x6ee040.
+0x04	24	struct TGList	items	E0048	For the result of GetPropertiesByType the nodes hold TGModelPropertyInstance pointers.
+0x1c	4	unknown	unused	E0048	Set to 0 by 0x6edff0. No in-scope function reads it.
+sizeof	32	-	allocation size	E0048	0x20: PUSH 0x20 at 0x6eb5b1 (GetPropertiesByType).

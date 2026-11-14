@@ -1,0 +1,7 @@
+offset	size	type	field	evidence_id	notes
+0x00	4	vtable pointer	vtable	E0178	0x897c0c. Stored by the code inline in 0x72c260 (0x72c2ac). The slot count is not known: slots 0 and 1 are SaveToStream and LoadFromStream.
+0x04	4	pointer to NiTextureProperty	texture	E0178	Holds a reference. The destruction of a location releases it (0x72bef1).
+0x08	32	float[8]	corners	E0178	Four pairs of texture coordinates, in this order: (left, top), (left, bottom), (right, bottom), (right, top). SetIconLocation writes them at 0x72c391 to 0x72c3c8.
+0x28	4	float	pixelWidth	E0178	The width in pixels that SetIconLocation was given.
+0x2c	4	float	pixelHeight	E0178	The height in pixels that SetIconLocation was given.
+sizeof	48	-	allocation size	E0178	0x30: PUSH 0x30 at 0x72c28d before operator_new.

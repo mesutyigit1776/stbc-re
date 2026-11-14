@@ -1,0 +1,4 @@
+wrapper	address	format	args	engine call	inline range	return kind	return helper	evidence id	used_by_mods
+TGFontManager_RegisterFont	0x5d6ba0	OOfOO:TGFontManager_RegisterFont	ptr@0x991448,str|None,float,str|None,str|None	0x734a30		None	Py_None 0x95dd20 (refcount at +0 incremented)	E0233	yes
+g_kFontManager (set)	0x65b980	(none: module attribute setter)	ptr@0x991448	inline: converts the argument to the object pointer and stores nothing; the global object 0x99d8e0 stays as it is	0x65b980-0x65b9a4	int (C int 0 on success, 1 on conversion failure; no Python object)	none	E0233	yes
+g_kFontManager (get)	0x65b9b0	(none: module attribute getter)		inline: address of the global object 0x99d8e0	0x65b9b6-0x65b9b6	pointer string	SWIG_NewPointerObj 0x5bb0e0 (type global 0x991448)	E0233	yes

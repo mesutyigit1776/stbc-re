@@ -1,0 +1,10 @@
+offset	size	type	field	evidence_id	notes
+0x00	4	vtable pointer	vtable	E0247	0x89a288. Slot 0 returns the RTTI object 0x9a24d8, whose name text is NiTextureProperty (0x97919c, constructed at 0x809cea). Slot 10 (offset 0x28) deletes the object (0x80a8a0).
+0x04	4	int32	refCount	E0188	Reference count. The icon code adds and removes references with the same code as for other NetImmerse objects.
+0x08	4	pointer to char	name	E0247	A block that the object owns. The constructor sets it to 0.
+0x0c	4	pointer	extraData	E0247	With a reference. The constructor sets it to 0.
+0x10	4	pointer	controller	E0247	With a reference. The constructor sets it to 0.
+0x14	2	uint16	flags	E0247	The constructor 0x809fe0 sets it to 0.
+0x16	2	unknown	padding	E0247	Not used.
+0x18	4	pointer to NiImage	texture	E0188	Holds a reference (0x45d9a0 assigns it).
+sizeof	28	-	allocation size	E0188	0x1c: PUSH 0x1c at 0x72c008 before operator_new.

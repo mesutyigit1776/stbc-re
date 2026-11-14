@@ -1,0 +1,6 @@
+offset	size	type	field	evidence_id	notes
+0x00	4	vtable pointer	vtable	E0227	0x897e5c, 2 slots (0x735410 SaveToStream, 0x735500 LoadFromStream). The constructor 0x734810 stores it.
+0x04	24	struct TGList	families	E0228	Pointers to font family records (TGFontFace). Count +4, head +8, tail +0xc, free chain +0x10, block chain +0x14, block size +0x18 (2). New families go to the tail.
+0x1c	4	pointer to char	defaultName	E0231	A copy of the name of the first registered font, or null. SetDefaultFont (0x734f10) frees and replaces it. The destructor frees it.
+0x20	4	float	defaultSize	E0231	The size bits stored by RegisterFont when defaultName is null, and by SetDefaultFont.
+sizeof	36	-	allocation size	E0227	0x24: PUSH 0x24 in 0x5d6ae7. The global object is at 0x99d8e0 in uninitialized data.

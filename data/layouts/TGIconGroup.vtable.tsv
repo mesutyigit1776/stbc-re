@@ -1,0 +1,6 @@
+vtable	slots	slot	function	name	origin	scope	evidence_id	notes
+0x897bd8	5	0	0x72acb0	TGIconGroup::DeletingDestructor	TGIconGroup (introduced)	in	E0177	deleting destructor; the body is 0x72bce0
+0x897bd8	5	1	0x72c260	TGIconGroup::SetIconLocation	TGIconGroup (introduced)	in	E0178	called by the wrapper 0x5d52d0
+0x897bd8	5	2	0x72c980	TGIconGroup::GetPyWrapper	TGIconGroup (introduced)	trap	E0177	makes the Python object with 0x6f9920; called by the wrapper 0x5d55a0
+0x897bd8	5	3	0x72cb70	TGIconGroup::SaveToStream	TGIconGroup (introduced)	trap	E0177	writes the stream; out of scope
+0x897bd8	5	4	0x72cc50	TGIconGroup::LoadFromStream	TGIconGroup (introduced)	trap	E0177	reads the stream; out of scope

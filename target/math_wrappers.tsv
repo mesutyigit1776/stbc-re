@@ -1,0 +1,84 @@
+wrapper	wrapper_address	format	args	engine_call	inline_range	return_kind	return_helper	evidence_id
+NiColorA_r_set	0x5bd400	Of:NiColorA_r_set	ptr@0x9911f4,float		0x5bd454-0x5bd45c	None	Py_None 0x95dd20 (refcount at +0 incremented)	E0020
+NiColorA_r_get	0x5bd480	O:NiColorA_r_get	ptr@0x9911f4		0x5bd4ca-0x5bd4d3	float	PyFloat_FromDouble 0x74fa70	E0020
+NiColorA_g_set	0x5bd4e0	Of:NiColorA_g_set	ptr@0x9911f4,float		0x5bd534-0x5bd53c	None	Py_None 0x95dd20 (refcount at +0 incremented)	E0020
+NiColorA_g_get	0x5bd560	O:NiColorA_g_get	ptr@0x9911f4		0x5bd5aa-0x5bd5b4	float	PyFloat_FromDouble 0x74fa70	E0020
+NiColorA_b_set	0x5bd5d0	Of:NiColorA_b_set	ptr@0x9911f4,float		0x5bd624-0x5bd62c	None	Py_None 0x95dd20 (refcount at +0 incremented)	E0020
+NiColorA_b_get	0x5bd650	O:NiColorA_b_get	ptr@0x9911f4		0x5bd69a-0x5bd6a4	float	PyFloat_FromDouble 0x74fa70	E0020
+NiColorA_a_set	0x5bd6c0	Of:NiColorA_a_set	ptr@0x9911f4,float		0x5bd714-0x5bd71c	None	Py_None 0x95dd20 (refcount at +0 incremented)	E0020
+NiColorA_a_get	0x5bd740	O:NiColorA_a_get	ptr@0x9911f4		0x5bd78a-0x5bd794	float	PyFloat_FromDouble 0x74fa70	E0020
+new_NiColorA	0x5bd7b0	|ffff:new_NiColorA	float?,float?,float?,float?	0x718cb0	0x5bd801-0x5bd827	pointer string	SWIG_NewPointerObj 0x5bb0e0 (type global 0x9911f4)	E0020
+delete_NiColorA	0x5bd860	O:delete_NiColorA	ptr@0x9911f4	0x718cf0		None	Py_None 0x95dd20 (refcount at +0 incremented)	E0020
+NiPoint3_x_set	0x5bddf0	Of:NiPoint3_x_set	ptr@0x9910f0,float		0x5bde44-0x5bde4c	None	Py_None 0x95dd20 (refcount at +0 incremented)	E0020
+NiPoint3_x_get	0x5bde70	O:NiPoint3_x_get	ptr@0x9910f0		0x5bdeba-0x5bdec3	float	PyFloat_FromDouble 0x74fa70	E0020
+NiPoint3_y_set	0x5bded0	Of:NiPoint3_y_set	ptr@0x9910f0,float		0x5bdf24-0x5bdf2c	None	Py_None 0x95dd20 (refcount at +0 incremented)	E0020
+NiPoint3_y_get	0x5bdf50	O:NiPoint3_y_get	ptr@0x9910f0		0x5bdf9a-0x5bdfa4	float	PyFloat_FromDouble 0x74fa70	E0020
+NiPoint3_z_set	0x5bdfc0	Of:NiPoint3_z_set	ptr@0x9910f0,float		0x5be014-0x5be01c	None	Py_None 0x95dd20 (refcount at +0 incremented)	E0020
+NiPoint3_z_get	0x5be040	O:NiPoint3_z_get	ptr@0x9910f0		0x5be08a-0x5be094	float	PyFloat_FromDouble 0x74fa70	E0020
+new_NiPoint3	0x5be0b0	fff:new_NiPoint3	float,float,float	0x718cb0	0x5be0dc-0x5be0fb	pointer string	SWIG_NewPointerObj 0x5bb0e0 (type global 0x9910f0)	E0020
+delete_NiPoint3	0x5be130	O:delete_NiPoint3	ptr@0x9910f0	0x718cf0		None	Py_None 0x95dd20 (refcount at +0 incremented)	E0020
+NiPoint3_Length	0x5be1a0	O:NiPoint3_Length	ptr@0x9910f0		0x5be1ea-0x5be211	float	PyFloat_FromDouble 0x74fa70	E0020
+NiPoint3_SqrLength	0x5be220	O:NiPoint3_SqrLength	ptr@0x9910f0		0x5be26a-0x5be28f	float	PyFloat_FromDouble 0x74fa70	E0020
+NiPoint3_Dot	0x5be2a0	OO:NiPoint3_Dot	ptr@0x9910f0,ptr@0x9910f0		0x5be31b-0x5be33a	float	PyFloat_FromDouble 0x74fa70	E0020
+NiPoint3_Unitize	0x5be350	O:NiPoint3_Unitize	ptr@0x9910f0		0x5be39a-0x5be40c	float(2 sites)	PyFloat_FromDouble 0x74fa70	E0020
+NiPoint3_Cross	0x5be430	OO:NiPoint3_Cross	ptr@0x9910f0,ptr@0x9910f0	0x718cb0	0x5be4b1-0x5be4f2	pointer string	SWIG_NewPointerObj 0x5bb0e0 (type global 0x9910f0)	E0020
+NiPoint3_UnitCross	0x5be520	OO:NiPoint3_UnitCross	ptr@0x9910f0,ptr@0x9910f0	0x718cb0	0x5be59f-0x5be651	pointer string	SWIG_NewPointerObj 0x5bb0e0 (type global 0x9910f0)	E0020
+NiPoint3_Perpendicular	0x5be680	O:NiPoint3_Perpendicular	ptr@0x9910f0	0x718cb0,0x414580,0x414540,0x4145b0,0x422770	0x5be6d0-0x5be8ec	pointer string	SWIG_NewPointerObj 0x5bb0e0 (type global 0x9910f0)	E0020
+new_TGPoint3	0x5ed510	:new_TGPoint3	none	0x718cb0		pointer string	SWIG_NewPointerObj 0x5bb0e0 (type global 0x9910f4)	E0020
+delete_TGPoint3	0x5ed540	O:delete_TGPoint3	ptr@0x9910f4	0x718cf0		None	Py_None 0x95dd20 (refcount at +0 incremented)	E0020
+TGPoint3_GetRandomUnitVector	0x5ed5b0	:TGPoint3_GetRandomUnitVector	none	0x718cb0,0x45e7b0		pointer string	SWIG_NewPointerObj 0x5bb0e0 (type global 0x9910f4)	E0020
+TGPoint3_GetModelForward	0x5ed610	:TGPoint3_GetModelForward	none	0x718cb0,0x434cd0		pointer string	SWIG_NewPointerObj 0x5bb0e0 (type global 0x9910f4)	E0020
+TGPoint3_GetModelBackward	0x5ed670	:TGPoint3_GetModelBackward	none	0x718cb0,0x5ed6d0		pointer string	SWIG_NewPointerObj 0x5bb0e0 (type global 0x9910f4)	E0020
+TGPoint3_GetModelUp	0x5ed700	:TGPoint3_GetModelUp	none	0x718cb0,0x5022e0		pointer string	SWIG_NewPointerObj 0x5bb0e0 (type global 0x9910f4)	E0020
+TGPoint3_GetModelDown	0x5ed760	:TGPoint3_GetModelDown	none	0x718cb0,0x5ed7c0		pointer string	SWIG_NewPointerObj 0x5bb0e0 (type global 0x9910f4)	E0020
+TGPoint3_GetModelRight	0x5ed7f0	:TGPoint3_GetModelRight	none	0x718cb0,0x502310		pointer string	SWIG_NewPointerObj 0x5bb0e0 (type global 0x9910f4)	E0020
+TGPoint3_GetModelLeft	0x5ed850	:TGPoint3_GetModelLeft	none	0x718cb0,0x5ed8b0		pointer string	SWIG_NewPointerObj 0x5bb0e0 (type global 0x9910f4)	E0020
+TGPoint3_Cross	0x5ed8e0	OO:TGPoint3_Cross	ptr@0x9910f4,ptr@0x9910f4	0x718cb0,0x45c1a0		pointer string	SWIG_NewPointerObj 0x5bb0e0 (type global 0x9910f4)	E0020
+TGPoint3_UnitCross	0x5ed9b0	OO:TGPoint3_UnitCross	ptr@0x9910f4,ptr@0x9910f4	0x718cb0,0x581e60		pointer string	SWIG_NewPointerObj 0x5bb0e0 (type global 0x9910f4)	E0020
+TGPoint3_GetX	0x5eda80	O:TGPoint3_GetX	ptr@0x9910f4		0x5edaca-0x5edad3	float	PyFloat_FromDouble 0x74fa70	E0020
+TGPoint3_GetY	0x5edae0	O:TGPoint3_GetY	ptr@0x9910f4		0x5edb2a-0x5edb34	float	PyFloat_FromDouble 0x74fa70	E0020
+TGPoint3_GetZ	0x5edb50	O:TGPoint3_GetZ	ptr@0x9910f4		0x5edb9a-0x5edba4	float	PyFloat_FromDouble 0x74fa70	E0020
+TGPoint3_SetX	0x5edbc0	Of:TGPoint3_SetX	ptr@0x9910f4,float		0x5edc14-0x5edc1c	None	Py_None 0x95dd20 (refcount at +0 incremented)	E0020
+TGPoint3_SetY	0x5edc40	Of:TGPoint3_SetY	ptr@0x9910f4,float		0x5edc94-0x5edc9c	None	Py_None 0x95dd20 (refcount at +0 incremented)	E0020
+TGPoint3_SetZ	0x5edcc0	Of:TGPoint3_SetZ	ptr@0x9910f4,float		0x5edd14-0x5edd1c	None	Py_None 0x95dd20 (refcount at +0 incremented)	E0020
+TGPoint3_SetXYZ	0x5edd40	Offf:TGPoint3_SetXYZ	ptr@0x9910f4,float,float,float		0x5edd9f-0x5eddb4	None	Py_None 0x95dd20 (refcount at +0 incremented)	E0020
+TGPoint3_GetAlignedComponent	0x5eddd0	OO:TGPoint3_GetAlignedComponent	ptr@0x9910f4,ptr@0x9910f4	0x718cb0,0x45e980		pointer string	SWIG_NewPointerObj 0x5bb0e0 (type global 0x9910f4)	E0020
+TGPoint3_GetPerpendicularComponent	0x5edea0	OO:TGPoint3_GetPerpendicularComponent	ptr@0x9910f4,ptr@0x9910f4	0x718cb0,0x45ea50		pointer string	SWIG_NewPointerObj 0x5bb0e0 (type global 0x9910f4)	E0020
+TGPoint3_MultMatrix	0x5edf70	OO:TGPoint3_MultMatrix	ptr@0x9910f4,ptr@0x99159c	0x45e8d0		None	Py_None 0x95dd20 (refcount at +0 incremented)	E0020
+TGPoint3_MultMatrixLeft	0x5ee010	OO:TGPoint3_MultMatrixLeft	ptr@0x9910f4,ptr@0x99159c	0x45e950		None	Py_None 0x95dd20 (refcount at +0 incremented)	E0020
+TGPoint3_Add	0x5ee0b0	OO:TGPoint3_Add	ptr@0x9910f4,ptr@0x9910f4		0x5ee12b-0x5ee148	None	Py_None 0x95dd20 (refcount at +0 incremented)	E0020
+TGPoint3_Subtract	0x5ee160	OO:TGPoint3_Subtract	ptr@0x9910f4,ptr@0x9910f4		0x5ee1db-0x5ee1f8	None	Py_None 0x95dd20 (refcount at +0 incremented)	E0020
+TGPoint3_Scale	0x5ee210	Of:TGPoint3_Scale	ptr@0x9910f4,float		0x5ee264-0x5ee27f	None	Py_None 0x95dd20 (refcount at +0 incremented)	E0020
+TGPoint3_Set	0x5ee2a0	OO:TGPoint3_Set	ptr@0x9910f4,ptr@0x9910f4	0x5ee360		None	Py_None 0x95dd20 (refcount at +0 incremented)	E0020
+TGPoint3_LoadBinary	0x5ee380	OO:TGPoint3_LoadBinary	ptr@0x9910f4,ptr@0x991508	0x811b10		None	Py_None 0x95dd20 (refcount at +0 incremented)	E0020
+TGPoint3_SaveBinary	0x5ee420	OO:TGPoint3_SaveBinary	ptr@0x9910f4,ptr@0x991508	0x811b50		None	Py_None 0x95dd20 (refcount at +0 incremented)	E0020
+TGPoint3_UnitizeVectors	0x5ee4c0	Oi:TGPoint3_UnitizeVectors	ptr@0x9910f4,int	0x821830		None	Py_None 0x95dd20 (refcount at +0 incremented)	E0020
+TGPoint3_UnitizeVector	0x5ee540	O:TGPoint3_UnitizeVector	ptr@0x9910f4		0x5ee590-0x5ee61f	None	Py_None 0x95dd20 (refcount at +0 incremented)	E0020
+TGPoint3_VectorLength	0x5ee640	O:TGPoint3_VectorLength	ptr@0x9910f4		0x5ee690-0x5ee712	float(2 sites)	PyFloat_FromDouble 0x74fa70	E0020
+TGPoint3_x_set	0x5bddf0	Of:NiPoint3_x_set	ptr@0x9910f0,float		0x5bde44-0x5bde4c	None	Py_None 0x95dd20 (refcount at +0 incremented)	E0020
+TGPoint3_x_get	0x5bde70	O:NiPoint3_x_get	ptr@0x9910f0		0x5bdeba-0x5bdec3	float	PyFloat_FromDouble 0x74fa70	E0020
+TGPoint3_y_set	0x5bded0	Of:NiPoint3_y_set	ptr@0x9910f0,float		0x5bdf24-0x5bdf2c	None	Py_None 0x95dd20 (refcount at +0 incremented)	E0020
+TGPoint3_y_get	0x5bdf50	O:NiPoint3_y_get	ptr@0x9910f0		0x5bdf9a-0x5bdfa4	float	PyFloat_FromDouble 0x74fa70	E0020
+TGPoint3_z_set	0x5bdfc0	Of:NiPoint3_z_set	ptr@0x9910f0,float		0x5be014-0x5be01c	None	Py_None 0x95dd20 (refcount at +0 incremented)	E0020
+TGPoint3_z_get	0x5be040	O:NiPoint3_z_get	ptr@0x9910f0		0x5be08a-0x5be094	float	PyFloat_FromDouble 0x74fa70	E0020
+new_TGColorA	0x5ee730	:new_TGColorA	none	0x718cb0	0x5ee753-0x5ee75f	pointer string	SWIG_NewPointerObj 0x5bb0e0 (type global 0x9911f8)	E0020
+delete_TGColorA	0x5ee790	O:delete_TGColorA	ptr@0x9911f8	0x718cf0		None	Py_None 0x95dd20 (refcount at +0 incremented)	E0020
+TGColorA_GetR	0x5ee800	O:TGColorA_GetR	ptr@0x9911f8		0x5ee84a-0x5ee853	float	PyFloat_FromDouble 0x74fa70	E0020
+TGColorA_GetG	0x5ee860	O:TGColorA_GetG	ptr@0x9911f8		0x5ee8aa-0x5ee8b4	float	PyFloat_FromDouble 0x74fa70	E0020
+TGColorA_GetB	0x5ee8d0	O:TGColorA_GetB	ptr@0x9911f8		0x5ee91a-0x5ee924	float	PyFloat_FromDouble 0x74fa70	E0020
+TGColorA_GetA	0x5ee940	O:TGColorA_GetA	ptr@0x9911f8		0x5ee98a-0x5ee994	float	PyFloat_FromDouble 0x74fa70	E0020
+TGColorA_SetR	0x5ee9b0	Of:TGColorA_SetR	ptr@0x9911f8,float		0x5eea04-0x5eea0c	None	Py_None 0x95dd20 (refcount at +0 incremented)	E0020
+TGColorA_SetG	0x5eea30	Of:TGColorA_SetG	ptr@0x9911f8,float		0x5eea84-0x5eea8c	None	Py_None 0x95dd20 (refcount at +0 incremented)	E0020
+TGColorA_SetB	0x5eeab0	Of:TGColorA_SetB	ptr@0x9911f8,float		0x5eeb04-0x5eeb0c	None	Py_None 0x95dd20 (refcount at +0 incremented)	E0020
+TGColorA_SetA	0x5eeb30	Of:TGColorA_SetA	ptr@0x9911f8,float		0x5eeb84-0x5eeb8c	None	Py_None 0x95dd20 (refcount at +0 incremented)	E0020
+TGColorA_SetRGBA	0x5eebb0	Offff:TGColorA_SetRGBA	ptr@0x9911f8,float,float,float,float		0x5eec13-0x5eec2f	None	Py_None 0x95dd20 (refcount at +0 incremented)	E0020
+TGColorA_Copy	0x5eec50	OO:TGColorA_Copy	ptr@0x9911f8,ptr@0x9911f4	0x5eed10		None	Py_None 0x95dd20 (refcount at +0 incremented)	E0020
+TGColorA_ScaleRGB	0x5eed30	Of:TGColorA_ScaleRGB	ptr@0x9911f8,float		0x5eed84-0x5eed9f	None	Py_None 0x95dd20 (refcount at +0 incremented)	E0020
+TGColorA_r_set	0x5bd400	Of:NiColorA_r_set	ptr@0x9911f4,float		0x5bd454-0x5bd45c	None	Py_None 0x95dd20 (refcount at +0 incremented)	E0020
+TGColorA_r_get	0x5bd480	O:NiColorA_r_get	ptr@0x9911f4		0x5bd4ca-0x5bd4d3	float	PyFloat_FromDouble 0x74fa70	E0020
+TGColorA_g_set	0x5bd4e0	Of:NiColorA_g_set	ptr@0x9911f4,float		0x5bd534-0x5bd53c	None	Py_None 0x95dd20 (refcount at +0 incremented)	E0020
+TGColorA_g_get	0x5bd560	O:NiColorA_g_get	ptr@0x9911f4		0x5bd5aa-0x5bd5b4	float	PyFloat_FromDouble 0x74fa70	E0020
+TGColorA_b_set	0x5bd5d0	Of:NiColorA_b_set	ptr@0x9911f4,float		0x5bd624-0x5bd62c	None	Py_None 0x95dd20 (refcount at +0 incremented)	E0020
+TGColorA_b_get	0x5bd650	O:NiColorA_b_get	ptr@0x9911f4		0x5bd69a-0x5bd6a4	float	PyFloat_FromDouble 0x74fa70	E0020
+TGColorA_a_set	0x5bd6c0	Of:NiColorA_a_set	ptr@0x9911f4,float		0x5bd714-0x5bd71c	None	Py_None 0x95dd20 (refcount at +0 incremented)	E0020
+TGColorA_a_get	0x5bd740	O:NiColorA_a_get	ptr@0x9911f4		0x5bd78a-0x5bd794	float	PyFloat_FromDouble 0x74fa70	E0020

@@ -1,0 +1,6 @@
+offset	size	type	field	evidence_id	notes
+0x00	4	vtable pointer	vtable	E0062	0x896264 (5 slots). Stored at 0x6f0aed and 0x6f1ac9. The class factory table at 0x99a578 has the same layout and slot offsets with the vtable 0x89623c (E0070).
+0x04	4	uint32	count	E0062	Number of nodes. Incremented by RegisterID, decremented by UnregisterID.
+0x08	4	uint32	bucketCount	E0062	0x7f7 (2039). Set at 0x6f0af3. Hash is id modulo this value.
+0x0c	4	pointer to unknown	buckets	E0062	Array of bucketCount node pointers (operator_new(0x1fdc), zeroed). The chain runs through node+8.
+sizeof	16	-	allocation size	E0062	0x10: PUSH 0x10 at 0x6f0acc. The only instance is the global pointer at 0x99a67c.

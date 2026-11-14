@@ -1,0 +1,4 @@
+source	module	result	first_missing_name
+stock	AI	trap	Game_GetCurrentGame
+stock	MakePYC	error	
+stock	loadsplash	ok	

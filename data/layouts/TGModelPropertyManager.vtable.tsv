@@ -1,0 +1,3 @@
+vtable	slots	slot	function	name	origin	scope	evidence_id	notes
+0x8961a0	2	0	0x6ea2a0	TGModelPropertyManager::SaveToStream	TGModelPropertyManager (introduced)	trap	E0055	save to stream
+0x8961a0	2	1	0x6ea320	TGModelPropertyManager::LoadFromStream	TGModelPropertyManager (introduced)	trap	E0055	load from stream

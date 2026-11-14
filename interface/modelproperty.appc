@@ -1,0 +1,85 @@
+# Appc wrappers for the class TGModelProperty.
+# A string argument is None or a Python string; a string of another type raises a TypeError.
+# GetName returns a new TGString: the engine function fills the new object, as the exe does.
+# The Python type of the stream argument of WriteInit is TGStream; the engine function takes a TGFile.
+# Edit takes the window handle through a pointer to the handle.
+
+include TGModelProperty.h
+include TGStream.h
+include TGString.h
+
+type TGModelProperty _p_TGModelProperty pooled
+type TGString        _p_TGString
+type TGStream        _p_TGStream
+type HWND            _p_HWND opaque
+
+func new_TGModelProperty
+    opt l long id
+    call  TGModelProperty($id)
+    return new TGModelProperty
+
+func delete_TGModelProperty
+    this  TGModelProperty
+    call  delete $this
+    return none
+
+func TGModelProperty_GetRefCount
+    this  TGModelProperty
+    call  $this->GetRefCount()
+    return int
+
+func TGModelProperty_DecRefCount
+    this  TGModelProperty
+    call  $this->DecRefCount()
+    return none
+
+func TGModelProperty_IncRefCount
+    this  TGModelProperty
+    call  $this->IncRefCount()
+    return none
+
+func TGModelProperty_Cast
+    arg O TGModelProperty object
+    call  TGModelProperty::Cast($object)
+    return ptr TGModelProperty
+
+func TGModelProperty_Create
+    arg S string name
+    call  TGModelProperty::Create($name)
+    return ptr TGModelProperty
+
+func TGModelProperty_GetName
+    this  TGModelProperty
+    init  ""
+    call  $this->GetName($out)
+    return new TGString
+
+func TGModelProperty_WriteInit
+    this  TGModelProperty
+    arg O TGStream stream
+    arg S string name
+    call  $this->WriteInit(reinterpret_cast<TGFile *>($stream), $name)
+    return none
+
+func TGModelProperty_Duplicate
+    this  TGModelProperty
+    call  $this->Duplicate()
+    return ptr TGModelProperty
+
+func TGModelProperty_Edit
+    this  TGModelProperty
+    arg O HWND window
+    call  $this->Edit(*reinterpret_cast<void **>($window))
+    return int
+
+func TGModelProperty_SetName
+    this  TGModelProperty
+    arg S string name
+    call  $this->SetName($name)
+    return none
+
+func TGModelProperty_SetNameW
+    this  TGModelProperty
+    arg O TGString name
+    call  $this->SetNameW(*$name)
+    return none

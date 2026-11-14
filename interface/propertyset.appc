@@ -1,0 +1,40 @@
+# Appc wrappers for the class TGModelPropertySet.
+# TGModelPropertySet_Create makes a set with the ID 0, which gives the set the next free ID.
+# GetPropertyList returns the group of one hardpoint; a group is a property list.
+
+include TGModelPropertySet.h
+
+type TGModelPropertySet  _p_TGModelPropertySet pooled
+type TGModelPropertyList _p_TGModelPropertyList
+
+func new_TGModelPropertySet
+    call  TGModelPropertySet()
+    return new TGModelPropertySet
+
+func TGModelPropertySet_Create
+    call  static_cast<TGModelPropertySet *>(TGModelPropertySet::Create(0))
+    return ptr TGModelPropertySet
+
+func delete_TGModelPropertySet
+    this  TGModelPropertySet
+    call  delete $this
+    return none
+
+func TGModelPropertySet_GetPropertyList
+    this  TGModelPropertySet
+    arg S string hardpoint
+    call  $this->FindGroup($hardpoint)
+    return ptr TGModelPropertyList
+
+func TGModelPropertySet_GetPropertiesByType
+    this  TGModelPropertySet
+    arg i int type
+    call  $this->GetPropertiesByType($type)
+    return ptr TGModelPropertyList
+
+func TGModelPropertySet_AddToSet
+    this  TGModelPropertySet
+    arg S string hardpoint
+    arg O TGModelProperty property
+    call  $this->AddToSet($hardpoint, $property)
+    return int
