@@ -1,0 +1,2848 @@
+{
+ "NiAVObject": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "__repr__"
+  ]
+ },
+ "NiCamera": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "__repr__"
+  ]
+ },
+ "NiFrustum": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "__del__",
+   "__setattr__",
+   "__getattr__",
+   "__repr__"
+  ]
+ },
+ "NiColor": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "__del__",
+   "__setattr__",
+   "__getattr__",
+   "__repr__"
+  ]
+ },
+ "NiColorA": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "__del__",
+   "__setattr__",
+   "__getattr__",
+   "__repr__"
+  ]
+ },
+ "NiPoint2": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "__del__",
+   "__setattr__",
+   "__getattr__",
+   "__repr__"
+  ]
+ },
+ "NiPoint3": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "__del__",
+   "Cross",
+   "UnitCross",
+   "Perpendicular",
+   "__setattr__",
+   "__getattr__",
+   "__repr__"
+  ]
+ },
+ "TGModelUtils": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "__repr__"
+  ]
+ },
+ "TGSystemWrapperClass": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "__repr__"
+  ]
+ },
+ "TGProfilingInfo": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "TGConfigMapping": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "GetTGStringValue",
+   "__repr__"
+  ]
+ },
+ "TGPoolManager": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "__repr__"
+  ]
+ },
+ "TGObject": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "__repr__"
+  ]
+ },
+ "TGAttrObject": {
+  "base": "TGObject",
+  "methods": [
+   "__init__",
+   "__repr__"
+  ]
+ },
+ "TGTemplatedAttrObject": {
+  "base": "TGAttrObject",
+  "methods": [
+   "__init__",
+   "__repr__"
+  ]
+ },
+ "TGString": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "__del__",
+   "Append",
+   "__repr__"
+  ]
+ },
+ "TGStream": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "__repr__"
+  ]
+ },
+ "TGBufferStream": {
+  "base": "TGStream",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "TGLocalizationDatabase": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "GetString",
+   "__repr__"
+  ]
+ },
+ "TGLocalizationManager": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "Load",
+   "GetIfRegistered",
+   "__repr__"
+  ]
+ },
+ "NiNode": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "__repr__"
+  ]
+ },
+ "TGAnimNode": {
+  "base": "NiNode",
+  "methods": [
+   "__init__",
+   "GetRootNode",
+   "FindNode",
+   "__repr__"
+  ]
+ },
+ "TGAnimationManagerClass": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "__repr__"
+  ]
+ },
+ "TGModelManager": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "GetModel",
+   "GetCamera",
+   "CloneModel",
+   "CloneCamera",
+   "CopyModel",
+   "__repr__"
+  ]
+ },
+ "TGEvent": {
+  "base": "TGObject",
+  "methods": [
+   "__init__",
+   "__del__",
+   "Duplicate",
+   "GetSource",
+   "GetDestination",
+   "__repr__"
+  ]
+ },
+ "TGBoolEvent": {
+  "base": "TGEvent",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "TGCharEvent": {
+  "base": "TGEvent",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "TGShortEvent": {
+  "base": "TGEvent",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "TGIntEvent": {
+  "base": "TGEvent",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "TGFloatEvent": {
+  "base": "TGEvent",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "TGStringEvent": {
+  "base": "TGEvent",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "TGVoidPtrEvent": {
+  "base": "TGEvent",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "TGObjPtrEvent": {
+  "base": "TGEvent",
+  "methods": [
+   "__init__",
+   "GetObjPtr",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "TGEventHandlerObject": {
+  "base": "TGTemplatedAttrObject",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "TGEventManager": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "__repr__"
+  ]
+ },
+ "TGTimer": {
+  "base": "TGObject",
+  "methods": [
+   "__init__",
+   "__del__",
+   "GetEvent",
+   "__repr__"
+  ]
+ },
+ "TGTimerManager": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "__repr__"
+  ]
+ },
+ "TGPythonInstanceWrapper": {
+  "base": "TGEventHandlerObject",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "TGIEvent": {
+  "base": "TGEvent",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "TGMouseEvent": {
+  "base": "TGIEvent",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "TGKeyboardEvent": {
+  "base": "TGIEvent",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "TGGamepadEvent": {
+  "base": "TGIEvent",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "TGInputManager": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "GetMousePos",
+   "GetMouseDelta",
+   "GetDisplayStringFromUnicode",
+   "__repr__"
+  ]
+ },
+ "TGUIModule": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "__repr__"
+  ]
+ },
+ "TGRect": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "TGUIObject": {
+  "base": "TGEventHandlerObject",
+  "methods": [
+   "__init__",
+   "__del__",
+   "GetParent",
+   "GetConceptualParent",
+   "GetCommonAncestor",
+   "GetFocusLeaf",
+   "__repr__"
+  ]
+ },
+ "TGPane": {
+  "base": "TGUIObject",
+  "methods": [
+   "__init__",
+   "__del__",
+   "GetFirstChild",
+   "GetLastChild",
+   "GetNthChild",
+   "GetNextChild",
+   "GetPrevChild",
+   "GetFocus",
+   "GetFocusLeaf",
+   "GetTrueNthChild",
+   "__repr__"
+  ]
+ },
+ "TGIcon": {
+  "base": "TGUIObject",
+  "methods": [
+   "__init__",
+   "__del__",
+   "GetIconPoly",
+   "__repr__"
+  ]
+ },
+ "TGFrame": {
+  "base": "TGUIObject",
+  "methods": [
+   "__init__",
+   "GetInnerRect",
+   "GetNiColor",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "TGButtonBase": {
+  "base": "TGPane",
+  "methods": [
+   "__init__",
+   "__del__",
+   "GetActivationEvent",
+   "__repr__"
+  ]
+ },
+ "TGButton": {
+  "base": "TGButtonBase",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "TGTextButton": {
+  "base": "TGButtonBase",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "TGRootPane": {
+  "base": "TGPane",
+  "methods": [
+   "__init__",
+   "GetMouseCursor",
+   "GetMouseGrabOwner",
+   "GetTrueFocus",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "TGParagraph": {
+  "base": "TGPane",
+  "methods": [
+   "__init__",
+   "__del__",
+   "GetFontGroup",
+   "__repr__"
+  ]
+ },
+ "TGIconGroup": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "TGIconManager": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "CreateIconGroup",
+   "GetIconGroup",
+   "__repr__"
+  ]
+ },
+ "TGFontGroup": {
+  "base": "TGIconGroup",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "TGFontManager": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "__del__",
+   "CreateFontGroup",
+   "GetDefaultFont",
+   "GetFontGroup",
+   "__repr__"
+  ]
+ },
+ "TGWindow": {
+  "base": "TGPane",
+  "methods": [
+   "__init__",
+   "__del__",
+   "GetSubPane",
+   "__repr__"
+  ]
+ },
+ "TGFrameWindow": {
+  "base": "TGWindow",
+  "methods": [
+   "__init__",
+   "__del__",
+   "GetFramePane",
+   "__repr__"
+  ]
+ },
+ "TGDialogWindow": {
+  "base": "TGFrameWindow",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "TGUITheme": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "TGUIThemeManager": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "FindTheme",
+   "GetCurrentTheme",
+   "__repr__"
+  ]
+ },
+ "TGConsole": {
+  "base": "TGPane",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "TGPrompt": {
+  "base": "TGParagraph",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "TGSound": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "GetParentNode",
+   "GetPosition",
+   "GetEndEvent",
+   "__repr__"
+  ]
+ },
+ "TGSoundManager": {
+  "base": "TGEventHandlerObject",
+  "methods": [
+   "__init__",
+   "GetSound",
+   "GetPlayingSound",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "TGRedbookClass": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "__repr__"
+  ]
+ },
+ "TGMusic": {
+  "base": "TGEventHandlerObject",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "TGSoundRegion": {
+  "base": "TGObject",
+  "methods": [
+   "__init__",
+   "__repr__"
+  ]
+ },
+ "PyEmbed": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "__repr__"
+  ]
+ },
+ "TGModelProperty": {
+  "base": "TGObject",
+  "methods": [
+   "__init__",
+   "__del__",
+   "GetName",
+   "Duplicate",
+   "__repr__"
+  ]
+ },
+ "TGModelPropertyManager": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "FindByNameAndType",
+   "FindByName",
+   "__repr__"
+  ]
+ },
+ "TGModelPropertySet": {
+  "base": "TGObject",
+  "methods": [
+   "__init__",
+   "__del__",
+   "GetPropertyList",
+   "GetPropertiesByType",
+   "__repr__"
+  ]
+ },
+ "TGModelPropertyInstance": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "__del__",
+   "GetProperty",
+   "GetOriginalTemplate",
+   "__repr__"
+  ]
+ },
+ "TGModelPropertyList": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "__del__",
+   "TGGetNext",
+   "__repr__"
+  ]
+ },
+ "TGAction": {
+  "base": "TGObject",
+  "methods": [
+   "__init__",
+   "GetSequence",
+   "__repr__"
+  ]
+ },
+ "TGActionManager": {
+  "base": "TGEventHandlerObject",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "TGSequence": {
+  "base": "TGAction",
+  "methods": [
+   "__init__",
+   "GetAction",
+   "__repr__"
+  ]
+ },
+ "TGScriptAction": {
+  "base": "TGAction",
+  "methods": [
+   "__init__",
+   "__repr__"
+  ]
+ },
+ "TGTimedAction": {
+  "base": "TGAction",
+  "methods": [
+   "__init__",
+   "__repr__"
+  ]
+ },
+ "TGSoundAction": {
+  "base": "TGAction",
+  "methods": [
+   "__init__",
+   "__repr__"
+  ]
+ },
+ "TGAnimAction": {
+  "base": "TGTimedAction",
+  "methods": [
+   "__init__",
+   "__repr__"
+  ]
+ },
+ "TGAnimPosition": {
+  "base": "TGAction",
+  "methods": [
+   "__init__",
+   "__repr__"
+  ]
+ },
+ "TGCondition": {
+  "base": "TGObject",
+  "methods": [
+   "__init__",
+   "__repr__"
+  ]
+ },
+ "TGConditionHandler": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "__repr__"
+  ]
+ },
+ "TGConditionActionPtr": {
+  "base": "TGConditionAction",
+  "methods": [
+   "__init__"
+  ]
+ },
+ "TGMessage": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "__del__",
+   "Copy",
+   "GetBufferStream",
+   "__repr__"
+  ]
+ },
+ "TGPlayerList": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "__del__",
+   "GetPlayerAtIndex",
+   "GetPlayer",
+   "GetPlayerFromAddress",
+   "__repr__"
+  ]
+ },
+ "TGNetwork": {
+  "base": "TGEventHandlerObject",
+  "methods": [
+   "__init__",
+   "__del__",
+   "GetName",
+   "GetNextMessage",
+   "GetHostName",
+   "GetPlayerList",
+   "GetPassword",
+   "GetGroup",
+   "__repr__"
+  ]
+ },
+ "TGWinsockNetwork": {
+  "base": "TGNetwork",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "TGNameChangeMessage": {
+  "base": "TGMessage",
+  "methods": [
+   "__init__",
+   "__del__",
+   "Copy",
+   "__repr__"
+  ]
+ },
+ "TGAckMessage": {
+  "base": "TGMessage",
+  "methods": [
+   "__init__",
+   "__del__",
+   "Copy",
+   "__repr__"
+  ]
+ },
+ "TGDoNothingMessage": {
+  "base": "TGMessage",
+  "methods": [
+   "__init__",
+   "__del__",
+   "Copy",
+   "__repr__"
+  ]
+ },
+ "TGBootPlayerMessage": {
+  "base": "TGMessage",
+  "methods": [
+   "__init__",
+   "__del__",
+   "Copy",
+   "__repr__"
+  ]
+ },
+ "TGConnectMessage": {
+  "base": "TGMessage",
+  "methods": [
+   "__init__",
+   "__del__",
+   "Copy",
+   "__repr__"
+  ]
+ },
+ "TGDisconnectMessage": {
+  "base": "TGMessage",
+  "methods": [
+   "__init__",
+   "__del__",
+   "Copy",
+   "__repr__"
+  ]
+ },
+ "TGMessageEvent": {
+  "base": "TGEvent",
+  "methods": [
+   "__init__",
+   "__del__",
+   "GetMessage",
+   "__repr__"
+  ]
+ },
+ "TGPlayerEvent": {
+  "base": "TGEvent",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "TGGroupPlayer": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "__setattr__",
+   "__getattr__",
+   "__repr__"
+  ]
+ },
+ "TGNetGroup": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "__del__",
+   "Copy",
+   "__repr__"
+  ]
+ },
+ "TGNetPlayer": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "__del__",
+   "GetName",
+   "Copy",
+   "__repr__"
+  ]
+ },
+ "TGMovieAction": {
+  "base": "TGAction",
+  "methods": [
+   "__init__",
+   "__repr__"
+  ]
+ },
+ "TGCreditAction": {
+  "base": "TGTimedAction",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "TGMovieManager": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "__repr__"
+  ]
+ },
+ "TGGeomUtils": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "__repr__"
+  ]
+ },
+ "UtopiaModule": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "GetCamera",
+   "GetCaptainName",
+   "GetNetwork",
+   "GetGameSpy",
+   "__repr__"
+  ]
+ },
+ "UtopiaApp": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "__repr__"
+  ]
+ },
+ "NiMatrix3": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "__repr__"
+  ]
+ },
+ "TGMatrix3": {
+  "base": "NiMatrix3",
+  "methods": [
+   "__init__",
+   "__del__",
+   "Inverse",
+   "Transpose",
+   "MultMatrix",
+   "MultMatrixLeft",
+   "TransposeTimes",
+   "Congruence",
+   "__repr__"
+  ]
+ },
+ "TGPoint3": {
+  "base": "NiPoint3",
+  "methods": [
+   "__init__",
+   "__del__",
+   "Cross",
+   "UnitCross",
+   "GetAlignedComponent",
+   "GetPerpendicularComponent",
+   "__setattr__",
+   "__getattr__",
+   "__repr__"
+  ]
+ },
+ "TGColorA": {
+  "base": "NiColorA",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__setattr__",
+   "__getattr__",
+   "__repr__"
+  ]
+ },
+ "SetClass": {
+  "base": "TGEventHandlerObject",
+  "methods": [
+   "__init__",
+   "GetProximityManager",
+   "RemoveObjectFromSet",
+   "GetObject",
+   "GetObjectByID",
+   "GetFirstObject",
+   "GetNextObject",
+   "GetPreviousObject",
+   "GetSceneRoot",
+   "GetEffectRoot",
+   "GetBackdropRoot",
+   "GetForegroundRoot",
+   "GetCamera",
+   "GetActiveCamera",
+   "GetLight",
+   "GetPickedObject",
+   "GetNebula",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "SetManager": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "GetSet",
+   "GetRenderedSet",
+   "__repr__"
+  ]
+ },
+ "ScriptObject": {
+  "base": "TGEventHandlerObject",
+  "methods": [
+   "__init__",
+   "__del__",
+   "LoadSound",
+   "LoadDatabaseSound",
+   "SetDatabase",
+   "GetDatabase",
+   "__repr__"
+  ]
+ },
+ "Game": {
+  "base": "ScriptObject",
+  "methods": [
+   "__init__",
+   "__del__",
+   "GetCurrentEpisode",
+   "LoadSoundInGroup",
+   "LoadDatabaseSoundInGroup",
+   "GetPlayer",
+   "GetPlayerGroup",
+   "GetPlayerSet",
+   "GetPlayerCamera",
+   "__repr__"
+  ]
+ },
+ "Episode": {
+  "base": "ScriptObject",
+  "methods": [
+   "__init__",
+   "GetCurrentMission",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "Mission": {
+  "base": "ScriptObject",
+  "methods": [
+   "__init__",
+   "__del__",
+   "GetPrecreatedShip",
+   "__repr__"
+  ]
+ },
+ "BaseObjectClass": {
+  "base": "TGEventHandlerObject",
+  "methods": [
+   "__init__",
+   "GetNode",
+   "GetContainingSet",
+   "GetNiObject",
+   "GetAnimNode",
+   "GetWorldLocation",
+   "GetTranslate",
+   "GetRotation",
+   "GetWorldRotation",
+   "GetDisplayName",
+   "GetWorldForwardTG",
+   "GetWorldBackwardTG",
+   "GetWorldUpTG",
+   "GetWorldDownTG",
+   "GetWorldRightTG",
+   "GetWorldLeftTG",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "ObjectClass": {
+  "base": "BaseObjectClass",
+  "methods": [
+   "__init__",
+   "GetRandomPointOnModel",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "CameraObjectClass": {
+  "base": "BaseObjectClass",
+  "methods": [
+   "__init__",
+   "GetNiFrustum",
+   "GetCurrentCameraMode",
+   "GetNamedCameraMode",
+   "GetWorldForward",
+   "GetWorldUp",
+   "GetWorldRight",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "SpaceCamera": {
+  "base": "CameraObjectClass",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "LightObjectClass": {
+  "base": "BaseObjectClass",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "CameraMode": {
+  "base": "TGEventHandlerObject",
+  "methods": [
+   "__init__",
+   "GetAttrIDObject",
+   "GetAttrPoint",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "Backdrop": {
+  "base": "ObjectClass",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "BackdropSphere": {
+  "base": "Backdrop",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "StarSphere": {
+  "base": "BackdropSphere",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "AsteroidField": {
+  "base": "ObjectClass",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "SetFloatVarEvent": {
+  "base": "TGEvent",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "VarManagerClass": {
+  "base": "TGEventHandlerObject",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "CPyDebug": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "ImageManagerClass": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "GetImage",
+   "__repr__"
+  ]
+ },
+ "FocusManager": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "LODModel": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "__repr__"
+  ]
+ },
+ "LODModelManager": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "Create",
+   "__repr__"
+  ]
+ },
+ "FloatRangeWatcher": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "__repr__"
+  ]
+ },
+ "TGStringToStringMap": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "LoadMissionAction": {
+  "base": "TGScriptAction",
+  "methods": [
+   "__init__",
+   "GetGame",
+   "GetEpisode",
+   "__repr__"
+  ]
+ },
+ "LoadEpisodeAction": {
+  "base": "TGScriptAction",
+  "methods": [
+   "__init__",
+   "__repr__"
+  ]
+ },
+ "ChatObjectClass": {
+  "base": "TGEventHandlerObject",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "GraphicsModeInfo": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "__del__",
+   "GetDesc",
+   "__repr__"
+  ]
+ },
+ "TimeSliceProcess": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "__repr__"
+  ]
+ },
+ "PythonMethodProcess": {
+  "base": "TimeSliceProcess",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "ChangeRenderedSetAction": {
+  "base": "TGAction",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "ZoomCameraObjectClass": {
+  "base": "CameraObjectClass",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "CharacterAction": {
+  "base": "TGAction",
+  "methods": [
+   "__init__",
+   "__repr__"
+  ]
+ },
+ "CharacterClass": {
+  "base": "ObjectClass",
+  "methods": [
+   "__init__",
+   "GetDatabase",
+   "SetDatabase",
+   "GetStatusBox",
+   "GetStatus",
+   "GetMenu",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "ViewScreenObject": {
+  "base": "ObjectClass",
+  "methods": [
+   "__init__",
+   "GetRemoteCam",
+   "GetMenu",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "BridgeSet": {
+  "base": "SetClass",
+  "methods": [
+   "__init__",
+   "__del__",
+   "GetViewScreen",
+   "__repr__"
+  ]
+ },
+ "BridgeObjectClass": {
+  "base": "ObjectClass",
+  "methods": [
+   "__init__",
+   "GetPropertySet",
+   "GetHardpointProperty",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "ArtificialIntelligence": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "GetObject",
+   "GetShip",
+   "__repr__"
+  ]
+ },
+ "PlainAI": {
+  "base": "ArtificialIntelligence",
+  "methods": [
+   "__init__",
+   "__repr__"
+  ]
+ },
+ "PriorityListAI": {
+  "base": "ArtificialIntelligence",
+  "methods": [
+   "__init__",
+   "__repr__"
+  ]
+ },
+ "SequenceAI": {
+  "base": "ArtificialIntelligence",
+  "methods": [
+   "__init__",
+   "GetAI",
+   "__repr__"
+  ]
+ },
+ "RandomAI": {
+  "base": "ArtificialIntelligence",
+  "methods": [
+   "__init__",
+   "__repr__"
+  ]
+ },
+ "PreprocessingAI": {
+  "base": "ArtificialIntelligence",
+  "methods": [
+   "__init__",
+   "GetContainedAI",
+   "__repr__"
+  ]
+ },
+ "ConditionalAIPtr": {
+  "base": "ConditionalAI",
+  "methods": [
+   "__init__"
+  ]
+ },
+ "ConditionScript": {
+  "base": "TGCondition",
+  "methods": [
+   "__init__",
+   "__repr__"
+  ]
+ },
+ "ConditionEventCreatorPtr": {
+  "base": "ConditionEventCreator",
+  "methods": [
+   "__init__"
+  ]
+ },
+ "FuzzyLogic": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "WaypointEvent": {
+  "base": "TGEvent",
+  "methods": [
+   "__init__",
+   "GetPlacement",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "AIScriptAssist": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "__repr__"
+  ]
+ },
+ "OptimizedFireScript": {
+  "base": "PreprocessingAI",
+  "methods": [
+   "__init__",
+   "__repr__"
+  ]
+ },
+ "OptimizedSelectTarget": {
+  "base": "PreprocessingAI",
+  "methods": [
+   "__init__",
+   "__repr__"
+  ]
+ },
+ "BuilderAI": {
+  "base": "PreprocessingAI",
+  "methods": [
+   "__init__",
+   "__repr__"
+  ]
+ },
+ "PhysicsObjectClass": {
+  "base": "ObjectClass",
+  "methods": [
+   "__init__",
+   "GetVelocity",
+   "GetAcceleration",
+   "GetAngularAcceleration",
+   "GetVelocityTG",
+   "GetAngularVelocityTG",
+   "GetAccelerationTG",
+   "GetAngularAccelerationTG",
+   "GetAngularVelocity",
+   "GetPredictedPosition",
+   "GetPredictedRotationTG",
+   "GetAI",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "DamageableObject": {
+  "base": "PhysicsObjectClass",
+  "methods": [
+   "__init__",
+   "GetPropertySet",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "ShipClass": {
+  "base": "DamageableObject",
+  "methods": [
+   "__init__",
+   "GetHull",
+   "GetShields",
+   "GetPowerSubsystem",
+   "GetSensorSubsystem",
+   "GetImpulseEngineSubsystem",
+   "GetWarpEngineSubsystem",
+   "GetTorpedoSystem",
+   "GetPhaserSystem",
+   "GetPulseWeaponSystem",
+   "GetShipProperty",
+   "GetTractorBeamSystem",
+   "GetRepairSubsystem",
+   "GetCloakingSubsystem",
+   "GetWeaponSystemGroup",
+   "GetSubsystemByProperty",
+   "GetNextSubsystemMatch",
+   "GetTargetAngularVelocityTG",
+   "GetTarget",
+   "GetTargetSubsystem",
+   "GetTargetOffsetTG",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "ObjectGroup": {
+  "base": "TGEventHandlerObject",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "ObjectGroupWithInfo": {
+  "base": "ObjectGroup",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "ShipSubsystem": {
+  "base": "TGEventHandlerObject",
+  "methods": [
+   "__init__",
+   "__del__",
+   "GetProperty",
+   "GetDisplayName",
+   "GetPosition",
+   "GetPositionTG",
+   "GetWorldLocation",
+   "GetParentShip",
+   "GetConditionWatcher",
+   "GetParentSubsystem",
+   "GetChildSubsystem",
+   "GetNextTargetableChildSubsystem",
+   "GetCombinedPercentageWatcher",
+   "GetDamagePoint",
+   "__repr__"
+  ]
+ },
+ "PoweredSubsystem": {
+  "base": "ShipSubsystem",
+  "methods": [
+   "__init__",
+   "__del__",
+   "GetProperty",
+   "__repr__"
+  ]
+ },
+ "PowerSubsystem": {
+  "base": "ShipSubsystem",
+  "methods": [
+   "__init__",
+   "__del__",
+   "GetProperty",
+   "GetMainBatteryWatcher",
+   "GetBackupBatteryWatcher",
+   "__repr__"
+  ]
+ },
+ "Weapon": {
+  "base": "ShipSubsystem",
+  "methods": [
+   "__init__",
+   "__del__",
+   "GetProperty",
+   "CalculateRoughDirection",
+   "__repr__"
+  ]
+ },
+ "FiringChain": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "WeaponSystem": {
+  "base": "PoweredSubsystem",
+  "methods": [
+   "__init__",
+   "__del__",
+   "GetProperty",
+   "GetWeapon",
+   "UpdateWeapons",
+   "GetFiringChain",
+   "GetLastWeaponFired",
+   "GetNextWeapon",
+   "__repr__"
+  ]
+ },
+ "WeaponPayload": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "__repr__"
+  ]
+ },
+ "TorpedoPtr": {
+  "base": "Torpedo",
+  "methods": [
+   "__init__"
+  ]
+ },
+ "TorpedoSystem": {
+  "base": "WeaponSystem",
+  "methods": [
+   "__init__",
+   "__del__",
+   "GetProperty",
+   "GetCurrentAmmoType",
+   "GetAmmoType",
+   "__repr__"
+  ]
+ },
+ "TorpedoTube": {
+  "base": "Weapon",
+  "methods": [
+   "__init__",
+   "__del__",
+   "GetProperty",
+   "GetDirection",
+   "GetRight",
+   "__repr__"
+  ]
+ },
+ "Nebula": {
+  "base": "ObjectClass",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "MetaNebula": {
+  "base": "Nebula",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "Planet": {
+  "base": "ObjectClass",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "Sun": {
+  "base": "Planet",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "ProximityManager": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "__del__",
+   "GetNextObject",
+   "__repr__"
+  ]
+ },
+ "ProximityCheck": {
+  "base": "ObjectClass",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "ProximityEvent": {
+  "base": "TGEvent",
+  "methods": [
+   "__init__",
+   "__del__",
+   "GetProximityCheck",
+   "GetObject",
+   "__repr__"
+  ]
+ },
+ "WeaponHitEvent": {
+  "base": "TGEvent",
+  "methods": [
+   "__init__",
+   "GetFiringObject",
+   "GetTargetObject",
+   "GetObjectHitPoint",
+   "GetObjectHitNormal",
+   "GetWorldHitPoint",
+   "GetWorldHitNormal",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "StartFiringEvent": {
+  "base": "TGEvent",
+  "methods": [
+   "__init__",
+   "GetTarget",
+   "GetOffset",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "ObjectExplodingEvent": {
+  "base": "TGEvent",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "CollisionEvent": {
+  "base": "TGEvent",
+  "methods": [
+   "__init__",
+   "GetPoint",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "ShieldClass": {
+  "base": "PoweredSubsystem",
+  "methods": [
+   "__init__",
+   "GetProperty",
+   "GetShieldWatcher",
+   "GetShieldGlowColor",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "HullClass": {
+  "base": "ShipSubsystem",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "EnergyWeapon": {
+  "base": "Weapon",
+  "methods": [
+   "__init__",
+   "__del__",
+   "GetProperty",
+   "GetChargeWatcher",
+   "__repr__"
+  ]
+ },
+ "PhaserSystem": {
+  "base": "WeaponSystem",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "PhaserBank": {
+  "base": "EnergyWeapon",
+  "methods": [
+   "__init__",
+   "__del__",
+   "GetProperty",
+   "GetOrientationForward",
+   "GetOrientationUp",
+   "GetOrientationRight",
+   "__repr__"
+  ]
+ },
+ "PulseWeapon": {
+  "base": "EnergyWeapon",
+  "methods": [
+   "__init__",
+   "__del__",
+   "GetProperty",
+   "CalculateRoughDirection",
+   "__repr__"
+  ]
+ },
+ "PulseWeaponSystem": {
+  "base": "WeaponSystem",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "SensorSubsystem": {
+  "base": "PoweredSubsystem",
+  "methods": [
+   "__init__",
+   "__del__",
+   "GetProperty",
+   "ScanAllObjects",
+   "__repr__"
+  ]
+ },
+ "CloakingSubsystem": {
+  "base": "PoweredSubsystem",
+  "methods": [
+   "__init__",
+   "__del__",
+   "GetProperty",
+   "__repr__"
+  ]
+ },
+ "RepairSubsystem": {
+  "base": "PoweredSubsystem",
+  "methods": [
+   "__init__",
+   "__del__",
+   "GetProperty",
+   "__repr__"
+  ]
+ },
+ "ImpulseEngineSubsystem": {
+  "base": "PoweredSubsystem",
+  "methods": [
+   "__init__",
+   "__del__",
+   "GetProperty",
+   "GetTractorBeamSystem",
+   "__repr__"
+  ]
+ },
+ "WarpEngineSubsystem": {
+  "base": "PoweredSubsystem",
+  "methods": [
+   "__init__",
+   "__del__",
+   "GetProperty",
+   "GetPlacement",
+   "GetWarpExitLocation",
+   "GetWarpExitRotation",
+   "GetWarpSequence",
+   "__repr__"
+  ]
+ },
+ "TractorBeamProjector": {
+  "base": "EnergyWeapon",
+  "methods": [
+   "__init__",
+   "__del__",
+   "GetProperty",
+   "__repr__"
+  ]
+ },
+ "TractorBeamSystem": {
+  "base": "WeaponSystem",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "WarpEvent": {
+  "base": "TGEvent",
+  "methods": [
+   "__init__",
+   "GetExitPoint",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "SubsystemList": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "GetHead",
+   "GetTail",
+   "GetNext",
+   "GetPrev",
+   "__repr__"
+  ]
+ },
+ "EffectController": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "GetTargetCast",
+   "__repr__"
+  ]
+ },
+ "EmitterController": {
+  "base": "EffectController",
+  "methods": [
+   "__init__",
+   "GetEmitFromObject",
+   "__repr__"
+  ]
+ },
+ "PointParticleController": {
+  "base": "EmitterController",
+  "methods": [
+   "__init__",
+   "__repr__"
+  ]
+ },
+ "SparkParticleController": {
+  "base": "PointParticleController",
+  "methods": [
+   "__init__",
+   "__repr__"
+  ]
+ },
+ "TexturedSparksController": {
+  "base": "EmitterController",
+  "methods": [
+   "__init__",
+   "__repr__"
+  ]
+ },
+ "ExplodeParticleController": {
+  "base": "PointParticleController",
+  "methods": [
+   "__init__",
+   "__repr__"
+  ]
+ },
+ "DebrisParticleController": {
+  "base": "PointParticleController",
+  "methods": [
+   "__init__",
+   "__repr__"
+  ]
+ },
+ "AnimTSParticleController": {
+  "base": "EmitterController",
+  "methods": [
+   "__init__",
+   "__repr__"
+  ]
+ },
+ "EffectAction": {
+  "base": "TGTimedAction",
+  "methods": [
+   "__init__",
+   "__repr__"
+  ]
+ },
+ "BridgeEffectAction": {
+  "base": "EffectAction",
+  "methods": [
+   "__init__",
+   "__del__",
+   "GetController",
+   "GetSparkController",
+   "GetExplosionController",
+   "__repr__"
+  ]
+ },
+ "WarpSet": {
+  "base": "SetClass",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "WarpSequence": {
+  "base": "TGSequence",
+  "methods": [
+   "__init__",
+   "__del__",
+   "GetShip",
+   "GetOrigin",
+   "GetDestinationSet",
+   "GetExitPoint",
+   "GetWarpSequencePiece",
+   "__repr__"
+  ]
+ },
+ "WarpFlash": {
+  "base": "ObjectClass",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "LensFlare": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "__repr__"
+  ]
+ },
+ "ExplosionPlumeController": {
+  "base": "AnimTSParticleController",
+  "methods": [
+   "__init__",
+   "__repr__"
+  ]
+ },
+ "SunEffect": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "__repr__"
+  ]
+ },
+ "TextureAnimTrack": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "__repr__"
+  ]
+ },
+ "TextureAnimContainer": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "AddTextureTrack",
+   "__repr__"
+  ]
+ },
+ "TextureAnimManager": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "AddContainer",
+   "__repr__"
+  ]
+ },
+ "InterfaceModule": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "__repr__"
+  ]
+ },
+ "TopWindow": {
+  "base": "TGPane",
+  "methods": [
+   "__init__",
+   "FindMainWindow",
+   "GetLastRenderedSet",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "MainWindow": {
+  "base": "TGPane",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "ConsoleWindow": {
+  "base": "MainWindow",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "OptionsWindow": {
+  "base": "MainWindow",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "BridgeWindow": {
+  "base": "MainWindow",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "TacticalWindow": {
+  "base": "MainWindow",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "TacticalControlWindow": {
+  "base": "TGPane",
+  "methods": [
+   "__init__",
+   "__del__",
+   "GetWeaponsControl",
+   "GetTacticalMenu",
+   "GetShipDisplay",
+   "GetEnemyShipDisplay",
+   "GetWeaponsDisplay",
+   "GetTargetMenu",
+   "GetRadarDisplay",
+   "GetRadarToggle",
+   "FindMenu",
+   "GetMenuParentPane",
+   "GetOpenMenu",
+   "__repr__"
+  ]
+ },
+ "MapWindow": {
+  "base": "MainWindow",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "ModalDialogWindow": {
+  "base": "MainWindow",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "CinematicWindow": {
+  "base": "MainWindow",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "SubtitleWindow": {
+  "base": "MainWindow",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "SubtitleAction": {
+  "base": "TGTimedAction",
+  "methods": [
+   "__init__",
+   "__repr__"
+  ]
+ },
+ "STStylizedWindow": {
+  "base": "TGWindow",
+  "methods": [
+   "__init__",
+   "GetName",
+   "GetNameParagraph",
+   "GetExteriorPane",
+   "GetInteriorPane",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "STMenu": {
+  "base": "TGWindow",
+  "methods": [
+   "__init__",
+   "__del__",
+   "GetText",
+   "GetSubmenu",
+   "GetSubmenuW",
+   "GetButton",
+   "GetButtonW",
+   "GetClientArea",
+   "GetContainingWindow",
+   "__repr__"
+  ]
+ },
+ "STSubPane": {
+  "base": "TGPane",
+  "methods": [
+   "__init__",
+   "GetSubmenu",
+   "GetSubmenuW",
+   "GetButton",
+   "GetButtonW",
+   "GetContainingWindow",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "STTopLevelMenu": {
+  "base": "STMenu",
+  "methods": [
+   "__init__",
+   "__del__",
+   "GetOwner",
+   "__repr__"
+  ]
+ },
+ "STCharacterMenu": {
+  "base": "STMenu",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "STButton": {
+  "base": "TGButtonBase",
+  "methods": [
+   "__init__",
+   "GetText",
+   "GetContainingWindow",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "STRoundedButton": {
+  "base": "TGButtonBase",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "STToggle": {
+  "base": "STButton",
+  "methods": [
+   "__init__",
+   "__del__",
+   "GetPrimaryCaption",
+   "__repr__"
+  ]
+ },
+ "STFillGauge": {
+  "base": "TGPane",
+  "methods": [
+   "__init__",
+   "__del__",
+   "GetObject",
+   "__repr__"
+  ]
+ },
+ "STNumericBar": {
+  "base": "TGPane",
+  "methods": [
+   "__init__",
+   "GetText",
+   "GetPercentageText",
+   "GetMarker",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "STTargetMenu": {
+  "base": "STTopLevelMenu",
+  "methods": [
+   "__init__",
+   "GetObjectEntry",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "STFileMenu": {
+  "base": "STTopLevelMenu",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "STFileDialog": {
+  "base": "TGPane",
+  "methods": [
+   "__init__",
+   "GetFileMenu",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "STLoadDialog": {
+  "base": "STFileDialog",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "STSaveDialog": {
+  "base": "STFileDialog",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "STSubsystemMenu": {
+  "base": "STMenu",
+  "methods": [
+   "__init__",
+   "__del__",
+   "GetShip",
+   "__repr__"
+  ]
+ },
+ "STComponentMenu": {
+  "base": "STMenu",
+  "methods": [
+   "__init__",
+   "__del__",
+   "GetShip",
+   "GetSubsystem",
+   "__repr__"
+  ]
+ },
+ "STComponentMenuItem": {
+  "base": "STButton",
+  "methods": [
+   "__init__",
+   "__del__",
+   "GetSubsystem",
+   "__repr__"
+  ]
+ },
+ "STTiledIcon": {
+  "base": "TGIcon",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "GraphicsMenuInfo": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "__setattr__",
+   "__getattr__",
+   "__repr__"
+  ]
+ },
+ "GraphicsMenu": {
+  "base": "TGPane",
+  "methods": [
+   "__init__",
+   "GetDevicesMenu",
+   "GetSizeToggle",
+   "GetColorDepthToggle",
+   "GetResolutionMenu",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "ShipDisplay": {
+  "base": "STStylizedWindow",
+  "methods": [
+   "__init__",
+   "__del__",
+   "GetShieldsDisplay",
+   "GetDamageDisplay",
+   "GetHealthGauge",
+   "__repr__"
+  ]
+ },
+ "ShieldsDisplay": {
+  "base": "TGPane",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "DamageIcon": {
+  "base": "TGIcon",
+  "methods": [
+   "__init__",
+   "__del__",
+   "GetSubsystem",
+   "__repr__"
+  ]
+ },
+ "DamageDisplay": {
+  "base": "TGPane",
+  "methods": [
+   "__init__",
+   "__del__",
+   "GetShip",
+   "__repr__"
+  ]
+ },
+ "WeaponsDisplay": {
+  "base": "STStylizedWindow",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "RadarDisplay": {
+  "base": "STStylizedWindow",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "RadarBlip": {
+  "base": "TGIcon",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "RadarScope": {
+  "base": "TGPane",
+  "methods": [
+   "__init__",
+   "__del__",
+   "CreateShipIcon",
+   "__repr__"
+  ]
+ },
+ "TacWeaponsCtrl": {
+  "base": "STStylizedWindow",
+  "methods": [
+   "__init__",
+   "__del__",
+   "GetPhaserIntensityToggle",
+   "GetTorpTypeToggle",
+   "GetTorpSpreadToggle",
+   "GetBeamToggle",
+   "GetCloakToggle",
+   "__repr__"
+  ]
+ },
+ "EngPowerCtrl": {
+  "base": "TGPane",
+  "methods": [
+   "__init__",
+   "__del__",
+   "GetBarForSubsystem",
+   "__repr__"
+  ]
+ },
+ "EngPowerDisplay": {
+  "base": "TGPane",
+  "methods": [
+   "__init__",
+   "__del__",
+   "CreateBatteryGauge",
+   "__repr__"
+  ]
+ },
+ "EngRepairPane": {
+  "base": "TGPane",
+  "methods": [
+   "__init__",
+   "__del__",
+   "GetSubsystemButton",
+   "__repr__"
+  ]
+ },
+ "STWarpButton": {
+  "base": "STButton",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "SortedRegionMenu": {
+  "base": "STCharacterMenu",
+  "methods": [
+   "__init__",
+   "InitializeAllSets",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "MultiplayerWindow": {
+  "base": "MainWindow",
+  "methods": [
+   "__init__",
+   "__del__",
+   "GetMultiplayerMenu",
+   "GetHostMenu",
+   "GetDedicatedServerMenu",
+   "GetJoinMenu",
+   "GetDirectJoinMenu",
+   "GetMissionPane",
+   "GetStatusWindow",
+   "GetEndWindow",
+   "GetChatWindow",
+   "GetPlayerListWindow",
+   "BuildMissionMenu",
+   "__repr__"
+  ]
+ },
+ "STMissionLog": {
+  "base": "TGPane",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "KeyboardBinding": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "__repr__"
+  ]
+ },
+ "UITreeDialog": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "__repr__"
+  ]
+ },
+ "PlacementObject": {
+  "base": "ObjectClass",
+  "methods": [
+   "__init__",
+   "__del__",
+   "FindContainingSet",
+   "__repr__"
+  ]
+ },
+ "Waypoint": {
+  "base": "PlacementObject",
+  "methods": [
+   "__init__",
+   "GetNext",
+   "GetPrev",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "LightPlacement": {
+  "base": "PlacementObject",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "GridClass": {
+  "base": "ObjectClass",
+  "methods": [
+   "__init__",
+   "__del__",
+   "GetIntersectionPoint",
+   "__repr__"
+  ]
+ },
+ "AsteroidFieldPlacement": {
+  "base": "PlacementObject",
+  "methods": [
+   "__init__",
+   "__del__",
+   "GetField",
+   "__repr__"
+  ]
+ },
+ "PositionOrientationProperty": {
+  "base": "TGModelProperty",
+  "methods": [
+   "__init__",
+   "__del__",
+   "GetForward",
+   "GetUp",
+   "GetRight",
+   "GetPosition",
+   "__repr__"
+  ]
+ },
+ "SubsystemProperty": {
+  "base": "TGModelProperty",
+  "methods": [
+   "__init__",
+   "__del__",
+   "GetPosition",
+   "GetPositionTG",
+   "__repr__"
+  ]
+ },
+ "PoweredSubsystemProperty": {
+  "base": "SubsystemProperty",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "WeaponSystemProperty": {
+  "base": "PoweredSubsystemProperty",
+  "methods": [
+   "__init__",
+   "__del__",
+   "GetFiringChainString",
+   "__repr__"
+  ]
+ },
+ "WeaponProperty": {
+  "base": "SubsystemProperty",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "EnergyWeaponProperty": {
+  "base": "WeaponProperty",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "PhaserProperty": {
+  "base": "EnergyWeaponProperty",
+  "methods": [
+   "__init__",
+   "__del__",
+   "GetOrientationForward",
+   "GetOrientationUp",
+   "GetOuterShellColor",
+   "GetInnerShellColor",
+   "GetOuterCoreColor",
+   "GetInnerCoreColor",
+   "__repr__"
+  ]
+ },
+ "PulseWeaponProperty": {
+  "base": "EnergyWeaponProperty",
+  "methods": [
+   "__init__",
+   "__del__",
+   "GetOrientationForward",
+   "GetOrientationUp",
+   "GetOrientationRight",
+   "__repr__"
+  ]
+ },
+ "TractorBeamProperty": {
+  "base": "EnergyWeaponProperty",
+  "methods": [
+   "__init__",
+   "__del__",
+   "GetOrientationForward",
+   "GetOrientationUp",
+   "GetOrientationRight",
+   "GetOuterShellColor",
+   "GetInnerShellColor",
+   "GetOuterCoreColor",
+   "GetInnerCoreColor",
+   "__repr__"
+  ]
+ },
+ "TorpedoTubeProperty": {
+  "base": "WeaponProperty",
+  "methods": [
+   "__init__",
+   "__del__",
+   "GetDirection",
+   "GetRight",
+   "__repr__"
+  ]
+ },
+ "TorpedoAmmoType": {
+  "base": null,
+  "methods": [
+   "__init__",
+   "__del__",
+   "__setattr__",
+   "__getattr__",
+   "__repr__"
+  ]
+ },
+ "TorpedoSystemProperty": {
+  "base": "WeaponSystemProperty",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "EngineGlowProperty": {
+  "base": "TGModelProperty",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "ShieldProperty": {
+  "base": "PoweredSubsystemProperty",
+  "methods": [
+   "__init__",
+   "__del__",
+   "GetShieldGlowColor",
+   "__repr__"
+  ]
+ },
+ "HullProperty": {
+  "base": "SubsystemProperty",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "SensorProperty": {
+  "base": "PoweredSubsystemProperty",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "CloakingSubsystemProperty": {
+  "base": "PoweredSubsystemProperty",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "RepairSubsystemProperty": {
+  "base": "PoweredSubsystemProperty",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "ShipProperty": {
+  "base": "TGModelProperty",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "PowerProperty": {
+  "base": "SubsystemProperty",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "ImpulseEngineProperty": {
+  "base": "PoweredSubsystemProperty",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "WarpEngineProperty": {
+  "base": "PoweredSubsystemProperty",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "EngineProperty": {
+  "base": "SubsystemProperty",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "EffectEmitterProperty": {
+  "base": "PositionOrientationProperty",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "SmokeEmitterProperty": {
+  "base": "EffectEmitterProperty",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "SparkEmitterProperty": {
+  "base": "EffectEmitterProperty",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "ExplodeEmitterProperty": {
+  "base": "EffectEmitterProperty",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "BlinkingLightProperty": {
+  "base": "EffectEmitterProperty",
+  "methods": [
+   "__init__",
+   "GetColor",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "ObjectEmitterProperty": {
+  "base": "PositionOrientationProperty",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "MultiplayerGame": {
+  "base": "Game",
+  "methods": [
+   "__init__",
+   "__del__",
+   "GetPlayerName",
+   "GetShipFromPlayerID",
+   "__repr__"
+  ]
+ },
+ "ServerListEvent": {
+  "base": "TGEvent",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ },
+ "SortServerListEvent": {
+  "base": "TGEvent",
+  "methods": [
+   "__init__",
+   "__del__",
+   "__repr__"
+  ]
+ }
+}

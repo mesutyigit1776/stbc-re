@@ -1,0 +1,19 @@
+--- a/Objects/classobject.c
++++ b/Objects/classobject.c
+@@ -1559,7 +1559,7 @@
+ 		fname = PyString_AS_STRING(funcname);
+ 	else
+ 		fname = "?";
+-	Py_XDECREF(funcname);
++	/* fname points into funcname: release it only after the text is built (a use-after-free otherwise) */
+ 	if (fclassname != NULL && PyString_Check(fclassname))
+ 		fcname = PyString_AsString(fclassname);
+ 	else
+@@ -1575,6 +1575,7 @@
+ 		sprintf(buf, "<method %.60s.%.60s of %.60s instance at %lx>",
+ 			fcname, fname, icname, (long)self);
+ 	}
++	Py_XDECREF(funcname);
+ 	return PyString_FromString(buf);
+ }
+ 

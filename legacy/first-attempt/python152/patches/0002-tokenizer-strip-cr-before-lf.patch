@@ -1,0 +1,26 @@
+--- a/Parser/tokenizer.c	2026-10-05 15:05:11
++++ b/Parser/tokenizer.c	2026-10-05 15:05:11
+@@ -319,11 +319,18 @@
+ #ifndef macintosh
+ 			/* replace "\r\n" with "\n" */
+ 			/* For Mac we leave the \r, giving a syntax error */
+-			pt = tok->inp - 2;
+-			if (pt >= tok->buf && *pt == '\r') {
+-				*pt++ = '\n';
+-				*pt = '\0';
+-				tok->inp = pt;
++			/* The original ran on Windows, where text mode turns CR LF into LF
++			   before this point; some script files contain CR CR LF. Strip
++			   every CR that directly precedes the final LF. */
++			pt = tok->inp - 1;
++			if (pt >= tok->buf && *pt == '\n') {
++				while (pt - 1 >= tok->buf && pt[-1] == '\r')
++					pt--;
++				if (pt != tok->inp - 1) {
++					*pt++ = '\n';
++					*pt = '\0';
++					tok->inp = pt;
++				}
+ 			}
+ #endif
+ 		}

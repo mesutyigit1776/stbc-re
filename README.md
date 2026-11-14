@@ -26,8 +26,11 @@ The tables are probably more useful to you than the code.
 | `data/layouts/` | field offsets and vtable slots for 58 classes |
 | `data/python_changes.tsv` | where the exe's Python is not the same as stock 1.5.2 |
 | `target/`, `interface/` | the script API: 3,990 wrapper functions with their argument formats |
+| `data/first-attempt/` | vtable addresses with slot counts, a class tree, event type ids and a constructor map. From the first attempt, so unchecked too |
 
 On the code side, `src/engine` is the reconstructed C++. `src/emutest` and `tests/emu` are the emulator harness: it loads one function from the original exe into Unicorn, runs it, runs my version with the same inputs and compares what comes out. `src/pyhost` gets the game's Python 1.5.2 building on a 64-bit machine and generates the `App` wrappers, which is enough to import the game's scripts but not enough to run a mission.
+
+There is also `legacy/first-attempt/`. That's the C engine from the first attempt (about 18,000 lines), which went a different way: instead of copying the exe function by function it tried to be a new engine that runs the game's scripts. Back then it could run a Quick Battle from the game's scripts, but I haven't re-run it since. It doesn't build from this repo, because the generated wrappers and the game scripts it needs are not here, and none of it was tested against the exe. I left it in because the way the parts connect might be worth a look for somebody.
 
 ## Read this before you use the names
 

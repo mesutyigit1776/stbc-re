@@ -1,0 +1,29 @@
+--- a/Python/bltinmodule.c	2026-10-05 15:21:58
++++ b/Python/bltinmodule.c	2026-10-05 15:21:58
+@@ -62,7 +62,25 @@
+ 	if (!PyArg_ParseTuple(args, "s|OOO:__import__",
+ 			&name, &globals, &locals, &fromlist))
+ 		return NULL;
+-	return PyImport_ImportModuleEx(name, globals, locals, fromlist);
++	/* Behavior of the original stbc.exe (builtin___import__ at 0x753410), which differs from stock 1.5.2:
++	   - without a fromlist it passes ("__doc__",), so __import__('a.b.c') returns the module c, not the package a
++	     (the stock scripts rely on this: pMod = __import__('ships.' + name); pMod.PreLoadModel());
++	   - without globals it uses the globals of the calling frame (PyEval_GetGlobals). */
++	{
++		PyObject *result, *deflist = NULL;
++		if (fromlist == NULL) {
++			deflist = PyTuple_New(1);
++			if (deflist == NULL)
++				return NULL;
++			PyTuple_SetItem(deflist, 0, PyString_FromString("__doc__"));
++			fromlist = deflist;
++		}
++		if (globals == NULL)
++			globals = PyEval_GetGlobals();
++		result = PyImport_ImportModuleEx(name, globals, locals, fromlist);
++		Py_XDECREF(deflist);
++		return result;
++	}
+ }
+ 
+ static char import_doc[] =
