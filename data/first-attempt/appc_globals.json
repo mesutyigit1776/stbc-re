@@ -1,0 +1,2098 @@
+{
+"g_kSystemWrapper": {
+"kind": "inline",
+"addr": 10077872,
+"typedesc": 10031256,
+"words": 0,
+"getter": 6664576,
+"setter": 6664512,
+"seq": [
+"MOV EAX,[0x00991098]",
+"PUSH EAX",
+"PUSH 0x99c6b0",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kConfigMapping": {
+"kind": "inline",
+"addr": 10078304,
+"typedesc": 10031876,
+"words": 0,
+"getter": 6664688,
+"setter": 6664608,
+"seq": [
+"MOV EAX,[0x00991304]",
+"PUSH EAX",
+"PUSH 0x99c860",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kPoolManager": {
+"kind": "inline",
+"addr": 10077304,
+"typedesc": 10032196,
+"words": 0,
+"getter": 6664784,
+"setter": 6664720,
+"seq": [
+"MOV EAX,[0x00991444]",
+"PUSH EAX",
+"PUSH 0x99c478",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kLocalizationManager": {
+"kind": "inline",
+"addr": 10059736,
+"typedesc": 10032192,
+"words": 0,
+"getter": 6664880,
+"setter": 6664816,
+"seq": [
+"MOV EAX,[0x00991440]",
+"PUSH EAX",
+"PUSH 0x997fd8",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kAnimationManager": {
+"kind": "inline",
+"addr": 10058120,
+"typedesc": 10031252,
+"words": 0,
+"getter": 6664960,
+"setter": 6664912,
+"seq": [
+"MOV EAX,[0x00991094]",
+"PUSH EAX",
+"PUSH 0x997988",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kModelManager": {
+"kind": "inline",
+"addr": 10057392,
+"typedesc": 10032188,
+"words": 0,
+"getter": 6665040,
+"setter": 6664992,
+"seq": [
+"MOV EAX,[0x0099143c]",
+"PUSH EAX",
+"PUSH 0x9976b0",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"ANY_TARGET": {
+"kind": "ptrvar",
+"addr": null,
+"typedesc": null,
+"words": 0,
+"getter": 6665136,
+"setter": 6665072,
+"seq": [
+"MOV EAX,[0x00991170]",
+"MOV ECX,dword ptr [0x0095adf8]",
+"PUSH EAX",
+"PUSH ECX",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8"
+]
+},
+"INVALID_DESTINATION": {
+"kind": "ptrvar",
+"addr": null,
+"typedesc": null,
+"words": 0,
+"getter": 6665232,
+"setter": 6665168,
+"seq": [
+"MOV EAX,[0x00991170]",
+"MOV ECX,dword ptr [0x0095adfc]",
+"PUSH EAX",
+"PUSH ECX",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8"
+]
+},
+"g_kEventManager": {
+"kind": "inline",
+"addr": 9959480,
+"typedesc": 10032184,
+"words": 0,
+"getter": 6665312,
+"setter": 6665264,
+"seq": [
+"MOV EAX,[0x00991438]",
+"PUSH EAX",
+"PUSH 0x97f838",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kTimerManager": {
+"kind": "inline",
+"addr": 9959576,
+"typedesc": 10032180,
+"words": 0,
+"getter": 6665424,
+"setter": 6665344,
+"seq": [
+"MOV EAX,[0x00991434]",
+"PUSH EAX",
+"PUSH 0x97f898",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kRealtimeTimerManager": {
+"kind": "inline",
+"addr": 9959440,
+"typedesc": 10032180,
+"words": 0,
+"getter": 6665536,
+"setter": 6665456,
+"seq": [
+"MOV EAX,[0x00991434]",
+"PUSH EAX",
+"PUSH 0x97f810",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kInputManager": {
+"kind": "inline",
+"addr": 10064624,
+"typedesc": 10032176,
+"words": 0,
+"getter": 6666432,
+"setter": 6665568,
+"seq": [
+"MOV EAX,[0x00991430]",
+"PUSH EAX",
+"PUSH 0x9992f0",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kIconManager": {
+"kind": "inline",
+"addr": 10080752,
+"typedesc": 10032172,
+"words": 0,
+"getter": 6666592,
+"setter": 6666544,
+"seq": [
+"MOV EAX,[0x0099142c]",
+"PUSH EAX",
+"PUSH 0x99d1f0",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kFontManager": {
+"kind": "inline",
+"addr": 10082528,
+"typedesc": 10032200,
+"words": 0,
+"getter": 6666672,
+"setter": 6666624,
+"seq": [
+"MOV EAX,[0x00991448]",
+"PUSH EAX",
+"PUSH 0x99d8e0",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kUIThemeManager": {
+"kind": "inline",
+"addr": 10087024,
+"typedesc": 10032204,
+"words": 0,
+"getter": 6666752,
+"setter": 6666704,
+"seq": [
+"MOV EAX,[0x0099144c]",
+"PUSH EAX",
+"PUSH 0x99ea70",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kSoundManager": {
+"kind": "inline",
+"addr": 10074624,
+"typedesc": 10032208,
+"words": 0,
+"getter": 6667184,
+"setter": 6666784,
+"seq": [
+"MOV EAX,[0x00991450]",
+"PUSH EAX",
+"PUSH 0x99ba00",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kRedbook": {
+"kind": "inline",
+"addr": 10075328,
+"typedesc": 10032032,
+"words": 0,
+"getter": 6667280,
+"setter": 6667216,
+"seq": [
+"MOV EAX,[0x009913a0]",
+"PUSH EAX",
+"PUSH 0x99bcc0",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kMusicManager": {
+"kind": "inline",
+"addr": 10075552,
+"typedesc": 10032288,
+"words": 0,
+"getter": 6667552,
+"setter": 6667312,
+"seq": [
+"MOV EAX,[0x009914a0]",
+"PUSH EAX",
+"PUSH 0x99bda0",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kModelPropertyManager": {
+"kind": "inline",
+"addr": 10067432,
+"typedesc": 10032212,
+"words": 0,
+"getter": 6667696,
+"setter": 6667584,
+"seq": [
+"MOV EAX,[0x00991454]",
+"PUSH EAX",
+"PUSH 0x999de8",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kTGActionManager": {
+"kind": "inline",
+"addr": 10072080,
+"typedesc": 10032216,
+"words": 0,
+"getter": 6667840,
+"setter": 6667728,
+"seq": [
+"MOV EAX,[0x00991458]",
+"PUSH EAX",
+"PUSH 0x99b010",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kMovieManager": {
+"kind": "inline",
+"addr": 10050048,
+"typedesc": 10032220,
+"words": 0,
+"getter": 6667936,
+"setter": 6667872,
+"seq": [
+"MOV EAX,[0x0099145c]",
+"PUSH EAX",
+"PUSH 0x995a00",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kUtopiaModule": {
+"kind": "inline",
+"addr": 9959936,
+"typedesc": 10031808,
+"words": 0,
+"getter": 6668496,
+"setter": 6667968,
+"seq": [
+"MOV EAX,[0x009912c0]",
+"PUSH EAX",
+"PUSH 0x97fa00",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kSetManager": {
+"kind": "inline",
+"addr": 9955776,
+"typedesc": 10032224,
+"words": 0,
+"getter": 6668624,
+"setter": 6668528,
+"seq": [
+"MOV EAX,[0x00991460]",
+"PUSH EAX",
+"PUSH 0x97e9c0",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kVarManager": {
+"kind": "inline",
+"addr": 9962024,
+"typedesc": 10031260,
+"words": 0,
+"getter": 6668800,
+"setter": 6668656,
+"seq": [
+"MOV EAX,[0x0099109c]",
+"PUSH EAX",
+"PUSH 0x980228",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kFocusManager": {
+"kind": "inline",
+"addr": 9962400,
+"typedesc": 10032228,
+"words": 0,
+"getter": 6669056,
+"setter": 6668992,
+"seq": [
+"MOV EAX,[0x00991464]",
+"PUSH EAX",
+"PUSH 0x9803a0",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kLODModelManager": {
+"kind": "inline",
+"addr": 9963416,
+"typedesc": 10032232,
+"words": 0,
+"getter": 6669216,
+"setter": 6669088,
+"seq": [
+"MOV EAX,[0x00991468]",
+"PUSH EAX",
+"PUSH 0x980798",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"INFINITE_LIFE": {
+"kind": "other",
+"addr": null,
+"typedesc": null,
+"words": 0,
+"getter": 6669328,
+"setter": 6669248,
+"seq": [
+"FLD float ptr [0x008e5c18]",
+"SUB ESP,0x8",
+"FSTP double ptr [ESP]",
+"CALL 0x0074fa70",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kTextureAnimManager": {
+"kind": "inline",
+"addr": 9988408,
+"typedesc": 10032236,
+"words": 0,
+"getter": 6669440,
+"setter": 6669360,
+"seq": [
+"MOV EAX,[0x0099146c]",
+"PUSH EAX",
+"PUSH 0x986938",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kInterfaceModule": {
+"kind": "inline",
+"addr": 10007328,
+"typedesc": 10031804,
+"words": 0,
+"getter": 6669584,
+"setter": 6669472,
+"seq": [
+"MOV EAX,[0x009912bc]",
+"PUSH EAX",
+"PUSH 0x98b320",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kSTButtonColors": {
+"kind": "inline",
+"addr": 9996784,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6669648,
+"setter": 6669616,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x9889f0",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kSTButtonMarkerDefault": {
+"kind": "inline",
+"addr": 9996056,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6669760,
+"setter": 6669680,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x988718",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kSTButtonMarkerHighlighted": {
+"kind": "inline",
+"addr": 9996136,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6669872,
+"setter": 6669792,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x988768",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kSTButtonMarkerSelected": {
+"kind": "inline",
+"addr": 9996600,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6669984,
+"setter": 6669904,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x988938",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kSTButtonMarkerGray": {
+"kind": "inline",
+"addr": 9995040,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6670096,
+"setter": 6670016,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x988320",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kSTButtonCheckmarkOn": {
+"kind": "inline",
+"addr": 9995136,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6670208,
+"setter": 6670128,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x988380",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kSTButtonCheckmarkOff": {
+"kind": "inline",
+"addr": 9995608,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6670320,
+"setter": 6670240,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x988558",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kSTMenuArrowColor": {
+"kind": "inline",
+"addr": 9995672,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6670496,
+"setter": 6670416,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x988598",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kSTMenu1NormalBase": {
+"kind": "inline",
+"addr": 9997040,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6670608,
+"setter": 6670528,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x988af0",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kSTMenu1HighlightedBase": {
+"kind": "inline",
+"addr": 9995168,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6670720,
+"setter": 6670640,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x9883a0",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kSTMenu1Disabled": {
+"kind": "inline",
+"addr": 9996696,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6670832,
+"setter": 6670752,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x988998",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kSTMenu1OpenedHighlightedBase": {
+"kind": "inline",
+"addr": 9995936,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6670944,
+"setter": 6670864,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x9886a0",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kSTMenu1Selected": {
+"kind": "inline",
+"addr": 9995992,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6671056,
+"setter": 6670976,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x9886d8",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kSTMenu2NormalBase": {
+"kind": "inline",
+"addr": 9995792,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6671168,
+"setter": 6671088,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x988610",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kSTMenu2HighlightedBase": {
+"kind": "inline",
+"addr": 9995696,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6671280,
+"setter": 6671200,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x9885b0",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kSTMenu2Disabled": {
+"kind": "inline",
+"addr": 9995088,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6671392,
+"setter": 6671312,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x988350",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kSTMenu2OpenedHighlightedBase": {
+"kind": "inline",
+"addr": 9996456,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6671504,
+"setter": 6671424,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x9888a8",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kSTMenu2Selected": {
+"kind": "inline",
+"addr": 9996264,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6671616,
+"setter": 6671536,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x9887e8",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kSTMenu3NormalBase": {
+"kind": "inline",
+"addr": 9996512,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6671728,
+"setter": 6671648,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x9888e0",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kSTMenu3Disabled": {
+"kind": "inline",
+"addr": 9996576,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6671952,
+"setter": 6671872,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x988920",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kSTMenu3OpenedHighlightedBase": {
+"kind": "inline",
+"addr": 9996088,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6672064,
+"setter": 6671984,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x988738",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kSTMenu3Selected": {
+"kind": "inline",
+"addr": 9997192,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6672176,
+"setter": 6672096,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x988b88",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kSTMenu4NormalBase": {
+"kind": "inline",
+"addr": 9995624,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6672288,
+"setter": 6672208,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x988568",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kSTMenu4HighlightedBase": {
+"kind": "inline",
+"addr": 9997104,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6672400,
+"setter": 6672320,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x988b30",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kSTMenu4Disabled": {
+"kind": "inline",
+"addr": 9995064,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6672512,
+"setter": 6672432,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x988338",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kSTMenu4OpenedHighlightedBase": {
+"kind": "inline",
+"addr": 9995640,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6672624,
+"setter": 6672544,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x988578",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kSTMenu4Selected": {
+"kind": "inline",
+"addr": 9995760,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6672736,
+"setter": 6672656,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x9885f0",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kSTMenuTextColor": {
+"kind": "inline",
+"addr": 9996528,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6672848,
+"setter": 6672768,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x9888f0",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kSTMenuTextSelectedColor": {
+"kind": "inline",
+"addr": 9995832,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6672960,
+"setter": 6672880,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x988638",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kSTMenuTextHighlightColor": {
+"kind": "inline",
+"addr": 9996472,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6673072,
+"setter": 6672992,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x9888b8",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kTitleColor": {
+"kind": "inline",
+"addr": 9996168,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6673184,
+"setter": 6673104,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x988788",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kInterfaceBorderColor": {
+"kind": "inline",
+"addr": 9995656,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6673296,
+"setter": 6673216,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x988588",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kLeftSeparatorColor": {
+"kind": "inline",
+"addr": 9995200,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6673408,
+"setter": 6673328,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x9883c0",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kSTRadarBorderHighlighted": {
+"kind": "inline",
+"addr": 9996624,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6673520,
+"setter": 6673440,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x988950",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kTextEntryColor": {
+"kind": "inline",
+"addr": 9995896,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6673632,
+"setter": 6673552,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x988678",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kTextHighlightColor": {
+"kind": "inline",
+"addr": 9997216,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6673744,
+"setter": 6673664,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x988ba0",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kTextEntryBackgroundColor": {
+"kind": "inline",
+"addr": 9997176,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6673856,
+"setter": 6673776,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x988b78",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kTextEntryBackgroundHighlightColor": {
+"kind": "inline",
+"addr": 9997152,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6673968,
+"setter": 6673888,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x988b60",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kSubsystemFillColor": {
+"kind": "inline",
+"addr": 9995976,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6674080,
+"setter": 6674000,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x9886c8",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kSubsystemEmptyColor": {
+"kind": "inline",
+"addr": 9996496,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6674192,
+"setter": 6674112,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x9888d0",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kSubsystemDisabledColor": {
+"kind": "inline",
+"addr": 9997384,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6674304,
+"setter": 6674224,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x988c48",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kTacWeaponsCtrlHeaderTextColor": {
+"kind": "inline",
+"addr": 9996752,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6674416,
+"setter": 6674336,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x9889d0",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kRadarBorder": {
+"kind": "inline",
+"addr": 9997280,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6674528,
+"setter": 6674448,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x988be0",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kSTRadarIncomingTorpColor": {
+"kind": "inline",
+"addr": 9996392,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6674640,
+"setter": 6674560,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x988868",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kRadarFriendlyColor": {
+"kind": "inline",
+"addr": 9996672,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6674752,
+"setter": 6674672,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x988980",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kRadarEnemyColor": {
+"kind": "inline",
+"addr": 9997120,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6674864,
+"setter": 6674784,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x988b40",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kRadarNeutralColor": {
+"kind": "inline",
+"addr": 9995736,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6674976,
+"setter": 6674896,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x9885d8",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kRadarUnknownColor": {
+"kind": "inline",
+"addr": 9997088,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6675088,
+"setter": 6675008,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x988b20",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_pConditionColors": {
+"kind": "inline",
+"addr": 9995288,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6675152,
+"setter": 6675120,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x988418",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kTIPhotonReadyColor": {
+"kind": "inline",
+"addr": 9997136,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6675264,
+"setter": 6675184,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x988b50",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kTIPhotonNotReadyColor": {
+"kind": "inline",
+"addr": 9995152,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6675376,
+"setter": 6675296,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x988390",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kMainMenuButtonColor": {
+"kind": "inline",
+"addr": 9995920,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6675488,
+"setter": 6675408,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x988690",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kMainMenuButtonHighlightedColor": {
+"kind": "inline",
+"addr": 9997360,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6675600,
+"setter": 6675520,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x988c30",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kMainMenuButtonSelectedColor": {
+"kind": "inline",
+"addr": 9995248,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6675712,
+"setter": 6675632,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x9883f0",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kMainMenuButton1Color": {
+"kind": "inline",
+"addr": 9996712,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6675824,
+"setter": 6675744,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x9889a8",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kMainMenuButton1HighlightedColor": {
+"kind": "inline",
+"addr": 9996432,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6675936,
+"setter": 6675856,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x988890",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kMainMenuButton1SelectedColor": {
+"kind": "inline",
+"addr": 9996648,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6676048,
+"setter": 6675968,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x988968",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kMainMenuButton2Color": {
+"kind": "inline",
+"addr": 9996288,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6676160,
+"setter": 6676080,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x988800",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kMainMenuButton2HighlightedColor": {
+"kind": "inline",
+"addr": 9995960,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6676272,
+"setter": 6676192,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x9886b8",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kMainMenuButton2SelectedColor": {
+"kind": "inline",
+"addr": 9995776,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6676384,
+"setter": 6676304,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x988600",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kMainMenuButton3Color": {
+"kind": "inline",
+"addr": 9996408,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6676496,
+"setter": 6676416,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x988878",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kMainMenuButton3HighlightedColor": {
+"kind": "inline",
+"addr": 9996112,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6676608,
+"setter": 6676528,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x988750",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kMainMenuButton3SelectedColor": {
+"kind": "inline",
+"addr": 9997064,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6676720,
+"setter": 6676640,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x988b08",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kMainMenuBorderMainColor": {
+"kind": "inline",
+"addr": 9995272,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6676832,
+"setter": 6676752,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x988408",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kMainMenuBorderOffColor": {
+"kind": "inline",
+"addr": 9995848,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6676944,
+"setter": 6676864,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x988648",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kMainMenuBorderBlock1Color": {
+"kind": "inline",
+"addr": 9997256,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6677056,
+"setter": 6676976,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x988bc8",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kMainMenuBorderTopColor": {
+"kind": "inline",
+"addr": 9996560,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6677168,
+"setter": 6677088,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x988910",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kDamageDisplayDestroyedColor": {
+"kind": "inline",
+"addr": 9996200,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6677280,
+"setter": 6677200,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x9887a8",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kDamageDisplayDamagedColor": {
+"kind": "inline",
+"addr": 9997304,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6677392,
+"setter": 6677312,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x988bf8",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kDamageDisplayDisabledColor": {
+"kind": "inline",
+"addr": 9996376,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6677504,
+"setter": 6677424,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x988858",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kEngineeringShieldsColor": {
+"kind": "inline",
+"addr": 9995880,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6677616,
+"setter": 6677536,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x988668",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kEngineeringEnginesColor": {
+"kind": "inline",
+"addr": 9996224,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6677728,
+"setter": 6677648,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x9887c0",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kEngineeringWeaponsColor": {
+"kind": "inline",
+"addr": 9996312,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6677840,
+"setter": 6677760,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x988818",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kEngineeringSensorsColor": {
+"kind": "inline",
+"addr": 9996768,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6677952,
+"setter": 6677872,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x9889e0",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kEngineeringCloakColor": {
+"kind": "inline",
+"addr": 9996072,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6678064,
+"setter": 6677984,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x988728",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kEngineeringTractorColor": {
+"kind": "inline",
+"addr": 9996336,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6678176,
+"setter": 6678096,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x988830",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kEngineeringWarpCoreColor": {
+"kind": "inline",
+"addr": 9996736,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6678288,
+"setter": 6678208,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x9889c0",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kEngineeringMainPowerColor": {
+"kind": "inline",
+"addr": 9996544,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6678400,
+"setter": 6678320,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x988900",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kEngineeringBackupPowerColor": {
+"kind": "inline",
+"addr": 9996152,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6678512,
+"setter": 6678432,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x988778",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kEngineeringCtrlBkgndLineColor": {
+"kind": "inline",
+"addr": 9996240,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6678624,
+"setter": 6678544,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x9887d0",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kQuickBattleBrightRed": {
+"kind": "inline",
+"addr": 9997328,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6678736,
+"setter": 6678656,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x988c10",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kMultiplayerBorderBlue": {
+"kind": "inline",
+"addr": 9996040,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6678848,
+"setter": 6678768,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x988708",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kMultiplayerBorderPurple": {
+"kind": "inline",
+"addr": 9996352,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6678960,
+"setter": 6678880,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x988840",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kMultiplayerStylizedPurple": {
+"kind": "inline",
+"addr": 9995112,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6679072,
+"setter": 6678992,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x988368",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kMultiplayerButtonPurple": {
+"kind": "inline",
+"addr": 9995864,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6679184,
+"setter": 6679104,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x988658",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kMultiplayerButtonOrange": {
+"kind": "inline",
+"addr": 9996008,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6679296,
+"setter": 6679216,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x9886e8",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kMultiplayerDividerPurple": {
+"kind": "inline",
+"addr": 9995816,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6679408,
+"setter": 6679328,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x988628",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"DEFAULT_ST_INDENT_HORIZ": {
+"kind": "other",
+"addr": null,
+"typedesc": null,
+"words": 0,
+"getter": 6679520,
+"setter": 6679440,
+"seq": [
+"FLD float ptr [0x008e2ffc]",
+"SUB ESP,0x8",
+"FSTP double ptr [ESP]",
+"CALL 0x0074fa70",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"DEFAULT_ST_INDENT_VERT": {
+"kind": "other",
+"addr": null,
+"typedesc": null,
+"words": 0,
+"getter": 6679632,
+"setter": 6679552,
+"seq": [
+"FLD float ptr [0x008e3000]",
+"SUB ESP,0x8",
+"FSTP double ptr [ESP]",
+"CALL 0x0074fa70",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"MARKER_INDENT_HORIZ": {
+"kind": "other",
+"addr": null,
+"typedesc": null,
+"words": 0,
+"getter": 6679744,
+"setter": 6679664,
+"seq": [
+"FLD float ptr [0x008e3004]",
+"SUB ESP,0x8",
+"FSTP double ptr [ESP]",
+"CALL 0x0074fa70",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"TAC_WEAPONS_CTRL_INDENT_HORIZ": {
+"kind": "other",
+"addr": null,
+"typedesc": null,
+"words": 0,
+"getter": 6679856,
+"setter": 6679776,
+"seq": [
+"FLD float ptr [0x008e40f0]",
+"SUB ESP,0x8",
+"FSTP double ptr [ESP]",
+"CALL 0x0074fa70",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"g_kKeyboardBinding": {
+"kind": "inline",
+"addr": 10007864,
+"typedesc": 10031208,
+"words": 0,
+"getter": 6680000,
+"setter": 6679888,
+"seq": [
+"MOV EAX,[0x00991068]",
+"PUSH EAX",
+"PUSH 0x98b538",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"NiColor_WHITE": {
+"kind": "inline",
+"addr": 10102816,
+"typedesc": 10031892,
+"words": 0,
+"getter": 6680064,
+"setter": 6680032,
+"seq": [
+"MOV EAX,[0x00991314]",
+"PUSH EAX",
+"PUSH 0x9a2820",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"NiColor_BLACK": {
+"kind": "inline",
+"addr": 10102784,
+"typedesc": 10031892,
+"words": 0,
+"getter": 6680128,
+"setter": 6680096,
+"seq": [
+"MOV EAX,[0x00991314]",
+"PUSH EAX",
+"PUSH 0x9a2800",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"NiColorA_WHITE": {
+"kind": "inline",
+"addr": 10102800,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6680192,
+"setter": 6680160,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x9a2810",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"NiColorA_BLACK": {
+"kind": "inline",
+"addr": 10102832,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6680256,
+"setter": 6680224,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x9a2830",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"NiPoint2_ZERO": {
+"kind": "inline",
+"addr": 10103736,
+"typedesc": 10031340,
+"words": 0,
+"getter": 6680320,
+"setter": 6680288,
+"seq": [
+"MOV EAX,[0x009910ec]",
+"PUSH EAX",
+"PUSH 0x9a2bb8",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"NiPoint2_UNIT_X": {
+"kind": "inline",
+"addr": 10103752,
+"typedesc": 10031340,
+"words": 0,
+"getter": 6680384,
+"setter": 6680352,
+"seq": [
+"MOV EAX,[0x009910ec]",
+"PUSH EAX",
+"PUSH 0x9a2bc8",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"NiPoint2_UNIT_Y": {
+"kind": "inline",
+"addr": 10103760,
+"typedesc": 10031340,
+"words": 0,
+"getter": 6680448,
+"setter": 6680416,
+"seq": [
+"MOV EAX,[0x009910ec]",
+"PUSH EAX",
+"PUSH 0x9a2bd0",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"TGColorA_WHITE": {
+"kind": "inline",
+"addr": 10102800,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6680512,
+"setter": 6680480,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x9a2810",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"TGColorA_BLACK": {
+"kind": "inline",
+"addr": 10102832,
+"typedesc": 10031604,
+"words": 0,
+"getter": 6680576,
+"setter": 6680544,
+"seq": [
+"MOV EAX,[0x009911f4]",
+"PUSH EAX",
+"PUSH 0x9a2830",
+"CALL 0x005bb0e0",
+"ADD ESP,0x8",
+"RET"
+]
+},
+"FloatRangeWatcher_RID_INVALID": {
+"kind": "ptrvar",
+"addr": null,
+"typedesc": null,
+"words": 0,
+"getter": 6680672,
+"setter": 6680608,
+"seq": [
+"MOV EAX,[0x0098039c]",
+"PUSH EAX",
+"CALL 0x0074c6e0",
+"ADD ESP,0x4",
+"RET",
+"MOV CL,byte ptr [0x009b3e34]"
+]
+}
+}

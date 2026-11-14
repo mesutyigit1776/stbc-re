@@ -1,0 +1,177 @@
+006e1870	[52]	2	00896104 00896104	
+0048cc40	[64]	1	0088c0d8	PlainAI::Create
+00832880	[356]	2	0089a898	NiBezierCylinder::StreamLoader
+00802080	[52]	5	00888b0c 00899f70 00899f38	
+007eb440	[72]	3	008990dc	NiAlphaAccumulator::StreamLoader
+006a8c50	[80]	1	00895660	
+007f1450	[72, 76]	2	00899328	NiEnvMappedTriShapeData::StreamLoader,NiTriShapeDynamicData::StreamLoader
+007f7c50	[64, 88, 92]	7	0088b918	NiBone::StreamLoader,NiFltAnimationNode::StreamLoader,NiLODNode::StreamLoader,NiSortAdjustNode::StreamLoader,NiSpotLight::StreamLoader,NiSwitchNode::StreamLoader
+004a0060	[24]	1	0088c4d0	
+00493060	[64]	1	0088c230	
+007de420	[36]	4	00898d44	
+007a9820	[16]	1	0088dbf0	NiMorphController::StreamLoader
+007a0820	[128]	2	00898384 00898448	NiPlanarCollider::StreamLoader
+007fbc30	[296, 312]	4	00898518 00899bd4	NiFltAnimationNode::StreamLoader,NiLODNode::StreamLoader
+004f1800	[136]	2	0088c95c 0088cd44 0088dbc0 0088db34	SunEffect::Create
+006ed420	[16]	1	008961f0	
+0044a400	[20]	1	0088b660	VarManagerClass::SetStringVariable
+004f9830	[232]	1	0088dfa4	
+007ecc00	[56]	1	00899124	NiLinesData::StreamLoader
+008354f0	[380]	6	0089a9cc	NiBezierTriangle2::StreamLoader,NiBezierTriangle3::StreamLoader,NiBezierTriangle4::StreamLoader
+004ed020	[264]	1	0088d968 008896cc 00888a08 00888a40 00889694 00888998	
+0079e810	[72]	2	00898384 00898348	NiGravity::StreamLoader
+0049fc20	[24]	1	0088c458	
+00681000	[20]	6	00894f84	
+00734810	[36]	1	00897e5c	py_new_TGFontManager
+00811ce0	[56]	2	0089a72c	SetClass::Create
+00792ce0	[64]	7	0089819c	CameraObjectClass::CreateFromNiCamera,NiKeyframeController::StreamLoader,ZoomCameraObjectClass::Create
+007f20f0	[228]	2	00899374	NiEnvMappedTriShape::StreamLoader
+007a84f0	[84]	2	00898604	NiMorphController::StreamLoader
+007a50f0	[4]	1	0089851c	NiKeyframeManager::StreamLoader
+00481cc0	[200]	1	0088be90 0088be34	
+004498c0	[12]	1	0088b658	
+007058f0	[48]	1	0089689c 00896888 00896874 00896844	CharacterClass::ReplaceBodyAndHead
+007dc0c0	[232]	2	00898ca8	NiNode::StreamLoader
+006c08d0	[192]	2	00895a2c	py_new_TGNetPlayer
+00832c30	[72, 108, 120, 180]	6	0089a95c 0089a95c 0089a958 0089a954 0089a95c 0089a95c 0089a890	
+007240c0	[12]	1	00896be0	
+007f20d0	[228, 232]	3	00899374	
+004d88e0	[236]	1	0088cd48 0088ce8c 008896cc 00889694 00888a40 00888a08	WarpSet::SetNumTrails
+007aa0d0	[24]	4	0089865c	NiMorphController::StreamLoader,NiMorphData::StreamLoader
+004568e0	[232]	2	0088b844	
+007b64a0	[56]	2	00898880	NiVisController::StreamLoader
+007b34a0	[4]	1	008987ec	NiParticleSystemController::StreamLoader
+0080a050	[28]	1	0089a288	
+007eecb0	[60, 68, 72]	5	0089921c	NiParticlesData::StreamLoader,NiTriShapeData::StreamLoader,NiTriStripData::StreamLoader,NiTriStripsData::StreamLoader,NiTrianglesData::StreamLoader
+0078d8b0	[36]	1	0089801c	
+0048f080	[76]	1	0088c12c	
+0065f0a0	[116]	7	00894690	
+00447480	[12]	1	0088b608	
+007dac80	[20, 24, 28, 32, 40, 52]	113	00898c48	Backdrop::SetModelName,NiAlphaProperty::StreamLoader,NiCorrectionProperty::StreamLoader,NiDitherProperty::StreamLoader,NiFogProperty::StreamLoader,NiSequenceStreamHelper::StreamLoader
+0048fcb0	[56]	1	0088c188	PriorityListAI::Create
+00748480	[20]	1	00888a08 00889694 008896cc	
+00745c80	[32]	3	00897e80	TGUITheme::Create,TGUIThemeManager::AddTheme,py_new_TGUITheme
+00806c70	[360]	1	0089a0d4	
+004888a0	[224]	1	0088c020 0088c00c 0088bfb0 0088bf5c	
+00816c60	[116]	1	0088b68c 0088b6a0	
+0046cd50	[36]	2	0088baf0	
+007f9d70	[340]	1	00899a10	
+004ee540	[256]	1	0088d894 0088da2c	
+004b2d40	[88]	2	0088c618 0088c614 0088c61c	
+0065f960	[60]	7	00894694	
+0079fd50	[56]	2	00898384 00898408	NiSphericalCollider::StreamLoader
+0047e560	[88]	1	0088bd04	
+00477160	[136]	1	0088bc50 0088bc3c 00889fb8 00889fa4 0088bbe0	
+00464d60	[24]	1	0088ba60	
+008425a0	[376]	4	0089ad30	NiBezierRectangle2::StreamLoader,NiBezierRectangle3::StreamLoader
+00500970	[28]	1	00888a08	
+007acd20	[92]	2	00898738	
+0078cd20	[248]	1	00897f68	
+004db100	[56]	1	0088d068	
+0086edc0	[24]	1	0089c4f0	
+004df130	[20]	1	0088d264	
+007a4d00	[40, 64, 68, 72, 88, 160]	11	0088c578	NiAmbientLight::StreamLoader,NiBSPNode::StreamLoader,NiBillboardNode::StreamLoader,NiCollisionSwitch::StreamLoader,NiKeyframeManager::StreamLoader,NiNode::StreamLoader
+00790d00	[20]	1	00898138	
+00457930	[32]	1	0088b998 0088b984 0088b954	CharacterClass::ReplaceBodyAndHead
+007edd10	[224]	2	00899164	NiLines::StreamLoader
+00800910	[88]	38	00899ef8	NiMaterialProperty::StreamLoader
+006e09e0	[20]	4	008960f4	
+007a15f0	[88]	4	00889f44 0089848c	
+007d91c0	[24, 28, 32]	31	00898bc4	NiBinaryVoxelExtraData::StreamLoader,NiStringExtraData::StreamLoader,NiTextKeyExtraData::StreamLoader,NiVertWeightsExtraData::StreamLoader
+007ac1c0	[56]	2	008986e4	NiMaterialColorController::StreamLoader
+006735d0	[76]	2	00894ab8 00894a5c	
+006f65c0	[20]	2	0089634c 00896340	
+004ea1e0	[264]	2	0088d70c 0088b730	
+00479de0	[88]	1	0088bcec 0088bcd8 0088bc84 0088bc64	
+0044d1e0	[28]	1	0088b66c	py_new_FocusManager
+007241d0	[16]	1	00896be8	
+007e5da0	[4]	8	00898ff0	NiBSPNode::StreamLoader,NiBillboardNode::StreamLoader,NiCollisionSwitch::StreamLoader,NiFltAnimationNode::StreamLoader,NiNode::StreamLoader,NiSwitchNode::StreamLoader
+007d11a0	[68]	1	00898b0c	
+0086e550	[32]	4	0089c4d0	
+006bb990	[16]	1	00895808	py_new_TGPlayerList
+0086ed70	[24]	2	0089c4f0	
+004f3da0	[32]	1	0088dc44	TextureAnimManager::AddContainer
+0049f1a0	[20]	1	0088c418	
+004575a0	[24]	1	0088b924	
+00720990	[36]	1	00896b9c	
+007ef260	[228]	10	00899264	NiParticles::StreamLoader,NiTriShape::StreamLoader,NiTriStrip::StreamLoader,NiTriStrips::StreamLoader,NiTriangles::StreamLoader
+007aae60	[60]	3	00898690	NiMorphController::StreamLoader,NiMorpherController::StreamLoader
+0079f260	[84]	2	00898384 008983c8	NiParticleBomb::StreamLoader
+00487650	[80]	1	0088bec4	
+00478a50	[88]	1	0088bcec 0088bcd8 0088bc84 0088bc64	ConditionalAI::Create
+007ff270	[312]	1	00899ef0 00899e40	
+00793a70	[88]	5	0088b794 008981f8	NiFlipController::StreamLoader
+00744270	[80]	2	00897e6c	TGFontManager::CreateFontGroup
+007bfe40	[684]	3	00898a74 00898a60 00898984	
+0047f270	[104]	1	0088bd9c	
+0049fe60	[24]	1	0088c494	
+004cf210	[292]	1	0088cab8	ExplosionPlumeController::Create
+0046c610	[24]	2	00888960	
+00676220	[336]	1	00894b00	
+004a3e30	[28]	1	008896cc	
+007feae0	[224]	9	00899d84	
+004b46d0	[84]	1	0088c698	
+004bd2d0	[316]	1	0088c760 0088c74c 0088c738 0088c724	
+0080ba10	[228]	1	0089a34c	
+0040dad0	[24, 28, 32, 40]	127	00888b0c	SetClass::Create
+007e12f0	[92, 96]	3	00898d78	
+007e7af0	[548]	10	008990cc 008990c8 0089902c	TGMovieManager::LoadForcedMovie,ZoomCameraObjectClass::Create
+007d8ec0	[68]	2	0088d2a0	NiClusterAccumulator::StreamLoader
+007cb2c0	[44]	3	00898aec	
+005992e0	[244]	1	00894058	
+004b12e0	[36]	3	0088c5fc	
+004a7ae0	[108]	2	0088c57c	NiBinaryVoxelData::StreamLoader
+007f5ea0	[228]	1	008996ec	
+0046c680	[32]	4	00889694	
+0048e2b0	[76]	1	0088c12c	PreprocessingAI::Create
+0047dab0	[88]	2	0088bd04	
+004e1ea0	[320]	1	0088d310 00888a40 00888a08 00889694 008896cc	LensFlare::Build
+007a6690	[56]	2	00898558	NiLightColorController::StreamLoader
+007d9b60	[52, 56, 60, 64, 72, 76, 84]	21	00898bf8	LensFlare::Build,NiAlphaController::StreamLoader,NiKeyframeManager::StreamLoader,NiLookAtController::StreamLoader,SunEffect::Create,TGDimmerController::StreamLoader
+00482b50	[200]	1	0088be90 0088be34	
+00447f50	[20]	1	0088b610	VarManagerClass::SetFloatVariable
+006c0b60	[192]	1	00895a2c	
+007aeb70	[336]	2	00898790	NiParticleSystemController::StreamLoader
+0048a340	[224]	1	0088c020 0088c00c 0088bfb0	
+0040bf40	[20]	1	00888948	
+00491370	[64]	1	0088c1dc	RandomAI::Create
+00491b70	[64]	1	0088c1dc	
+00808bb0	[448]	2	0089a1e4	NiTextureEffect::StreamLoader
+007f4f50	[228]	1	008995d8	
+004fa710	[240]	1	0088e0cc	
+006d7b30	[20]	2	00896030	
+004c6f10	[272]	2	0088c764	AnimTSParticleController::Create
+00490710	[56]	1	0088c188	
+0048d710	[64]	1	0088c0d8	
+0072bb20	[52]	2	00897bf0 00897bec 00897bd8	TGIconManager::CreateIconGroup,py_new_TGIconGroup
+0046cb00	[32]	1	0088bae0 0088bad0	
+00460b30	[16]	2	0088b9d0	
+004ad320	[28, 36]	2	0088c5e0	
+00809fe0	[28]	41	0089a288	LensFlare::Build,TGIconGroup::LoadIconTexture
+006edff0	[32, 36]	4	00896204	TGModelPropertySet::AddToSet,TGModelPropertySet::GetPropertiesByType,py_new_TGModelPropertyList
+007de3e0	[36]	12	00898d44	
+004927d0	[64]	1	0088c230	SequenceAI::Create
+004657d0	[72]	2	0088ba94	
+00464bd0	[20]	1	0088ba30	
+00453fd0	[4]	1	0088b794	
+007f4ff0	[228]	2	008995d8	NiAutoNormalParticles::StreamLoader
+006cefe0	[48]	1	00895c58	py_new_TGBufferStream
+00463fc0	[124]	5	0088ba2c 0088b9fc	
+007f3fc0	[328]	3	008994e8	
+007e37c0	[232, 236, 240, 256, 264, 284, 288]	64	00898fdc 00898f2c	AsteroidField::Create,NiBillboardNode::StreamLoader,NiBone::StreamLoader,PlacementObject::SetModel,SetClass::Create,SunEffect::Create
+004b27f0	[84]	3	0088c618 0088c614	
+00460bf0	[16]	1	0088b9d0	
+006d1fc0	[28]	4	00895d60	TGWinsockNetwork::BanPlayerByIP,TGWinsockNetwork::BanPlayerByName
+00480be0	[104]	1	0088bd9c	
+007f37a0	[328, 340, 360]	14	00899448	NiAmbientLight::StreamLoader,NiDirectionalLight::StreamLoader,NiPointLight::StreamLoader,NiSpotLight::StreamLoader
+007d87a0	[16, 20, 28, 32, 36, 48, 68, 84, 88]	22	00898b94	NiColorData::StreamLoader,NiExtraData::StreamLoader,NiFloatData::StreamLoader,NiPosData::StreamLoader,NiRawImageData::StreamLoader,NiVisData::StreamLoader
+00453f90	[4]	1	00889f44	
+007977b0	[172]	2	008982bc	NiAnimBlender::StreamLoader
+0046f380	[56]	2	0088bb14	py_new_PythonMethodProcess
+0078f380	[256]	3	00898060	NiSource::StreamLoader,TGSound::Load
+00437fb0	[188]	2	00889a98	py_new_UtopiaApp
+007f4790	[68]	1	0089958c	NiAutoNormalParticlesData::StreamLoader
+006ed380	[16]	2	008961f0	TGModelPropertySet::AddToSet,py_new_TGModelPropertyInstance
+007d4b90	[248]	1	00898b58	
+00791f90	[44]	7	00898168	NiKeyframeData::StreamLoader
+00486fa0	[80]	1	0088bec4	

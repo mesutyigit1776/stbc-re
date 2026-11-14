@@ -1,0 +1,30 @@
+0096e8c0	Arraytype	array
+00964938	PdataType	Pdata
+00964a28	Picklertype	Pickler
+00964af0	Unpicklertype	Unpickler
+00965e98	Otype	StringO
+00965ff0	Itype	StringI
+00969cb8	Regextype	regex
+00966550	Locktype	lock
+00975130	PyBuffer_Type	buffer
+00962510	PyClass_Type	class
+00962610	PyInstance_Type	instance
+009626e0	PyMethod_Type	instance method
+00974d60	PyCObject_Type	PyCObject
+00974f50	PyComplex_Type	complex
+0095ed20	PyDict_Type	dictionary
+009748e8	PyFile_Type	file
+0095e798	PyFloat_Type	float
+00973f88	PyFrame_Type	frame
+00970790	PyFunction_Type	function
+0095df00	PyInt_Type	int
+0095d4d8	PyList_Type	list
+0096f500	PyLong_Type	long int
+009705f8	PyCFunction_Type	builtin_function_or_method
+0096ecf8	PyModule_Type	module
+009754b0	PyRange_Type	xrange
+009753d8	PySlice_Type	slice
+0095e960	PyString_Type	string
+0095e200	PyTuple_Type	tuple
+00970c68	PyCode_Type	code
+00974b30	Tracebacktype	traceback

@@ -1,0 +1,319 @@
+00749140	list_dealloc	Objects/listobject.c PyList_Type.tp_dealloc
+007491a0	list_print	Objects/listobject.c PyList_Type.tp_print
+00749250	list_repr	Objects/listobject.c PyList_Type.tp_repr
+00749320	list_compare	Objects/listobject.c PyList_Type.tp_compare
+00749910	listinsert	Objects/listobject.c list_methods[1] "insert"
+00749980	listappend	Objects/listobject.c list_methods[0] "append"
+007499c0	listextend	Objects/listobject.c list_methods[2] "extend"
+00749b40	listpop	Objects/listobject.c list_methods[3] "pop"
+00749c00	listsort	Objects/listobject.c list_methods[8] "sort"
+0074a2c0	listreverse	Objects/listobject.c list_methods[7] "reverse"
+0074a3b0	listindex	Objects/listobject.c list_methods[5] "index"
+0074a420	listcount	Objects/listobject.c list_methods[6] "count"
+0074a480	listremove	Objects/listobject.c list_methods[4] "remove"
+0074a510	list_getattr	Objects/listobject.c PyList_Type.tp_getattr
+0074a530	immutable_list_op	Objects/listobject.c immutable_list_methods[0] "append"
+0074c7a0	int_dealloc	Objects/intobject.c PyInt_Type.tp_dealloc
+0074c830	int_print	Objects/intobject.c PyInt_Type.tp_print
+0074c850	int_repr	Objects/intobject.c PyInt_Type.tp_repr
+0074c880	int_compare	Objects/intobject.c PyInt_Type.tp_compare
+0074c8a0	int_hash	Objects/intobject.c PyInt_Type.tp_hash
+0074dc30	tupledealloc	Objects/tupleobject.c PyTuple_Type.tp_dealloc
+0074dca0	tupleprint	Objects/tupleobject.c PyTuple_Type.tp_print
+0074dd30	tuplerepr	Objects/tupleobject.c PyTuple_Type.tp_repr
+0074de00	tuplecompare	Objects/tupleobject.c PyTuple_Type.tp_compare
+0074de60	tuplehash	Objects/tupleobject.c PyTuple_Type.tp_hash
+0074fb00	float_dealloc	Objects/floatobject.c PyFloat_Type.tp_dealloc
+0074fc30	float_print	Objects/floatobject.c PyFloat_Type.tp_print
+0074fc60	float_repr	Objects/floatobject.c PyFloat_Type.tp_repr
+0074fc80	float_compare	Objects/floatobject.c PyFloat_Type.tp_compare
+0074fcc0	float_hash	Objects/floatobject.c PyFloat_Type.tp_hash
+007507a0	string_dealloc	Objects/stringobject.c PyString_Type.tp_dealloc
+007507f0	string_print	Objects/stringobject.c PyString_Type.tp_print
+007508d0	string_repr	Objects/stringobject.c PyString_Type.tp_repr
+00750be0	string_compare	Objects/stringobject.c PyString_Type.tp_compare
+00750c40	string_hash	Objects/stringobject.c PyString_Type.tp_hash
+00752290	dict_dealloc	Objects/dictobject.c PyDict_Type.tp_dealloc
+00752310	dict_print	Objects/dictobject.c PyDict_Type.tp_print
+007523f0	dict_repr	Objects/dictobject.c PyDict_Type.tp_repr
+007525f0	dict_keys	Objects/dictobject.c mapp_methods[1] "keys"
+00752670	dict_values	Objects/dictobject.c mapp_methods[3] "values"
+007526f0	dict_items	Objects/dictobject.c mapp_methods[2] "items"
+007527e0	dict_update	Objects/dictobject.c mapp_methods[4] "update"
+007528b0	dict_copy	Objects/dictobject.c mapp_methods[6] "copy"
+00752a10	dict_compare	Objects/dictobject.c PyDict_Type.tp_compare
+00752b60	dict_has_key	Objects/dictobject.c mapp_methods[0] "has_key"
+00752be0	dict_get	Objects/dictobject.c mapp_methods[7] "get"
+00752c70	dict_clear	Objects/dictobject.c mapp_methods[5] "clear"
+00752cb0	dict_getattr	Objects/dictobject.c PyDict_Type.tp_getattr
+00753410	builtin___import__	Python/bltinmodule.c builtin_methods[0] "__import__"
+007534f0	builtin_abs	Python/bltinmodule.c builtin_methods[1] "abs"
+00753520	builtin_apply	Python/bltinmodule.c builtin_methods[2] "apply"
+00753620	builtin_buffer	Python/bltinmodule.c builtin_methods[3] "buffer"
+00753680	builtin_callable	Python/bltinmodule.c builtin_methods[4] "callable"
+007536b0	builtin_filter	Python/bltinmodule.c builtin_methods[15] "filter"
+00753930	builtin_chr	Python/bltinmodule.c builtin_methods[5] "chr"
+00753990	builtin_cmp	Python/bltinmodule.c builtin_methods[6] "cmp"
+007539f0	builtin_coerce	Python/bltinmodule.c builtin_methods[7] "coerce"
+00753a90	builtin_compile	Python/bltinmodule.c builtin_methods[8] "compile"
+00753bc0	builtin_complex	Python/bltinmodule.c builtin_methods[9] "complex"
+00754290	builtin_dir	Python/bltinmodule.c builtin_methods[11] "dir"
+00754450	builtin_divmod	Python/bltinmodule.c builtin_methods[12] "divmod"
+00754490	builtin_eval	Python/bltinmodule.c builtin_methods[13] "eval"
+00754600	builtin_execfile	Python/bltinmodule.c builtin_methods[14] "execfile"
+00754730	builtin_float	Python/bltinmodule.c builtin_methods[16] "float"
+00754760	builtin_getattr	Python/bltinmodule.c builtin_methods[17] "getattr"
+007547d0	builtin_globals	Python/bltinmodule.c builtin_methods[18] "globals"
+007547f0	builtin_hasattr	Python/bltinmodule.c builtin_methods[19] "hasattr"
+00754870	builtin_id	Python/bltinmodule.c builtin_methods[22] "id"
+007548a0	builtin_map	Python/bltinmodule.c builtin_methods[32] "map"
+00754c10	builtin_setattr	Python/bltinmodule.c builtin_methods[45] "setattr"
+00754c80	builtin_delattr	Python/bltinmodule.c builtin_methods[10] "delattr"
+00754ce0	builtin_hash	Python/bltinmodule.c builtin_methods[20] "hash"
+00754d20	builtin_hex	Python/bltinmodule.c builtin_methods[21] "hex"
+00754d70	builtin_input	Python/bltinmodule.c builtin_methods[23] "input"
+00754e30	builtin_intern	Python/bltinmodule.c builtin_methods[24] "intern"
+00754e70	builtin_int	Python/bltinmodule.c builtin_methods[25] "int"
+00754ea0	builtin_len	Python/bltinmodule.c builtin_methods[28] "len"
+00754ef0	builtin_list	Python/bltinmodule.c builtin_methods[29] "list"
+00754f20	builtin_slice	Python/bltinmodule.c builtin_methods[46] "slice"
+00754f90	builtin_locals	Python/bltinmodule.c builtin_methods[30] "locals"
+00754fb0	builtin_long	Python/bltinmodule.c builtin_methods[31] "long"
+00754fe0	builtin_min	Python/bltinmodule.c builtin_methods[34] "min"
+00755170	builtin_max	Python/bltinmodule.c builtin_methods[33] "max"
+00755180	builtin_oct	Python/bltinmodule.c builtin_methods[35] "oct"
+007551e0	builtin_open	Python/bltinmodule.c builtin_methods[36] "open"
+007552c0	builtin_ord	Python/bltinmodule.c builtin_methods[37] "ord"
+007552f0	builtin_pow	Python/bltinmodule.c builtin_methods[38] "pow"
+00755340	builtin_range	Python/bltinmodule.c builtin_methods[39] "range"
+007554a0	builtin_xrange	Python/bltinmodule.c builtin_methods[51] "xrange"
+00755590	builtin_raw_input	Python/bltinmodule.c builtin_methods[40] "raw_input"
+00755780	builtin_reduce	Python/bltinmodule.c builtin_methods[41] "reduce"
+00755920	builtin_reload	Python/bltinmodule.c builtin_methods[42] "reload"
+00755950	builtin_repr	Python/bltinmodule.c builtin_methods[43] "repr"
+00755980	builtin_round	Python/bltinmodule.c builtin_methods[44] "round"
+00755a60	builtin_str	Python/bltinmodule.c builtin_methods[47] "str"
+00755a90	builtin_tuple	Python/bltinmodule.c builtin_methods[48] "tuple"
+00755ac0	builtin_type	Python/bltinmodule.c builtin_methods[49] "type"
+00755b00	builtin_vars	Python/bltinmodule.c builtin_methods[50] "vars"
+00755ba0	builtin_isinstance	Python/bltinmodule.c builtin_methods[26] "isinstance"
+00755c40	builtin_issubclass	Python/bltinmodule.c builtin_methods[27] "issubclass"
+00756820	class_dealloc	Objects/classobject.c PyClass_Type.tp_dealloc
+00756950	class_getattr	Objects/classobject.c PyClass_Type.tp_getattro
+00756af0	class_setattr	Objects/classobject.c PyClass_Type.tp_setattro
+00756f40	class_repr	Objects/classobject.c PyClass_Type.tp_repr
+00756fe0	class_str	Objects/classobject.c PyClass_Type.tp_str
+007572d0	instance_dealloc	Objects/classobject.c PyInstance_Type.tp_dealloc
+007576c0	instance_getattr	Objects/classobject.c PyInstance_Type.tp_getattro
+00757730	instance_setattr	Objects/classobject.c PyInstance_Type.tp_setattro
+007579c0	instance_repr	Objects/classobject.c PyInstance_Type.tp_repr
+00757ac0	instance_compare	Objects/classobject.c PyInstance_Type.tp_compare
+00757b80	instance_hash	Objects/classobject.c PyInstance_Type.tp_hash
+00758bd0	instancemethod_getattr	Objects/classobject.c PyMethod_Type.tp_getattro
+00758cb0	instancemethod_dealloc	Objects/classobject.c PyMethod_Type.tp_dealloc
+00758d30	instancemethod_compare	Objects/classobject.c PyMethod_Type.tp_compare
+00758d60	instancemethod_repr	Objects/classobject.c PyMethod_Type.tp_repr
+00758e60	instancemethod_hash	Objects/classobject.c PyMethod_Type.tp_hash
+0075f740	marshal_dump	Python/marshal.c marshal_methods[0] "dump"
+0075f800	marshal_load	Python/marshal.c marshal_methods[1] "load"
+0075f8b0	marshal_dumps	Python/marshal.c marshal_methods[2] "dumps"
+0075f8e0	marshal_loads	Python/marshal.c marshal_methods[3] "loads"
+0075f990	PyLocale_setlocale	Modules/_localemodule.c PyLocale_Methods[0] "setlocale"
+0075feb0	PyLocale_localeconv	Modules/_localemodule.c PyLocale_Methods[1] "localeconv"
+00760330	PyLocale_strcoll	Modules/_localemodule.c PyLocale_Methods[2] "strcoll"
+00760370	PyLocale_strxfrm	Modules/_localemodule.c PyLocale_Methods[3] "strxfrm"
+007605e0	Pdata_dealloc	Modules/cPickle.c PdataType.tp_dealloc
+00760670	Pickle_clear_memo	Modules/cPickle.c Pickler_methods[1] "clear_memo"
+007606b0	Pickle_getvalue	Modules/cPickle.c Pickler_methods[2] "getvalue"
+00760bf0	Pickler_dump	Modules/cPickle.c Pickler_methods[0] "dump"
+00762820	get_Pickler	Modules/cPickle.c cPickle_methods[4] "Pickler"
+00762d10	Pickler_dealloc	Modules/cPickle.c Picklertype.tp_dealloc
+00762e10	Pickler_getattr	Modules/cPickle.c Picklertype.tp_getattr
+007630a0	Pickler_setattr	Modules/cPickle.c Picklertype.tp_setattr
+007632f0	Unpickler_load	Modules/cPickle.c Unpickler_methods[0] "load"
+00765b60	Unpickler_noload	Modules/cPickle.c Unpickler_methods[1] "noload"
+00766270	get_Unpickler	Modules/cPickle.c cPickle_methods[5] "Unpickler"
+007667d0	Unpickler_dealloc	Modules/cPickle.c Unpicklertype.tp_dealloc
+00766920	Unpickler_getattr	Modules/cPickle.c Unpicklertype.tp_getattr
+00766a40	Unpickler_setattr	Modules/cPickle.c Unpicklertype.tp_setattr
+00766b80	cpm_dump	Modules/cPickle.c cPickle_methods[0] "dump"
+00766c10	cpm_dumps	Modules/cPickle.c cPickle_methods[1] "dumps"
+00766cb0	cpm_load	Modules/cPickle.c cPickle_methods[2] "load"
+00766d10	cpm_loads	Modules/cPickle.c cPickle_methods[3] "loads"
+007672d0	O_reset	Modules/cStringIO.c O_methods[3] "reset"
+007672f0	O_tell	Modules/cStringIO.c O_methods[5] "tell"
+00767310	O_seek	Modules/cStringIO.c O_methods[4] "seek"
+00767430	O_read	Modules/cStringIO.c O_methods[1] "read"
+007674d0	O_readline	Modules/cStringIO.c O_methods[2] "readline"
+00767590	O_write	Modules/cStringIO.c O_methods[0] "write"
+00767610	O_getval	Modules/cStringIO.c O_methods[6] "getvalue"
+007676a0	O_truncate	Modules/cStringIO.c O_methods[7] "truncate"
+007676d0	O_isatty	Modules/cStringIO.c O_methods[8] "isatty"
+007676e0	O_close	Modules/cStringIO.c O_methods[9] "close"
+00767720	O_flush	Modules/cStringIO.c O_methods[10] "flush"
+00767740	O_writelines	Modules/cStringIO.c O_methods[11] "writelines"
+00767840	O_dealloc	Modules/cStringIO.c Otype.tp_dealloc
+00767860	O_getattr	Modules/cStringIO.c Otype.tp_getattr
+007678d0	O_setattr	Modules/cStringIO.c Otype.tp_setattr
+00767a80	I_dealloc	Modules/cStringIO.c Itype.tp_dealloc
+00767ab0	I_getattr	Modules/cStringIO.c Itype.tp_getattr
+00767c20	lock_dealloc	Modules/threadmodule.c Locktype.tp_dealloc
+00767c50	lock_PyThread_acquire_lock	Modules/threadmodule.c lock_methods[0] "acquire_lock"
+00767cd0	lock_PyThread_release_lock	Modules/threadmodule.c lock_methods[2] "release_lock"
+00767d40	lock_locked_lock	Modules/threadmodule.c lock_methods[4] "locked_lock"
+00767d90	lock_getattr	Modules/threadmodule.c Locktype.tp_getattr
+007696f0	struct_calcsize	Modules/structmodule.c struct_methods[0] "calcsize"
+00769960	struct_pack	Modules/structmodule.c struct_methods[1] "pack"
+00769d00	struct_unpack	Modules/structmodule.c struct_methods[2] "unpack"
+00769fc0	strop_splitfields	Modules/stropmodule.c strop_methods[15] "split"
+0076a350	strop_joinfields	Modules/stropmodule.c strop_methods[7] "join"
+0076a790	strop_find	Modules/stropmodule.c strop_methods[6] "find"
+0076a890	strop_rfind	Modules/stropmodule.c strop_methods[13] "rfind"
+0076a990	strop_strip	Modules/stropmodule.c strop_methods[17] "strip"
+0076aaa0	strop_lstrip	Modules/stropmodule.c strop_methods[9] "lstrip"
+0076aab0	strop_rstrip	Modules/stropmodule.c strop_methods[14] "rstrip"
+0076aac0	strop_lower	Modules/stropmodule.c strop_methods[10] "lower"
+0076abc0	strop_upper	Modules/stropmodule.c strop_methods[20] "upper"
+0076acb0	strop_capitalize	Modules/stropmodule.c strop_methods[3] "capitalize"
+0076ade0	strop_expandtabs	Modules/stropmodule.c strop_methods[5] "expandtabs"
+0076af20	strop_count	Modules/stropmodule.c strop_methods[4] "count"
+0076b010	strop_swapcase	Modules/stropmodule.c strop_methods[18] "swapcase"
+0076b140	strop_atoi	Modules/stropmodule.c strop_methods[1] "atoi"
+0076b350	strop_atol	Modules/stropmodule.c strop_methods[2] "atol"
+0076b510	strop_atof	Modules/stropmodule.c strop_methods[0] "atof"
+0076b6a0	strop_maketrans	Modules/stropmodule.c strop_methods[11] "maketrans"
+0076b770	strop_translate	Modules/stropmodule.c strop_methods[19] "translate"
+0076b960	strop_replace	Modules/stropmodule.c strop_methods[12] "replace"
+0076bdc0	reg_dealloc	Modules/regexmodule.c Regextype.tp_dealloc
+0076bea0	regobj_match	Modules/regexmodule.c reg_methods[0] "match"
+0076bfd0	regobj_search	Modules/regexmodule.c reg_methods[1] "search"
+0076c100	regobj_group	Modules/regexmodule.c reg_methods[2] "group"
+0076c2d0	regobj_getattr	Modules/regexmodule.c Regextype.tp_getattr
+0076c690	regex_compile	Modules/regexmodule.c regex_global_methods[0] "compile"
+0076c810	regex_symcomp	Modules/regexmodule.c regex_global_methods[1] "symcomp"
+0076cb90	regex_match	Modules/regexmodule.c regex_global_methods[2] "match"
+0076ccc0	regex_search	Modules/regexmodule.c regex_global_methods[3] "search"
+0076cd40	regex_set_syntax	Modules/regexmodule.c regex_global_methods[4] "set_syntax"
+0076cde0	regex_get_syntax	Modules/regexmodule.c regex_global_methods[5] "get_syntax"
+0076eae0	new_instance	Modules/newmodule.c new_methods[0] "instance"
+0076eb50	new_instancemethod	Modules/newmodule.c new_methods[1] "instancemethod"
+0076ec00	new_function	Modules/newmodule.c new_methods[2] "function"
+0076ed00	new_code	Modules/newmodule.c new_methods[3] "code"
+0076edf0	new_module	Modules/newmodule.c new_methods[4] "module"
+0076ee20	new_class	Modules/newmodule.c new_methods[5] "classobj"
+0076eea0	math_acos	Modules/mathmodule.c math_methods[0] "acos"
+0076efd0	math_asin	Modules/mathmodule.c math_methods[1] "asin"
+0076eff0	math_atan	Modules/mathmodule.c math_methods[2] "atan"
+0076f010	math_atan2	Modules/mathmodule.c math_methods[3] "atan2"
+0076f0f0	math_ceil	Modules/mathmodule.c math_methods[4] "ceil"
+0076f110	math_cos	Modules/mathmodule.c math_methods[5] "cos"
+0076f130	math_cosh	Modules/mathmodule.c math_methods[6] "cosh"
+0076f150	math_exp	Modules/mathmodule.c math_methods[7] "exp"
+0076f170	math_fabs	Modules/mathmodule.c math_methods[8] "fabs"
+0076f190	math_floor	Modules/mathmodule.c math_methods[9] "floor"
+0076f1b0	math_fmod	Modules/mathmodule.c math_methods[10] "fmod"
+0076f1d0	math_hypot	Modules/mathmodule.c math_methods[12] "hypot"
+0076f1f0	math_log	Modules/mathmodule.c math_methods[14] "log"
+0076f210	math_log10	Modules/mathmodule.c math_methods[15] "log10"
+0076f230	math_pow	Modules/mathmodule.c math_methods[17] "pow"
+0076f250	math_sin	Modules/mathmodule.c math_methods[18] "sin"
+0076f270	math_sinh	Modules/mathmodule.c math_methods[19] "sinh"
+0076f290	math_sqrt	Modules/mathmodule.c math_methods[20] "sqrt"
+0076f2b0	math_tan	Modules/mathmodule.c math_methods[21] "tan"
+0076f2d0	math_tanh	Modules/mathmodule.c math_methods[22] "tanh"
+0076f2f0	math_frexp	Modules/mathmodule.c math_methods[11] "frexp"
+0076f3b0	math_ldexp	Modules/mathmodule.c math_methods[13] "ldexp"
+0076f470	math_modf	Modules/mathmodule.c math_methods[16] "modf"
+0076fef0	cmath_acos	Modules/cmathmodule.c cmath_methods[0] "acos"
+00770440	cmath_acosh	Modules/cmathmodule.c cmath_methods[1] "acosh"
+007705f0	cmath_asin	Modules/cmathmodule.c cmath_methods[2] "asin"
+00770800	cmath_asinh	Modules/cmathmodule.c cmath_methods[3] "asinh"
+00770980	cmath_atan	Modules/cmathmodule.c cmath_methods[4] "atan"
+00770b10	cmath_atanh	Modules/cmathmodule.c cmath_methods[5] "atanh"
+00770ca0	cmath_cos	Modules/cmathmodule.c cmath_methods[6] "cos"
+00770d20	cmath_cosh	Modules/cmathmodule.c cmath_methods[7] "cosh"
+00770da0	cmath_exp	Modules/cmathmodule.c cmath_methods[8] "exp"
+00770e20	cmath_log	Modules/cmathmodule.c cmath_methods[9] "log"
+00770e40	cmath_log10	Modules/cmathmodule.c cmath_methods[10] "log10"
+00770ed0	cmath_sin	Modules/cmathmodule.c cmath_methods[11] "sin"
+00770f50	cmath_sinh	Modules/cmathmodule.c cmath_methods[12] "sinh"
+00770fd0	cmath_sqrt	Modules/cmathmodule.c cmath_methods[13] "sqrt"
+00770ff0	cmath_tan	Modules/cmathmodule.c cmath_methods[14] "tan"
+007710c0	cmath_tanh	Modules/cmathmodule.c cmath_methods[15] "tanh"
+00771240	binascii_a2b_uu	Modules/binascii.c binascii_module_methods[0] "a2b_uu"
+007713e0	binascii_b2a_uu	Modules/binascii.c binascii_module_methods[1] "b2a_uu"
+007714f0	binascii_a2b_base64	Modules/binascii.c binascii_module_methods[2] "a2b_base64"
+00771640	binascii_b2a_base64	Modules/binascii.c binascii_module_methods[3] "b2a_base64"
+00771780	binascii_a2b_hqx	Modules/binascii.c binascii_module_methods[4] "a2b_hqx"
+00771920	binascii_rlecode_hqx	Modules/binascii.c binascii_module_methods[6] "rlecode_hqx"
+00771a00	binascii_b2a_hqx	Modules/binascii.c binascii_module_methods[5] "b2a_hqx"
+00771b00	binascii_rledecode_hqx	Modules/binascii.c binascii_module_methods[7] "rledecode_hqx"
+00771dc0	binascii_crc_hqx	Modules/binascii.c binascii_module_methods[8] "crc_hqx"
+00772310	array_dealloc	Modules/arraymodule.c Arraytype.tp_dealloc
+00772330	array_compare	Modules/arraymodule.c Arraytype.tp_compare
+007730e0	array_getattr	Modules/arraymodule.c Arraytype.tp_getattr
+00773240	array_print	Modules/arraymodule.c Arraytype.tp_print
+00773360	array_repr	Modules/arraymodule.c Arraytype.tp_repr
+00773bf0	module_dealloc	Objects/moduleobject.c PyModule_Type.tp_dealloc
+00773c30	module_repr	Objects/moduleobject.c PyModule_Type.tp_repr
+00773cb0	module_getattr	Objects/moduleobject.c PyModule_Type.tp_getattr
+00773d40	module_setattr	Objects/moduleobject.c PyModule_Type.tp_setattr
+00778410	long_dealloc	Objects/longobject.c PyLong_Type.tp_dealloc
+0077a9e0	meth_dealloc	Objects/methodobject.c PyCFunction_Type.tp_dealloc
+0077aa40	meth_getattr	Objects/methodobject.c PyCFunction_Type.tp_getattr
+0077abe0	meth_repr	Objects/methodobject.c PyCFunction_Type.tp_repr
+0077ac50	meth_compare	Objects/methodobject.c PyCFunction_Type.tp_compare
+0077acd0	meth_hash	Objects/methodobject.c PyCFunction_Type.tp_hash
+0077b0a0	func_getattr	Objects/funcobject.c PyFunction_Type.tp_getattr
+0077b0e0	func_setattr	Objects/funcobject.c PyFunction_Type.tp_setattr
+0077b1e0	func_dealloc	Objects/funcobject.c PyFunction_Type.tp_dealloc
+0077b280	func_repr	Objects/funcobject.c PyFunction_Type.tp_repr
+0077b2f0	func_compare	Objects/funcobject.c PyFunction_Type.tp_compare
+0077b350	func_hash	Objects/funcobject.c PyFunction_Type.tp_hash
+0077c1a0	code_getattr	Python/compile.c PyCode_Type.tp_getattr
+0077c1c0	code_dealloc	Python/compile.c PyCode_Type.tp_dealloc
+0077c2b0	code_repr	Python/compile.c PyCode_Type.tp_repr
+0077c360	code_compare	Python/compile.c PyCode_Type.tp_compare
+0077c3e0	code_hash	Python/compile.c PyCode_Type.tp_hash
+00781390	frame_getattr	Objects/frameobject.c PyFrame_Type.tp_getattr
+007813f0	frame_setattr	Objects/frameobject.c PyFrame_Type.tp_setattr
+00781410	frame_dealloc	Objects/frameobject.c PyFrame_Type.tp_dealloc
+00782380	file_dealloc	Objects/fileobject.c PyFile_Type.tp_dealloc
+00782400	file_repr	Objects/fileobject.c PyFile_Type.tp_repr
+00782470	file_close	Objects/fileobject.c file_methods[11] "close"
+00782510	file_seek	Objects/fileobject.c file_methods[4] "seek"
+007825f0	file_truncate	Objects/fileobject.c file_methods[5] "truncate"
+00782730	file_tell	Objects/fileobject.c file_methods[6] "tell"
+007827c0	file_fileno	Objects/fileobject.c file_methods[3] "fileno"
+00782800	file_flush	Objects/fileobject.c file_methods[10] "flush"
+00782890	file_isatty	Objects/fileobject.c file_methods[12] "isatty"
+007828f0	file_read	Objects/fileobject.c file_methods[1] "read"
+00782b20	file_readinto	Objects/fileobject.c file_methods[7] "readinto"
+00782f50	file_readline	Objects/fileobject.c file_methods[0] "readline"
+00782fc0	file_readlines	Objects/fileobject.c file_methods[8] "readlines"
+00783310	file_write	Objects/fileobject.c file_methods[2] "write"
+007833c0	file_writelines	Objects/fileobject.c file_methods[9] "writelines"
+00783500	file_getattr	Objects/fileobject.c PyFile_Type.tp_getattr
+00783590	file_setattr	Objects/fileobject.c PyFile_Type.tp_setattr
+00783bb0	tb_getattr	Python/traceback.c Tracebacktype.tp_getattr
+00783bd0	tb_dealloc	Python/traceback.c Tracebacktype.tp_dealloc
+00784390	PyCObject_dealloc	Objects/cobject.c PyCObject_Type.tp_dealloc
+00784830	complex_dealloc	Objects/complexobject.c PyComplex_Type.tp_dealloc
+00784840	complex_print	Objects/complexobject.c PyComplex_Type.tp_print
+007848d0	complex_repr	Objects/complexobject.c PyComplex_Type.tp_repr
+007848f0	complex_compare	Objects/complexobject.c PyComplex_Type.tp_compare
+00784990	complex_hash	Objects/complexobject.c PyComplex_Type.tp_hash
+007857a0	complex_getattr	Objects/complexobject.c PyComplex_Type.tp_getattr
+00785b00	buffer_dealloc	Objects/bufferobject.c PyBuffer_Type.tp_dealloc
+00785b30	buffer_compare	Objects/bufferobject.c PyBuffer_Type.tp_compare
+00785b80	buffer_repr	Objects/bufferobject.c PyBuffer_Type.tp_repr
+00785c00	buffer_hash	Objects/bufferobject.c PyBuffer_Type.tp_hash
+00785c70	buffer_str	Objects/bufferobject.c PyBuffer_Type.tp_str
+007862d0	slice_dealloc	Objects/sliceobject.c PySlice_Type.tp_dealloc
+00786330	slice_repr	Objects/sliceobject.c PySlice_Type.tp_repr
+007863e0	slice_getattr	Objects/sliceobject.c PySlice_Type.tp_getattr
+00786560	range_dealloc	Objects/rangeobject.c PyRange_Type.tp_dealloc
+007865d0	range_print	Objects/rangeobject.c PyRange_Type.tp_print
+00786670	range_repr	Objects/rangeobject.c PyRange_Type.tp_repr
+00786720	range_compare	Objects/rangeobject.c PyRange_Type.tp_compare
+00786860	range_getattr	Objects/rangeobject.c PyRange_Type.tp_getattr

@@ -1,0 +1,1033 @@
+{
+ "defaults": {
+  "AsteroidField_Create": {
+   "0": {
+    "fmt": "i",
+    "value": 3
+   }
+  },
+  "CharacterClass_AddPhoneme": {
+   "2": {
+    "fmt": "i",
+    "value": -1
+   }
+  },
+  "CharacterClass_SetAllowExtras": {
+   "0": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "CharacterClass_SetAsExtra": {
+   "1": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "CharacterClass_SetInitiative": {
+   "1": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "CharacterClass_SpeakLine": {
+   "3": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "FuzzyLogic_AddRule": {
+   "3": {
+    "fmt": "f",
+    "value": 1.0
+   }
+  },
+  "ImageManagerClass_GetImage": {
+   "2": {
+    "fmt": "i",
+    "value": 1
+   },
+   "3": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "LODModelManager_Create": {
+   "3": {
+    "fmt": "i",
+    "value": 10000
+   },
+   "4": {
+    "fmt": "i",
+    "value": 10000
+   },
+   "5": {
+    "fmt": "f",
+    "value": 0.009999999776482582
+   }
+  },
+  "Nebula_Create": {
+   "5": {
+    "fmt": "f",
+    "value": 0.25
+   }
+  },
+  "Nebula_SetupDamage": {
+   "2": {
+    "fmt": "f",
+    "value": -1.0
+   }
+  },
+  "ObjectClass_ReplaceTexture": {
+   "3": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "PhysicsObjectClass_ClearAI": {
+   "1": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "PhysicsObjectClass_SetAI": {
+   "2": {
+    "fmt": "i",
+    "value": 1
+   },
+   "3": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "STButton_Create": {
+   "2": {
+    "fmt": "i",
+    "value": -2147483648
+   },
+   "6": {
+    "fmt": "i",
+    "value": 200
+   }
+  },
+  "STButton_CreateW": {
+   "2": {
+    "fmt": "i",
+    "value": -2147483648
+   },
+   "6": {
+    "fmt": "i",
+    "value": 200
+   }
+  },
+  "STButton_SetChoosable": {
+   "2": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "STButton_SetChosen": {
+   "2": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "STButton_SetName": {
+   "2": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "STButton_SetUseEndCapSpace": {
+   "2": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "STButton_SetUseEndCaps": {
+   "2": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "STFillGauge_Create": {
+   "0": {
+    "fmt": "i",
+    "value": 200
+   }
+  },
+  "STMenu_Close": {
+   "1": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "STMenu_Create": {
+   "1": {
+    "fmt": "i",
+    "value": 1610612736
+   }
+  },
+  "STMenu_CreateW": {
+   "1": {
+    "fmt": "i",
+    "value": 1610612736
+   }
+  },
+  "STMenu_DisableFullTitleBar": {
+   "1": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "STMenu_ForceUpdate": {
+   "1": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "STMenu_Open": {
+   "1": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "STMenu_ResizeToContents": {
+   "1": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "STMenu_SetChosen": {
+   "2": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "STMenu_SetName": {
+   "2": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "STMenu_SetUseEndCapSpace": {
+   "2": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "STMenu_UseFullTitleBar": {
+   "1": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "STNumericBar_UpdateGauge": {
+   "1": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "STRoundedButton_SetName": {
+   "2": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "STSubPane_Create": {
+   "2": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "STSubPane_DeleteChild": {
+   "2": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "STSubPane_InsertChild": {
+   "5": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "STSubPane_RemoveChild": {
+   "2": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "STSubPane_ResizeToContents": {
+   "1": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "STToggle_SetState": {
+   "2": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "STTopLevelMenu_CloseMenu": {
+   "1": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "STTopLevelMenu_Create": {
+   "1": {
+    "fmt": "i",
+    "value": 1610612736
+   }
+  },
+  "STTopLevelMenu_CreateW": {
+   "1": {
+    "fmt": "i",
+    "value": 1610612736
+   }
+  },
+  "STTopLevelMenu_GotFocus": {
+   "1": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "STTopLevelMenu_LostFocus": {
+   "1": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "STTopLevelMenu_SetNotVisible": {
+   "1": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "STTopLevelMenu_SetVisible": {
+   "1": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "ScriptObject_LoadSound": {
+   "3": {
+    "fmt": "i",
+    "value": 2
+   }
+  },
+  "SetClass_StartPick": {
+   "3": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "ShipClass_InSystemWarp": {
+   "2": {
+    "fmt": "f",
+    "value": 575.0
+   }
+  },
+  "SubtitleAction_Create": {
+   "2": {
+    "fmt": "f",
+    "value": 1.25
+   }
+  },
+  "SubtitleAction_CreateC": {
+   "1": {
+    "fmt": "f",
+    "value": 1.25
+   }
+  },
+  "Sun_Create": {
+   "1": {
+    "fmt": "f",
+    "value": 125.0
+   }
+  },
+  "TGAnimAction_Create": {
+   "2": {
+    "fmt": "i",
+    "value": 1
+   },
+   "3": {
+    "fmt": "i",
+    "value": 1
+   },
+   "5": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGCreditAction_SetColor": {
+   "4": {
+    "fmt": "f",
+    "value": 1.0
+   }
+  },
+  "TGFrame_SetEdgeStretch": {
+   "2": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGFrame_SetFirstIconNum": {
+   "2": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGFrame_SetIconGroupName": {
+   "2": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGFrame_SetScale": {
+   "2": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGFrame_SetStretchType": {
+   "2": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGIcon_SetIconGroupName": {
+   "2": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGIcon_SetIconNum": {
+   "2": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGIcon_SizeToArtwork": {
+   "1": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGLocalizationManager_Load": {
+   "2": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGMovieAction_Create": {
+   "1": {
+    "fmt": "i",
+    "value": 1
+   },
+   "4": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGMusic_StartMusic": {
+   "2": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGNetwork_EnableProfiling": {
+   "1": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGObject_Print": {
+   "2": {
+    "fmt": "i",
+    "value": -1
+   }
+  },
+  "TGPane_AddChild": {
+   "4": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGPane_DeleteChild": {
+   "2": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGPane_InsertChild": {
+   "5": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGPane_MoveFocus": {
+   "3": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGPane_MoveToBack": {
+   "2": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGPane_MoveToFront": {
+   "2": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGPane_MoveTowardsBack": {
+   "2": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGPane_MoveTowardsFront": {
+   "2": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGPane_PrependChild": {
+   "4": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGPane_RemoveChild": {
+   "2": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGPane_SetFocus": {
+   "2": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGParagraph_AppendChar": {
+   "2": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGParagraph_AppendString": {
+   "2": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGParagraph_AppendStringW": {
+   "2": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGParagraph_Create": {
+   "1": {
+    "fmt": "f",
+    "value": 1.0
+   },
+   "5": {
+    "fmt": "i",
+    "value": -2147483648
+   }
+  },
+  "TGParagraph_CreateW": {
+   "1": {
+    "fmt": "f",
+    "value": 1.0
+   },
+   "5": {
+    "fmt": "i",
+    "value": -2147483648
+   }
+  },
+  "TGParagraph_InsertChar": {
+   "2": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGParagraph_InsertChild": {
+   "5": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGParagraph_InsertString": {
+   "2": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGParagraph_InsertStringW": {
+   "2": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGParagraph_RecalcBounds": {
+   "1": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGParagraph_SetFontGroup": {
+   "2": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGParagraph_SetString": {
+   "2": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGParagraph_SetStringW": {
+   "2": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGParagraph_SetWrapWidth": {
+   "2": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGRootPane_PushCursor": {
+   "4": {
+    "fmt": "f",
+    "value": 1.0
+   }
+  },
+  "TGRootPane_SetCursorVisible": {
+   "1": {
+    "fmt": "i",
+    "value": 1
+   },
+   "2": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGRootPane_SetMouseCursor": {
+   "4": {
+    "fmt": "f",
+    "value": 1.0
+   }
+  },
+  "TGRootPane_UpdateTrueFocus": {
+   "1": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGSoundAction_Create": {
+   "1": {
+    "fmt": "i",
+    "value": 3
+   },
+   "3": {
+    "fmt": "f",
+    "value": 1.0
+   }
+  },
+  "TGSound_Create": {
+   "2": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGSound_Play": {
+   "1": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGSound_PlayAndNotify": {
+   "2": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGTextButton_Create": {
+   "3": {
+    "fmt": "f",
+    "value": 1.0
+   },
+   "5": {
+    "fmt": "f",
+    "value": 0.009999999776482582
+   },
+   "6": {
+    "fmt": "f",
+    "value": 0.004999999888241291
+   }
+  },
+  "TGTextButton_CreateW": {
+   "3": {
+    "fmt": "f",
+    "value": 1.0
+   },
+   "5": {
+    "fmt": "f",
+    "value": 0.009999999776482582
+   },
+   "6": {
+    "fmt": "f",
+    "value": 0.004999999888241291
+   }
+  },
+  "TGUIModule_PixelAlignValue": {
+   "1": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGUIObject_AlignTo": {
+   "4": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGUIObject_GotFocus": {
+   "1": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGUIObject_GotTrueFocus": {
+   "1": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGUIObject_GotTrueFocusPath": {
+   "1": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGUIObject_LostFocus": {
+   "1": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGUIObject_LostTrueFocus": {
+   "1": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGUIObject_LostTrueFocusPath": {
+   "1": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGUIObject_Move": {
+   "3": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGUIObject_Print": {
+   "2": {
+    "fmt": "i",
+    "value": -1
+   }
+  },
+  "TGUIObject_Resize": {
+   "3": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGUIObject_SetBounds": {
+   "2": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGUIObject_SetDisabled": {
+   "1": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGUIObject_SetEnabled": {
+   "1": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGUIObject_SetEnabledFlag": {
+   "2": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGUIObject_SetExclusive": {
+   "1": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGUIObject_SetExclusiveFlag": {
+   "2": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGUIObject_SetHighlighted": {
+   "1": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGUIObject_SetNotExclusive": {
+   "1": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGUIObject_SetNotHighlighted": {
+   "1": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGUIObject_SetNotSelected": {
+   "1": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGUIObject_SetNotVisible": {
+   "1": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGUIObject_SetParent": {
+   "2": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGUIObject_SetPosition": {
+   "3": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGUIObject_SetSelected": {
+   "1": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGUIObject_SetSelectedFlag": {
+   "2": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGUIObject_SetUseParentBatch": {
+   "1": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGUIObject_SetVisible": {
+   "1": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGUIObject_SetVisibleFlag": {
+   "2": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGUIObject_ToggleEnabled": {
+   "1": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGUIObject_ToggleExclusive": {
+   "1": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGUIObject_ToggleHighlighted": {
+   "1": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGUIObject_ToggleSelected": {
+   "1": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TGUIObject_ToggleVisible": {
+   "1": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TopWindow_AllowKeyboardInput": {
+   "1": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TopWindow_AllowMouseInput": {
+   "1": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TopWindow_EndCutscene": {
+   "1": {
+    "fmt": "f",
+    "value": 1.0
+   }
+  },
+  "TopWindow_StartCutscene": {
+   "1": {
+    "fmt": "f",
+    "value": 1.0
+   },
+   "2": {
+    "fmt": "f",
+    "value": 0.15000000596046448
+   },
+   "3": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "TorpedoSystem_SetAmmoType": {
+   "2": {
+    "fmt": "i",
+    "value": 1
+   }
+  },
+  "WarpFlash_Create": {
+   "1": {
+    "fmt": "f",
+    "value": 1.5
+   }
+  },
+  "new_MultiplayerGame": {
+   "1": {
+    "fmt": "i",
+    "value": 16
+   }
+  },
+  "new_STFillGauge": {
+   "0": {
+    "fmt": "i",
+    "value": 200
+   }
+  },
+  "new_TGCreditAction": {
+   "2": {
+    "fmt": "f",
+    "value": 0.5
+   },
+   "3": {
+    "fmt": "f",
+    "value": 0.5
+   },
+   "4": {
+    "fmt": "f",
+    "value": 1.0
+   },
+   "5": {
+    "fmt": "f",
+    "value": 0.25
+   },
+   "6": {
+    "fmt": "f",
+    "value": 0.5
+   },
+   "7": {
+    "fmt": "i",
+    "value": 10
+   },
+   "8": {
+    "fmt": "i",
+    "value": 4
+   },
+   "9": {
+    "fmt": "i",
+    "value": 2
+   }
+  },
+  "new_TGFrame": {
+   "3": {
+    "fmt": "f",
+    "value": 1.0
+   }
+  },
+  "new_TGFrameWindow": {
+   "4": {
+    "fmt": "f",
+    "value": 1.0
+   }
+  },
+  "new_TGParagraph": {
+   "1": {
+    "fmt": "f",
+    "value": 1.0
+   },
+   "5": {
+    "fmt": "i",
+    "value": -2147483648
+   }
+  },
+  "new_TGPrompt": {
+   "0": {
+    "fmt": "f",
+    "value": 0.5
+   }
+  },
+  "new_TGTextButton": {
+   "3": {
+    "fmt": "f",
+    "value": 1.0
+   },
+   "5": {
+    "fmt": "f",
+    "value": 0.009999999776482582
+   },
+   "6": {
+    "fmt": "f",
+    "value": 0.004999999888241291
+   }
+  }
+ },
+ "unresolved": []
+}

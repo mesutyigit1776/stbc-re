@@ -1,0 +1,447 @@
+com_node	0077d110	Python/compile.c	0	17		com_addbyte,com_addoparg,com_and_expr,com_arith_expr,com_assert_stmt,com_assign,com_atom,com_comparison,com_error,com_expr,com_factor,com_global_stmt,com_power,com_return_stmt,com_shift_expr,com_term,com_xor_expr
+com_try_except	007800a0	Python/compile.c	0	11		block_pop,block_push,com_addbyte,com_addfwref,com_addoparg,com_assign,com_backpatch,com_error,com_node,com_pop,com_push
+com_atom	0077d470	Python/compile.c	0	10		com_addbyte,com_addoparg,com_addopname,com_dictmaker,com_error,com_list_constructor,com_node,com_push,parsenumber,parsestrplus
+PyErr_PrintEx	0074af20	Python/pythonrun.c	0	10		PyErr_Clear,PyFile_WriteObject,PyFile_WriteString,PyInt_AsLong,PyObject_GetAttrString,PyObject_Print,PySys_GetObject,PySys_SetObject,PyTraceBack_Print,parse_syntax_error
+com_comparison	0077eac0	Python/compile.c	0	9		cmp_type,com_addbyte,com_addfwref,com_addoparg,com_backpatch,com_error,com_expr,com_pop,com_push
+Py_Initialize	0074a590	Python/pythonrun.c	0	9		PyInterpreterState_New,PySys_SetPath,PyThreadState_New,Py_FatalError,_PyBuiltin_Init_2,_PyImport_FixupExtension,_PySys_Init,initmain,initsite
+com_assert_stmt	0077f610	Python/compile.c	0	8		com_addbyte,com_addfwref,com_addoparg,com_addopnamestr,com_backpatch,com_node,com_pop,com_push
+call_builtin	00776dd0	Python/ceval.c	0	7		PyCFunction_GetFlags,PyCFunction_GetFunction,PyCFunction_GetSelf,PyErr_Clear,PyEval_CallObjectWithKeywords,PyInstance_New,PyObject_GetAttrString
+instance_dealloc	007572d0	Objects/classobject.c	0	6		PyErr_Clear,PyErr_Restore,PyFile_WriteObject,PyFile_WriteString,PySys_GetObject,instance_getattr1
+com_return_stmt	0077f780	Python/compile.c	0	6		com_addbyte,com_addoparg,com_error,com_node,com_pop,com_push
+compile_node	0077cba0	Python/compile.c	0	6		com_addbyte,com_addoparg,com_error,com_node,com_pop,com_push
+load_module	0075cc80	Python/import.c	0	6		PyImport_GetModuleDict,PyImport_ImportFrozenModule,_PyImport_LoadDynamicModule,init_builtin,load_compiled_module,load_source_module
+_PyImport_LoadDynamicModule	00787220	Python/importdl.c	0	6		PyErr_Clear,PyImport_GetModuleDict,PyString_FromString,PySys_WriteStderr,_PyImport_FindExtension,_PyImport_FixupExtension
+PyString_Format	00750e60	Objects/stringobject.c	0	5		PyInt_AsLong,formatchar,formatfloat,formatint,getnextarg
+com_subscriptlist	0077e320	Python/compile.c	0	5		com_addbyte,com_addoparg,com_pop,com_slice,com_subscript
+com_power	0077dfc0	Python/compile.c	0	5		com_addbyte,com_apply_trailer,com_atom,com_factor,com_pop
+jcompile	0077c720	Python/compile.c	0	5		PyCode_New,com_done,com_free,com_init,compile_node
+load_source_module	0075cf00	Python/import.c	0	5		PyImport_ExecCodeModuleEx,PySys_WriteStderr,check_compiled_module,read_compiled_module,write_compiled_module
+PyImport_ReloadModule	0075d490	Python/import.c	0	5		PyErr_Clear,PyImport_GetModuleDict,PyModule_GetName,PyObject_GetAttrString,load_module
+call_sys_exitfunc	0074ba50	Python/pythonrun.c	0	5		PyErr_Clear,PyErr_Print,PyFile_WriteString,PySys_GetObject,PySys_SetObject
+mywrite	0077a830	Python/sysmodule.c	0	5		PyErr_Clear,PyErr_Restore,PyFile_WriteString,PySys_GetObject,Py_FatalError
+PyFile_SoftSpace	007835d0	Objects/fileobject.c	0	4		PyErr_Clear,PyInt_AsLong,PyObject_GetAttrString,PyObject_SetAttrString
+module_repr	00773c30	Objects/moduleobject.c	0	4		PyErr_Clear,PyModule_GetFilename,PyModule_GetName,PyString_FromString
+builtin_complex	00753bc0	Python/bltinmodule.c	0	4		PyArg_ParseTuple,PyErr_Clear,PyFloat_AsDouble,complex_from_string
+builtin_dir	00754290	Python/bltinmodule.c	0	4		PyArg_ParseTuple,PyErr_Clear,PyObject_GetAttrString,PySequence_GetItem
+builtin_map	007548a0	Python/bltinmodule.c	0	4		PyErr_Clear,PyList_SetItem,PySequence_List,PyTuple_SetItem
+builtin_raw_input	00755590	Python/bltinmodule.c	0	4		PyArg_ParseTuple,PyFile_GetLine,PyFile_WriteObject,PySys_GetObject
+builtin_reduce	00755780	Python/bltinmodule.c	0	4		PyArg_ParseTuple,PyErr_Clear,PyTuple_SetItem,reduce
+call_function	00776f10	Python/ceval.c	0	4		PyEval_CallObjectWithKeywords,PyFunction_GetCode,PyFunction_GetDefaults,PyFunction_GetGlobals
+com_dictmaker	0077df40	Python/compile.c	0	4		com_addbyte,com_node,com_pop,com_push
+com_sliceobj	0077e570	Python/compile.c	0	4		com_addoparg,com_node,com_pop,com_push
+com_subscript	0077e500	Python/compile.c	0	4		com_addoparg,com_node,com_push,com_sliceobj
+com_term	0077e720	Python/compile.c	0	4		com_addbyte,com_error,com_factor,com_pop
+com_arith_expr	0077e7d0	Python/compile.c	0	4		com_addbyte,com_error,com_pop,com_term
+com_shift_expr	0077e870	Python/compile.c	0	4		com_addbyte,com_arith_expr,com_error,com_pop
+com_and_expr	0077e910	Python/compile.c	0	4		com_addbyte,com_error,com_pop,com_shift_expr
+com_xor_expr	0077e9a0	Python/compile.c	0	4		com_addbyte,com_and_expr,com_error,com_pop
+com_expr	0077ea30	Python/compile.c	0	4		com_addbyte,com_error,com_pop,com_xor_expr
+com_assign	0077f100	Python/compile.c	0	4		com_apply_trailer,com_assign_trailer,com_error,com_node
+initsite	0074aa20	Python/pythonrun.c	0	4		PyErr_Clear,PyErr_Print,PyFile_WriteString,PySys_GetObject
+_PySys_Init	0077a1e0	Python/sysmodule.c	0	4		PyString_FromString,Py_GetCopyright,Py_GetVersion,list_builtin_module_names
+PySys_SetArgv	0077a680	Python/sysmodule.c	0	4		PySys_GetObject,PySys_SetObject,Py_FatalError,makeargvobject
+PyLocale_setlocale	0075f990	Modules/_localemodule.c	0	3		PyArg_ParseTuple,PyErr_Clear,PyString_FromString
+array_getattr	007730e0	Modules/arraymodule.c	0	3		PyList_SetItem,PyString_FromString,Py_FindMethod
+array_repr	00773360	Modules/arraymodule.c	0	3		PyString_Concat,PyString_ConcatAndDel,PyString_FromString
+calculate_path	0077b3a0	Modules/getpath.c	0	3		Py_GetPythonHome,malloc,reduce
+regobj_getattr	0076c2d0	Modules/regexmodule.c	0	3		PyList_SetItem,PyString_FromString,Py_FindMethod
+PyInstance_New	00757140	Objects/classobject.c	0	3		PyErr_Clear,PyEval_CallObjectWithKeywords,instance_getattr1
+instance_repr	007579c0	Objects/classobject.c	0	3		PyErr_Clear,PyString_FromString,instance_getattr
+instancemethod_repr	00758d60	Objects/classobject.c	0	3		PyErr_Clear,PyObject_GetAttrString,PyString_FromString
+dict_repr	007523f0	Objects/dictobject.c	0	3		PyString_Concat,PyString_ConcatAndDel,PyString_FromString
+file_readlines	00782fc0	Objects/fileobject.c	0	3		PyArg_ParseTuple,PyString_Concat,err_closed
+PyFile_WriteObject	00783690	Objects/fileobject.c	0	3		PyObject_GetAttrString,PyObject_Print,err_closed
+PyFile_WriteString	00783800	Objects/fileobject.c	0	3		PyFile_WriteObject,PyString_FromString,err_closed
+list_repr	00749250	Objects/listobject.c	0	3		PyString_Concat,PyString_ConcatAndDel,PyString_FromString
+Py_FindMethodInChain	0077ad00	Objects/methodobject.c	0	3		PyCFunction_New,PyString_FromString,listmethodchain
+tuplerepr	0074dd30	Objects/tupleobject.c	0	3		PyString_Concat,PyString_ConcatAndDel,PyString_FromString
+builtin_apply	00753520	Python/bltinmodule.c	0	3		PyArg_ParseTuple,PyEval_CallObjectWithKeywords,PySequence_Tuple
+builtin_filter	007536b0	Python/bltinmodule.c	0	3		PyArg_ParseTuple,PyErr_Clear,PyList_SetItem
+init_class_exc	00756000	Python/bltinmodule.c	0	3		PyErr_Clear,PyErr_Print,PySys_WriteStderr
+_PyBuiltin_Init_2	00755fd0	Python/bltinmodule.c	0	3		PySys_WriteStderr,init_class_exc,initerrors
+com_addoparg	0077cef0	Python/compile.c	0	3		com_addbyte,com_addint,com_set_lineno
+com_list_constructor	0077dee0	Python/compile.c	0	3		com_addoparg,com_node,com_pop
+com_slice	0077e450	Python/compile.c	0	3		com_addbyte,com_node,com_pop
+com_apply_trailer	0077e040	Python/compile.c	0	3		com_call_function,com_error,com_subscriptlist
+PyImport_Cleanup	0075b280	Python/import.c	0	3		PySys_WriteStderr,PyThreadState_Get,_PyModule_Clear
+PyImport_ExecCodeModuleEx	0075b930	Python/import.c	0	3		PyErr_Clear,PyImport_GetModuleDict,PyString_FromString
+load_compiled_module	0075ce00	Python/import.c	0	3		PyImport_ExecCodeModuleEx,PySys_WriteStderr,read_compiled_module
+init_builtin	0075d3b0	Python/import.c	0	3		PySys_WriteStderr,_PyImport_FindExtension,_PyImport_FixupExtension
+PyImport_ImportFrozenModule	0075ba40	Python/import.c	0	3		PyImport_ExecCodeModuleEx,PyMarshal_ReadObjectFromString,PySys_WriteStderr
+ensure_fromlist	0075c1b0	Python/import.c	0	3		PyErr_Clear,PyObject_GetAttrString,PySequence_GetItem
+imp_load_module	0075dd80	Python/import.c	0	3		PyArg_ParseTuple,get_file,load_module
+r_object	0075ece0	Python/marshal.c	0	3		PyCode_New,PyList_SetItem,r_long64
+PyMember_Set	00786d20	Python/structmember.c	0	3		PyErr_BadArgument,PyFloat_AsDouble,PyInt_AsLong
+PySys_SetPath	0077a570	Python/sysmodule.c	0	3		PySys_SetObject,Py_FatalError,makepathobject
+tb_displayline	00783e00	Python/traceback.c	0	3		PyErr_Clear,PyFile_WriteString,PySys_GetObject
+PyTraceBack_Print	00783ce0	Python/traceback.c	0	3		PyFile_WriteString,PyInt_AsLong,PySys_GetObject
+new_function	0076ec00	Modules/newmodule.c	0	2		PyArg_ParseTuple,PyFunction_New
+new_code	0076ed00	Modules/newmodule.c	0	2		PyArg_ParseTuple,PyCode_New
+regex_compile	0076c690	Modules/regexmodule.c	0	2		PyArg_ParseTuple,newregexobject
+PyNumber_Power	00759bb0	Objects/abstract.c	0	2		PyNumber_Coerce,do_pow
+PyNumber_Int	00759f90	Objects/abstract.c	0	2		int_from_string,null_error
+PyNumber_Long	0075a160	Objects/abstract.c	0	2		long_from_string,null_error
+PyNumber_Float	0075a310	Objects/abstract.c	0	2		float_from_string,null_error
+PySequence_Tuple	0075a8c0	Objects/abstract.c	0	2		PyErr_Clear,null_error
+PySequence_List	0075aa30	Objects/abstract.c	0	2		PyErr_Clear,null_error
+PySequence_Index	0075ad60	Objects/abstract.c	0	2		PySequence_GetItem,null_error
+instance_getattr	007576c0	Objects/classobject.c	0	2		PyErr_Clear,instance_getattr1
+instance_length	00757c90	Objects/classobject.c	0	2		PyInt_AsLong,instance_getattr
+complex_repr	007848d0	Objects/complexobject.c	0	2		PyString_FromString,complex_buf_repr
+dict_items	007526f0	Objects/dictobject.c	0	2		PyList_SetItem,PyTuple_SetItem
+PyFile_GetLine	00782bf0	Objects/fileobject.c	0	2		PyObject_GetAttrString,err_closed
+file_getattr	00783500	Objects/fileobject.c	0	2		PyErr_Clear,Py_FindMethod
+float_repr	0074fc60	Objects/floatobject.c	0	2		PyFloat_AsString,PyString_FromString
+listmethodchain	0077ae40	Objects/methodobject.c	0	2		PyList_SetItem,PyString_FromString
+PyString_InternInPlace	00751ad0	Objects/stringobject.c	0	2		PyErr_Clear,Py_FatalError
+builtin_abs	007534f0	Python/bltinmodule.c	0	2		PyArg_ParseTuple,PyNumber_Absolute
+builtin_coerce	007539f0	Python/bltinmodule.c	0	2		PyArg_ParseTuple,PyNumber_Coerce
+builtin_divmod	00754450	Python/bltinmodule.c	0	2		PyArg_ParseTuple,PyNumber_Divmod
+builtin_float	00754730	Python/bltinmodule.c	0	2		PyArg_ParseTuple,PyNumber_Float
+builtin_getattr	00754760	Python/bltinmodule.c	0	2		PyArg_ParseTuple,PyErr_Clear
+builtin_hasattr	007547f0	Python/bltinmodule.c	0	2		PyArg_ParseTuple,PyErr_Clear
+builtin_intern	00754e30	Python/bltinmodule.c	0	2		PyArg_ParseTuple,PyString_InternInPlace
+builtin_int	00754e70	Python/bltinmodule.c	0	2		PyArg_ParseTuple,PyNumber_Int
+builtin_list	00754ef0	Python/bltinmodule.c	0	2		PyArg_ParseTuple,PySequence_List
+builtin_long	00754fb0	Python/bltinmodule.c	0	2		PyArg_ParseTuple,PyNumber_Long
+min_max	00754ff0	Python/bltinmodule.c	0	2		PyArg_ParseTuple,PyErr_Clear
+builtin_pow	007552f0	Python/bltinmodule.c	0	2		PyArg_ParseTuple,PyNumber_Power
+builtin_reload	00755920	Python/bltinmodule.c	0	2		PyArg_ParseTuple,PyImport_ReloadModule
+builtin_tuple	00755a90	Python/bltinmodule.c	0	2		PyArg_ParseTuple,PySequence_Tuple
+builtin_vars	00755b00	Python/bltinmodule.c	0	2		PyArg_ParseTuple,PyObject_GetAttrString
+newstdexception	00755f90	Python/bltinmodule.c	0	2		PyString_FromString,Py_FatalError
+initerrors	00755d60	Python/bltinmodule.c	0	2		Py_FatalError,newstdexception
+do_raise	00776640	Python/ceval.c	0	2		PyErr_Restore,PyThreadState_Get
+unpack_sequence	00776880	Python/ceval.c	0	2		PyErr_Clear,PySequence_GetItem
+PyEval_CallObjectWithKeywords	00776cf0	Python/ceval.c	0	2		call_builtin,call_function
+loop_subscript	007771c0	Python/ceval.c	0	2		PyErr_Clear,PyInt_AsLong
+com_addfwref	0077ec20	Python/compile.c	0	2		com_addbyte,com_addint
+com_addopname	0077d6a0	Python/compile.c	0	2		com_addopnamestr,com_error
+parsenumber	0077d990	Python/compile.c	0	2		PyLong_FromString,com_error
+parsestrplus	0077dad0	Python/compile.c	0	2		PyString_ConcatAndDel,parsestr
+com_factor	0077e6a0	Python/compile.c	0	2		com_addbyte,com_power
+com_assign_trailer	0077f370	Python/compile.c	0	2		com_error,com_subscriptlist
+com_argdefs	00780500	Python/compile.c	0	2		com_error,com_node
+vgetargs1	0074e370	Python/getargs.c	0	2		Py_FatalError,seterror
+convertsimple1	0074eb00	Python/getargs.c	0	2		PyFloat_AsDouble,PyInt_AsLong
+vgetargskeywords	0074f400	Python/getargs.c	0	2		PyErr_Clear,seterror
+PyImport_GetModuleDict	0075b250	Python/import.c	0	2		PyThreadState_Get,Py_FatalError
+r_long64	0075f5e0	Python/marshal.c	0	2		PyFile_WriteString,PySys_GetObject
+marshal_loads	0075f8e0	Python/marshal.c	0	2		PyErr_Clear,r_object
+parse_syntax_error	0074b490	Python/pythonrun.c	0	2		PyInt_AsLong,PyObject_GetAttrString
+makeargvobject	0077a790	Python/sysmodule.c	0	2		PyList_SetItem,PyString_FromString
+array_print	00773240	Modules/arraymodule.c	0	1		PyObject_Print
+binascii_a2b_uu	00771240	Modules/binascii.c	0	1		PyArg_ParseTuple
+binascii_b2a_uu	007713e0	Modules/binascii.c	0	1		PyArg_ParseTuple
+binascii_a2b_base64	007714f0	Modules/binascii.c	0	1		PyArg_ParseTuple
+binascii_b2a_base64	00771640	Modules/binascii.c	0	1		PyArg_ParseTuple
+binascii_a2b_hqx	00771780	Modules/binascii.c	0	1		PyArg_ParseTuple
+binascii_rlecode_hqx	00771920	Modules/binascii.c	0	1		PyArg_ParseTuple
+binascii_b2a_hqx	00771a00	Modules/binascii.c	0	1		PyArg_ParseTuple
+binascii_rledecode_hqx	00771b00	Modules/binascii.c	0	1		PyArg_ParseTuple
+binascii_crc_hqx	00771dc0	Modules/binascii.c	0	1		PyArg_ParseTuple
+new_instancemethod	0076eb50	Modules/newmodule.c	0	1		PyArg_ParseTuple
+new_class	0076ee20	Modules/newmodule.c	0	1		PyArg_ParseTuple
+posix_listdir	0076db40	Modules/posixmodule.c	0	1		PyString_FromString
+posix_fdopen	0076e6b0	Modules/posixmodule.c	0	1		PyArg_ParseTuple
+regobj_match	0076bea0	Modules/regexmodule.c	0	1		PyArg_ParseTuple
+regobj_search	0076bfd0	Modules/regexmodule.c	0	1		PyArg_ParseTuple
+strop_expandtabs	0076ade0	Modules/stropmodule.c	0	1		PyArg_ParseTuple
+strop_translate	0076b770	Modules/stropmodule.c	0	1		PyArg_ParseTuple
+calcsize	007697b0	Modules/structmodule.c	0	1		getentry
+gettmarg	00768590	Modules/timemodule.c	0	1		PyInt_AsLong
+time_ctime	007686f0	Modules/timemodule.c	0	1		PyString_FromString
+time_mktime	00768760	Modules/timemodule.c	0	1		gettmarg
+long_from_string	0075a1b0	Objects/abstract.c	0	1		PyLong_FromString
+PyNumber_Divmod	00759ad0	Objects/abstract.c	0	1		PyNumber_Coerce
+do_pow	00759d90	Objects/abstract.c	0	1		PyNumber_Coerce
+PyNumber_Absolute	00759f50	Objects/abstract.c	0	1		null_error
+PySequence_GetItem	0075a5f0	Objects/abstract.c	0	1		null_error
+PySequence_SetItem	0075a6e0	Objects/abstract.c	0	1		null_error
+PySequence_DelItem	0075a750	Objects/abstract.c	0	1		null_error
+_PyBuffer_FromObject	00785910	Objects/bufferobject.c	0	1		_PyBuffer_FromMemory
+buffer_repr	00785b80	Objects/bufferobject.c	0	1		PyString_FromString
+buffer_ass_item	00785e90	Objects/bufferobject.c	0	1		PyErr_BadArgument
+buffer_ass_slice	00785f90	Objects/bufferobject.c	0	1		PyErr_BadArgument
+class_repr	00756f40	Objects/classobject.c	0	1		PyString_FromString
+class_str	00756fe0	Objects/classobject.c	0	1		class_repr
+instance_setattr	00757730	Objects/classobject.c	0	1		instance_setattr1
+instance_compare	00757ac0	Objects/classobject.c	0	1		PyInt_AsLong
+instance_slice	00757f90	Objects/classobject.c	0	1		instance_getattr
+instance_ass_slice	00758130	Objects/classobject.c	0	1		instance_getattr
+complex_getattr	007857a0	Objects/complexobject.c	0	1		Py_FindMethod
+dict_print	00752310	Objects/dictobject.c	0	1		PyObject_Print
+dict_keys	007525f0	Objects/dictobject.c	0	1		PyList_SetItem
+dict_values	00752670	Objects/dictobject.c	0	1		PyList_SetItem
+dict_get	00752be0	Objects/dictobject.c	0	1		PyArg_ParseTuple
+dict_getattr	00752cb0	Objects/dictobject.c	0	1		Py_FindMethod
+file_repr	00782400	Objects/fileobject.c	0	1		PyString_FromString
+file_fileno	007827c0	Objects/fileobject.c	0	1		err_closed
+file_readinto	00782b20	Objects/fileobject.c	0	1		err_closed
+file_setattr	00783590	Objects/fileobject.c	0	1		PyMember_Set
+PyFloat_AsDouble	0074fb20	Objects/floatobject.c	0	1		PyErr_BadArgument
+float_int	007503a0	Objects/floatobject.c	0	1		PyFloat_AsDouble
+PyFloat_Fini	00750480	Objects/floatobject.c	0	1		PyFloat_AsString
+frame_setattr	007813f0	Objects/frameobject.c	0	1		PyMember_Set
+PyFrame_BlockSetup	00781830	Objects/frameobject.c	0	1		Py_FatalError
+PyFrame_BlockPop	00781870	Objects/frameobject.c	0	1		Py_FatalError
+func_setattr	0077b0e0	Objects/funcobject.c	0	1		PyMember_Set
+func_repr	0077b280	Objects/funcobject.c	0	1		PyString_FromString
+PyInt_AsLong	0074c7c0	Objects/intobject.c	0	1		PyErr_BadArgument
+int_repr	0074c850	Objects/intobject.c	0	1		PyString_FromString
+int_pow	0074cb70	Objects/intobject.c	0	1		i_divmod
+list_print	007491a0	Objects/listobject.c	0	1		PyObject_Print
+listinsert	00749910	Objects/listobject.c	0	1		ins
+listappend	00749980	Objects/listobject.c	0	1		ins
+listextend	007499c0	Objects/listobject.c	0	1		PyArg_ParseTuple
+listpop	00749b40	Objects/listobject.c	0	1		PyArg_ParseTuple
+docompare	0074a0f0	Objects/listobject.c	0	1		PyInt_AsLong
+listreverse	0074a2c0	Objects/listobject.c	0	1		PyErr_BadArgument
+listindex	0074a3b0	Objects/listobject.c	0	1		PyErr_BadArgument
+listcount	0074a420	Objects/listobject.c	0	1		PyErr_BadArgument
+listremove	0074a480	Objects/listobject.c	0	1		PyErr_BadArgument
+list_getattr	0074a510	Objects/listobject.c	0	1		Py_FindMethod
+long_coerce	00779ec0	Objects/longobject.c	0	1		PyInt_AsLong
+meth_getattr	0077aa40	Objects/methodobject.c	0	1		PyString_FromString
+meth_repr	0077abe0	Objects/methodobject.c	0	1		PyString_FromString
+Py_FindMethod	0077aee0	Objects/methodobject.c	0	1		Py_FindMethodInChain
+PyModule_GetName	007739b0	Objects/moduleobject.c	0	1		PyErr_BadArgument
+PyModule_GetFilename	00773a10	Objects/moduleobject.c	0	1		PyErr_BadArgument
+_PyModule_Clear	00773a70	Objects/moduleobject.c	0	1		PySys_WriteStderr
+range_repr	00786670	Objects/rangeobject.c	0	1		PyString_FromString
+range_getattr	00786860	Objects/rangeobject.c	0	1		Py_FindMethod
+PyString_FromString	007506c0	Objects/stringobject.c	0	1		malloc
+PyString_ConcatAndDel	00750db0	Objects/stringobject.c	0	1		PyString_Concat
+tupleprint	0074dca0	Objects/tupleobject.c	0	1		PyObject_Print
+push	0078b6c0	Parser/parser.c	0	1		s_push
+parsetok	007839d0	Parser/parsetok.c	0	1		malloc
+tok_backup	0078b3a0	Parser/tokenizer.c	0	1		Py_FatalError
+indenterror	0078b3e0	Parser/tokenizer.c	0	1		PySys_WriteStderr
+builtin___import__	00753410	Python/bltinmodule.c	0	1		PyArg_ParseTuple
+builtin_buffer	00753620	Python/bltinmodule.c	0	1		PyArg_ParseTuple
+builtin_callable	00753680	Python/bltinmodule.c	0	1		PyArg_ParseTuple
+builtin_chr	00753930	Python/bltinmodule.c	0	1		PyArg_ParseTuple
+builtin_cmp	00753990	Python/bltinmodule.c	0	1		PyArg_ParseTuple
+builtin_compile	00753a90	Python/bltinmodule.c	0	1		PyArg_ParseTuple
+builtin_eval	00754490	Python/bltinmodule.c	0	1		PyArg_ParseTuple
+builtin_execfile	00754600	Python/bltinmodule.c	0	1		PyArg_ParseTuple
+builtin_globals	007547d0	Python/bltinmodule.c	0	1		PyArg_ParseTuple
+builtin_id	00754870	Python/bltinmodule.c	0	1		PyArg_ParseTuple
+builtin_setattr	00754c10	Python/bltinmodule.c	0	1		PyArg_ParseTuple
+builtin_delattr	00754c80	Python/bltinmodule.c	0	1		PyArg_ParseTuple
+builtin_hash	00754ce0	Python/bltinmodule.c	0	1		PyArg_ParseTuple
+builtin_hex	00754d20	Python/bltinmodule.c	0	1		PyArg_ParseTuple
+builtin_input	00754d70	Python/bltinmodule.c	0	1		builtin_raw_input
+builtin_len	00754ea0	Python/bltinmodule.c	0	1		PyArg_ParseTuple
+builtin_slice	00754f20	Python/bltinmodule.c	0	1		PyArg_ParseTuple
+builtin_locals	00754f90	Python/bltinmodule.c	0	1		PyArg_ParseTuple
+builtin_min	00754fe0	Python/bltinmodule.c	0	1		min_max
+builtin_max	00755170	Python/bltinmodule.c	0	1		min_max
+builtin_oct	00755180	Python/bltinmodule.c	0	1		PyArg_ParseTuple
+builtin_open	007551e0	Python/bltinmodule.c	0	1		PyArg_ParseTuple
+builtin_ord	007552c0	Python/bltinmodule.c	0	1		PyArg_ParseTuple
+builtin_range	00755340	Python/bltinmodule.c	0	1		PyArg_ParseTuple
+builtin_xrange	007554a0	Python/bltinmodule.c	0	1		PyArg_ParseTuple
+builtin_repr	00755950	Python/bltinmodule.c	0	1		PyArg_ParseTuple
+builtin_round	00755980	Python/bltinmodule.c	0	1		PyArg_ParseTuple
+builtin_str	00755a60	Python/bltinmodule.c	0	1		PyArg_ParseTuple
+builtin_type	00755ac0	Python/bltinmodule.c	0	1		PyArg_ParseTuple
+builtin_isinstance	00755ba0	Python/bltinmodule.c	0	1		PyArg_ParseTuple
+builtin_issubclass	00755c40	Python/bltinmodule.c	0	1		PyArg_ParseTuple
+PyEval_AcquireThread	00773e60	Python/ceval.c	0	1		Py_FatalError
+PyEval_ReleaseThread	00773ea0	Python/ceval.c	0	1		Py_FatalError
+PyEval_SaveThread	00773ee0	Python/ceval.c	0	1		Py_FatalError
+PyEval_RestoreThread	00773f20	Python/ceval.c	0	1		Py_FatalError
+call_exc_trace	00776940	Python/ceval.c	0	1		PyErr_Restore
+slice_index	007772a0	Python/ceval.c	0	1		PyInt_AsLong
+code_repr	0077c2b0	Python/compile.c	0	1		PyString_FromString
+PyCode_New	0077c480	Python/compile.c	0	1		PyString_InternInPlace
+block_push	0077fea0	Python/compile.c	0	1		com_error
+block_pop	0077fee0	Python/compile.c	0	1		com_error
+com_addbyte	0077ce70	Python/compile.c	0	1		com_error
+com_addint	0077cf30	Python/compile.c	0	1		com_addbyte
+com_set_lineno	0077cf60	Python/compile.c	0	1		com_add_lnotab
+com_addopnamestr	0077d7c0	Python/compile.c	0	1		com_addoparg
+com_global_stmt	0077f960	Python/compile.c	0	1		com_error
+com_newlocal_o	00780b90	Python/compile.c	0	1		com_error
+PyErr_Clear	00753140	Python/errors.c	0	1		PyErr_Restore
+converttuple	0074e910	Python/getargs.c	0	1		PySequence_GetItem
+convertsimple	0074eab0	Python/getargs.c	0	1		convertsimple1
+Py_GetVersion	0078a270	Python/getversion.c	0	1		Py_GetBuildInfo
+unlock_import	0075bcf0	Python/import.c	0	1		Py_FatalError
+_PyImport_FixupExtension	0075b730	Python/import.c	0	1		PyImport_GetModuleDict
+_PyImport_FindExtension	0075b7e0	Python/import.c	0	1		PySys_WriteStderr
+check_compiled_module	0075d090	Python/import.c	0	1		PySys_WriteStderr
+read_compiled_module	0075cea0	Python/import.c	0	1		PyMarshal_ReadObjectFromFile
+write_compiled_module	0075d160	Python/import.c	0	1		PySys_WriteStderr
+PyImport_Import	00762b50	Python/import.c	0	1		PyErr_Clear
+PyMarshal_ReadObjectFromFile	0075eca0	Python/marshal.c	0	1		r_object
+PyMarshal_ReadObjectFromString	0075f620	Python/marshal.c	0	1		r_object
+PyInterpreterState_Clear	0077be30	Python/pystate.c	0	1		PyThreadState_Clear
+PyInterpreterState_Delete	0077beb0	Python/pystate.c	0	1		Py_FatalError
+PyThreadState_Delete	0077c0c0	Python/pystate.c	0	1		Py_FatalError
+PyThreadState_Get	0077c130	Python/pystate.c	0	1		Py_FatalError
+PyThreadState_GetDict	0077c160	Python/pystate.c	0	1		Py_FatalError
+initmain	0074a990	Python/pythonrun.c	0	1		Py_FatalError
+PyErr_Print	0074af10	Python/pythonrun.c	0	1		PyErr_PrintEx
+run_pyc_file	0074b720	Python/pythonrun.c	0	1		PyMarshal_ReadObjectFromFile
+PySys_GetObject	00779f90	Python/sysmodule.c	0	1		PyThreadState_Get
+PySys_SetObject	00779fe0	Python/sysmodule.c	0	1		PyThreadState_Get
+sys_settrace	0077a0b0	Python/sysmodule.c	0	1		PyThreadState_Get
+sys_setprofile	0077a110	Python/sysmodule.c	0	1		PyThreadState_Get
+list_builtin_module_names	0077a4c0	Python/sysmodule.c	0	1		PyString_FromString
+makepathobject	0077a5d0	Python/sysmodule.c	0	1		PyList_SetItem
+c_setitem	00771f30	Modules/arraymodule.c	0	0		
+b_setitem	00771fa0	Modules/arraymodule.c	0	0		
+h_setitem	00772020	Modules/arraymodule.c	0	0		
+i_setitem	007720a0	Modules/arraymodule.c	0	0		
+f_setitem	00772260	Modules/arraymodule.c	0	0		
+d_setitem	007722c0	Modules/arraymodule.c	0	0		
+array_dealloc	00772310	Modules/arraymodule.c	0	0		
+array_compare	00772330	Modules/arraymodule.c	0	0		
+array_ass_item	007728b0	Modules/arraymodule.c	0	0		
+array_byteswap	00772aa0	Modules/arraymodule.c	0	0		
+array_fromfile	00772c30	Modules/arraymodule.c	0	0		
+array_tofile	00772d80	Modules/arraymodule.c	0	0		
+array_fromlist	00772e20	Modules/arraymodule.c	0	0		
+array_fromstring	00772fc0	Modules/arraymodule.c	0	0		
+Py_GetBuildInfo	0078b7f0	Modules/getbuildinfo.c	0	0		
+reduce	0077b7b0	Modules/getpath.c	0	0		
+math_ldexp	0076f3b0	Modules/mathmodule.c	0	0		
+math_modf	0076f470	Modules/mathmodule.c	0	0		
+newregexobject	0076c6e0	Modules/regexmodule.c	0	0		
+if	00787aa0	Modules/regexpr.c	0	0		
+np_char	00768b50	Modules/structmodule.c	0	0		
+getentry	007698f0	Modules/structmodule.c	0	0		
+lock_dealloc	00767c20	Modules/threadmodule.c	0	0		
+null_error	00758f20	Objects/abstract.c	0	0		
+int_from_string	00759fe0	Objects/abstract.c	0	0		
+float_from_string	0075a360	Objects/abstract.c	0	0		
+_PyBuffer_FromMemory	007859d0	Objects/bufferobject.c	0	0		
+buffer_compare	00785b30	Objects/bufferobject.c	0	0		
+buffer_item	00785e00	Objects/bufferobject.c	0	0		
+class_getattr	00756950	Objects/classobject.c	0	0		
+set_dict	00756dc0	Objects/classobject.c	0	0		
+set_bases	00756e60	Objects/classobject.c	0	0		
+set_name	00756ef0	Objects/classobject.c	0	0		
+instance_getattr1	007574c0	Objects/classobject.c	0	0		
+instance_setattr1	00757960	Objects/classobject.c	0	0		
+PyInstance_DoBinOp	00758240	Objects/classobject.c	0	0		
+instancemethod_compare	00758d30	Objects/classobject.c	0	0		
+instancemethod_hash	00758e60	Objects/classobject.c	0	0		
+PyCObject_AsVoidPtr	00784290	Objects/cobject.c	0	0		
+complex_dealloc	00784830	Objects/complexobject.c	0	0		
+complex_buf_repr	00784870	Objects/complexobject.c	0	0		
+complex_compare	007848f0	Objects/complexobject.c	0	0		
+complex_hash	00784990	Objects/complexobject.c	0	0		
+complex_div	00784cd0	Objects/complexobject.c	0	0		
+complex_remainder	00784d90	Objects/complexobject.c	0	0		
+complex_divmod	00784f00	Objects/complexobject.c	0	0		
+complex_pow	007850e0	Objects/complexobject.c	0	0		
+complex_int	007856d0	Objects/complexobject.c	0	0		
+complex_long	007856f0	Objects/complexobject.c	0	0		
+complex_float	00785710	Objects/complexobject.c	0	0		
+dict_dealloc	00752290	Objects/dictobject.c	0	0		
+dict_update	007527e0	Objects/dictobject.c	0	0		
+dict_copy	007528b0	Objects/dictobject.c	0	0		
+dict_has_key	00752b60	Objects/dictobject.c	0	0		
+dict_clear	00752c70	Objects/dictobject.c	0	0		
+err_closed	007825d0	Objects/fileobject.c	0	0		
+float_dealloc	0074fb00	Objects/floatobject.c	0	0		
+PyFloat_AsString	0074fbb0	Objects/floatobject.c	0	0		
+float_compare	0074fc80	Objects/floatobject.c	0	0		
+float_hash	0074fcc0	Objects/floatobject.c	0	0		
+float_div	0074fe60	Objects/floatobject.c	0	0		
+float_rem	0074fec0	Objects/floatobject.c	0	0		
+float_divmod	0074ff40	Objects/floatobject.c	0	0		
+float_pow	00750000	Objects/floatobject.c	0	0		
+frame_getattr	00781390	Objects/frameobject.c	0	0		
+frame_dealloc	00781410	Objects/frameobject.c	0	0		
+PyFunction_New	0077af40	Objects/funcobject.c	0	0		
+PyFunction_GetCode	0077afc0	Objects/funcobject.c	0	0		
+PyFunction_GetGlobals	0077afe0	Objects/funcobject.c	0	0		
+PyFunction_GetDefaults	0077b000	Objects/funcobject.c	0	0		
+PyFunction_SetDefaults	0077b020	Objects/funcobject.c	0	0		
+func_getattr	0077b0a0	Objects/funcobject.c	0	0		
+func_compare	0077b2f0	Objects/funcobject.c	0	0		
+int_dealloc	0074c7a0	Objects/intobject.c	0	0		
+int_compare	0074c880	Objects/intobject.c	0	0		
+int_add	0074c8c0	Objects/intobject.c	0	0		
+int_sub	0074c920	Objects/intobject.c	0	0		
+int_mul	0074c960	Objects/intobject.c	0	0		
+i_divmod	0074ca90	Objects/intobject.c	0	0		
+int_neg	0074ccf0	Objects/intobject.c	0	0		
+PyInt_Fini	0074cf70	Objects/intobject.c	0	0		
+PyList_SetItem	00748f40	Objects/listobject.c	0	0		
+list_dealloc	00749140	Objects/listobject.c	0	0		
+list_compare	00749320	Objects/listobject.c	0	0		
+listsort	00749c00	Objects/listobject.c	0	0		
+immutable_list_op	0074a530	Objects/listobject.c	0	0		
+PyLong_FromString	00778190	Objects/longobject.c	0	0		
+long_divrem	00778f80	Objects/longobject.c	0	0		
+long_pow	007795d0	Objects/longobject.c	0	0		
+long_int	00779f00	Objects/longobject.c	0	0		
+long_float	00779f40	Objects/longobject.c	0	0		
+PyCFunction_New	0077a930	Objects/methodobject.c	0	0		
+PyCFunction_GetFunction	0077a980	Objects/methodobject.c	0	0		
+PyCFunction_GetSelf	0077a9a0	Objects/methodobject.c	0	0		
+PyCFunction_GetFlags	0077a9c0	Objects/methodobject.c	0	0		
+meth_compare	0077ac50	Objects/methodobject.c	0	0		
+meth_hash	0077acd0	Objects/methodobject.c	0	0		
+PyCFunction_Fini	0077af10	Objects/methodobject.c	0	0		
+module_getattr	00773cb0	Objects/moduleobject.c	0	0		
+module_setattr	00773d40	Objects/moduleobject.c	0	0		
+PyObject_Print	0074bc90	Objects/object.c	0	0		
+PyObject_GetAttrString	0074c140	Objects/object.c	0	0		
+PyObject_SetAttrString	0074c200	Objects/object.c	0	0		
+PyNumber_Coerce	0074c490	Objects/object.c	0	0		
+range_dealloc	00786560	Objects/rangeobject.c	0	0		
+range_item	00786570	Objects/rangeobject.c	0	0		
+range_print	007865d0	Objects/rangeobject.c	0	0		
+range_concat	007866b0	Objects/rangeobject.c	0	0		
+range_compare	00786720	Objects/rangeobject.c	0	0		
+range_slice	00786760	Objects/rangeobject.c	0	0		
+string_dealloc	007507a0	Objects/stringobject.c	0	0		
+string_print	007507f0	Objects/stringobject.c	0	0		
+string_repr	007508d0	Objects/stringobject.c	0	0		
+string_item	00750b80	Objects/stringobject.c	0	0		
+string_compare	00750be0	Objects/stringobject.c	0	0		
+string_buffer_getwritebuf	00750cd0	Objects/stringobject.c	0	0		
+PyString_Concat	00750d40	Objects/stringobject.c	0	0		
+getnextarg	007518e0	Objects/stringobject.c	0	0		
+formatfloat	00751930	Objects/stringobject.c	0	0		
+formatint	007519f0	Objects/stringobject.c	0	0		
+formatchar	00751a80	Objects/stringobject.c	0	0		
+PyTuple_SetItem	0074db90	Objects/tupleobject.c	0	0		
+tupledealloc	0074dc30	Objects/tupleobject.c	0	0		
+tuplecompare	0074de00	Objects/tupleobject.c	0	0		
+fixstate	00781180	Parser/acceler.c	0	0		
+s_push	0078b4d0	Parser/parser.c	0	0		
+shift	0078b650	Parser/parser.c	0	0		
+complex_from_string	00753e80	Python/bltinmodule.c	0	0		
+import_from	007774c0	Python/ceval.c	0	0		
+exec_statement	00777780	Python/ceval.c	0	0		
+code_compare	0077c360	Python/compile.c	0	0		
+code_hash	0077c3e0	Python/compile.c	0	0		
+com_error	0077cd20	Python/compile.c	0	0		
+com_init	0077c8f0	Python/compile.c	0	0		
+com_free	0077ca80	Python/compile.c	0	0		
+com_push	0077ce10	Python/compile.c	0	0		
+com_pop	0077ce40	Python/compile.c	0	0		
+com_done	0077cb60	Python/compile.c	0	0		
+com_add_lnotab	0077d000	Python/compile.c	0	0		
+com_add	0077d0a0	Python/compile.c	0	0		
+parsestr	0077db40	Python/compile.c	0	0		
+cmp_type	0077ecd0	Python/compile.c	0	0		
+PyErr_Restore	00752db0	Python/errors.c	0	0		
+PyErr_BadArgument	00753150	Python/errors.c	0	0		
+seterror	0074e790	Python/getargs.c	0	0		
+Py_GetCopyright	0078a260	Python/getcopyright.c	0	0		
+find_init_module	0075cbb0	Python/import.c	0	0		
+get_file	0075dc10	Python/import.c	0	0		
+do_mkvalue	0074d4d0	Python/modsupport.c	0	0		
+PyInterpreterState_New	0077bdf0	Python/pystate.c	0	0		
+PyThreadState_New	0077bf30	Python/pystate.c	0	0		
+PyThreadState_Clear	0077bf80	Python/pystate.c	0	0		
+Py_GetPythonHome	0074a970	Python/pythonrun.c	0	0		
+err_input	0074b8a0	Python/pythonrun.c	0	0		

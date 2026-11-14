@@ -1,0 +1,113 @@
+TGDimmerController	20	007d9b60	00898bf8
+NiBinaryVoxelData	8	004a7ae0	0088c57c
+NiBinaryVoxelExtraData	12	007d91c0	00898bc4
+NiListener	4	-	-
+NiSoundSystem	8	-	-
+NiSource	4	0078f380	00898060
+NiKeyframeData	8	00791f90	00898168
+NiKeyframeController	20	00792ce0	0089819c
+NiFlipController	4	00793a70	0088b794 008981f8
+NiFloatController	-1	-	-
+NiFloatData	8	007d87a0	00898b94
+NiAlphaController	20	007d9b60	00898bf8
+NiTextKeyExtraData	8	007d91c0	00898bc4
+NiAnimBlender	28	007977b0	008982bc
+NiColorData	8	007d87a0	00898b94
+NiForce	-1	-	-
+NiGravity	8	0079e810	00898384 00898348
+NiParticleBomb	8	0079f260	00898384 008983c8
+NiSphericalCollider	8	0079fd50	00898384 00898408
+NiPlanarCollider	8	007a0820	00898384 00898448
+NiKeyframeManager	4	007d9b60	00898bf8
+NiPosData	8	007d87a0	00898b94
+NiLightColorController	20	007a6690	00898558
+NiLookAtController	20	007d9b60	00898bf8
+NiMorphController	60	007a84f0	00898604
+NiMorphData	8	007aa0d0	0089865c
+NiMorpherController	20	007aae60	00898690
+NiMaterialColorController	20	007ac1c0	008986e4
+NiParticleSystemController	4	007aeb70	00898790
+NiRollController	20	007d9b60	00898bf8
+NiSequenceStreamHelper	16	007dac80	00898c48
+NiVisData	8	007d87a0	00898b94
+NiVisController	20	007b64a0	00898880
+NiObject	-1	-	-
+NiAccumulator	-1	-	-
+NiExtraData	8	007d87a0	00898b94
+NiTimeController	-1	-	-
+NiObjectNET	-1	-	-
+NiProperty	-1	-	-
+NiAVObject	-1	-	-
+NiRawImageData	8	007d87a0	00898b94
+NiImage	20	00817220	-
+NiDynamicEffect	-1	-	-
+NiRender	-1	-	-
+NiNode	4	007dc0c0	00898ca8
+NiScreenPolygon	4	007d87a0	00898b94
+NiClusterAccumulator	8	007d8ec0	0088d2a0
+NiAlphaAccumulator	8	007eb440	008990dc
+NiAlphaProperty	16	007dac80	00898c48
+NiGeometryData	-1	-	-
+NiGeometry	-1	-	-
+NiTriBasedGeomData	-1	-	-
+NiTriBasedGeom	-1	-	-
+NiTriShapeData	8	007eecb0	0089921c
+NiTriShape	4	007ef260	00899264
+NiLight	-1	-	-
+NiAmbientLight	4	007f37a0	00899448
+NiParticlesData	8	007eecb0	0089921c
+NiParticles	4	007ef260	00899264
+NiAutoNormalParticlesData	8	007f4790	0089958c
+NiAutoNormalParticles	44	007f4ff0	008995d8
+NiBillboardNode	4	007e37c0	00898fdc 00898f2c
+NiBone	4	007e37c0	00898fdc 00898f2c
+NiBSPNode	4	007e37c0	00898fdc 00898f2c
+NiCollisionSwitch	4	007e37c0	00898fdc 00898f2c
+NiCorrectionProperty	16	007dac80	00898c48
+NiDirectionalLight	4	007f37a0	00899448
+NiDitherProperty	16	007dac80	00898c48
+NiEnvMappedTriShapeData	8	007f1450	00899328
+NiEnvMappedTriShape	44	007f20f0	00899374
+NiSwitchNode	4	007e37c0	00898fdc 00898f2c
+NiFltAnimationNode	4	007fbc30	00898518 00899bd4
+NiFogProperty	16	007dac80	00898c48
+NiLinesData	8	007ecc00	00899124
+NiLines	4	007edd10	00899164
+NiLODNode	4	007fbc30	00898518 00899bd4
+NiMaterialProperty	16	00800910	00899ef8
+NiTextureModeProperty	16	007dac80	00898c48
+NiMultiTextureProperty	4	007dac80	00898c48
+NiPointLight	4	007f37a0	00899448
+NiShadeProperty	16	007dac80	00898c48
+NiSkinController	-1	-	-
+NiSortAdjustNode	4	007e37c0	00898fdc 00898f2c
+NiSpecularProperty	16	007dac80	00898c48
+NiSpotLight	64	007f37a0	00899448
+NiStencilProperty	16	007dac80	00898c48
+NiStringExtraData	8	007d91c0	00898bc4
+NiTextureEffect	4	00808bb0	0089a1e4
+NiTextureProperty	20	007dac80	00898c48
+NiTransparentProperty	16	007dac80	00898c48
+NiTrianglesData	8	007eecb0	0089921c
+NiTriangles	4	007ef260	00899264
+NiTriShapeDynamicData	8	007f1450	00899328
+NiTriShapeSkinController	20	007d9b60	00898bf8
+NiTriStripData	8	007eecb0	0089921c
+NiTriStrip	4	007ef260	00899264
+NiTriStripsData	8	007eecb0	0089921c
+NiTriStrips	4	007ef260	00899264
+NiVertexColorProperty	16	007dac80	00898c48
+NiVertWeightsExtraData	8	007d91c0	00898bc4
+NiWireframeProperty	16	007dac80	00898c48
+NiZBufferProperty	16	007dac80	00898c48
+NiBezierMesh	88	007e37c0	00898fdc 00898f2c
+NiBezierPatch	-1	-	-
+NiBezierSkinController	20	007d9b60	00898bf8
+NiBezierTriangle	-1	-	-
+NiBezierTriangle2	4	008354f0	0089a9cc
+NiBezierTriangle3	4	008354f0	0089a9cc
+NiBezierTriangle4	4	008354f0	0089a9cc
+NiBezierRectangle	-1	-	-
+NiBezierRectangle2	4	008425a0	0089ad30
+NiBezierRectangle3	4	008425a0	0089ad30
+NiBezierCylinder	4	00832880	0089a898
